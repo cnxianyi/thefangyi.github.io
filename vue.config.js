@@ -5,5 +5,6 @@
  */
  module.exports = {
     // 选项...
-    outputDir: 'docs'
+    
+    outputDir: 'docs' //输出文件夹 default: 'dist'
   }
