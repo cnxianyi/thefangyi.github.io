@@ -8,6 +8,7 @@
 </template>
 
 <style lang="scss">
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,3 +30,11 @@
   }
 }
 </style>
+
+<script>
+import 'normalize.css/normalize.css' // 初始化css 文件(normalize插件)
+
+export default {
+  
+}
+</script>
