@@ -1,40 +1,170 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-      <router-view/>
-  </div>
+
+  <div class="sidebar close" id="SidebarMenu">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <div class="logo-details" @click="getMenu">
+      <i class='bx bxs-yin-yang'></i>
+      <span class="logo_name">Thefangyi</span>
+    </div>
+    <ul class="nav-links">
+
+      <li>
+        <div class="icon-link">
+          <a href="#">
+          <i class='bx bxl-vuejs' ></i>
+          <span class="link_name">Vue</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' @click="getSon(1)"></i>
+        </div>
+        <ul class="sub-menu" :class="{truth1}">
+            <li><a class="link_name" href="#">Vue</a></li>
+            <li><a href="#">vuex</a></li>
+            <li><a href="#">router</a></li>
+          </ul>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class='bx bxs-book-content' ></i>
+          <span class="link_name">汉语</span>
+        </a>
+        <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">汉语</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class='bx bx-library' ></i>
+          <span class="link_name">英语</span>
+        </a>
+        <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">英语</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class='bx bxl-html5' ></i>
+          <span class="link_name">HTML</span>
+        </a>
+        <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">HTML</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="icon-link">
+          <a href="#">
+          <i class='bx bxl-nodejs' ></i>
+          <span class="link_name">JS</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' @click="getSon(2)"></i>
+        </div>
+<!--  --> <ul class="sub-menu" :class="{truth2}">
+            <li><a class="link_name" href="#">js</a></li>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web</a></li>
+            <li><a href="#">Design</a></li>
+          </ul>
+      </li>
+
+      <li>
+        <div class="icon-link">
+          <a href="#">
+          <i class='bx bxl-css3' ></i>
+          <span class="link_name">CSS</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' @click="getSon(3)"></i>
+        </div>
+        <ul class="sub-menu" :class="{truth3}">
+            <li><a class="link_name" href="#">CSS</a></li>
+            <li><a href="#">1111</a></li>
+            <li><a href="#">222</a></li>
+            <li><a href="#">3333</a></li>
+          </ul>
+      </li>
+
+
+      
+
+    </ul>
+
+    </div>
+    
   
 </template>
 
 <style lang="scss">
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
-
+  
 <script>
+import 'boxicons' // icon 组件导入
 import 'normalize.css/normalize.css' // 初始化css 文件(normalize插件)
+import './assets/CSS/sidebar.scss'
+import { computed } from '@vue/runtime-core'
 
 export default {
+  data() {
+      return {
+      truth1: true,
+      truth2: true,
+      truth3: true,
+    }
+  },
+  computed: {
+    
+  },
+  methods: {
+// 笨方法 获取id 来进行 class 的切换
+    getMenu(){
+      
+      let name = document.getElementById('SidebarMenu').className
+      if(name == 'sidebar'){
+        document.getElementById('SidebarMenu').className = 'sidebar close'
+      }else{
+        document.getElementById('SidebarMenu').className = 'sidebar'
+      }
+    },
+
+// 笨方法 获取id判断 是否为真值
+    getSon(n){
+      switch (n) {
+        case 1:
+          if (this.truth1  == true) {
+            this.truth1 = false
+          }else{
+            this.truth1 = true
+          }
+          break;
+          case 2:
+          if (this.truth2  == true) {
+            this.truth2 = false
+          }else{
+            this.truth2 = true
+          }
+          break;
+
+          case 3:
+          if (this.truth3  == true) {
+            this.truth3 = false
+          }else{
+            this.truth3 = true
+          }
+          break;
+      
+        default:
+          alert('bug is coming');
+          break;
+      }
+    }
+  },
+    
   
-}
+    
+  }
+
+
+
 </script>

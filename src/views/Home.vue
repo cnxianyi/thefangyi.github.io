@@ -1,17 +1,25 @@
 <template>
   <div>
-
+    <sidebar></sidebar>
+    <router-link to="/about"></router-link>
+    <router-view></router-view>
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import sidebar from '@/components/common/sidebar.vue';
 
 export default defineComponent({
   name: 'Home',
   components: {
-    
+    sidebar,
   },
 });
 </script>
+
+<style lang="scss" scoped>
+  sidebar {
+    float: left;
+  }
+</style>
