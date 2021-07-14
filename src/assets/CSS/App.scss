@@ -4,8 +4,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif ;//sans-serif 
+                          //'楷体'
 }
+
+
+hr.style-one {/*透明渐变水平线*/
+  width:80%;
+  margin:0 auto;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(50, 47, 59, 0.3), rgba(0, 0, 0, 0));
+ }
 
 .truth1 {
     display: none;
@@ -23,9 +33,9 @@
   left: 0;
   height: 100%;
   width: 260px;
-  background-color: #11101d;
+  background-color: #22202e;
   z-index: 100;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
 
   .logo-details {
     height: 60px;
@@ -46,69 +56,69 @@
       font-size: 22px;
       color: #fff;
       font-weight: 600;
-      transition: 1s ease;
+      transition: 0.3s ease;
       transition-delay: 0.1s;
     }
   }
 
   .nav-links {
 
-      height: 100%;
-      padding: 30px 0 150px 0;
-        overflow: auto;
+    height: 100%;
+    padding: 30px 0 150px 0;
+    overflow: auto;
 
       .icon-link {
-            display: flex;
-            align-items: center;// ?   
-            justify-content: space-between; //???
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
 
       li:hover { 
-          background: blue;
+          background: #322f3b;
 
       }
 
       li {
-          position: relative;
-          list-style: none;//?
-          transition: all 0.4s ease;//?
+        position: relative;
+        list-style: none;
+        transition: all 0.4s ease;
 
           i {
-              height: 50px;
-              min-width: 78px;
-              text-align: center;
-              line-height: 50px;
-              color: #fff;
-              font-size: 20px;
-              cursor: pointer;//++
-                transition: all 0.5s ease;
+            height: 50px;
+            min-width: 78px;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.5s ease;
           }
 
 
           a {
-                display: flex;
-                align-items: center;
-                text-decoration: none;// 下划线
+            display: flex;
+            align-items: center;
+            text-decoration: none;//下划线
 
             .link_name {
-                font-size: 18px;
-                font-weight: 400;
-                color: #fff;
-                transition: all 0.4s ease;
+              font-size: 18px;
+              font-weight: 400;
+              color: #fff;
+              transition: all 0.4s ease;
             }
 
             
             .iocn-link{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
               }
           }
 
           .sub-menu { // 子菜单
               padding: 6px 6px 14px 80px;
               margin-top: -10px;
-                background: blue;
+                background: #322f3b;
                 // display: none; // 控制下拉菜单
               a {
                   color: #fff;
@@ -140,22 +150,22 @@
         
         li { // 详情显示
             .sub-menu {
-                position: absolute;
-                left: 100%;
-                top: -10px;
-                margin-top: 0;
-                padding: 10px 20px;
-                border-radius: 0 6px 6px 0;
-                opacity: 0;
-                display: block;
-                pointer-events: none;
-                transition: 0s;
+              position: absolute;
+              left: 100%;
+              top: -10px;
+              margin-top: 100px;
+              padding: 10px 20px;
+              border-radius: 0 6px 6px 0;
+              opacity: 0;
+              display: block;
+              pointer-events: none;
+              transition: 0s;
                 
 
                 .link_name {
-                    font-size: 18px;
-                    opacity: 1;
-                    display: block;
+                  font-size: 18px;
+                  opacity: 1;
+                  display: block;
                 }
 
                 //++
@@ -177,6 +187,7 @@
                 top: 0;
                 opacity: 1;
                 pointer-events: auto;
+                transition: all 0.4s ease;//````````````
             }
             
         }
@@ -191,10 +202,11 @@
   }
 
   .sidebar .nav-links li .sub-menu.blank{
-    opacity: 1;
-    pointer-events: auto;
-    padding: 3px 20px 6px 16px;
     opacity: 0;
+    pointer-events: auto;
+    padding: 4px 20px 6px 16px; 
+// padding: 3px 20px 6px 16px; 
+// 为什么这 1px 导致抖动
     pointer-events: none;
   }
   .sidebar .nav-links li:hover .sub-menu.blank{
@@ -232,7 +244,7 @@
     top: 0;
     opacity: 1;
     pointer-events: auto;
-    transition: all 0.4s ease;
+    transition: all 0.1s ease;
   }
 
 
@@ -250,20 +262,22 @@
   
 
   // +++
-.sidebar .nav-links::-webkit-scrollbar{
-    display: none;
-  }
+// .sidebar .nav-links::-webkit-scrollbar{
+//     display: none;
+//   }
 
-  //!!!!!!!!!
-//   .sidebar .nav-links li .sub-menu .link_name{
+// .sidebar .nav-links li.showMenu i.arrow{
+//     transform: rotate(-190deg);
+//   }
+//   .sidebar.close .nav-links i.arrow{
 //     display: none;
 //   }
 
 
 
-.sidebar .nav-links li.showMenu i.arrow{
-    transform: rotate(-180deg);
-  }
-  .sidebar.close .nav-links i.arrow{
-    display: none;
-  }
+
+
+
+
+
+

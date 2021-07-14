@@ -7,11 +7,11 @@
       <span class="logo_name">Thefangyi</span>
     </div>
     <ul class="nav-links">
-
+        
       <li>
         <div class="icon-link">
           <a href="#">
-          <i class='bx bxl-vuejs' ></i>
+          <i class='bx bxl-vuejs' style='color:#41b883'  ></i>
           <span class="link_name">Vue</span>
           </a>
           <i class='bx bxs-chevron-down arrow' @click="getSon(1)"></i>
@@ -22,57 +22,37 @@
             <li><a href="#">router</a></li>
           </ul>
       </li>
-
+          <hr class="style-one">
       <li>
         <a href="#">
-          <i class='bx bxs-book-content' ></i>
+          <i class='bx bxs-book-content' style="color:#ee1c25ff"></i>
           <span class="link_name">汉语</span>
         </a>
         <ul class="sub-menu blank">
             <li><a class="link_name" href="#">汉语</a></li>
         </ul>
       </li>
-
-      <li>
-        <a href="#">
-          <i class='bx bx-library' ></i>
-          <span class="link_name">英语</span>
-        </a>
-        <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">英语</a></li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="#">
-          <i class='bx bxl-html5' ></i>
-          <span class="link_name">HTML</span>
-        </a>
-        <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">HTML</a></li>
-        </ul>
-      </li>
-
+          <hr class="style-one">
       <li>
         <div class="icon-link">
           <a href="#">
-          <i class='bx bxl-nodejs' ></i>
+          <i class='bx bxl-nodejs' style="color:#EFD81D"></i>
           <span class="link_name">JS</span>
           </a>
           <i class='bx bxs-chevron-down arrow' @click="getSon(2)"></i>
         </div>
-<!--  --> <ul class="sub-menu" :class="{truth2}">
+            <ul class="sub-menu" :class="{truth2}">
             <li><a class="link_name" href="#">js</a></li>
             <li><a href="#">Web Design</a></li>
             <li><a href="#">Web</a></li>
             <li><a href="#">Design</a></li>
           </ul>
       </li>
-
+          <hr class="style-one">
       <li>
         <div class="icon-link">
           <a href="#">
-          <i class='bx bxl-css3' ></i>
+          <i class='bx bxl-css3' style="color:#254BDD"></i>
           <span class="link_name">CSS</span>
           </a>
           <i class='bx bxs-chevron-down arrow' @click="getSon(3)"></i>
@@ -85,7 +65,28 @@
           </ul>
       </li>
 
-
+      <hr class="style-one">
+      <li>
+        <a href="#">
+          <i class='bx bxl-html5' style="color:#DD4D26"></i>
+          <span class="link_name">HTML</span>
+        </a>
+        <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">HTML</a></li>
+        </ul>
+      </li>
+    <hr class="style-one">
+      <li>
+        <a href="#">
+          <i class='bx bx-library'></i>
+          <span class="link_name">英语</span>
+        </a>
+        
+        <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">英语</a></li>
+        </ul>
+      </li>
+      <hr class="style-one">  
       
 
     </ul>
@@ -102,7 +103,7 @@
 <script>
 import 'boxicons' // icon 组件导入
 import 'normalize.css/normalize.css' // 初始化css 文件(normalize插件)
-import './assets/CSS/sidebar.scss'
+import './assets/CSS/App.scss'
 import { computed } from '@vue/runtime-core'
 
 export default {
@@ -121,7 +122,11 @@ export default {
     getMenu(){
       
       let name = document.getElementById('SidebarMenu').className
-      if(name == 'sidebar'){
+      if(name == 'sidebar'){ // 缩回去
+          // 不判断 全部为收缩状态
+          this.truth1 = true
+          this.truth2 = true
+          this.truth3 = true
         document.getElementById('SidebarMenu').className = 'sidebar close'
       }else{
         document.getElementById('SidebarMenu').className = 'sidebar'
