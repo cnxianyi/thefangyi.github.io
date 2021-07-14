@@ -92,6 +92,10 @@ hr.style-one {/*透明渐变水平线*/
             font-size: 20px;
             cursor: pointer;
             transition: all 0.5s ease;
+                //全部的 li > i (图标) 取消点击高亮
+            -webkit-tap-highlight-color:rgba(0, 0, 0, 0); 
+              
+            
           }
 
 
@@ -99,6 +103,8 @@ hr.style-one {/*透明渐变水平线*/
             display: flex;
             align-items: center;
             text-decoration: none;//下划线
+            // 设置移动端点击高亮
+            -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
 
             .link_name {
               font-size: 18px;
@@ -127,6 +133,7 @@ hr.style-one {/*透明渐变水平线*/
                   white-space: nowrap;//?
                   opacity: 0.6;//?
                   transition: all 0.3 ease;
+                  
               }
               a:hover {
                   opacity: 1;//?
@@ -220,6 +227,7 @@ hr.style-one {/*透明渐变水平线*/
 
   .sidebar.close .nav-links i.arrow{
     display: none; // 控制下拉箭头
+    
   }
 
 
