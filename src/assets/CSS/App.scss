@@ -7,6 +7,15 @@
   font-family: 'Poppins',sans-serif ;//sans-serif 
                           //'楷体'
 }
+// div#SidebarMenu{
+  
+// }
+#content {
+  float: right;
+
+  height: 100%;
+  transition: all 1s ease;
+}
 
 
 hr.style-one {/*透明渐变水平线*/

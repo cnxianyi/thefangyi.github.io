@@ -1,5 +1,5 @@
 <template>
-
+<div>
   <div class="sidebar close" id="SidebarMenu">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <div class="logo-details" @click="getMenu">
@@ -11,8 +11,9 @@
       <li>
         <div class="icon-link">
           <a href="#">
+            <router-link to="/hom">
           <i class='bx bxl-vuejs' style='color:#41b883'  ></i>
-          <span class="link_name">Vue</span>
+          <span class="link_name"> Vue</span></router-link>
           </a>
           <i class='bx bxs-chevron-down arrow' @click="getSon(1)"></i>
         </div>
@@ -92,26 +93,34 @@
     </ul>
 
     </div>
+    <div id="content">
+      <router-view></router-view>
+    </div>
     
-  
+    
+</div>
 </template>
 
-<style lang="scss">
-
+<style lang="scss" >
 </style>
   
 <script>
 import 'boxicons' // icon 组件导入
 import 'normalize.css/normalize.css' // 初始化css 文件(normalize插件)
 import './assets/CSS/App.scss'
+
 import { computed } from '@vue/runtime-core'
+import {created , mounted} from 'vue'
 
 export default {
   data() {
+    
+
       return {
       truth1: true,
       truth2: true,
       truth3: true,
+      width: document.documentElement.clientWidth
     }
   },
   computed: {
@@ -122,13 +131,17 @@ export default {
     getMenu(){
       
       let name = document.getElementById('SidebarMenu').className
+      // let width = document.documentElement.clientWidth
+      let width = document.documentElement.clientWidth
       if(name == 'sidebar'){ // 缩回去
           // 不判断 全部为收缩状态
           this.truth1 = true
           this.truth2 = true
           this.truth3 = true
+        document.getElementById('content').style = `width: ${width - 78}px`
         document.getElementById('SidebarMenu').className = 'sidebar close'
       }else{
+        document.getElementById('content').style = `width: ${width - 260}px`
         document.getElementById('SidebarMenu').className = 'sidebar'
       }
     },
@@ -166,7 +179,9 @@ export default {
     }
   },
     
-  
+  mounted() {
+    document.getElementById('content').style = `width: ${this.width - 78}px`
+  },
     
   }
 
