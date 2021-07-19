@@ -11,7 +11,7 @@
       <li>
         <div class="icon-link">
           <a href="#">
-            <router-link to="/hom">
+            <router-link to="/">
           <i class='bx bxl-vuejs' style='color:#41b883'  ></i>
           <span class="link_name"> Vue</span></router-link>
           </a>
@@ -74,7 +74,7 @@
           <span class="link_name">HTML</span>
         </a>
         <ul class="sub-menu blank">
-            <router-link to="/html/demo"><li><a class="link_name" href="#">HTML</a></li></router-link>
+            <li><a class="link_name" href="#"><router-link to="/html/demo">HTML</router-link></a></li>
         </ul>
       </li>
     <hr class="style-one">
@@ -85,7 +85,7 @@
         </a>
         
         <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">英语</a></li>
+            <li><a class="link_name" href="#"><router-link to="/english/words">Words</router-link></a></li>
         </ul>
       </li>
       <hr class="style-one">  
@@ -117,7 +117,7 @@ export default {
 
   // setup(props) {
   //   const watchChangeSize = ()=> {
-  //           //可视区的宽/高(DOM)
+  //           //可视区的宽/高(DOM) 
   //           //offsetHeight（带边框）和clientHeight（不带边框）区别参考上一篇文章     
   //           this.data.offsetWid = document.documentElement.clientWidth;
   //           this.offsetHei = document.documentElement.clientHeight;

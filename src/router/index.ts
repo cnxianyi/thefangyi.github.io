@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import home from '../views/home.vue'
 const flex = ()=> import('../views/css/flex.vue')
 const html_demo = ()=> import('../views/html/html_demo.vue')
+const english_words = ()=> import('../views/english/words.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -30,6 +31,16 @@ const routes: Array<RouteRecordRaw> = [
     component: flex,
     meta: {
       title: '浮动flex'
+    }
+  },
+
+  // English
+  {
+    path: '/english/words',
+    name: 'words',
+    component: english_words,
+    meta: {
+      title: 'words'
     }
   },
 ]
