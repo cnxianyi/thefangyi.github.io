@@ -52,6 +52,7 @@
           <hr class="style-one">
       <li>
         <div class="icon-link">
+          
           <a href="#">
           <i class='bx bxl-css3' style="color:#254BDD"></i>
           <span class="link_name">CSS</span>
@@ -60,8 +61,8 @@
         </div>
         <ul class="sub-menu" :class="{truth3}">
             <li><a class="link_name" href="#">CSS</a></li>
-            <li><a href="#">1111</a></li>
-            <li><a href="#">222</a></li>
+            <router-link to="/css/flex/md"><li><a href="#">Flex</a></li></router-link>
+            <li><a href="#">Sass</a></li>
             <li><a href="#">3333</a></li>
           </ul>
       </li>
@@ -73,7 +74,7 @@
           <span class="link_name">HTML</span>
         </a>
         <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">HTML</a></li>
+            <router-link to="/html/demo"><li><a class="link_name" href="#">HTML</a></li></router-link>
         </ul>
       </li>
     <hr class="style-one">
@@ -110,9 +111,55 @@ import 'normalize.css/normalize.css' // 初始化css 文件(normalize插件)
 import './assets/CSS/App.scss'
 
 import { computed } from '@vue/runtime-core'
-import {created , mounted} from 'vue'
+import {created , mounted , watch} from 'vue'
 
 export default {
+
+  // setup(props) {
+  //   const watchChangeSize = ()=> {
+  //           //可视区的宽/高(DOM)
+  //           //offsetHeight（带边框）和clientHeight（不带边框）区别参考上一篇文章     
+  //           this.data.offsetWid = document.documentElement.clientWidth;
+  //           this.offsetHei = document.documentElement.clientHeight;
+  //           console.log(offsetWid);
+  //           console.log(offsetHei);
+  //       },
+
+  //       const onload = ()=> { window.onload
+  //           console.log('页面加载完毕')
+  //           watchChangeSize()
+ 
+  //       },
+  //       window.onresize=function(){  
+  //           console.log('监听变化')
+  //           watchChangeSize();
+            
+  //       }
+  // },
+
+  // setup(props) {
+  //   const offsetWid =  document.documentElement.clientWidth
+
+  //   window.onresize(function(){
+  //     console.log(offsetWid);
+  //   }) 
+  // },
+watch:{ //````
+    screenWidth(val){
+        // 为了避免频繁触发resize函数导致页面卡顿，使用定时器
+        if(!this.timer){
+            // 一旦监听到的screenWidth值改变，就将其重新赋给data里的screenWidth
+            this.screenWidth = val
+            this.timer = true
+            let that = this
+            setTimeout(function(){
+                // 打印screenWidth变化的值
+                console.log(that.screenWidth)
+                that.timer = false
+            },400)
+        }
+    }
+},
   data() {
     
 
@@ -120,16 +167,25 @@ export default {
       truth1: true,
       truth2: true,
       truth3: true,
-      width: document.documentElement.clientWidth
+      width: document.documentElement.clientWidth,
+      screenWidth: document.body.clientWidth
+      // offsetWid : document.documentElement.clientWidth,
+      // offsetHei : document.documentElement.clientHeight,
+      // onresize: window.onresize
     }
   },
   computed: {
     
   },
   methods: {
+       
+
+
+
+
 // 笨方法 获取id 来进行 class 的切换
     getMenu(){
-      
+      console.log(this.offsetWid);
       let name = document.getElementById('SidebarMenu').className
       // let width = document.documentElement.clientWidth
       let width = document.documentElement.clientWidth
@@ -176,12 +232,23 @@ export default {
           alert('bug is coming');
           break;
       }
-    }
+    },
+    
   },
     
   mounted() {
     document.getElementById('content').style = `width: ${this.width - 78}px`
-  },
+    const that = this // ````
+    window.onresize = () => {
+        return (() => {
+          document.getElementById('content').style = `width: ${document.body.clientWidth - 78}px`
+            window.screenWidth = document.body.clientWidth
+            that.screenWidth = window.screenWidth
+        })()
+    }
+  }
+
+        
     
   }
 

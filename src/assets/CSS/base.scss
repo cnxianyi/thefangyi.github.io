@@ -4,8 +4,17 @@
     --font-family: "Consolas" , serif;
 
 }
+.content {
+  display: flex;
+  flex-direction:row; // 左侧开始
+  flex-wrap: wrap; // 向下换行
+  justify-content: center; // 主轴左对齐
+  align-items: flex-start; // 交叉轴居中对齐
+  position: relative;
+  margin-top: 30px;
+
 .md {
-    margin-left: 5%;
+  width: 80%;
     a {
         -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
         -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -27,7 +36,7 @@
       
       strong,
       b {
-        color: #3d4449;
+        color: #f56a6a;
         font-weight: 600;
       }
       
@@ -46,7 +55,7 @@
       h4,
       h5,
       h6 {
-        color: #3d4449;
+        color: #22202E;
         font-family: "Roboto Slab", serif;
         font-weight: 700;
         line-height: 1.5;
@@ -90,28 +99,28 @@
         font-size: 0.7em;
       }
       
-      @media screen and (max-width: 1680px) {
-        h1 {
-          font-size: 3.5em;
-        }
-      }
+      // @media screen and (max-width: 1680px) {
+      //   h1 {
+      //     font-size: 3.5em;
+      //   }
+      // }
       
-      @media screen and (max-width: 980px) {
-        h1 {
-          font-size: 3.25em;
-        }
-      }
+      // @media screen and (max-width: 980px) {
+      //   h1 {
+      //     font-size: 3.25em;
+      //   }
+      // }
       
-      @media screen and (max-width: 736px) {
-        h1 {
-          font-size: 2em;
-          line-height: 1.4;
-        }
+      // @media screen and (max-width: 736px) {
+      //   h1 {
+      //     font-size: 2em;
+      //     line-height: 1.4;
+      //   }
       
-        h2 {
-          font-size: 1.5em;
-        }
-      }
+      //   h2 {
+      //     font-size: 1.5em;
+      //   }
+      // }
       
       sub {
         font-size: 0.8em;
@@ -162,6 +171,7 @@
         margin: 2em 0;
       }
       
+}
 }
 
 /* --color-text: #666;
