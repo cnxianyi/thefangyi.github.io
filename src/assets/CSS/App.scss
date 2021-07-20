@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif ;//sans-serif 
-                          //'楷体'
+  font-family: 'Quicksand',sans-serif ;
 }
 // div#SidebarMenu{
   
 // }
 #content {
   float: right;
-
   height: 100%;
   transition: all 1s ease;
 }

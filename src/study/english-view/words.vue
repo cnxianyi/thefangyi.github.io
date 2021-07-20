@@ -4,6 +4,9 @@
             <template v-slot:default>
                 English words
             </template>
+			<template v-slot:time>
+				2021年7月20日16:25:34
+            </template>
         </nav-bar>
 	<div class="content">
 		<div class="md">
@@ -13,8 +16,12 @@
 					<button @click="copyArr20">每日复习(20)</button>
 					<button @click="Refresh">刷新</button>
 					<button @click="Detect">是否重复</button>
+					
 			</div>
-		
+			<div>
+				<btn></btn>
+			</div>
+			
         <div class="table-wrapper">
 			<table>
 					<thead v-if="Tv">
@@ -71,26 +78,31 @@
 </template>
 
 <style lang="scss" scoped>
-	.button {
-		display: flex;
-		justify-content: right;
-		padding-bottom: 20px;
+	
+
+	// .button {
+	// 	display: flex;
+	// 	justify-content: right;
+	// 	padding-bottom: 20px;
 		
-		button {
-			border-radius: 10px;
-			width: 5%;
-			margin: 15px;
+	// 	button {
+	// 		border-radius: 10px;
+	// 		width: 5%;
+	// 		margin: 15px;
 			
 			
-		}
-	}
+	// 	}
+	// }
 </style>
 
 <script>
 import navBar from '../../components/common/navBar.vue'
+import btn from '../../components/common/btn.vue'
+
 export default {
 	components: {
-        navBar
+        navBar,
+		btn
     },
     data() {
 			return {

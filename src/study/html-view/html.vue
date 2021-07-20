@@ -4,6 +4,9 @@
             <template v-slot:default>
                 HTML Demo
             </template>
+            <template v-slot:time>
+                2021年7月20日16:18:51
+            </template>
         </nav-bar>
 
         <div class="content">

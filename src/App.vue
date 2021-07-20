@@ -88,8 +88,19 @@
             <li><a class="link_name" href="#"><router-link to="/english/words">Words</router-link></a></li>
         </ul>
       </li>
-      <hr class="style-one">  
-      
+      <hr class="style-one">
+      <li>
+        <a href="#">
+          
+          <i class='bx bx-cog'></i>
+          <span class="link_name">Element</span>
+          
+        </a>
+        <ul class="sub-menu blank">
+            <li><a class="link_name" href="#"><router-link to="/show">Show</router-link></a></li>
+        </ul>
+      </li>
+      <hr class="style-one">
 
     </ul>
 
