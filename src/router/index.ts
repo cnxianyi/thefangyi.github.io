@@ -1,20 +1,48 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import Home from '../views/Home.vue'
+import home from '../views/home.vue'
+const flex = ()=> import('../views/css/flex.vue')
+const html_demo = ()=> import('../views/html/html_demo.vue')
+const english_words = ()=> import('../views/english/words.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'home',
+    component: home,
+    meta: {
+      title: '首页'
+    }
   },
+
+  // HTML 
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+    path: '/html/demo',
+    name: 'html_demo',
+    component: html_demo,
+    meta: {
+      title: 'html_demo'
+    }
+  },
+
+  //CSS
+  {
+    path: '/css/flex/md',
+    name: 'flex',
+    component: flex,
+    meta: {
+      title: '浮动flex'
+    }
+  },
+
+  // English
+  {
+    path: '/english/words',
+    name: 'words',
+    component: english_words,
+    meta: {
+      title: 'words'
+    }
+  },
 ]
 
 const router = createRouter({
