@@ -61,7 +61,7 @@
         </div>
         <ul class="sub-menu" :class="{truth3}">
             <li><a class="link_name" href="#">CSS</a></li>
-            <router-link to="/css/flex/md"><li><a href="#">Flex</a></li></router-link>
+            <router-link to="/"><li><a href="#">Flex</a></li></router-link>
             <li><a href="#">Sass</a></li>
             <li><a href="#">3333</a></li>
           </ul>
@@ -74,7 +74,7 @@
           <span class="link_name">HTML</span>
         </a>
         <ul class="sub-menu blank">
-            <li><a class="link_name" href="#"><router-link to="/html/demo">HTML</router-link></a></li>
+            <li><a class="link_name" href="#"><router-link to="/html">HTML</router-link></a></li>
         </ul>
       </li>
     <hr class="style-one">
@@ -106,15 +106,12 @@
 </style>
   
 <script>
-import 'boxicons' // icon 组件导入
-import 'normalize.css/normalize.css' // 初始化css 文件(normalize插件)
-import './assets/CSS/App.scss'
-
+// import 'boxicons' // icon 组件导入
+// import 'normalize.css/normalize.css' // 初始化css 文件(normalize插件)
+import './assets/css/App.scss'
 import { computed } from '@vue/runtime-core'
 import {created , mounted , watch} from 'vue'
-
 export default {
-
   // setup(props) {
   //   const watchChangeSize = ()=> {
   //           //可视区的宽/高(DOM) 
@@ -124,7 +121,6 @@ export default {
   //           console.log(offsetWid);
   //           console.log(offsetHei);
   //       },
-
   //       const onload = ()=> { window.onload
   //           console.log('页面加载完毕')
   //           watchChangeSize()
@@ -136,10 +132,8 @@ export default {
             
   //       }
   // },
-
   // setup(props) {
   //   const offsetWid =  document.documentElement.clientWidth
-
   //   window.onresize(function(){
   //     console.log(offsetWid);
   //   }) 
@@ -162,7 +156,6 @@ watch:{ //````
 },
   data() {
     
-
       return {
       truth1: true,
       truth2: true,
@@ -179,10 +172,6 @@ watch:{ //````
   },
   methods: {
        
-
-
-
-
 // 笨方法 获取id 来进行 class 的切换
     getMenu(){
       console.log(this.offsetWid);
@@ -201,7 +190,6 @@ watch:{ //````
         document.getElementById('SidebarMenu').className = 'sidebar'
       }
     },
-
 // 笨方法 获取id判断 是否为真值
     getSon(n){
       switch (n) {
@@ -219,7 +207,6 @@ watch:{ //````
             this.truth2 = true
           }
           break;
-
           case 3:
           if (this.truth3  == true) {
             this.truth3 = false
@@ -244,14 +231,12 @@ watch:{ //````
           document.getElementById('content').style = `width: ${document.body.clientWidth - 78}px`
             window.screenWidth = document.body.clientWidth
             that.screenWidth = window.screenWidth
+            console.log(window.innerWidth+'WW');
+            console.log(window.innerHeight+'HH');
         })()
     }
   }
-
         
     
   }
-
-
-
 </script>

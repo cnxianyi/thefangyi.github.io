@@ -83,7 +83,6 @@
 
 <script>
 import navBar from '../../components/common/navBar.vue'
-
 export default {
     components: {
         navBar

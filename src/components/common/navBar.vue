@@ -19,10 +19,8 @@
 </template>
 
 <style lang="scss" scoped>
-
 .nav-bar{
     margin-top: 45px;
-
     .center {
         margin-left: 7.5%;
         font-size: 28px;
@@ -35,10 +33,8 @@
                 padding: 3px;
             }
         }
-
     }
     
-
     hr {
         
         margin:0 auto;
@@ -62,7 +58,6 @@
 
 <script>
 import {useRouter} from 'vue-router'
-
 export default {
     setup(props) {
         const router = useRouter()
@@ -70,7 +65,6 @@ export default {
         const goBack = () => { // 返回上个界面
             history.go(-1)
         }
-
         return {
             goBack
         }

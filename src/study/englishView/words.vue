@@ -88,7 +88,6 @@
 
 <script>
 import navBar from '../../components/common/navBar.vue'
-
 export default {
 	components: {
         navBar
@@ -97,7 +96,6 @@ export default {
 			return {
 				Tv : false,
 				Fv : true,
-
 				words: [
 					{ id: 1, word: 'test', meaning: '测试', pos: 'n' },
 					{ id: 2, word: 'store', meaning: '仓库、商店', pos: 'n' },
@@ -122,8 +120,6 @@ export default {
 					{ id: 21, word: 'appliance', meaning: '应用', pos: 'n' },
 					{ id: 22, word: 'target', meaning: '目标', pos: 'n' },
 					{id:  23, word: 'Refresh' , meaning: '刷新' , pos: 'vt'},
-
-
 					//  	  {id:  , word: '' , meaning: '' , pos: ''},
 				],
 				studyEveryday: [],
@@ -134,12 +130,9 @@ export default {
 			}
 		},
 		  methods: {
-
 			  	Refresh(){
 					  location.reload();
 				  },
-
-
 			  	Detect(){
 					  for (let i = 0; i < this.words.length; i++) {
 						  this.detectMap.set( this.words[i].word , i)
@@ -161,12 +154,9 @@ export default {
 					   }
 					  
 						// console.log(this.detectMap.get( this.words[Math.round(this.words.length/2)].word ));
-
 						// console.log(this.detectMap.size);
 						// console.log(this.detectMap);
 				  },
-
-
 				copyArr5(){
 					this.Tv = true
 					this.Fv = false
@@ -181,11 +171,10 @@ export default {
 				},
 				copyArr20(){
 					this.Tv = true
-					this.Fv = falses
+					this.Fv = false
 					this.getWords(20);
 					this.studyEveryday = Array.from(this.everydayWords)
 				},
-
 				getWords(len)  {
 					
 					for (let i = 0; i < this.words.length; i++) {
@@ -195,38 +184,30 @@ export default {
 					for (var num, i = 0; i<len; i++) {
 						do {
 							num = Math.floor(Math.random() * this.repetition.length);
-
 						} while (this.repetition[num] == null);
 						this.everydayWords.unshift(this.words[num])
 						this.repetition[num] = null
 					}
 					
 				}
-
 				
 			},
 			computed: {
 				
 				
 			},
-
 			// setup(props) {
 			// 	const map = new Map();
 			// 	let array = new Array();
-
 			// 	const Detect = ()=>{
 			// 		// map.set(this.data)
 			// 		console.log();
 			// 	}
-
 			// 	return {
 			// 		Detect
 			// 	}
 			// }
-
 	}
-
-
 	/* 通过随机数来进行data内数组的克隆，完成每日复习模块	
 		target: 
 		1.创建一个everydayWords来承载复刻下来的数组
@@ -236,10 +217,7 @@ export default {
 		5.判断数组[num]是否是null，于最后一步进行使用过的数组null赋值，用于不进行重复
 		6.未来可以添加参数控制输出多少随机数
 	*/
-
 	// Vue.createApp(HelloVueApp).mount('#hello-vue')
-
-
 // 	let everydayWords = [];
 // 	let repetition = []
 	
@@ -250,7 +228,6 @@ export default {
 // 	for (var num, i = 0; i<len; i++) {
 // 		do {
 // 			num = Math.floor(Math.random() * repetition.length);
-
 // 		} while (repetition[num] == null);
 // 		everydayWords.unshift(HelloVueApp.data().words[num])
 // 		repetition[num] = null
