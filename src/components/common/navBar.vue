@@ -27,7 +27,7 @@
         font-size: 28px;
 
         strong {
-            padding-right: 20%;
+            padding-right: 25%;
             width: 50px;
         }
         .by {
