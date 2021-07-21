@@ -27,13 +27,14 @@
         font-size: 28px;
 
         strong {
-            padding-right: 25%;
+            padding-right: 45%;
             width: 50px;
         }
         .by {
             display: inline;
             font-size: 12px;
             font-weight: 100;
+            user-select: none; // 文本禁止选取
         }
         .right{
             display: inline;

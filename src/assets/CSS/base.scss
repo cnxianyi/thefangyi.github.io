@@ -103,7 +103,7 @@
 
     ol {
       list-style: decimal; // 设置 li 序号样式
-      margin: 0 0 5px 10px;
+      margin: 0 0 5px 15px;
       padding-left: 1.25em;
   
       li {
@@ -113,7 +113,7 @@
   
     ul {
       list-style: disc;
-      margin: 0 0 5px 10px;
+      margin: 0 0 5px 15px;
       padding-left: 1em;
   
       li {
@@ -193,33 +193,35 @@
       padding: 0.5em 0 0.5em 2em;
     }
 
-    code {
-      background: rgba(230, 235, 237, 0.25);
-      border-radius: 10px;
-      border: solid 1px rgba(210, 215, 217, 0.75);
-      font-family: var(--font-size);
-      font-size: 14px;
-      margin: 0 5px;
-      padding: 5px 10px;
-    }
+    // code {
+    //   background: rgba(230, 235, 237, 0.25);
+    //   border-radius: 10px;
+    //   border: solid 1px rgba(210, 215, 217, 0.75);
+    //   font-family: var(--font-size);
+    //   font-size: 14px;
+    //   margin: 10px 5px;
+    //   padding: 10px 10px;
+    // }
 
-    pre {
-      -webkit-overflow-scrolling: touch;
-      font-family: var(--font-size);
-      font-size: 14px;
-      margin: 0 0 5px 0;
-    }
+    // pre {
+    //   -webkit-overflow-scrolling: touch;
+    //   font-family: var(--font-size);
+    //   font-size: 14px;
+    //   margin: 0 0 5px 0;
+    //   background-color: #f0a1a8;
+    // }
 
-    pre code {
-      display: block;
-      line-height: 1.75;
-      padding: 10px 15px;
-      overflow-x: auto;
-    }
+    // pre code {
+    //   display: block;
+    //   line-height: 1.75;
+    //   padding: 10px 15px;
+    //   overflow-x: auto;
+    // }
 
     hr {
       border: 0;
-      border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+      border-bottom: solid 1px #f0a1a830;
       margin: 16px 0;
     }
 

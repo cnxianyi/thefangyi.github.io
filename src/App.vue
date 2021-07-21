@@ -44,7 +44,7 @@
         </div>
             <ul class="sub-menu" :class="{truth2}">
             <li><a class="link_name" href="#">js</a></li>
-            <li><a href="#">Web Design</a></li>
+            <router-link to="/js/base"><li><a href="#">base</a></li></router-link>
             <li><a href="#">Web</a></li>
             <li><a href="#">Design</a></li>
           </ul>
@@ -62,8 +62,10 @@
         <ul class="sub-menu" :class="{truth3}">
             <li><a class="link_name" href="#">CSS</a></li>
             <router-link to="/"><li><a href="#">Flex</a></li></router-link>
-            <li><a href="#">Sass</a></li>
-            <li><a href="#">3333</a></li>
+            <router-link to="/css"><li><a href="#">Demo</a></li></router-link>
+            <router-link to="/css/mediaScreen"><li><a href="#">@mediaScreen</a></li></router-link>
+            <router-link to="/css/bootstrapDemo"><li><a href="#">bootstrap</a></li></router-link>
+            <router-link to="/css/sass"><li><a href="#">Sass</a></li></router-link>
           </ul>
       </li>
 
@@ -161,7 +163,7 @@ watch:{ //````
                 // 打印screenWidth变化的值
                 console.log(that.screenWidth)
                 that.timer = false
-            },400)
+            },1000)
         }
     }
 },
@@ -242,8 +244,7 @@ watch:{ //````
           document.getElementById('content').style = `width: ${document.body.clientWidth - 78}px`
             window.screenWidth = document.body.clientWidth
             that.screenWidth = window.screenWidth
-            console.log(window.innerWidth+'WW');
-            console.log(window.innerHeight+'HH');
+            
         })()
     }
   }

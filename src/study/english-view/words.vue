@@ -2,7 +2,7 @@
     <div>
         <nav-bar>
             <template v-slot:default>
-                English words
+                English Words
             </template>
 			<template v-slot:time>
 				2021年7月20日16:25:34
@@ -11,17 +11,13 @@
 	<div class="content">
 		<div class="md">
 			<div class="button">
-					<button @click="copyArr5">每日复习(5)</button>
+					<btn @click="copyArr5">每日复习(5)</btn>
 					<button @click="copyArr10">每日复习(10)</button>
 					<button @click="copyArr20">每日复习(20)</button>
 					<button @click="Refresh">刷新</button>
 					<button @click="Detect">是否重复</button>
 					
-			</div>
-			<div>
-				<btn></btn>
-			</div>
-			
+			</div>	
         <div class="table-wrapper">
 			<table>
 					<thead v-if="Tv">
