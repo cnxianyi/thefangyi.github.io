@@ -1,5 +1,5 @@
 /* PrismJS 1.24.1
-https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+json+json5+less+scss */
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+c+git+go+http+hpkp+hsts+java+json+json5+jsonp+less+markdown+powershell+python+sass+scss+sql+typescript+typoscript */
 /**
  * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
  * Based on https://github.com/chriskempson/tomorrow-theme
@@ -9,9 +9,9 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
 code[class*="language-"],
 pre[class*="language-"] {
 	border-radius: 10px;
-	color: #918072;
+	color: #E4565A;
 	background: none;
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: Consolas, '楷体';
 	font-size: 1em;
 	font-weight: 500;
 	text-align: left;
@@ -19,7 +19,7 @@ pre[class*="language-"] {
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
-	line-height: 1.5;
+	line-height: 1.2;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -34,15 +34,14 @@ pre[class*="language-"] {
 
 /* Code blocks */
 pre[class*="language-"] {
-	padding: 1em;
+	padding: 0px 0px 5px 15px;
 	margin: .5em 0;
 	overflow: auto;
 }
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	/* 背景颜色 */
-	background: #22202e00; 
+	background: #22202e00;
 }
 
 /* Inline code */
@@ -57,11 +56,12 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #999;
+	font-family: Consolas, '楷体';
+	color: rgb(95, 83, 66);
 }
 
 .token.punctuation {
-	color: #918072;
+	color: #FEDA18;
 }
 
 .token.tag,
@@ -93,7 +93,7 @@ pre[class*="language-"] {
 .token.atrule,
 .token.keyword,
 .token.builtin {
-	color: #c8adc4;
+	color: #DA70D6;
 }
 
 .token.string,

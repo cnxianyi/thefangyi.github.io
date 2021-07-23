@@ -1,15 +1,16 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 
-const html = ()=> import('../study/html-view/html.vue')
-const words = ()=> import('../study/english-view/words.vue')
+const html = ()=> import('../study/html/html.vue')
+const words = ()=> import('../study/english/words.vue')
 const show = ()=> import('../views/show.vue')
-const css = ()=> import('../study/css-view/css.vue')
-const mediaScreen = ()=> import('../study/css-view/mediaScreen.vue')
-const bootstrapDemo = ()=> import('../study/css-view/bootstrapDemo.vue')
-const sass = ()=> import('../study/css-view/sass.vue')
-const baseJs = ()=> import('../study/js-view/baseJs.vue')
-
+const css = ()=> import('../study/css/css.vue')
+const mediaScreen = ()=> import('../study/css/mediaScreen.vue')
+const bootstrapDemo = ()=> import('../study/css/bootstrapDemo.vue')
+const sass = ()=> import('../study/css/sass.vue')
+const baseJs = ()=> import('../study/js/baseJs.vue')
+const protoInherit = ()=> import('../study/js/protoInherit.vue')
+const tsBasis = ()=> import('../study/TypeScript/TSbasis.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -79,6 +80,22 @@ const routes: Array<RouteRecordRaw> = [
     component: baseJs,
     meta: {
       title: 'baseJs'
+    }
+  },
+  {
+    path: '/js/protoInherit',
+    name: 'protoInherit',
+    component: protoInherit,
+    meta: {
+      title: 'protoInherit'
+    }
+  },
+  {
+    path: '/ts/tsBasis',
+    name: 'tsBasis',
+    component: tsBasis,
+    meta: {
+      title: 'tsBasis'
     }
   },
 

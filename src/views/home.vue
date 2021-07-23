@@ -5,7 +5,7 @@
             Home
         </template>
         <template v-slot:time>
-                2021年7月20日21:47:50
+                2021年7月20日
         </template>
     </nav-bar>
 

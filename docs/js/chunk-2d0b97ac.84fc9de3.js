@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b97ac"],{"32b9":function(n,t,e){"use strict";e.r(t);var c=e("7a23"),r=Object(c["g"])(" Bootstrap Demo "),a=Object(c["g"])(" 2021年7月21日18:36:13 ");function u(n,t,e,u,b,o){var d=Object(c["y"])("nav-bar");return Object(c["q"])(),Object(c["d"])("div",null,[Object(c["h"])(d,null,{default:Object(c["D"])((function(){return[r]})),time:Object(c["D"])((function(){return[a]})),_:1})])}var b=e("d968"),o={components:{navBar:b["a"]}};o.render=u;t["default"]=o}}]);
-//# sourceMappingURL=chunk-2d0b97ac.84fc9de3.js.map

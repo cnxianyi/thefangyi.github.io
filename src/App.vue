@@ -45,8 +45,8 @@
             <ul class="sub-menu" :class="{truth2}">
             <li><a class="link_name" href="#">js</a></li>
             <router-link to="/js/base"><li><a href="#">base</a></li></router-link>
-            <li><a href="#">Web</a></li>
-            <li><a href="#">Design</a></li>
+            <router-link to="/js/protoInherit"><li><a href="#">原型和继承</a></li></router-link>
+            <router-link to="/ts/tsBasis"><li><a href="#">TypeScriptBasis</a></li></router-link>
           </ul>
       </li>
           <hr class="style-one">

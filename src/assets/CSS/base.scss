@@ -31,6 +31,7 @@
     }
 
 
+    
 
 
 
@@ -48,6 +49,12 @@
   .md {
 
     width: 80%;
+
+    // 设置 img 大小 S M L 
+    img.s {
+        width: 15%;
+        height: 15%;
+    }
 
     h1,
     h2,
@@ -220,8 +227,8 @@
 
     hr {
       border: 0;
-      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-      border-bottom: solid 1px #f0a1a830;
+      box-shadow: rgba(199, 147, 152, 0.123) 0px 2px 4px 0px, rgba(238, 156, 163, 0.32) 0px 2px 16px 0px;
+      border-bottom: solid 1px #f0a1a81a;
       margin: 16px 0;
     }
 
