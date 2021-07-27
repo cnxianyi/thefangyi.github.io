@@ -12,8 +12,9 @@
     html {
       font-family: "Consolas", serif;
       overflow-y: scroll; //这是为了兼容ie8，不支持:root, vw
-      
     }
+
+
 
     :root {
       overflow-y: auto;
@@ -82,12 +83,15 @@
 
     h1 {
       font-size: 48px;
+      font-family:  "Consolas", '楷体';
       margin: 0 0 0.5em 0;
       line-height: 1.3;
     }
 
     h2 {
       font-size: 40px;
+      font-family:  "Consolas", '楷体';
+      font-weight: 600;
       line-height: 1.2;
     }
 
@@ -170,10 +174,10 @@
       font-weight: 600;
     }
 
-    em,
-    i {
-      font-style: italic;
-    }
+    // em,
+    // i {
+    //   font-style: italic;
+    // }
 
     p {
       margin: 0 0 2% 0;

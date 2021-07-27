@@ -20,7 +20,8 @@
         // src: '~_img/...'
         alias: {
           'assets': '@/assets',
-          '_img' : '@/assets/images/'
+          '_img' : '@/assets/images/',
+          'common' : '@/components/common'
         }
       }
     }

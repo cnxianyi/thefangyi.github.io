@@ -3,7 +3,7 @@
   <div class="sidebar close" id="SidebarMenu">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <div class="logo-details" @click="getMenu">
-      <i class='bx bxs-yin-yang'></i>
+      <i id="yyIcon" class='bx bxs-yin-yang'></i>
       <span class="logo_name">Thefangyi</span>
     </div>
     <ul class="nav-links">
@@ -15,7 +15,7 @@
           <i class='bx bxl-vuejs' style='color:#41b883'  ></i>
           <span class="link_name"> Vue</span></router-link>
           </a>
-          <i class='bx bxs-chevron-down arrow' @click="getSon(1)"></i>
+          <i class='bx bxs-chevron-down arrow'  @click="getSon(1)"></i>
         </div>
         <ul class="sub-menu" :class="{truth1}">
             <li><a class="link_name" href="#">Vue</a></li>
@@ -47,6 +47,7 @@
             <router-link to="/js/base"><li><a href="#">base</a></li></router-link>
             <router-link to="/js/protoInherit"><li><a href="#">原型和继承</a></li></router-link>
             <router-link to="/ts/tsBasis"><li><a href="#">TypeScriptBasis</a></li></router-link>
+            <router-link to="/js/dataTypes"><li><a href="#">dataTypes</a></li></router-link>
           </ul>
       </li>
           <hr class="style-one">
@@ -115,7 +116,7 @@
 </div>
 </template>
 
-<style lang="scss" >
+<style lang="scss" scoped>
 </style>
   
 <script>
@@ -198,11 +199,13 @@ watch:{ //````
           this.truth3 = true
         document.getElementById('content').style = `width: ${width - 78}px`
         document.getElementById('SidebarMenu').className = 'sidebar close'
+        document.getElementById('yyIcon').className = 'bx bxs-yin-yang bx-rotate'
       }else{
         document.getElementById('content').style = `width: ${width - 260}px`
         document.getElementById('SidebarMenu').className = 'sidebar'
+        document.getElementById('yyIcon').className = 'bx bxs-yin-yang bx-tada'
       }
-    },
+    },//<i class='bx bxs-yin-yang bx-spin' ></i><i class='bx bxs-yin-yang bx-tada' ></i>
 // 笨方法 获取id判断 是否为真值
     getSon(n){
       switch (n) {
@@ -239,7 +242,7 @@ watch:{ //````
   mounted() {
     document.getElementById('content').style = `width: ${this.width - 78}px`
     const that = this // ````
-    window.onresize = () => {
+    window.onresize = () => { // 浏览器被重置大小时发生事件
         return (() => {
           document.getElementById('content').style = `width: ${document.body.clientWidth - 78}px`
             window.screenWidth = document.body.clientWidth

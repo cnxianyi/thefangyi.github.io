@@ -11,6 +11,7 @@ const sass = ()=> import('../study/css/sass.vue')
 const baseJs = ()=> import('../study/js/baseJs.vue')
 const protoInherit = ()=> import('../study/js/protoInherit.vue')
 const tsBasis = ()=> import('../study/TypeScript/TSbasis.vue')
+const dataTypes = ()=> import('../study/js/dataTypes.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -91,6 +92,14 @@ const routes: Array<RouteRecordRaw> = [
     }
   },
   {
+    path: '/js/dataTypes',
+    name: 'dataTypes',
+    component: dataTypes,
+    meta: {
+      title: 'dataTypes'
+    }
+  },
+  {
     path: '/ts/tsBasis',
     name: 'tsBasis',
     component: tsBasis,
@@ -98,6 +107,7 @@ const routes: Array<RouteRecordRaw> = [
       title: 'tsBasis'
     }
   },
+  
 
 // - - - English - - -
   {
