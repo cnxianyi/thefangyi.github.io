@@ -8,7 +8,6 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
 
 code[class*="language-"],
 pre[class*="language-"] {
-	border-radius: 10px;
 	color: #E4565A;
 	background: none;
 	font-family: Consolas, '楷体';
@@ -57,7 +56,8 @@ pre[class*="language-"] {
 .token.doctype,
 .token.cdata {
 	font-family: Consolas, '楷体';
-	color: rgb(95, 83, 66);
+	color: #a4cab6;
+	font-weight: 500;
 }
 
 .token.punctuation {
