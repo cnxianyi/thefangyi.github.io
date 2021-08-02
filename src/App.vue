@@ -105,6 +105,19 @@
       </li>
       <hr class="style-one">
 
+      <li>
+        <a href="#">
+          
+          <i class='bx bx-dots-horizontal-rounded'></i>
+          <span class="link_name">other</span>
+          
+        </a>
+        <ul class="sub-menu blank">
+            <li><a class="link_name" href="#"><router-link to="/npm/base">npmBase</router-link></a></li>
+        </ul>
+      </li>
+      <hr class="style-one">
+
     </ul>
 
     </div>

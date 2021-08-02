@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>原型</title>
-</head>
-<body>
-    
-</body>
-<script>
 //     // 字符串长度
 // console.log(`123`.length);// 3 
 
@@ -78,18 +66,14 @@
 // console.log(parseFloat('1.5rem')); // 1.5 从头开始读取浮点数
 
 
+        // 数组
+        // 有序数据的特殊结构
+            // 末端
+    Array.pop(); // 返回数组最后一个元素，并返回
+    Array.push(); // 数组末端添加元素
+            // 首端
+    Array.shift(); // 返回数组第一个元素，并返回
+    Array.unshift(); // 首端添加元素
 
-
-
-
-
-
-
-
-
-
-
-
-    
-</script>
-</html>
+    Array.splice(); // 增删改
+    Array.slice(); // 返回新数组，用于不影响原数组的转换

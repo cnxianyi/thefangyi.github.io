@@ -12,6 +12,7 @@ const baseJs = ()=> import('../study/js/baseJs.vue')
 const protoInherit = ()=> import('../study/js/protoInherit.vue')
 const tsBasis = ()=> import('../study/TypeScript/TSbasis.vue')
 const dataTypes = ()=> import('../study/js/dataTypes.vue')
+const npmBase = ()=> import('../study/npm/npmBase.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -116,6 +117,17 @@ const routes: Array<RouteRecordRaw> = [
     component: words,
     meta: {
       title: 'words'
+    }
+  },
+
+
+// npm
+  {
+    path: '/npm/base',
+    name: 'npmBase',
+    component: npmBase,
+    meta: {
+      title: 'npmBase'
     }
   },
 ]

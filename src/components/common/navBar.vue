@@ -22,6 +22,7 @@
 <style lang="scss" scoped>
 .nav-bar{
     margin-top: 45px;
+    user-select: none;
     .center {
         margin-left: 12.5%;
         font-size: 28px;
