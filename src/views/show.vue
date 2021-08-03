@@ -13,7 +13,13 @@
         content
         <div class="md">
           >md <br>
-          font-family: "Consolas", serif; <br>
+          font-family: "Consolas", serif; <br><hr>
+          <span> root:</span><br>
+          <span>--font--color: #22202E;<span style='background-color:#22202E'>&#160;&#160;&#160;&#160;&#160;</span></span>
+          <br><span>--module--color: #f0a1a8;<span style='background-color: #f0a1a8'>&#160;&#160;&#160;&#160;&#160;</span></span>
+          <br><span>--font-size: 16px;</span>
+          <br><span>--font-family: "Consolas", serif , SimHei;</span>
+          <br><span>中文</span>
           <h1>h1</h1>
           <h2>h2</h2>
           <h3>h3</h3>
@@ -112,7 +118,7 @@
 
 <script>
 import navBar from '../components/common/navBar.vue'
-
+import Prism from 'prismjs';
 export default {
   components: {
     navBar

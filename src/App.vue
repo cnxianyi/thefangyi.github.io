@@ -212,11 +212,16 @@ watch:{ //````
           this.truth3 = true
         document.getElementById('content').style = `width: ${width - 78}px`
         document.getElementById('SidebarMenu').className = 'sidebar close'
-        document.getElementById('yyIcon').className = 'bx bxs-yin-yang bx-rotate'
+        setTimeout(() => {
+          document.getElementById('yyIcon').className = 'bx bxs-yin-yang bx-rotate'
+        }, 300);
       }else{
         document.getElementById('content').style = `width: ${width - 260}px`
         document.getElementById('SidebarMenu').className = 'sidebar'
-        document.getElementById('yyIcon').className = 'bx bxs-yin-yang bx-tada'
+        setTimeout(() => {
+          document.getElementById('yyIcon').className = 'bx bxs-yin-yang bx-tada'
+        }, 300);
+        
       }
     },//<i class='bx bxs-yin-yang bx-spin' ></i><i class='bx bxs-yin-yang bx-tada' ></i>
 // 笨方法 获取id判断 是否为真值
