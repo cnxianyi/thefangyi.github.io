@@ -138,6 +138,7 @@
 import './assets/css/App.scss'
 import { computed } from '@vue/runtime-core'
 import {created , mounted , watch} from 'vue'
+import { Throttle } from 'assets/js/utils.js' // 节流函数
 export default {
   // setup(props) {
   //   const watchChangeSize = ()=> {
@@ -268,6 +269,11 @@ watch:{ //````
             
         })()
     }
+    
+  },
+  destroyed () {
+    // 离开该页面需要移除这个监听的事件，不然会报错
+    
   }
         
     

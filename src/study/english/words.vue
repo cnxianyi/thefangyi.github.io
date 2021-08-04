@@ -159,6 +159,8 @@ export default {
 						//   }
 						
 						//console.log(Math.round(this.detectMap.size/2));
+					   }else{
+						   alert('不重复')
 					   }
 					  
 						// console.log(this.detectMap.get( this.words[Math.round(this.words.length/2)].word ));

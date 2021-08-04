@@ -50,8 +50,7 @@ export default {
         
         },
     mounted() {
-        // window.addEventListener('scroll', this.watchScroll, true)
-        window.addEventListener('scroll' , Throttle(this.watchScroll , 500))
+        window.addEventListener('scroll' , Throttle(this.watchScroll , 500)) // 节流函数
         
     },
     destroyed () {
