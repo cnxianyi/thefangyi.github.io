@@ -1,11 +1,8 @@
 <template>
 <div>
-  <div class="phoneTj" id="phone" @click="phoneShow()">
-    <i class='bx bxs-yin-yang' style='color:rgba(0,0,0,0.7)'></i>
-  </div>
-  <div class="sidebar close" id="SidebarMenu">
+  <div class="sidebar close nd" id="SidebarMenu">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <div class="logo-details" @click="getMenu">
+    <div class="logo-details" @click="getMenu()">
       <i id="yyIcon" class='bx bxs-yin-yang'></i>
       <span class="logo_name">Thefangyi</span>
     </div>
@@ -199,8 +196,14 @@ watch:{ //````
             setTimeout(function(){
                 // 打印screenWidth变化的值
                 console.log(that.screenWidth)
+                if (this.width > 991) {
+          document.getElementById('content').style = `width: ${document.body.clientWidth - 62}px`
+        }else{
+          document.getElementById('content').style = `width: ${document.body.clientWidth - 0}px`
+          document.getElementById('SidebarMenu').className = 'sidebar close nd'
+        }
                 that.timer = false
-            },1000)
+            },200)
         }
     }
 },
@@ -228,30 +231,46 @@ watch:{ //````
 
         // 可以制作 手指操作
     
-        let name = document.getElementsByClassName('close')[0].style.display
+        let name = document.getElementById('SidebarMenu').style.display
+        console.log(name);
         if(name == 'none') {
-         document.getElementsByClassName('close')[0].style.display = '' 
+          document.getElementsByClassName('close')[0].style.display = '' 
+          document.getElementById('SidebarMenu').className = 'sidebar'
         }else {
+          document.getElementById('SidebarMenu').className = 'sidebar close nd'
           document.getElementsByClassName('close')[0].style.display = 'none' 
         }
       },
        
 // 笨方法 获取id 来进行 class 的切换
     getMenu(){
-      console.log(this.offsetWid);
       let name = document.getElementById('SidebarMenu').className
       // let width = document.documentElement.clientWidth
       let width = document.documentElement.clientWidth
       if(name == 'sidebar'){ // 缩回去
-          // 不判断 全部为收缩状态
+          // 不判断 全部为收缩状态 箭头自动恢复
           this.truth1 = true
+          document.getElementsByClassName('1')[0].className = 'bx bxs-chevron-down 1 arrow'
           this.truth2 = true
+          document.getElementsByClassName('2')[0].className = 'bx bxs-chevron-down 2 arrow'
           this.truth3 = true
+          document.getElementsByClassName('3')[0].className = 'bx bxs-chevron-down 3 arrow'
           this.truth4 = true
-        document.getElementById('content').style = `width: ${width - 62}px`
-        document.getElementById('SidebarMenu').className = 'sidebar close'
+          document.getElementsByClassName('4')[0].className = 'bx bxs-chevron-down 4 arrow'
+
+        
+        if (this.width > 991) {
+          document.getElementById('content').style = `width: ${width - 62}px`
+          document.getElementById('SidebarMenu').className = 'sidebar close'
+        }else{
+          document.getElementById('content').style = `width: ${width - 0}px`
+          document.getElementById('SidebarMenu').className = 'sidebar close nd'
+        }
+        
+        
         setTimeout(() => {
           document.getElementById('yyIcon').className = 'bx bxs-yin-yang bx-rotate'
+          
         }, 300);
       }else{
         document.getElementById('content').style = `width: ${width - 204}px`
@@ -313,16 +332,17 @@ watch:{ //````
   mounted() {
     if (this.width > 991) {
       document.getElementById('content').style = `width: ${this.width - 62}px`
-      document.getElementById('phone').style.display = 'none'
+      document.getElementById('SidebarMenu').className = 'sidebar close'
+      //document.getElementById('phone').style.display = 'none'
     }else {
-      // document.getElementsByClassName('sidebar')[0].style.display = 'none'
-      document.getElementsByClassName('close')[0].style.display = 'none'
+      document.getElementById('SidebarMenu').className = 'sidebar close nd'
+          // document.getElementsByClassName('sidebar')[0].style.display = 'none'
+      //document.getElementsByClassName('close')[0].style.display = 'none'
     }
     
     const that = this // ````
     window.onresize = () => { // 浏览器被重置大小时发生事件
         return (() => {
-          document.getElementById('content').style = `width: ${document.body.clientWidth - 62}px`
             window.screenWidth = document.body.clientWidth
             that.screenWidth = window.screenWidth
             
