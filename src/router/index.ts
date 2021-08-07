@@ -12,7 +12,8 @@ const baseJs = ()=> import('../study/js/baseJs.vue')
 const protoInherit = ()=> import('../study/js/protoInherit.vue')
 const tsBasis = ()=> import('../study/TypeScript/TSbasis.vue')
 const dataTypes = ()=> import('../study/js/dataTypes.vue')
-const npmBase = ()=> import('../study/npm/npmBase.vue')
+const npmBasis = ()=> import('../study/npm/npmBasis.vue')
+const webpackBasis = ()=> import('../study/webpack/webpackBasis.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -123,11 +124,21 @@ const routes: Array<RouteRecordRaw> = [
 
 // npm
   {
-    path: '/npm/base',
-    name: 'npmBase',
-    component: npmBase,
+    path: '/npm/basis',
+    name: 'npmBasis',
+    component: npmBasis,
     meta: {
-      title: 'npmBase'
+      title: 'npmBasis'
+    }
+  },
+
+// Webpack
+  {
+    path: '/webpack/basis',
+    name: 'webpackBasis',
+    component: webpackBasis,
+    meta: {
+      title: 'webpackBasis'
     }
   },
 ]

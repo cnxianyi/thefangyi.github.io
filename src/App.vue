@@ -15,7 +15,7 @@
           <i class='bx bxl-vuejs' style='color:#41b883'  ></i>
           <span class="link_name"> Vue</span></router-link>
           </a>
-          <i class='bx bxs-chevron-down arrow'  @click="getSon(1)"></i>
+          <i class='bx bxs-chevron-down 1 arrow'  @click="getSon(1)"></i>
         </div>
         <ul class="sub-menu" :class="{truth1}">
             <li><a class="link_name" href="#">Vue</a></li>
@@ -40,7 +40,7 @@
           <i class='bx bxl-nodejs' style="color:#EFD81D"></i>
           <span class="link_name">JS</span>
           </a>
-          <i class='bx bxs-chevron-down arrow' @click="getSon(2)"></i>
+          <i class='bx bxs-chevron-down 2 arrow' @click="getSon(2)"></i>
         </div>
             <ul class="sub-menu" :class="{truth2}">
             <li><a class="link_name" href="#">js</a></li>
@@ -58,7 +58,7 @@
           <i class='bx bxl-css3' style="color:#254BDD"></i>
           <span class="link_name">CSS</span>
           </a>
-          <i class='bx bxs-chevron-down arrow' @click="getSon(3)"></i>
+          <i class='bx bxs-chevron-down 3 arrow' @click="getSon(3)"></i>
         </div>
         <ul class="sub-menu" :class="{truth3}">
             <li><a class="link_name" href="#">CSS</a></li>
@@ -113,10 +113,27 @@
           
         </a>
         <ul class="sub-menu blank">
-            <li><a class="link_name" href="#"><router-link to="/npm/base">npmBase</router-link></a></li>
+            <li><a class="link_name" href="#"><router-link to="/npm/basis">npmBasis</router-link></a></li>
+            <li><a class="link_name" href="#"><router-link to="/npm/basis">npmBasis</router-link></a></li>
         </ul>
       </li>
       <hr class="style-one">
+      <li class="showMen">
+        <div class="icon-link">
+          <a href="#">
+            <router-link to="/">
+          <i class='bx bxl-vuejs'  ></i>
+          <span class="link_name">more</span></router-link>
+          </a>
+          <i class='bx bxs-chevron-down 4 arrow' @click="getSon(4)"></i>
+        </div>
+        <ul class="sub-menu" :class="{truth4}">
+            <li><a class="link_name" href="#">Vue</a></li>
+            <li><a href="#">vuex</a></li>
+            <li><a href="#">router</a></li>
+          </ul>
+      </li>
+          <hr class="style-one">
 
     </ul>
 
@@ -130,6 +147,8 @@
 </template>
 
 <style lang="scss" scoped>
+
+
 </style>
   
 <script>
@@ -188,6 +207,7 @@ watch:{ //````
       truth1: true,
       truth2: true,
       truth3: true,
+      truth4: true,
       width: document.documentElement.clientWidth,
       screenWidth: document.body.clientWidth
       // offsetWid : document.documentElement.clientWidth,
@@ -231,22 +251,37 @@ watch:{ //````
         case 1:
           if (this.truth1  == true) {
             this.truth1 = false
+            document.getElementsByClassName('bx bxs-chevron-down 1')[0].className = 'bx bxs-chevron-up 1'
           }else{
             this.truth1 = true
+            document.getElementsByClassName('bx bxs-chevron-up 1')[0].className = 'bx bxs-chevron-down 1'
           }
           break;
           case 2:
           if (this.truth2  == true) {
             this.truth2 = false
+            document.getElementsByClassName('bx bxs-chevron-down 2')[0].className = 'bx bxs-chevron-up 2'
           }else{
             this.truth2 = true
+            document.getElementsByClassName('bx bxs-chevron-up 2')[0].className = 'bx bxs-chevron-down 2'
           }
           break;
           case 3:
           if (this.truth3  == true) {
             this.truth3 = false
+            document.getElementsByClassName('bx bxs-chevron-down 3')[0].className = 'bx bxs-chevron-up 3'
           }else{
             this.truth3 = true
+            document.getElementsByClassName('bx bxs-chevron-up 3')[0].className = 'bx bxs-chevron-down 3'
+          }
+          break;
+          case 4:
+          if (this.truth4  == true) {
+            this.truth4 = false
+            document.getElementsByClassName('bx bxs-chevron-down 4')[0].className = 'bx bxs-chevron-up 4'
+          }else{
+            this.truth4 = true
+            document.getElementsByClassName('bx bxs-chevron-up 4')[0].className = 'bx bxs-chevron-down 4'
           }
           break;
       

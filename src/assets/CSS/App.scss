@@ -10,9 +10,10 @@
   
 // }
 #content {
-  float: right;
-  height: 100%;
+  float: right;  
+  background-color: red;
   transition: all 1s ease;
+  height: 100%;
 }
 
 
@@ -25,22 +26,30 @@ hr.style-one {/*透明渐变水平线*/
  }
 
 .truth1 {
-    display: none;
+  display: none;
 }
 .truth2 {
-      display: none;
+  display: none;
 }
 .truth3 {
-    display: none;
+  display: none;
+}
+.truth4 {
+  display: none;
 }
 
 
 // ---- \\
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px){ // 不小于992
 
 }
-@media screen and (max-width: 991px){
-  
+@media screen and (max-width: 991px){ // 不大于991
+  .sidebar {
+    display: none;
+  }
+  .sidebar.close {
+    display: none;
+  }
 }
 
 .sidebar {
@@ -236,17 +245,6 @@ hr.style-one {/*透明渐变水平线*/
     top: 50%;
     transform: translateY(-50%);
   }
-
-
-
-
-
-  .sidebar.close .nav-links i.arrow{
-    display: none; // 控制下拉箭头
-    
-  }
-
-
   .sidebar .nav-links li .sub-menu a:hover{
     opacity: 1;
   }
@@ -283,21 +281,18 @@ hr.style-one {/*透明渐变水平线*/
     top: 50%;
     transform: translateY(-50%);
   } // 控制第一个模块的显示 ，单独的那个模块
-  
-
-  // +++
-// .sidebar .nav-links::-webkit-scrollbar{
-//     display: none;
-//   }
-
-// .sidebar .nav-links li.showMenu i.arrow{
-//     transform: rotate(-190deg);
-//   }
-//   .sidebar.close .nav-links i.arrow{
-//     display: none;
-//   }
 
 
+
+
+  .sidebar.close .nav-links i.arrow{
+    display: none; // 控制下拉箭头
+    
+  }
+
+.sidebar .nav-links::-webkit-scrollbar{
+    display: none;
+  }
 
 
 
