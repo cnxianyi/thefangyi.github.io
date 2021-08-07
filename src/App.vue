@@ -11,9 +11,8 @@
       <li>
         <div class="icon-link">
           <a href="#">
-            <router-link to="/">
           <i class='bx bxl-vuejs' style='color:#41b883'  ></i>
-          <span class="link_name"> Vue</span></router-link>
+          <span class="link_name"> Vue</span>
           </a>
           <i class='bx bxs-chevron-down 1 arrow'  @click="getSon(1)"></i>
         </div>
@@ -24,15 +23,21 @@
           </ul>
       </li>
           <hr class="style-one">
+
+
       <li>
-        <a href="#">
+        <div class="icon-link">
+          <a href="#">
           <i class='bx bxs-book-content' style="color:#ee1c25ff"></i>
           <span class="link_name">汉语</span>
-        </a>
-        <ul class="sub-menu blank">
+          </a>
+          <i class='bx bxs-chevron-down 5 arrow'  @click="getSon(5)"></i>
+        </div>
+        <ul class="sub-menu" :class="{truth5}">
             <li><a class="link_name" href="#">汉语</a></li>
-        </ul>
+          </ul>
       </li>
+
           <hr class="style-one">
       <li>
         <div class="icon-link">
@@ -71,69 +76,70 @@
       </li>
 
       <hr class="style-one">
-      <li>
-        <a href="#">
-          <i class='bx bxl-html5' style="color:#DD4D26"></i>
-          <span class="link_name">HTML</span>
-        </a>
-        <ul class="sub-menu blank">
-            <li><a class="link_name" href="#"><router-link to="/html">HTML</router-link></a></li>
-        </ul>
-      </li>
-    <hr class="style-one">
-      <li>
-        <a href="#">
-          <i class='bx bx-library'></i>
-          <span class="link_name">英语</span>
-        </a>
-        
-        <ul class="sub-menu blank">
-            <li><a class="link_name" href="#"><router-link to="/english/words">Words</router-link></a></li>
-        </ul>
-      </li>
-      <hr class="style-one">
-      <li>
-        <a href="#">
-          
-          <i class='bx bx-cog'></i>
-          <span class="link_name">Element</span>
-          
-        </a>
-        <ul class="sub-menu blank">
-            <li><a class="link_name" href="#"><router-link to="/show">Show</router-link></a></li>
-        </ul>
-      </li>
-      <hr class="style-one">
+      
 
       <li>
-        <a href="#">
-          
-          <i class='bx bx-dots-horizontal-rounded'></i>
-          <span class="link_name">other</span>
-          
-        </a>
-        <ul class="sub-menu blank">
-            <li><a class="link_name" href="#"><router-link to="/npm/basis">npmBasis</router-link></a></li>
-            <li><a class="link_name" href="#"><router-link to="/npm/basis">npmBasis</router-link></a></li>
-        </ul>
-      </li>
-      <hr class="style-one">
-      <li class="showMen">
         <div class="icon-link">
           <a href="#">
-            <router-link to="/">
-          <i class='bx bxl-vuejs'  ></i>
-          <span class="link_name">more</span></router-link>
+          <i class='bx bxl-html5' style="color:#DD4D26"></i>
+          <span class="link_name">HTML</span>
           </a>
-          <i class='bx bxs-chevron-down 4 arrow' @click="getSon(4)"></i>
+          <i class='bx bxs-chevron-down 6 arrow'  @click="getSon(6)"></i>
         </div>
-        <ul class="sub-menu" :class="{truth4}">
-            <li><a class="link_name" href="#">Vue</a></li>
-            <li><a href="#">vuex</a></li>
-            <li><a href="#">router</a></li>
+        <ul class="sub-menu" :class="{truth6}">
+            <li><a class="link_name" href="#">HTML</a></li>
           </ul>
       </li>
-          <hr class="style-one">
+
+    <hr class="style-one">
+    
+      <li>
+        <div class="icon-link">
+          <a href="#">
+          <i class='bx bx-library'></i>
+          <span class="link_name">ENG</span>
+          </a>
+          <i class='bx bxs-chevron-down 7 arrow'  @click="getSon(7)"></i>
+        </div>
+        <ul class="sub-menu" :class="{truth7}">
+            <li><a class="link_name" href="#"><router-link to="/english/words">Words</router-link></a></li>
+          </ul>
+      </li>
+
+      <hr class="style-one">
+    
+      <li>
+        <div class="icon-link">
+          <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="link_name">Element</span>
+          </a>
+          <i class='bx bxs-chevron-down 8 arrow'  @click="getSon(8)"></i>
+        </div>
+        <ul class="sub-menu" :class="{truth8}">
+            <li><a class="link_name" href="#"><router-link to="/show">Show</router-link></a></li>
+          </ul>
+      </li>
+
+      <hr class="style-one">
+
+
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            
+          <i class='bx bx-dots-horizontal-rounded'></i>
+          <span class="link_name">setting</span>
+          </a>
+          <i class='bx bxs-chevron-down 9 arrow'  @click="getSon(9)"></i>
+        </div>
+        <ul class="sub-menu" :class="{truth9}">
+            <li><a class="link_name" href="#"><router-link to="/npm/basis">npmBasis</router-link></a></li>
+          </ul>
+      </li>
+
+      <hr class="style-one">
+      
 
     </ul>
 
@@ -213,7 +219,12 @@ watch:{ //````
       truth1: true,
       truth2: true,
       truth3: true,
-      truth4: true,
+      //truth4: true,
+      truth5: true,
+      truth6: true,
+      truth7: true,
+      truth8: true,
+      truth9: true,
       width: document.documentElement.clientWidth,
       screenWidth: document.body.clientWidth
       // offsetWid : document.documentElement.clientWidth,
@@ -226,21 +237,6 @@ watch:{ //````
   },
   methods: {
 
-    // phoneShow
-      phoneShow(){
-
-        // 可以制作 手指操作
-    
-        let name = document.getElementById('SidebarMenu').style.display
-        console.log(name);
-        if(name == 'none') {
-          document.getElementsByClassName('close')[0].style.display = '' 
-          document.getElementById('SidebarMenu').className = 'sidebar'
-        }else {
-          document.getElementById('SidebarMenu').className = 'sidebar close nd'
-          document.getElementsByClassName('close')[0].style.display = 'none' 
-        }
-      },
        
 // 笨方法 获取id 来进行 class 的切换
     getMenu(){
@@ -255,8 +251,18 @@ watch:{ //````
           document.getElementsByClassName('2')[0].className = 'bx bxs-chevron-down 2 arrow'
           this.truth3 = true
           document.getElementsByClassName('3')[0].className = 'bx bxs-chevron-down 3 arrow'
-          this.truth4 = true
-          document.getElementsByClassName('4')[0].className = 'bx bxs-chevron-down 4 arrow'
+          // this.truth4 = true
+          // document.getElementsByClassName('4')[0].className = 'bx bxs-chevron-down 4 arrow'
+          this.truth5 = true
+          document.getElementsByClassName('5')[0].className = 'bx bxs-chevron-down 5 arrow'
+          this.truth6 = true
+          document.getElementsByClassName('6')[0].className = 'bx bxs-chevron-down 6 arrow'
+          this.truth7 = true
+          document.getElementsByClassName('7')[0].className = 'bx bxs-chevron-down 7 arrow'
+          this.truth8 = true
+          document.getElementsByClassName('8')[0].className = 'bx bxs-chevron-down 8 arrow'
+          this.truth9 = true
+          document.getElementsByClassName('9')[0].className = 'bx bxs-chevron-down 9 arrow'
 
         
         if (this.width > 991) {
@@ -311,13 +317,58 @@ watch:{ //````
             document.getElementsByClassName('bx bxs-chevron-up 3')[0].className = 'bx bxs-chevron-down 3 arrow'
           }
           break;
-          case 4:
-          if (this.truth4  == true) {
-            this.truth4 = false
-            document.getElementsByClassName('bx bxs-chevron-down 4')[0].className = 'bx bxs-chevron-up 4 arrow'
+          // case 4:
+          // if (this.truth4  == true) {
+          //   this.truth4 = false
+          //   document.getElementsByClassName('bx bxs-chevron-down 4')[0].className = 'bx bxs-chevron-up 4 arrow'
+          // }else{
+          //   this.truth4 = true
+          //   document.getElementsByClassName('bx bxs-chevron-up 4')[0].className = 'bx bxs-chevron-down 4 arrow'
+          // }
+          // break;
+          case 5:
+          if (this.truth5  == true) {
+            this.truth5 = false
+            document.getElementsByClassName('bx bxs-chevron-down 5')[0].className = 'bx bxs-chevron-up 5 arrow'
           }else{
-            this.truth4 = true
-            document.getElementsByClassName('bx bxs-chevron-up 4')[0].className = 'bx bxs-chevron-down 4 arrow'
+            this.truth5 = true
+            document.getElementsByClassName('bx bxs-chevron-up 5')[0].className = 'bx bxs-chevron-down 5 arrow'
+          }
+          break;
+          case 6:
+          if (this.truth6  == true) {
+            this.truth6 = false
+            document.getElementsByClassName('bx bxs-chevron-down 6')[0].className = 'bx bxs-chevron-up 6 arrow'
+          }else{
+            this.truth6 = true
+            document.getElementsByClassName('bx bxs-chevron-up 6')[0].className = 'bx bxs-chevron-down 6 arrow'
+          }
+          break;
+          case 7:
+          if (this.truth7  == true) {
+            this.truth7 = false
+            document.getElementsByClassName('bx bxs-chevron-down 7')[0].className = 'bx bxs-chevron-up 7 arrow'
+          }else{
+            this.truth7 = true
+            document.getElementsByClassName('bx bxs-chevron-up 7')[0].className = 'bx bxs-chevron-down 7 arrow'
+          }
+          break;
+          case 8:
+          if (this.truth8  == true) {
+            this.truth8 = false
+            document.getElementsByClassName('bx bxs-chevron-down 8')[0].className = 'bx bxs-chevron-up 8 arrow'
+          }else{
+            this.truth8 = true
+            document.getElementsByClassName('bx bxs-chevron-up 8')[0].className = 'bx bxs-chevron-down 8 arrow'
+          }
+          break;
+          case 9:
+          if (this.truth9  == true) {
+            this.truth9 = false
+            document.getElementsByClassName('bx bxs-chevron-down 9')[0].className = 'bx bxs-chevron-up 9 arrow'
+          }else{
+            this.truth9 = true
+            document.getElementsByClassName('bx bxs-chevron-up 9')[0].className = 'bx bxs-chevron-down 9 arrow'
           }
           break;
       
