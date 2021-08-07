@@ -232,7 +232,7 @@ watch:{ //````
         if(name == 'none') {
          document.getElementsByClassName('close')[0].style.display = '' 
         }else {
-          
+          document.getElementsByClassName('close')[0].style.display = 'none' 
         }
       },
        
