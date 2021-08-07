@@ -1,5 +1,8 @@
 <template>
 <div>
+  <div class="phoneTj" id="phone" @click="phoneShow()">
+    <i class='bx bxs-yin-yang' style='color:rgba(0,0,0,0.7)'></i>
+  </div>
   <div class="sidebar close" id="SidebarMenu">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <div class="logo-details" @click="getMenu">
@@ -219,6 +222,19 @@ watch:{ //````
     
   },
   methods: {
+
+    // phoneShow
+      phoneShow(){
+
+        // 可以制作 手指操作
+    
+        let name = document.getElementsByClassName('close')[0].style.display
+        if(name == 'none') {
+         document.getElementsByClassName('close')[0].style.display = '' 
+        }else {
+          
+        }
+      },
        
 // 笨方法 获取id 来进行 class 的切换
     getMenu(){
@@ -231,13 +247,14 @@ watch:{ //````
           this.truth1 = true
           this.truth2 = true
           this.truth3 = true
-        document.getElementById('content').style = `width: ${width - 78}px`
+          this.truth4 = true
+        document.getElementById('content').style = `width: ${width - 62}px`
         document.getElementById('SidebarMenu').className = 'sidebar close'
         setTimeout(() => {
           document.getElementById('yyIcon').className = 'bx bxs-yin-yang bx-rotate'
         }, 300);
       }else{
-        document.getElementById('content').style = `width: ${width - 260}px`
+        document.getElementById('content').style = `width: ${width - 204}px`
         document.getElementById('SidebarMenu').className = 'sidebar'
         setTimeout(() => {
           document.getElementById('yyIcon').className = 'bx bxs-yin-yang bx-tada'
@@ -251,37 +268,37 @@ watch:{ //````
         case 1:
           if (this.truth1  == true) {
             this.truth1 = false
-            document.getElementsByClassName('bx bxs-chevron-down 1')[0].className = 'bx bxs-chevron-up 1'
+            document.getElementsByClassName('bx bxs-chevron-down 1')[0].className = 'bx bxs-chevron-up 1 arrow'
           }else{
             this.truth1 = true
-            document.getElementsByClassName('bx bxs-chevron-up 1')[0].className = 'bx bxs-chevron-down 1'
+            document.getElementsByClassName('bx bxs-chevron-up 1')[0].className = 'bx bxs-chevron-down 1 arrow'
           }
           break;
           case 2:
           if (this.truth2  == true) {
             this.truth2 = false
-            document.getElementsByClassName('bx bxs-chevron-down 2')[0].className = 'bx bxs-chevron-up 2'
+            document.getElementsByClassName('bx bxs-chevron-down 2')[0].className = 'bx bxs-chevron-up 2 arrow'
           }else{
             this.truth2 = true
-            document.getElementsByClassName('bx bxs-chevron-up 2')[0].className = 'bx bxs-chevron-down 2'
+            document.getElementsByClassName('bx bxs-chevron-up 2')[0].className = 'bx bxs-chevron-down 2 arrow'
           }
           break;
           case 3:
           if (this.truth3  == true) {
             this.truth3 = false
-            document.getElementsByClassName('bx bxs-chevron-down 3')[0].className = 'bx bxs-chevron-up 3'
+            document.getElementsByClassName('bx bxs-chevron-down 3')[0].className = 'bx bxs-chevron-up 3 arrow'
           }else{
             this.truth3 = true
-            document.getElementsByClassName('bx bxs-chevron-up 3')[0].className = 'bx bxs-chevron-down 3'
+            document.getElementsByClassName('bx bxs-chevron-up 3')[0].className = 'bx bxs-chevron-down 3 arrow'
           }
           break;
           case 4:
           if (this.truth4  == true) {
             this.truth4 = false
-            document.getElementsByClassName('bx bxs-chevron-down 4')[0].className = 'bx bxs-chevron-up 4'
+            document.getElementsByClassName('bx bxs-chevron-down 4')[0].className = 'bx bxs-chevron-up 4 arrow'
           }else{
             this.truth4 = true
-            document.getElementsByClassName('bx bxs-chevron-up 4')[0].className = 'bx bxs-chevron-down 4'
+            document.getElementsByClassName('bx bxs-chevron-up 4')[0].className = 'bx bxs-chevron-down 4 arrow'
           }
           break;
       
@@ -294,11 +311,18 @@ watch:{ //````
   },
     
   mounted() {
-    document.getElementById('content').style = `width: ${this.width - 78}px`
+    if (this.width > 991) {
+      document.getElementById('content').style = `width: ${this.width - 62}px`
+      document.getElementById('phone').style.display = 'none'
+    }else {
+      // document.getElementsByClassName('sidebar')[0].style.display = 'none'
+      document.getElementsByClassName('close')[0].style.display = 'none'
+    }
+    
     const that = this // ````
     window.onresize = () => { // 浏览器被重置大小时发生事件
         return (() => {
-          document.getElementById('content').style = `width: ${document.body.clientWidth - 78}px`
+          document.getElementById('content').style = `width: ${document.body.clientWidth - 62}px`
             window.screenWidth = document.body.clientWidth
             that.screenWidth = window.screenWidth
             

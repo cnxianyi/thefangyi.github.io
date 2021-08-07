@@ -11,9 +11,18 @@
 // }
 #content {
   float: right;  
-  background-color: red;
-  transition: all 1s ease;
+  transition: all 0.6s ease;
   height: 100%;
+}
+
+// phone header
+.phoneTj {
+  padding: 5px;
+  font-size: 30px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 999;
 }
 
 
@@ -39,28 +48,30 @@ hr.style-one {/*透明渐变水平线*/
 }
 
 
-// ---- \\
-@media screen and (min-width: 992px){ // 不小于992
-
-}
-@media screen and (max-width: 991px){ // 不大于991
-  .sidebar {
-    display: none;
-  }
-  .sidebar.close {
-    display: none;
-  }
-}
+// // ---- \\
+// @media screen and (min-width: 992px){ // 不小于992
+//   .phoneTj {
+//     display: none;
+//   }
+// }
+// @media screen and (max-width: 991px){ // 不大于991
+//   .sidebar {
+//     display: none;
+//   }
+//   .sidebar.close {
+//     display: none;
+//   }
+// }
 
 .sidebar {
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
-  width: 260px;
+  width: 210px;
   background-color: #22202e;
   z-index: 100;
-  transition: all 0.7s ease;
+  transition: all 0.6s ease;
 
   .logo-details {
     height: 60px;
@@ -72,7 +83,7 @@ hr.style-one {/*透明渐变水平线*/
       font-size: 30px;
       color: #fff;
       height: 50px;
-      min-width: 78px;
+      min-width: 70px;
       text-align: center;
       line-height: 50px;
     }
@@ -110,7 +121,7 @@ hr.style-one {/*透明渐变水平线*/
 
           i {
             height: 50px;
-            min-width: 78px;
+            min-width: 70px;
             text-align: center;
             line-height: 50px;
             color: #fff;
@@ -176,7 +187,7 @@ hr.style-one {/*透明渐变水平线*/
 }
 // 不能 嵌套？
 .sidebar.close { // 向右的详情显示
-    width: 78px;
+    width: 70px;
     .nav-links {
         overflow: visible; // ++++
         
