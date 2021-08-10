@@ -31,7 +31,7 @@
     overflow-y: scroll; //这是为了兼容ie8，不支持:root, vw
   }
 
-.content {
+.xy {
   display: flex;
   flex-direction: row; // 左侧开始
   flex-wrap: wrap; // 向下换行
@@ -40,9 +40,9 @@
   position: relative;
   margin-top: 30px;
   
-  .md {
-    @media screen and (min-width: 992px){
-      width: 80%;
+  .content {
+  @media screen and (min-width: 992px){
+    width: 80%;
   }
   @media screen and (max-width: 991px){
       width: 95%;

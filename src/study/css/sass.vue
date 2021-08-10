@@ -9,8 +9,8 @@
             </template>
         </nav-bar>
 
-        <div class="content">
-            <div class="md">
+        <div class="xy">
+            <div class="content">
                 <h4>父选择器</h4>
 <pre class="code"><code class="language-css">a {
     &:hover {

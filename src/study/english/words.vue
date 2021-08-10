@@ -8,8 +8,8 @@
 				2021年7月20日16:25:34
             </template>
         </nav-bar>
-	<div class="content">
-		<div class="md">
+	<div class="xy">
+		<div class="content">
 			<div class="button">
 					<btn @click="copyArr5">每日复习(5)</btn>
 					<button @click="copyArr10">每日复习(10)</button>

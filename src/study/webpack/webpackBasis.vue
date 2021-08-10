@@ -9,8 +9,8 @@
             </template>
         </nav-bar>
 
-    <div class="content">
-        <div class="md">
+    <div class="xy">
+        <div class="content">
         
         </div>
     </div>

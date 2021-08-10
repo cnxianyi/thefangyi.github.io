@@ -9,8 +9,8 @@
             </template>
         </nav-bar>
 
-    <div class="content">
-        <div class="md">
+    <div class="xy">
+        <div class="content">
           
             <pre><code class="language-javascript">let a: number = 10; // 指定number类型
 function num(a: number, b: number): number {

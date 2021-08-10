@@ -56,6 +56,8 @@
           </ul>
       </li>
           <hr class="style-one">
+
+
       <li>
         <div class="icon-link">
           
@@ -75,8 +77,9 @@
           </ul>
       </li>
 
-      <hr class="style-one">
-      
+    <hr class="style-one">
+
+
 
       <li>
         <div class="icon-link">
@@ -88,6 +91,7 @@
         </div>
         <ul class="sub-menu" :class="{truth6}">
             <li><a class="link_name" href="#">HTML</a></li>
+            <router-link to="/english/words"><li><a class="link_name" href="#">Words</a></li></router-link>
           </ul>
       </li>
 
@@ -339,6 +343,7 @@ watch:{ //````
           if (this.truth6  == true) {
             this.truth6 = false
             document.getElementsByClassName('bx bxs-chevron-down 6')[0].className = 'bx bxs-chevron-up 6 arrow'
+
           }else{
             this.truth6 = true
             document.getElementsByClassName('bx bxs-chevron-up 6')[0].className = 'bx bxs-chevron-down 6 arrow'

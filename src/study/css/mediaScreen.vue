@@ -9,8 +9,8 @@
             </template>
         </nav-bar>
 
-        <div class="content">
-            <div class="md">
+        <div class="xy">
+            <div class="content">
                 <p>用一个父级作为布局容器，通过媒体查询改变布局</p>
                 <ol> 响应式尺寸划分
                     <li>超小屏幕: (手机 , &#60;768px) , 宽度为 100%</li>

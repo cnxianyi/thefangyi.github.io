@@ -9,8 +9,8 @@
             </template>
         </nav-bar>
 
-    <div class="content">
-        <div class="md">
+    <div class="xy">
+        <div class="content">
             <h4>[[Prototype]] : 原型</h4>
             <p><span>原型继承:</span> 从一个对象中读取一个不存在的属性，js会自动从原型中读取该属性。</p>
             <pre class="code"><code class="language-js">let n = Object.create(null , { 

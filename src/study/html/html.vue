@@ -9,8 +9,8 @@
             </template>
         </nav-bar>
 
-        <div class="content">
-            <div class="md">
+        <div class="xy">
+            <div class="content">
                     <h4>1. &#60;lable&#62;</h4>
                     <label for="Name">绑定</label>
                     <input type='text' name="Name" id="Name" value="lable通过input id 绑定" /><br>

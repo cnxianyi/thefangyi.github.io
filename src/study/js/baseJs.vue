@@ -9,8 +9,8 @@
             </template>
         </nav-bar>
 
-    <div class="content">
-        <div class="md">
+    <div class="xy">
+        <div class="content">
 
             <h4>去除字符串空格</h4>
             <ul>

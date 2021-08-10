@@ -9,8 +9,8 @@
             </template>
         </nav-bar>
 
-    <div class="content">
-        <div class="md">
+    <div class="xy">
+        <div class="content">
             <h2>NPM</h2>
             <hr>
             <h4>介绍</h4>
