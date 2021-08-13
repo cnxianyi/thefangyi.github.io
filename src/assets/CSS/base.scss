@@ -3,7 +3,7 @@
   --font--color: #22202E; // 暗龙胆紫
   --module--color: #f0a1a8; // 合欢红
   --font-size: 16px;
-  --font-family: "Consolas", sans-serif , serif , SimHei; //serif
+  --font-family: "Consolas", -apple-system,sans-serif , serif , SimHei; //serif
   overflow-y: auto;
   overflow-x: hidden;
   font-size: 16px;
@@ -27,8 +27,12 @@
 }
 
   html {
-    font-family: "Consolas", serif , SimHei;
+    font-family: "Consolas" ,serif , SimHei;
     overflow-y: scroll; //这是为了兼容ie8，不支持:root, vw
+  }
+
+  sidebarR {
+    background-color: red;
   }
 
 .xy {
@@ -47,12 +51,28 @@
   @media screen and (max-width: 991px){
       width: 95%;
   }
+
+  counter-reset: chapter; /* 重置计数器为 0 */
+  // counter-reset: chapter 2;  重置计数器为 2 
+
+  h4{
+    counter-increment: chapter;
+  }
+
+  h4::before{
+    content: counter(chapter)'. ';
+  }
         
 
     // 设置 img 大小 S M L 
     img.s {
         width: 15%;
         height: 15%;
+    }
+
+    span.code {
+      color:#f0a1a8;
+      font-family: Consolas;
     }
 
     h1,
@@ -121,7 +141,9 @@
   
       li {
         padding-left: 5px;
+        line-height: 1.5; 
       }
+      
     }
   
     ul {
@@ -131,6 +153,7 @@
       
       li {
         padding-left: 5px;
+        line-height: 2;
       }
 
     }
@@ -184,6 +207,7 @@
 
     p {
       margin: 0 0 2% 0;
+      line-height: 1.5;
     }
 
     
@@ -238,8 +262,8 @@
       border: 0;
       box-shadow: rgba(199, 147, 152, 0.123) 0px 2px 4px 0px, rgba(238, 156, 163, 0.32) 0px 2px 16px 0px;
       border-bottom: solid 1px #f0a1a81a;
-      margin: 16px 0;
-      width: 95%;
+      margin: 24px 0;
+      width: 90%;
       margin-left: auto;
       margin-right: auto;
     }

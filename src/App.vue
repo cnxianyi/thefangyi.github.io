@@ -34,7 +34,7 @@
           <i class='bx bxs-chevron-down 5 arrow'  @click="getSon(5)"></i>
         </div>
         <ul class="sub-menu" :class="{truth5}">
-            <li><a class="link_name" href="#">汉语</a></li>
+            <li><a class="link_name" href="#">CHN</a></li>
           </ul>
       </li>
 
@@ -48,16 +48,15 @@
           <i class='bx bxs-chevron-down 2 arrow' @click="getSon(2)"></i>
         </div>
             <ul class="sub-menu" :class="{truth2}">
-            <li><a class="link_name" href="#">js</a></li>
+            <li><a class="link_name" href="#">JS</a></li>
             <router-link to="/js/base"><li><a href="#">base</a></li></router-link>
             <router-link to="/js/protoInherit"><li><a href="#">原型和继承</a></li></router-link>
             <router-link to="/ts/tsBasis"><li><a href="#">TypeScriptBasis</a></li></router-link>
             <router-link to="/js/dataTypes"><li><a href="#">dataTypes</a></li></router-link>
+            <router-link to="/js/promise"><li><a href="#">promise</a></li></router-link>
           </ul>
       </li>
           <hr class="style-one">
-
-
       <li>
         <div class="icon-link">
           
@@ -91,7 +90,7 @@
         </div>
         <ul class="sub-menu" :class="{truth6}">
             <li><a class="link_name" href="#">HTML</a></li>
-            <router-link to="/english/words"><li><a class="link_name" href="#">Words</a></li></router-link>
+            <router-link to="/english/words"><li><a href="#">Words</a></li></router-link>
           </ul>
       </li>
 
@@ -106,7 +105,8 @@
           <i class='bx bxs-chevron-down 7 arrow'  @click="getSon(7)"></i>
         </div>
         <ul class="sub-menu" :class="{truth7}">
-            <li><a class="link_name" href="#"><router-link to="/english/words">Words</router-link></a></li>
+            <li><a class="link_name" href="#">ENG</a></li>
+            <router-link to="/english/words"><li><a href="#">Words</a></li></router-link>
           </ul>
       </li>
 
@@ -121,7 +121,8 @@
           <i class='bx bxs-chevron-down 8 arrow'  @click="getSon(8)"></i>
         </div>
         <ul class="sub-menu" :class="{truth8}">
-            <li><a class="link_name" href="#"><router-link to="/show">Show</router-link></a></li>
+            <li><a class="link_name" href="#">ELE</a></li>
+            <router-link to="/show"><li><a href="#">Show</a></li></router-link>
           </ul>
       </li>
 
@@ -138,7 +139,10 @@
           <i class='bx bxs-chevron-down 9 arrow'  @click="getSon(9)"></i>
         </div>
         <ul class="sub-menu" :class="{truth9}">
-            <li><a class="link_name" href="#"><router-link to="/npm/basis">npmBasis</router-link></a></li>
+            <li><a class="link_name" href="#">SET</a></li>
+            <router-link to="/npm/basis"><li><a href="#">npmBasis</a></li></router-link>
+            <router-link to="/webpack/basis"><li><a href="#">WebpackBasis</a></li></router-link>
+            <router-link to="/axios/basis"><li><a href="#">axios</a></li></router-link>
           </ul>
       </li>
 
@@ -151,8 +155,6 @@
     <div id="content">
       <router-view></router-view>
     </div>
-    
-    
 </div>
 </template>
 

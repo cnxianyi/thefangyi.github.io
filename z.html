@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+   
+</body>
+<script>
+    const PT = new Promise((resolve , reject) => {
+    //reject(new Error("Err"))
+    // executor 生产者代码
+    resolve('is true')
+    }) 
+    console.log(PT);
+    PT.finally( ()=> {
+        alert('finally')
+    })
+    PT.then((result) => {
+        alert(result)
+    }, (error) => {
+    
+    })
+    // 等同于
+    PT.then(alert)
+
+
+</script>
+</html>

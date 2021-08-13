@@ -31,7 +31,7 @@
             </sidebarR>
             
             <h2 id="String">String</h2>
-            <h5>1.访问字符串</h5>
+            <h4>访问字符串</h4>
                 <pre><code class="language-js">    // 字符串长度
 console.log(`123`.length);// 3 
 console.log(`123`[2]); // 3 没有则返回 undefined
@@ -40,11 +40,11 @@ for (const char of `hello`) {
     console.log(char); // h , e , l , l , o
 }
 <hr>
-</code></pre> <h5>2.大小写</h5><pre><code class="language-js">
+</code></pre> <h4>大小写</h4><pre><code class="language-js">
 console.log(`AAA`.toLowerCase()); // aaa
 console.log(`aaa`.toUpperCase()); // AAA
 <hr>
-</code></pre> <h5>3.查找字符串</h5><pre><code class="language-js">
+</code></pre> <h4>查找字符串</h4><pre><code class="language-js">
 // str.indexOf(substr , pos) 查询第一个字符串所在位置
 let str = `is a str`
 console.log(str.indexOf(`a str`)); // 3
@@ -59,7 +59,7 @@ str.includes(substr , pos) // 是否包含返回true/false
 str.startsWith('str') // 是否以str开始
 str.endsWith('str') // 是否以str结束
 <hr>
-</code></pre><h5>4.获取字符串</h5> <pre><code class="language-js">
+</code></pre><h4>获取字符串</h4> <pre><code class="language-js">
  str.slice(start [, end]) // 返回start ~ end 之间的字符串
  str.substring(start [, end]) // 允许 start > end
  str.substr(start [, length]) // 指定获取的长度
@@ -69,11 +69,11 @@ console.log(str.slice(0 , 3)); // is
  str.repeat(n) 重复字符串N次</code></pre> 
 <hr>
             <h2 id="Number">Number</h2>
-                <h5>1.编写多个0000</h5>
+                <h4>编写多个0000</h4>
                 <pre><code class="language-js">let ms = 1e3; // 1000
 let sm = 1e-3;// 0.001</code></pre>
 <hr>
-                <h5>2.Math</h5>
+                <h4>Math</h4>
                 <pre><code class="language-js">    // MATH
 Math.floor(); // 向下舍入 3.1 > 3 | -1.1 > -2
 Math.ceil(); // 向上舍入
@@ -94,7 +94,7 @@ console.log((0.1 + 0.2).toFixed(2)); // 0.30
 
 </code></pre>
     <hr>
-                <h5>3.isFinite & isNaN</h5>
+                <h4>isFinite & isNaN</h4>
             <pre><code class="language-js">alert(isNaN('str')) // true 将参数转换为数字
 alert(isNaN(NaN)) // true
 alert(NaN === NaN) // false
@@ -103,7 +103,7 @@ alert(isFinite('12')) // true 将参数转换为数字，是数字则true
 alert(isFinite(NaN)) // false</code></pre>
 <hr>
 
-                <h5>4.数字转换</h5>
+                <h4>数字转换</h4>
                     <pre><code class="language-js">console.log(+'100'); // 100
 console.log(Number('100')); // 100
 console.log(parseInt('100px')); // 100 从头开始读取数字
