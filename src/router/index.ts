@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import Home from '../views/home.vue'
+import Home from '../views/Home.vue'
 
 const html = ()=> import('../study/html/html.vue')
 const words = ()=> import('../study/english/words.vue')
@@ -14,6 +14,8 @@ const tsBasis = ()=> import('../study/TypeScript/TSbasis.vue')
 const dataTypes = ()=> import('../study/js/dataTypes.vue')
 const npmBasis = ()=> import('../study/npm/npmBasis.vue')
 const webpackBasis = ()=> import('../study/webpack/webpackBasis.vue')
+const axiosBasis = ()=> import('../study/axios/axios.vue')
+const jsPromise = ()=> import('../study/js/promise.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -109,6 +111,14 @@ const routes: Array<RouteRecordRaw> = [
       title: 'tsBasis'
     }
   },
+  {
+    path: '/js/promise',
+    name: 'jsPromise',
+    component: jsPromise,
+    meta: {
+      title: 'jsPromise'
+    }
+  },
   
 
 // - - - English - - -
@@ -139,6 +149,14 @@ const routes: Array<RouteRecordRaw> = [
     component: webpackBasis,
     meta: {
       title: 'webpackBasis'
+    }
+  },
+  {
+    path: '/axios/basis',
+    name: 'axiosBasis',
+    component: axiosBasis,
+    meta: {
+      title: 'axiosBasis'
     }
   },
 ]

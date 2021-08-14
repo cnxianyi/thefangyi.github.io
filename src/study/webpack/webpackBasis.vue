@@ -67,7 +67,7 @@ import Prism from 'prismjs';
 export default {
     components: {
         navBar,
-       
+        Prism
     },
     
 }
