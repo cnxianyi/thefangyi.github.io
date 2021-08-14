@@ -10,22 +10,18 @@
    
 </body>
 <script>
-    const PT = new Promise((resolve , reject) => {
-    //reject(new Error("Err"))
-    // executor 生产者代码
-    resolve('is true')
-    }) 
-    console.log(PT);
-    PT.finally( ()=> {
-        alert('finally')
-    })
-    PT.then((result) => {
-        alert(result)
-    }, (error) => {
+    async function f(){
+        let promise = new Promise( (resolve , reject) => {
+            setTimeout(() => {
+                reject(1)
+            }, 1000);
+        })
+        let res = await promise;
+        alert(res) // 1
+    }
+    f()
     
-    })
-    // 等同于
-    PT.then(alert)
+
 
 
 </script>

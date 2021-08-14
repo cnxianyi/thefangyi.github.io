@@ -11,8 +11,13 @@
 
     <div class="xy">
         <div class="content">
-            <h2>Promise</h2>
-            <sidebarR></sidebarR>
+            <h2 id="Promise">Promise</h2>
+            <sidebarR>
+                <h5 @click="GoSection('Promise')"><i class='bx bxs-label'></i> Promise</h5>
+                <h5 @click="GoSection('TCF')"><i class='bx bxs-label'></i> T C F</h5>
+                <h5 @click="GoSection('API')"><i class='bx bxs-label'></i> API</h5>
+                <h5 @click="GoSection('AsyncAwait')"><i class='bx bxs-label'></i> AsyncAwait</h5>
+            </sidebarR>
             <h4>宏任务</h4>
             <ol> 包括
                 <li>script</li>
@@ -61,7 +66,7 @@
                 <li>reject : 出现错误返回 error对象</li>
             </ul>
             <hr>
-            <h3>then catch finally</h3>
+            <h2 id="TCF">then catch finally</h2>
             <p>promise 对象是 executor 与 消费函数之间的链接</p>
             <hr>
             <h4>.then</h4>
@@ -92,7 +97,75 @@
                 <li>是执行清理 很好的程序</li>
                 <li><span class="code">PT.finally( ()=> { alert('any') })</span></li>
             </ul>
+            <hr>
+            <h4>Promise 链</h4>
+            <p>在某些情况下，需要接连执行异步。</p>
             
+            <pre><code class="language-js">const PT = new Promise((resolve , reject) => {
+        setTimeout(() => {
+            resolve('1')
+        }, 1000);
+    }).then( (resolve)=> {
+        console.log(resolve); // 1
+        return resolve*2
+    }).then( (resolve)=> {
+        console.log(resolve); // 2
+        return resolve*2
+    }).then( (resolve)=> {
+        console.log(resolve); // 4
+        return resolve*2
+    })</code></pre>
+    <p>在.then 中所使用的程序，可以创建并返回一个Promise</p>
+    <p>并由其构建一个 异步行为链</p>
+    <pre><code class="language-js">const PT = new Promise((resolve , reject) => {
+        resolve(1)
+    }).then( (res)=> { // 传入第一次的数值
+        return new Promise( (resolve , reject) => {
+            setTimeout(() => {
+                resolve(res * 2) // 使用第一次的数值
+            }, 1000);
+        })
+    }).then(alert) // 2</code></pre>
+    <p>.catch 不必是立即的，可以在多个 .then 后出现，当其中一个.then 出现error,则会触发.catch</p>
+    <hr>
+    <h2 id="API">API</h2>
+    <h4>Promise.all</h4>
+    <p>并行执行多个 Promise</p>
+    <hr>
+    <h4>Promise.allSettled</h4>
+    <p>获取所有 Promise 的状态(status) 和 value</p>
+    <hr>
+    <h4>Promise.race</h4>
+    <p>与 Promise.all 类似，但只等待第一个 settled 的 promise 并获取其结果（或 error）。</p>
+    <hr>
+    <h4>Promise.resolve / reject</h4>
+    <hr>
+
+    <h2 id="AsyncAwait">Async / await</h2>
+    <h4>Async function</h4>
+    <pre><code class="language-js">async function f(){
+        return 1;
+    }
+    f().then(alert) // 1</code></pre>
+    <p>async 关键字使 f 函数始终返回一个 Promise</p>
+    <h4>await</h4>
+    <pre><code class="language-js">async function f(){
+        let promise = new Promise( (resolve , reject) => {
+            setTimeout(() => {
+                resolve(1)
+            }, 1000);
+        })
+        let res = await promise; // 等待并获取 promise （*）
+        alert(res) // 1
+    }
+    f()</code></pre>
+    <p>函数执行时，暂停在 * 那一行，拿到resolve后继续执行</p>
+    <p>关键字 await 让 JS 引擎等待直到 Promise状态变为 settled(稳定)</p>
+
+
+
+
+
         </div>
     </div>
     
@@ -108,6 +181,11 @@ export default {
     components: {
         navBar,
         sidebarR
+    },
+     methods: {
+        GoSection(str){
+            document.getElementById(`${str}`).scrollIntoView({behavior: 'smooth'});
+        }
     }
 }
 </script>
