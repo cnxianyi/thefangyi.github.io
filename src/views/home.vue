@@ -2,15 +2,18 @@
   <div>
     <nav-bar>
         <template v-slot:default>
-            Home
+            Home &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
         </template>
         <template v-slot:time>
                 2021年7月20日
         </template>
     </nav-bar>
+    <div class="xy">
 
+    
     <div class="content">
 
+    </div>
     </div>
 
 
@@ -18,7 +21,7 @@
 </template>
 
 <script>
-import navBar from '../components/common/navBar.vue'
+import navBar from 'common/navBar.vue'
 
 export default {
   components: {
