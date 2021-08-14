@@ -25,7 +25,6 @@ export default {
         }
     },
     methods: {
-        
         watchScroll(){
                 this.scrollTop = (window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop)       
                 if (this.scrollTop > 500) {
@@ -33,6 +32,7 @@ export default {
                 }else{
                     this.top = false
                 }
+                console.log(this.scrollTop);
         },
         goTop(){
 //  https://zhuanlan.zhihu.com/p/97342844 白嫖
@@ -51,6 +51,7 @@ export default {
         },
     mounted() {
         window.addEventListener('scroll' , Throttle(this.watchScroll , 500)) // 节流函数
+        
     },
     destroyed () {
     // 离开该页面需要移除这个监听的事件，不然会报错
@@ -59,7 +60,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
     @media screen and (min-width: 992px){
         .right_nav {
@@ -77,20 +78,14 @@ export default {
     }
     }
 
-    
-
-    // .right_nav {
-        
-    // }
-    
-    .icon {
-        i {
+    i {
         font-size: 40px;
         position: fixed;
         right: 5%;
         bottom: 10%;
+        
     }
-    }
+    
     
         
     

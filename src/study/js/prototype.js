@@ -1,8 +1,6 @@
 //     // 字符串长度
 // console.log(`123`.length);// 3 
 
-const { default: axios } = require("axios");
-
 //     // 访问字符串
 // console.log(`123`[2]); // 3 没有则返回 undefined
 // console.log(`123`.charAt(2)); // 3 没有则返回 ''
@@ -79,59 +77,3 @@ const { default: axios } = require("axios");
 
     Array.splice(); // 增删改
     Array.slice(); // 返回新数组，用于不影响原数组的转换
-
-
-    function get (){ // 获取
-        // 发送Ajax请求
-            axios({
-            // 请求类型
-                method: 'GET', // GET POST PUT DELETE
-            // URL
-                url: 'http:// ...posts'
-            }).then((result) => { // 成功信息
-                
-            }).catch((err) => { // 失败信息
-                    
-            });
-    }
-
-    function post (){ // 新建
-            axios({
-                method: 'POST', // GET POST PUT DELETE
-                url: 'http:// ...posts',
-                // 设置请求体
-                data: {
-                        title: '请求数据',
-                        author: '请求数据'
-                }
-            }).then((result) => { // 成功信息
-                
-            }).catch((err) => { // 失败信息
-                    
-            });
-    }
-
-    function put (){ // 更新
-        axios({
-            method: 'PUT', // GET POST PUT DELETE
-            url: 'http:// ...posts/id',
-            data: {
-                    title: '请求数据',
-                    author: '请求数据'
-            }
-        }).then((result) => { // 成功信息
-            
-        }).catch((err) => { // 失败信息
-                
-        });
-}       
-        function Delete (){ // 删除
-                axios({
-                method: 'DELETE', // GET POST PUT DELETE
-                url: 'http:// ...posts/id',
-                }).then((result) => { // 成功信息
-                
-                }).catch((err) => { // 失败信息
-                        
-                });
-        }

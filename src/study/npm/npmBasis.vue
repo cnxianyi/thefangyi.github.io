@@ -43,7 +43,38 @@
                 <li>npm unpublish 包名 @ 版本 · 撤消发布某版本代码</li>
             </ul>
             <hr>
-            
+            <h4>package.json</h4>
+            <pre  class="line-numbers"><code class="language-js">
+{
+  "name": "thefangyi.github.io", 项目名
+  "version": "0.1.0", 版本号
+  "private": true, 
+  "scripts": { 脚本
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {  运行时依赖
+    "boostrap": "2.0.0", 固定版本
+                ^2.x.x 更新xx
+                ~2.0.x 更新x
+  },
+  "devDependencies": {  开发时依赖
+    "@vue/cli-plugin-babel": "~4.5.0",
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "keywords" : [] 搜索关键字
+  "author" : "" 作者
+  "license" : "" 规范
+  "repository" : {} 版本控制器
+  "description" : 描述
+  "homepage" : 官网
+  "contributors" : ''其他贡献者
+}
+</code></pre>
         </div>
     </div>
     </div>
