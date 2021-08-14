@@ -58,7 +58,7 @@ export default {
   }
 }
 </script>
-
+    
 <style lang="scss">
 
     @media screen and (min-width: 992px){

@@ -8,7 +8,6 @@
             <div class="right">
                 <a href="https://twitter.com/NSZsj0XV79SQ8Yt"><i id="right" class='bx bxl-twitter'></i></a>
                 <a href="https://www.facebook.com/profile.php?id=100049423839316"><i id="right" class='bx bxl-facebook'></i></a>
-                
                 </div>
         </div>
 

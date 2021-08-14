@@ -18,8 +18,7 @@
         </div>
         <ul class="sub-menu" :class="{truth1}">
             <li><a class="link_name" href="#">Vue</a></li>
-            <li><a href="#">vuex</a></li>
-            <li><a href="#">router</a></li>
+            <router-link to="/vue/vueBasis"><li><a href="#">basis</a></li></router-link>
           </ul>
       </li>
           <hr class="style-one">
