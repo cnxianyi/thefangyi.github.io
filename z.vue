@@ -11,7 +11,8 @@
 
     <div class="xy">
         <div class="content">
-            
+            <h2></h2>
+            <sidebarR></sidebarR>
         </div>
     </div>
      
@@ -19,7 +20,7 @@
 </template>
 
 <script>
-import navBar from '../../components/common/navBar.vue'
+import navBar from 'common/navBar.vue'
 import sidebarR from 'common/SidebarR.vue'
 import Prism from 'prismjs';
 import axios from 'axios';

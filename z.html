@@ -15,7 +15,21 @@
 </body>
 <script>
     
+in router 
 
+{
+    path: '/str/:id',
+    name: 'str',
+    component: str, 
+  }
+
+in son 
+
+{{ $route.params.id }}
+
+in parent
+
+&#60;li v-for="item in value" &#62;&#60;router-link :to="'/str/' + item.id"&#62;&#60;{{ item.title}}&#62; &#60;/li&#62;
     
 
 

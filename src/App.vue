@@ -20,6 +20,7 @@
             <li><a class="link_name" href="#">Vue</a></li>
             <router-link to="/vue/vueBasis"><li><a href="#">Basis</a></li></router-link>
             <router-link to="/vue/lifecycle"><li><a href="#">Lifecycle</a></li></router-link>
+            <router-link to="/vue/router/basis"><li><a href="#">routerBasis</a></li></router-link>
           </ul>
       </li>
           <hr class="style-one">
@@ -166,7 +167,7 @@
 <script>
 // import 'boxicons' // icon 组件导入
 // import 'normalize.css/normalize.css' // 初始化css 文件(normalize插件)
-import './assets/css/App.scss'
+import 'assets/css/App.scss'
 import { computed } from '@vue/runtime-core'
 import {created , mounted , watch} from 'vue'
 import { Throttle } from 'assets/js/utils.js' // 节流函数

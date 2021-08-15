@@ -92,8 +92,8 @@
 </style>
 
 <script>
-import navBar from '../../components/common/navBar.vue'
-import btn from '../../components/common/btn.vue'
+import navBar from 'common/navBar.vue'
+import btn from 'common/btn.vue'
 
 export default {
 	components: {

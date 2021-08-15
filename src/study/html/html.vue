@@ -87,7 +87,7 @@
 </style>
 
 <script>
-import navBar from '../../components/common/navBar.vue'
+import navBar from 'common/navBar.vue'
 export default {
     components: {
         navBar

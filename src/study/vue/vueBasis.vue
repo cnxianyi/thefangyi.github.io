@@ -165,7 +165,7 @@ in component
 </template>
 
 <script>
-import navBar from '../../components/common/navBar.vue'
+import navBar from 'common/navBar.vue'
 import sidebarR from 'common/SidebarR.vue'
 import Prism from 'prismjs';
 export default {

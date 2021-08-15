@@ -117,7 +117,7 @@
 
 
 <script>
-import navBar from '../components/common/navBar.vue'
+import navBar from 'common/navBar.vue'
 import Prism from 'prismjs';
 export default {
   components: {

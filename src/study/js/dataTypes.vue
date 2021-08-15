@@ -124,7 +124,7 @@ console.log(parseFloat('1.5rem')); // 1.5 从头开始读取浮点数</code></pr
 
 <script>
 // document.getElementById("top").scrollIntoView();
-import navBar from '../../components/common/navBar.vue'
+import navBar from 'common/navBar.vue'
 import sidebarR from 'common/SidebarR.vue'
 import Prism from 'prismjs';
 export default {

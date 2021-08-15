@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import navBar from '../../components/common/navBar.vue'
+import navBar from 'common/navBar.vue'
 // import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default {

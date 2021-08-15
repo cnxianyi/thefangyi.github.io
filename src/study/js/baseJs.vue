@@ -112,7 +112,7 @@ console.log(str_1); //6 6//输出左右侧均无空格</code></pre>
 
 <script>
 
-import navBar from '../../components/common/navBar.vue'
+import navBar from 'common/navBar.vue'
 import Prism from 'prismjs';
 export default {
     components: {

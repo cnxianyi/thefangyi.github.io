@@ -18,6 +18,7 @@ const axiosBasis = ()=> import('../study/axios/axios.vue')
 const jsPromise = ()=> import('../study/js/promise.vue')
 const vueBasis = ()=> import('../study/vue/vueBasis.vue')
 const vueLifecycle = ()=> import('../study/vue/lifecycle.vue')
+const routerBasis = ()=> import('../study/vue/router/basis.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -137,6 +138,14 @@ const routes: Array<RouteRecordRaw> = [
     component: vueLifecycle,
     meta: {
       title: 'vueLifecycle'
+    }
+  },
+  {
+    path: '/vue/router/Basis',
+    name: 'routerBasis',
+    component: routerBasis,
+    meta: {
+      title: 'routerBasis'
     }
   },
   
