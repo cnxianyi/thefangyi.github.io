@@ -157,6 +157,7 @@ in component
 &#60;/template&#62;
         </code></pre>
         <p>不具名的情况下自动为 default</p>
+        <hr>
         </div>
     </div>
      

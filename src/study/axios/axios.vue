@@ -135,9 +135,66 @@
             });
         }</code></pre>
 
-        <btn @click="ax">axios</btn>
-        
+        <hr>
+        <h2>实例</h2>
+        <h4>POST ， 将JSON转化为字符串格式</h4>
+        <ul>
+            <li>transformRequest` 允许在向服务器发送前，修改请求数据,对 data 进行任意转换处理</li>
+            <li>`headers` 是即将被发送的自定义请求头</li>
+            <li>encodeURIComponent(str);  进行 URL 编码</li>
+            <li>对应的解码为 decodeURIComponent()</li>
+        </ul>
+        <pre><code class="language-js">fun(){
+    axios.post('url: ...' , this.value , {
+        transformRequest: [ 
+            function(data){
+                let str = '',
+                for(let key in data){
+                    str += encodeURIComponent(key)
+                        + '='
+                        + encodeURIComponent(data[key])
+                        + '&'
+                }
+                return str
+            }
+        ],
+        headers: {
+            // 传入头信息
+        },
 
+    }).then((result) => {
+        
+    }).catch((err) => {
+        
+    });
+}</code></pre>
+<hr>
+        <h4>封装网络请求</h4>
+        <ol>
+            <li>创建一个统一的接口目录</li>
+            <li>新建一个 request.js 文件</li>
+            <ul>
+                <li>baseURL: 设置基础 URL</li>
+                <li>timeout: 设置 请求超时上限，超时将中断请求</li>
+                <li>headers: 自定义请求头</li>
+            </ul>
+            <pre><code class="language-js">import axios from 'axios'
+
+// 创建 axios 实例 
+const instance = axios.create({
+    baseURL: 'http:// ...',
+    timeout: 1000 , 
+    headers: {'':''}
+})
+
+// 封装方法 
+export function get(url , params) {  // 封装 get 方法 
+    return axios.get(url , {  // return axios 返回的是promise 值，可以 get.then()
+    //     instance.get(... // 使用实例
+        params
+    })
+}</code></pre>
+        </ol>
         </div>
     </div>
 

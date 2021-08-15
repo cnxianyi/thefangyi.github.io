@@ -18,7 +18,8 @@
         </div>
         <ul class="sub-menu" :class="{truth1}">
             <li><a class="link_name" href="#">Vue</a></li>
-            <router-link to="/vue/vueBasis"><li><a href="#">basis</a></li></router-link>
+            <router-link to="/vue/vueBasis"><li><a href="#">Basis</a></li></router-link>
+            <router-link to="/vue/lifecycle"><li><a href="#">Lifecycle</a></li></router-link>
           </ul>
       </li>
           <hr class="style-one">
@@ -105,7 +106,7 @@
         </div>
         <ul class="sub-menu" :class="{truth7}">
             <li><a class="link_name" href="#">ENG</a></li>
-            <router-link to="/english/words"><li><a href="#">Words</a></li></router-link>
+            <router-link to="/english/words"><li><a href="#">Eng Words</a></li></router-link>
           </ul>
       </li>
 
@@ -121,7 +122,7 @@
         </div>
         <ul class="sub-menu" :class="{truth8}">
             <li><a class="link_name" href="#">ELE</a></li>
-            <router-link to="/show"><li><a href="#">Show</a></li></router-link>
+            <router-link to="/show"><li><a href="#">ElementShow</a></li></router-link>
           </ul>
       </li>
 

@@ -17,6 +17,7 @@ const webpackBasis = ()=> import('../study/webpack/webpackBasis.vue')
 const axiosBasis = ()=> import('../study/axios/axios.vue')
 const jsPromise = ()=> import('../study/js/promise.vue')
 const vueBasis = ()=> import('../study/vue/vueBasis.vue')
+const vueLifecycle = ()=> import('../study/vue/lifecycle.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -128,6 +129,14 @@ const routes: Array<RouteRecordRaw> = [
     component: vueBasis,
     meta: {
       title: 'vueBasis'
+    }
+  },
+  {
+    path: '/vue/lifecycle',
+    name: 'vueLifecycle',
+    component: vueLifecycle,
+    meta: {
+      title: 'vueLifecycle'
     }
   },
   
