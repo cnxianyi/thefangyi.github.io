@@ -16,6 +16,7 @@
 					<button @click="copyArr20">每日复习(20)</button>
 					<button @click="Refresh">刷新</button>
 					<button @click="Detect">是否重复</button>
+					<button>{{test}}</button>
 					
 			</div>	
         <div class="table-wrapper">
@@ -94,6 +95,7 @@
 <script>
 import navBar from 'common/navBar.vue'
 import btn from 'common/btn.vue'
+import axios from 'axios'
 
 export default {
 	components: {
@@ -135,112 +137,65 @@ export default {
 				repetition : [],
 				detectMap: new Map(),
 				detectArray: new Array(),
+				test: 'test'
 			}
 		},
-		  methods: {
-			  	Refresh(){
-					  location.reload();
-				  },
-			  	Detect(){
-					  for (let i = 0; i < this.words.length; i++) {
-						  this.detectMap.set( this.words[i].word , i)
-					  }
-					   if (this.detectMap.size < this.words.length) {
-						   alert('重复')
-						//    if (this.detectMap.has( this.words[Math.round(this.words.length/2)].word )) {
-						// 	   console.log('后面');
-						//    }else{
-						// 	   console.log('前面');
-						//    }
-						//   if  ( this.detectMap.get(Math.round(this.detectMap.size/2) ) != this.words[Math.round(this.detectMap.size/2)]) {
-						// 	  console.log(1);
-						//   }	else{
-						// 	  console.log(2);
-						//   }
-						
-						//console.log(Math.round(this.detectMap.size/2));
-					   }else{
-						   alert('不重复')
-					   }
-					  
-						// console.log(this.detectMap.get( this.words[Math.round(this.words.length/2)].word ));
-						// console.log(this.detectMap.size);
-						// console.log(this.detectMap);
-				  },
-				copyArr5(){
-					this.Tv = true
-					this.Fv = false
-					this.getWords(5);
-					this.studyEveryday = Array.from(this.everydayWords)
+		methods: {
+			Refresh(){
+					location.reload();
 				},
-				copyArr10(){
-					this.Tv = true
-					this.Fv = false
-					this.getWords(10);
-					this.studyEveryday = Array.from(this.everydayWords)
-				},
-				copyArr20(){
-					this.Tv = true
-					this.Fv = false
-					this.getWords(20);
-					this.studyEveryday = Array.from(this.everydayWords)
-				},
-				getWords(len)  {
-					
+			Detect(){
 					for (let i = 0; i < this.words.length; i++) {
-						this.repetition[i] = i + 1
-						// console.log(this.words);
+						this.detectMap.set( this.words[i].word , i)
 					}
-					for (var num, i = 0; i<len; i++) {
-						do {
-							num = Math.floor(Math.random() * this.repetition.length);
-						} while (this.repetition[num] == null);
-						this.everydayWords.unshift(this.words[num])
-						this.repetition[num] = null
+					if (this.detectMap.size < this.words.length) {
+						alert('重复')
+					}else{
+						alert('不重复')
 					}
-					
+				},
+			copyArr5(){
+				this.Tv = true
+				this.Fv = false
+				this.getWords(5);
+				this.studyEveryday = Array.from(this.everydayWords)
+			},
+			copyArr10(){
+				this.Tv = true
+				this.Fv = false
+				this.getWords(10);
+				this.studyEveryday = Array.from(this.everydayWords)
+			},
+			copyArr20(){
+				this.Tv = true
+				this.Fv = false
+				this.getWords(20);
+				this.studyEveryday = Array.from(this.everydayWords)
+			},
+			getWords(len)  {
+				
+				for (let i = 0; i < this.words.length; i++) {
+					this.repetition[i] = i + 1
+					// console.log(this.words);
+				}
+				for (var num, i = 0; i<len; i++) {
+					do {
+						num = Math.floor(Math.random() * this.repetition.length);
+					} while (this.repetition[num] == null);
+					this.everydayWords.unshift(this.words[num])
+					this.repetition[num] = null
 				}
 				
-			},
-			computed: {
+			}
+			
+		},
+		mounted() {
+			axios.get('http://localhost:3000/posts/1').then((result) => {
+				console.log(result.data);
+				this.test = result.data.title
+			}).catch((err) => {
 				
-				
-			},
-			// setup(props) {
-			// 	const map = new Map();
-			// 	let array = new Array();
-			// 	const Detect = ()=>{
-			// 		// map.set(this.data)
-			// 		console.log();
-			// 	}
-			// 	return {
-			// 		Detect
-			// 	}
-			// }
-	}
-	/* 通过随机数来进行data内数组的克隆，完成每日复习模块	
-		target: 
-		1.创建一个everydayWords来承载复刻下来的数组
-		2.创建一个repetition数组来用作防止随机数重复
-		3.随机数= 随机浮点数random* repetition,再使用floor来进行取整，获取index num
-		4.循环于everydayWords数组添加内容
-		5.判断数组[num]是否是null，于最后一步进行使用过的数组null赋值，用于不进行重复
-		6.未来可以添加参数控制输出多少随机数
-	*/
-	// Vue.createApp(HelloVueApp).mount('#hello-vue')
-// 	let everydayWords = [];
-// 	let repetition = []
-	
-// function getWords(len){
-// 	for (let i = 0; i < HelloVueApp.data().words.length; i++) {
-// 		repetition[i] = i + 1
-// 	}
-// 	for (var num, i = 0; i<len; i++) {
-// 		do {
-// 			num = Math.floor(Math.random() * repetition.length);
-// 		} while (repetition[num] == null);
-// 		everydayWords.unshift(HelloVueApp.data().words[num])
-// 		repetition[num] = null
-// 	}
-// }
+			});
+		},
+}
 </script>

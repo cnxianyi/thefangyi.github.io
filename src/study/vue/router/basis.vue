@@ -177,5 +177,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    
+h1{
+  color: #00000000;  
+}    
 </style>
+
