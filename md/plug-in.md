@@ -4,7 +4,7 @@
 * boxicons [^2]
 * bootstrap [^3]
 * axios [^4]
-* db.json [^5] s + enter: 创建db.json 快照
+* db.json [^5] s + enter: 创建db.json 快照 json-server --watch db.json
 
 [^1]: 初始化浏览器默认样式
 [^2]: 图标库

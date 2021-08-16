@@ -21,6 +21,7 @@
             <router-link to="/vue/vueBasis"><li><a href="#">Basis</a></li></router-link>
             <router-link to="/vue/lifecycle"><li><a href="#">Lifecycle</a></li></router-link>
             <router-link to="/vue/router/basis"><li><a href="#">routerBasis</a></li></router-link>
+            <router-link to="/vue/vuex/basis"><li><a href="#">vuexBasis</a></li></router-link>
           </ul>
       </li>
           <hr class="style-one">

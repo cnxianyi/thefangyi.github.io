@@ -143,7 +143,7 @@ export default {
 			Refresh(){
 					location.reload();
 				},
-			Detect(){
+			Detect(){ // 
 					for (let i = 0; i < this.words.length; i++) {
 						this.detectMap.set( this.words[i].word , i)
 					}

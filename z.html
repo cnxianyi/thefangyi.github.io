@@ -14,24 +14,30 @@
 
 </body>
 <script>
+    let arr = []
+    function getRandom(array , total , target)  {
+				let carry = []
+        let output = []
+				for (let i=1; i <= total; i++) {
+					carry[i] = i	
+				}
+				for (let num, i = 0; i<target; i++) {
+          
+					do {
+						num = Math.floor(Math.random() * carry.length);
+					} while (carry[num] == null);
+          output.unshift(carry[num])
+           carry[num] = null
+          
+				}
+        for (let i = 0; i < target; i++) {
+          array[i] = output[i]
+        }
+        
+			}
     
-in router 
-
-{
-    path: '/str/:id',
-    name: 'str',
-    component: str, 
-  }
-
-in son 
-
-{{ $route.params.id }}
-
-in parent
-
-&#60;li v-for="item in value" &#62;&#60;router-link :to="'/str/' + item.id"&#62;&#60;{{ item.title}}&#62; &#60;/li&#62;
-    
-
+      getRandom(arr , 10 , 5);
+      console.log(arr);
 
 
 </script>

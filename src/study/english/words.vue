@@ -14,9 +14,9 @@
 
 			<div class="button">
 				<button class="btn" @click="addShow = !addShow">添加单词</button>
-				<button class="btn">5</button>
-				<button class="btn">5</button>
-				<button class="btn">5</button>
+				<button class="btn" @click="getNewWords(10)">10单词</button>
+				<button class="btn" @click="total = true">显示全部</button>
+				<button class="btn" @click="Detect">检查重复</button>
 			</div>
 			<div class="addWords" v-if="addShow">
 				<div class="addModule">
@@ -48,12 +48,20 @@
 							<th>词性</th>
 						</tr>
 					</thead>
-					<tbody>
+					<tbody v-show="total">
 						<tr v-for="item in words" :key="item.id">
 							<td>{{item.id}}</td>
 							<td>{{item.word}}</td>
 							<td>{{item.meaning}}</td>
 							<td>{{item.pos}}</td>
+						</tr>
+					</tbody>
+					<tbody v-if="!total">
+						<tr v-for="item2 in NewWords" :key="item2.id">
+							<td>{{item2.id}}</td>
+							<td>{{item2.word}}</td>
+							<td>{{item2.meaning}}</td>
+							<td>{{item2.pos}}</td>
 						</tr>
 					</tbody>
 				</table>
@@ -70,6 +78,7 @@
 import navBar from 'common/navBar.vue'
 import btn from 'common/btn.vue'
 import axios from 'axios'
+import { getRandom , getRandom2 } from 'assets/js/utils.js' // 随机数
 
 export default {
 	components: {
@@ -80,20 +89,44 @@ export default {
 			return {
 				words: {},
 				addShow: false,
+				total: true,
 				addWords: '',
 				addPos: '',
-				addMeaning: ''
+				addMeaning: '',
+				random: [],
+				NewWordsMap: new Map,
+				NewWords: [],
+				detectMap: new Map,
 			}
 		},
 		mounted() {
 			axios.get('http://localhost:3000/words').then((result) => {
-				console.log(result.data);
 				this.words = result.data
 			}).catch((err) => {
 				
 			});
 		},
 		methods: {
+			getNewWords(len){
+				getRandom(this.random , this.words.length , len)
+				for (let i = 0; i < len; i++) {
+					this.NewWordsMap.set(i, this.words[this.random[i]])
+					this.NewWords[i] = this.NewWordsMap.get(i)
+				}
+				this.total = false
+			},
+				
+			
+			Detect(){
+					for (let i = 0; i < this.words.length; i++) {
+						this.detectMap.set( this.words[i].word , i)
+					}
+					if (this.detectMap.size < this.words.length) {
+						alert('重复')
+					}else{
+						alert('不重复')
+					}
+				},
 			fun(){
 				if (this.addWords.length >= 1 & this.addPos.length >= 1 & this.addMeaning.length >= 1) {
 					axios({
