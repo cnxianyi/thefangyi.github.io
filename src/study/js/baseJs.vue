@@ -17,9 +17,9 @@
                 <li>正则表达式</li>
                 <li>str.trim() -- 字符串中间的不行</li>
             </ul>
-            <pre class="code"><code class="language-js">var str = " 6 6 ";
+            <pre>var str = " 6 6 ";
 var str_1 = str.trim();
-console.log(str_1); //6 6//输出左右侧均无空格</code></pre>
+console.log(str_1); //6 6//输出左右侧均无空格</pre>
 <ul>
     2 , 9 ， 12 ，15 ， 13 ，17， 20 ，24 43 79 85 86 87 99  111 133 141 182 183  197 196
 </ul>
@@ -34,7 +34,7 @@ console.log(str_1); //6 6//输出左右侧均无空格</code></pre>
                 <li>beforeunload: 用户正在离开 -- 询问是否真的离开</li>
                 <li>unload: 用户已经离开 -- 发送统计数据</li>
             </ol>
-<pre class="code"><code class="language-js">document.addEventListener("DOMContentLoaded", ready);</code></pre>
+<pre>document.addEventListener("DOMContentLoaded", ready);</pre>
 
 
 
@@ -113,7 +113,6 @@ console.log(str_1); //6 6//输出左右侧均无空格</code></pre>
 <script>
 
 import navBar from 'common/navBar.vue'
-import Prism from 'prismjs';
 export default {
     components: {
         navBar

@@ -32,9 +32,9 @@
                 <li>相当于 store 的计算属性</li>
                 <li>in store <span> anyFun(state[, getters)=> [(id)=>] { return any}</span></li>
                 <li>in vue<span> { {$store.getters.anyFun} } / fun(){return $store.getters.anyFun}</span></li>
-                <pre><code class="language-js">thr: (state , getters) => (id:number) => {
+                <pre>thr: (state , getters) => (id:number) => {
       return getters.test * state.ten * id 
-    },</code></pre>
+    },</pre>
             </ul>
             <hr>
 
@@ -45,7 +45,7 @@
                 <li>要唤醒一个 Mutation 处理函数。需要调用 store.commit 方法</li>
                 <li><span>store.commit('fun')</span></li>
                 <li>支持 提交载荷(payload) 与 对象风格的提交方式</li>
-                <pre><code class="language-js"><small>in store</small>
+                <pre><small>in store</small>
 test(state [, payload]){
       state.count++ [ +=payload.any]
     }
@@ -58,7 +58,7 @@ store.commit({
   type: 'test',
   amount: 10
 })
-</code></pre>
+</pre>
                 
             </ul>
             <hr>
@@ -84,7 +84,6 @@ store.commit({
 <script>
 import navBar from 'common/navBar.vue'
 import sidebarR from 'common/SidebarR.vue'
-import Prism from 'prismjs';
 import store from '@/store';
 export default {
     data() {

@@ -69,7 +69,7 @@
 
             <h2>组件之间的通信</h2>
             <h4>数据 父传子 @</h4>
-            <pre><code class="language-js">in parent
+            <pre>in parent
     &#60;son&#62; :str='s' :a='a'>&#60;/son&#62;
     data() {
         return {
@@ -92,10 +92,10 @@ in son
         a: {
             type: Array;
         }
-    }</code></pre>
+    }</pre>
     <hr>
     <h4>数据 子传父 $emit</h4>
-    <pre><code class="language-js">in son 
+    <pre>in son 
     data() {
         return {
             num : 10
@@ -115,27 +115,27 @@ in par
         getson(value){
             console.log(value);
         }
-    },</code></pre>
+    },</pre>
     <hr>
     <h4>调用父组件 $parent</h4>
-    <pre><code class="language-js">fun(){
+    <pre>fun(){
     this.$parent.value, // 访问父组件的值
     this.$parent.method(), // 方法
     this.$parent.$parent..., // 父组件的父组件的...
     this.$root. ... // 根组件
-}</code></pre>
+}</pre>
     <hr>
     <h4>调用子组件 $children</h4>
-    <pre><code class="language-js">in par 
+    <pre>in par 
     &#60;son ref='name'&#62;&#60;/son&#62;
     fun(){
         this.refs.name . ... // 子组件
-    }</code></pre>
+    }</pre>
     <hr>
 
     <h2>插槽</h2>
         <h4>默认插槽</h4>
-        <pre><code class="language-HTML">&#60;component&#62;
+        <pre>&#60;component&#62;
     插槽内容
 &#60;/component&#62;
 
@@ -146,16 +146,16 @@ in component
     &#60;/.&#62;
 
 == &#60;button&#62;插槽内容&#60;/button&#60;&#62;/code&#60;&#62;/pre&#62;
-</code></pre>
+</pre>
     <hr>
     <h4>具名插槽</h4>
-    <pre><code class="language-js">&#60;slot name='str'&#62;&#60;/slot&#62;
+    <pre>&#60;slot name='str'&#62;&#60;/slot&#62;
 
 in component 
 &#60;template v-slot:header&#62;
     any
 &#60;/template&#62;
-        </code></pre>
+        </pre>
         <p>不具名的情况下自动为 default</p>
         <hr>
         </div>
@@ -167,7 +167,6 @@ in component
 <script>
 import navBar from 'common/navBar.vue'
 import sidebarR from 'common/SidebarR.vue'
-import Prism from 'prismjs';
 export default {
     data() {
         return {

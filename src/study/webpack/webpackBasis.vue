@@ -22,7 +22,7 @@
                 <li>bundle: 打包完毕生成的最终文件</li>
             </ul>
             <h3>package.json</h3>
-            <pre  class="line-numbers"><code class="language-js">
+            <pre  class="line-numbers">
 {
   "name": "thefangyi.github.io", 项目名
   "version": "0.1.0", 版本号
@@ -52,7 +52,7 @@
   "homepage" : 官网
   "contributors" : ''其他贡献者
 }
-</code></pre>
+</pre>
             
         </div>
     </div>
@@ -63,7 +63,6 @@
 <script>
 
 import navBar from 'common/navBar.vue'
-import Prism from 'prismjs';
 export default {
     components: {
         navBar,

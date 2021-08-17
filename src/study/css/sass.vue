@@ -12,11 +12,11 @@
         <div class="xy">
             <div class="content">
                 <h4>父选择器</h4>
-<pre class="code"><code class="language-css">a {
+<pre>a {
     &:hover {
         text-decoration: none;
     }
-}&为嵌套规则外的父选择器</code></pre> 
+}&为嵌套规则外的父选择器</pre> 
         
             </div>
         </div>
@@ -25,7 +25,6 @@
 
 
 <script>
-import Prism from 'prismjs';
 import navBar from 'common/navBar.vue'
 
 export default {

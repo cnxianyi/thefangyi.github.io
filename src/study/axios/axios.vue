@@ -79,7 +79,7 @@
             </ul>
             <hr>
 
-        <pre><code class="language-js">function get (){ // 获取
+        <pre>function get (){ // 获取
         // 发送Ajax请求
             axios({
             // 请求类型
@@ -133,7 +133,7 @@
             }).catch((err) => { // 失败信息
                     
             });
-        }</code></pre>
+        }</pre>
 
         <hr>
         <h2>实例</h2>
@@ -144,7 +144,7 @@
             <li>encodeURIComponent(str);  进行 URL 编码</li>
             <li>对应的解码为 decodeURIComponent()</li>
         </ul>
-        <pre><code class="language-js">fun(){
+        <pre>fun(){
     axios.post('url: ...' , this.value , {
         transformRequest: [ 
             function(data){
@@ -167,7 +167,7 @@
     }).catch((err) => {
         
     });
-}</code></pre>
+}</pre>
 <hr>
         <h4>封装网络请求</h4>
         <ol>
@@ -178,7 +178,7 @@
                 <li>timeout: 设置 请求超时上限，超时将中断请求</li>
                 <li>headers: 自定义请求头</li>
             </ul>
-            <pre><code class="language-js">import axios from 'axios'
+            <pre>import axios from 'axios'
 
 // 创建 axios 实例 
 const instance = axios.create({
@@ -193,7 +193,7 @@ export function get(url , params) {  // 封装 get 方法
     //     instance.get(... // 使用实例
         params
     })
-}</code></pre>
+}</pre>
         </ol>
         </div>
     </div>
@@ -204,7 +204,6 @@ export function get(url , params) {  // 封装 get 方法
 <script>
 import navBar from 'common/navBar.vue'
 import btn from 'common/btn.vue'
-import Prism from 'prismjs';
 import axios from 'axios'
 import sidebarR from 'common/SidebarR.vue'
 

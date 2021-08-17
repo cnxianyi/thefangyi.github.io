@@ -10,8 +10,7 @@
         </nav-bar>
 	<div class="xy">
 		<div class="content">
-			
-
+		
 			<div class="button">
 				<button class="btn" @click="addShow = !addShow">添加单词</button>
 				<button class="btn" @click="getNewWords(10)">10单词</button>
@@ -129,6 +128,7 @@ export default {
 				},
 			fun(){
 				if (this.addWords.length >= 1 & this.addPos.length >= 1 & this.addMeaning.length >= 1) {
+					alert('单词 ' + this.words.at(-1).word +'  ' + ' 添加成功')
 					axios({
 					method: 'post',
 					url: 'http://localhost:3000/words',
@@ -138,15 +138,26 @@ export default {
 						pos: this.addPos
 					}
 					});
-					alert('单词 ' + this.addWords +'  ' + ' 添加成功')
+					
 				}
 				this.addWords = ''
 				this.addPos = ''
 				this.addMeaning = ''
+
 				setTimeout(() => {
 					axios.get('http://localhost:3000/words').then((result) => {
 					console.log(result.data);
 					this.words = result.data
+					for (let i = 0; i < this.words.length; i++) {
+						this.detectMap.set( this.words[i].word , i)
+					}
+					if (this.detectMap.size < this.words.length) {
+						let getDelete = confirm('单词重复收录，是否删除')
+						let len = this.words.length
+						if(getDelete){
+							axios.delete(`http://localhost:3000/words/${len}`)
+						}
+					}
 					}).catch((err) => {
 						
 					});

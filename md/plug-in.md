@@ -5,6 +5,7 @@
 * bootstrap [^3]
 * axios [^4]
 * db.json [^5] s + enter: 创建db.json 快照 json-server --watch db.json
+* 2021年8月16日21:17:30 npm uninstall boostrap --save-dev 可能导致文件错误
 
 [^1]: 初始化浏览器默认样式
 [^2]: 图标库

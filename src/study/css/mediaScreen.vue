@@ -18,12 +18,12 @@
                     <li>中等屏幕: (显示器 , >= 992px) , 宽度为 970px</li>
                     <li>大屏幕: (大显示器 , 大于1200px) , 宽度为 1170px</li>
                 </ol>
-<pre class="code"><code class="language-css">p { color: red }
+<pre>p { color: red }
 @media screen and (max-width: 767px) {
     .container {
         width: 100%;
     } ...
-}</code></pre>
+}</pre>
             </div>
         </div>
 
@@ -88,7 +88,7 @@
 </style>
 
 <script>
-import Prism from 'prismjs';
+
 import navBar from 'common/navBar.vue'
 
 export default {

@@ -20,8 +20,11 @@ const vueBasis = ()=> import('../study/vue/vueBasis.vue')
 const vueLifecycle = ()=> import('../study/vue/lifecycle.vue')
 const routerBasis = ()=> import('../study/vue/router/basis.vue')
 const vuexBasis = ()=> import('../study/vue/vuex/basis.vue')
+const vueSetup = ()=> import('../study/vue/setup.vue')
+const ewshop = ()=> import('../project/ewshop/app.vue')
 
 const routes: Array<RouteRecordRaw> = [
+  
   {
     path: '/',
     name: 'Home',
@@ -157,6 +160,14 @@ const routes: Array<RouteRecordRaw> = [
       title: 'vuexBasis'
     }
   },
+  {
+    path: '/vue/setup',
+    name: 'vueSetup',
+    component: vueSetup,
+    meta: {
+      title: 'vueSetup'
+    }
+  },
   
 
 // - - - English - - -
@@ -197,6 +208,17 @@ const routes: Array<RouteRecordRaw> = [
       title: 'axiosBasis'
     }
   },
+
+// ewshop
+  {
+    path: '/project/ewshop',
+    name: 'ewshop',
+    component: ewshop,
+    meta: {
+      title: 'ewshop'
+    }
+  },
+
 ]
 
 const router = createRouter({

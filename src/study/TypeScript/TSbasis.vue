@@ -12,7 +12,7 @@
     <div class="xy">
         <div class="content">
           
-            <pre><code class="language-javascript">let a: number = 10; // 指定number类型
+            <pre>let a: number = 10; // 指定number类型
 function num(a: number, b: number): number {
   //设置返回值为 number类型
   return a + b;
@@ -89,7 +89,7 @@ q = { name: "s", age: 18 };
 // 类型的别名
 type myType = 1 | 2 | 3;
 let t: myType;
-</code></pre>
+</pre>
     <h4>面向对象</h4>
         </div>
     </div>
@@ -99,7 +99,6 @@ let t: myType;
 
 <script>
 import navBar from 'common/navBar.vue'
-import Prism from 'prismjs';
 export default {
     components: {
         navBar

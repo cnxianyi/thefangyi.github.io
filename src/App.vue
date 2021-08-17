@@ -11,17 +11,18 @@
       <li>
         <div class="icon-link">
           <a href="#">
-          <i class='bx bxl-vuejs' style='color:#41b883'  ></i>
+          <i class='bx bxl-vuejs' style='color:#41b883'></i>
           <span class="link_name"> Vue</span>
           </a>
           <i class='bx bxs-chevron-down 1 arrow'  @click="getSon(1)"></i>
         </div>
         <ul class="sub-menu" :class="{truth1}">
-            <li><a class="link_name" href="#">Vue</a></li>
+            <li><a class="link_name" href="#" style='color:#41b883'>Vue</a></li>
             <router-link to="/vue/vueBasis"><li><a href="#">Basis</a></li></router-link>
             <router-link to="/vue/lifecycle"><li><a href="#">Lifecycle</a></li></router-link>
             <router-link to="/vue/router/basis"><li><a href="#">routerBasis</a></li></router-link>
             <router-link to="/vue/vuex/basis"><li><a href="#">vuexBasis</a></li></router-link>
+            <router-link to="/vue/setup"><li><a href="#">vueSetup</a></li></router-link>
           </ul>
       </li>
           <hr class="style-one">
@@ -33,10 +34,10 @@
           <i class='bx bxs-book-content' style="color:#ee1c25ff"></i>
           <span class="link_name">汉语</span>
           </a>
-          <i class='bx bxs-chevron-down 5 arrow'  @click="getSon(5)"></i>
+          <i class='bx bxs-chevron-down 2 arrow'  @click="getSon(2)"></i>
         </div>
-        <ul class="sub-menu" :class="{truth5}">
-            <li><a class="link_name" href="#">CHN</a></li>
+        <ul class="sub-menu" :class="{truth2}">
+            <li><a class="link_name" href="#" style="color:#ee1c25ff">CHN</a></li>
           </ul>
       </li>
 
@@ -47,10 +48,10 @@
           <i class='bx bxl-nodejs' style="color:#EFD81D"></i>
           <span class="link_name">JS</span>
           </a>
-          <i class='bx bxs-chevron-down 2 arrow' @click="getSon(2)"></i>
+          <i class='bx bxs-chevron-down 3 arrow' @click="getSon(3)"></i>
         </div>
-            <ul class="sub-menu" :class="{truth2}">
-            <li><a class="link_name" href="#">JS</a></li>
+            <ul class="sub-menu" :class="{truth3}">
+            <li><a class="link_name" href="#" style="color:#EFD81D">JS</a></li>
             <router-link to="/js/base"><li><a href="#">base</a></li></router-link>
             <router-link to="/js/protoInherit"><li><a href="#">原型和继承</a></li></router-link>
             <router-link to="/ts/tsBasis"><li><a href="#">TypeScriptBasis</a></li></router-link>
@@ -66,10 +67,10 @@
           <i class='bx bxl-css3' style="color:#254BDD"></i>
           <span class="link_name">CSS</span>
           </a>
-          <i class='bx bxs-chevron-down 3 arrow' @click="getSon(3)"></i>
+          <i class='bx bxs-chevron-down 4 arrow' @click="getSon(4)"></i>
         </div>
-        <ul class="sub-menu" :class="{truth3}">
-            <li><a class="link_name" href="#">CSS</a></li>
+        <ul class="sub-menu" :class="{truth4}">
+            <li><a class="link_name" href="#" style="color:#254BDD">CSS</a></li>
             <router-link to="/"><li><a href="#">Flex</a></li></router-link>
             <router-link to="/css"><li><a href="#">Demo</a></li></router-link>
             <router-link to="/css/mediaScreen"><li><a href="#">@mediaScreen</a></li></router-link>
@@ -80,7 +81,23 @@
 
     <hr class="style-one">
 
+    <li>
+        <div class="icon-link">
+          <a href="#">
+            
+          <i class='bx bx-customize' style="color:#8fb2c9"></i>
+          <span class="link_name">Project</span>
+          </a>
+          <i class='bx bxs-chevron-down 5 arrow'  @click="getSon(5)"></i>
+        </div>
+        <ul class="sub-menu" :class="{truth5}">
+            <li><a class="link_name" href="#" style="color:#8fb2c9">SET</a></li>
+            <router-link to="/project/ewshop"><li><a href="#">ewshop</a></li></router-link>
+            
+          </ul>
+      </li>
 
+      <hr class="style-one">
 
       <li>
         <div class="icon-link">
@@ -91,7 +108,7 @@
           <i class='bx bxs-chevron-down 6 arrow'  @click="getSon(6)"></i>
         </div>
         <ul class="sub-menu" :class="{truth6}">
-            <li><a class="link_name" href="#">HTML</a></li>
+            <li><a class="link_name" href="#" style="color:#DD4D26">HTML</a></li>
             <router-link to="/english/words"><li><a href="#">Words</a></li></router-link>
           </ul>
       </li>
@@ -101,13 +118,13 @@
       <li>
         <div class="icon-link">
           <a href="#">
-          <i class='bx bx-library'></i>
+          <i class='bx bx-library' style="color:#ef632b"></i>
           <span class="link_name">ENG</span>
           </a>
           <i class='bx bxs-chevron-down 7 arrow'  @click="getSon(7)"></i>
         </div>
         <ul class="sub-menu" :class="{truth7}">
-            <li><a class="link_name" href="#">ENG</a></li>
+            <li><a class="link_name" href="#" style="color:#ef632b">ENG</a></li>
             <router-link to="/english/words"><li><a href="#">Eng Words</a></li></router-link>
           </ul>
       </li>
@@ -117,13 +134,13 @@
       <li>
         <div class="icon-link">
           <a href="#">
-          <i class='bx bx-cog'></i>
+          <i class='bx bx-dots-horizontal-rounded' style="color:#584717"></i>
           <span class="link_name">Element</span>
           </a>
           <i class='bx bxs-chevron-down 8 arrow'  @click="getSon(8)"></i>
         </div>
         <ul class="sub-menu" :class="{truth8}">
-            <li><a class="link_name" href="#">ELE</a></li>
+            <li><a class="link_name" href="#" style="color:#584717">ELE</a></li>
             <router-link to="/show"><li><a href="#">ElementShow</a></li></router-link>
           </ul>
       </li>
@@ -134,14 +151,13 @@
       <li>
         <div class="icon-link">
           <a href="#">
-            
-          <i class='bx bx-dots-horizontal-rounded'></i>
-          <span class="link_name">setting</span>
+          <i class='bx bx-cog' style="color:#ffa60f"></i>
+          <span class="link_name" >setting</span>
           </a>
           <i class='bx bxs-chevron-down 9 arrow'  @click="getSon(9)"></i>
         </div>
         <ul class="sub-menu" :class="{truth9}">
-            <li><a class="link_name" href="#">SET</a></li>
+            <li><a class="link_name" href="#" style="color:#ffa60f">SET</a></li>
             <router-link to="/npm/basis"><li><a href="#">npmBasis</a></li></router-link>
             <router-link to="/webpack/basis"><li><a href="#">WebpackBasis</a></li></router-link>
             <router-link to="/axios/basis"><li><a href="#">axios</a></li></router-link>
@@ -149,6 +165,8 @@
       </li>
 
       <hr class="style-one">
+
+      
       
 
     </ul>
@@ -227,7 +245,7 @@ watch:{ //````
       truth1: true,
       truth2: true,
       truth3: true,
-      //truth4: true,
+      truth4: true,
       truth5: true,
       truth6: true,
       truth7: true,
@@ -259,8 +277,8 @@ watch:{ //````
           document.getElementsByClassName('2')[0].className = 'bx bxs-chevron-down 2 arrow'
           this.truth3 = true
           document.getElementsByClassName('3')[0].className = 'bx bxs-chevron-down 3 arrow'
-          // this.truth4 = true
-          // document.getElementsByClassName('4')[0].className = 'bx bxs-chevron-down 4 arrow'
+          this.truth4 = true
+          document.getElementsByClassName('4')[0].className = 'bx bxs-chevron-down 4 arrow'
           this.truth5 = true
           document.getElementsByClassName('5')[0].className = 'bx bxs-chevron-down 5 arrow'
           this.truth6 = true
@@ -325,15 +343,15 @@ watch:{ //````
             document.getElementsByClassName('bx bxs-chevron-up 3')[0].className = 'bx bxs-chevron-down 3 arrow'
           }
           break;
-          // case 4:
-          // if (this.truth4  == true) {
-          //   this.truth4 = false
-          //   document.getElementsByClassName('bx bxs-chevron-down 4')[0].className = 'bx bxs-chevron-up 4 arrow'
-          // }else{
-          //   this.truth4 = true
-          //   document.getElementsByClassName('bx bxs-chevron-up 4')[0].className = 'bx bxs-chevron-down 4 arrow'
-          // }
-          // break;
+          case 4:
+          if (this.truth4  == true) {
+            this.truth4 = false
+            document.getElementsByClassName('bx bxs-chevron-down 4')[0].className = 'bx bxs-chevron-up 4 arrow'
+          }else{
+            this.truth4 = true
+            document.getElementsByClassName('bx bxs-chevron-up 4')[0].className = 'bx bxs-chevron-down 4 arrow'
+          }
+          break;
           case 5:
           if (this.truth5  == true) {
             this.truth5 = false

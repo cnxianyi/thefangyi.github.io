@@ -14,7 +14,7 @@
             <h2>动态路由匹配</h2>
             <sidebarR></sidebarR>
             <h4>参数传递</h4>
-            <pre><code class="language-js">in router 
+            <pre>in router 
 {
     path: '/str/:id',
     name: 'str',
@@ -31,7 +31,7 @@ in parent
 
 自定义 router
 &#60;button @click="$router.push( {path: '' , query: {}} )"&#62;&#60;/button&#62;
-  </code></pre>
+  </pre>
   <hr>
     <h4>编程式导航</h4>
     <ul>
@@ -153,7 +153,6 @@ in parent
 <script>
 import navBar from 'common/navBar.vue'
 import sidebarR from 'common/SidebarR.vue'
-import Prism from 'prismjs';
 import axios from 'axios';
 export default {
     data() {

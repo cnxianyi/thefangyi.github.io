@@ -137,6 +137,48 @@
       "meaning": "运载，携带",
       "pos": "n",
       "id": 23
+    },
+    {
+      "word": "notification",
+      "meaning": "通知",
+      "pos": "n",
+      "id": 24
+    },
+    {
+      "word": "prompt",
+      "meaning": "提示",
+      "pos": "vt",
+      "id": 25
+    },
+    {
+      "word": "catch",
+      "meaning": "捕获",
+      "pos": "n",
+      "id": 26
+    },
+    {
+      "word": "detect",
+      "meaning": "发现",
+      "pos": "vt",
+      "id": 27
+    },
+    {
+      "word": "result",
+      "meaning": "结果，成绩",
+      "pos": "n",
+      "id": 28
+    },
+    {
+      "word": "console",
+      "meaning": "控制台",
+      "pos": "n",
+      "id": 29
+    },
+    {
+      "word": "set",
+      "meaning": "日落，同伙，集合",
+      "pos": "n",
+      "id": 30
     }
   ],
   "posts": [

@@ -108,7 +108,6 @@
 <script>
 import navBar from 'common/navBar.vue'
 import sidebarR from 'common/SidebarR.vue'
-import Prism from 'prismjs';
 export default {
     data() {
         return {

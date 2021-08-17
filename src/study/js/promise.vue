@@ -56,9 +56,9 @@
             </ul>
             <hr>
             <h4>Promise 对象构造器语法</h4>
-            <pre><code class="language-js">const PT = new Promise((resolve , reject) => {
+            <pre>const PT = new Promise((resolve , reject) => {
         // executor 生产者代码
-     }) </code></pre>
+     }) </pre>
             <ul>
                 <li>传递给 new Promise 的函数为 executor , 将作为第一批宏任务执行</li>
                 <li>resolve , reject(可以立即执行 与 异步) 是JS自身提供的回调 , executor成功运行resolve ...</li>
@@ -70,11 +70,11 @@
             <p>promise 对象是 executor 与 消费函数之间的链接</p>
             <hr>
             <h4>.then</h4>
-            <pre><code class="language-js">PT.then((result) => {
+            <pre>PT.then((result) => {
          
      }, (error) => {
         
-     })</code></pre>
+     })</pre>
             <ul> 传入两个 函数 参数
                 <li>result : 在 Promise resolved 后运行并接收结果</li>
                 <li>error : 在 Promise rejected 后运行并接收 error</li>
@@ -101,7 +101,7 @@
             <h4>Promise 链</h4>
             <p>在某些情况下，需要接连执行异步。</p>
             
-            <pre><code class="language-js">const PT = new Promise((resolve , reject) => {
+            <pre>const PT = new Promise((resolve , reject) => {
         setTimeout(() => {
             resolve('1')
         }, 1000);
@@ -114,10 +114,10 @@
     }).then( (resolve)=> {
         console.log(resolve); // 4
         return resolve*2
-    })</code></pre>
+    })</pre>
     <p>在.then 中所使用的程序，可以创建并返回一个Promise</p>
     <p>并由其构建一个 异步行为链</p>
-    <pre><code class="language-js">const PT = new Promise((resolve , reject) => {
+    <pre>const PT = new Promise((resolve , reject) => {
         resolve(1)
     }).then( (res)=> { // 传入第一次的数值
         return new Promise( (resolve , reject) => {
@@ -125,7 +125,7 @@
                 resolve(res * 2) // 使用第一次的数值
             }, 1000);
         })
-    }).then(alert) // 2</code></pre>
+    }).then(alert) // 2</pre>
     <p>.catch 不必是立即的，可以在多个 .then 后出现，当其中一个.then 出现error,则会触发.catch</p>
     <hr>
     <h2 id="API">API</h2>
@@ -143,13 +143,13 @@
 
     <h2 id="AsyncAwait">Async / await</h2>
     <h4>Async function</h4>
-    <pre><code class="language-js">async function f(){
+    <pre>async function f(){
         return 1;
     }
-    f().then(alert) // 1</code></pre>
+    f().then(alert) // 1</pre>
     <p>async 关键字使 f 函数始终返回一个 Promise</p>
     <h4>await</h4>
-    <pre><code class="language-js">async function f(){
+    <pre>async function f(){
         let promise = new Promise( (resolve , reject) => {
             setTimeout(() => {
                 resolve(1)
@@ -158,7 +158,7 @@
         let res = await promise; // 等待并获取 promise （*）
         alert(res) // 1
     }
-    f()</code></pre>
+    f()</pre>
     <p>函数执行时，暂停在 * 那一行，拿到resolve后继续执行</p>
     <p>关键字 await 让 JS 引擎等待直到 Promise状态变为 settled(稳定)</p>
 
