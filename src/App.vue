@@ -92,7 +92,7 @@
         </div>
         <ul class="sub-menu" :class="{truth5}">
             <li><a class="link_name" href="#" style="color:#8fb2c9">SET</a></li>
-            
+            <router-link to="/project/ewshop"><li><a href="#">ewshop</a></li></router-link>
             
           </ul>
       </li>
@@ -142,7 +142,6 @@
         <ul class="sub-menu" :class="{truth8}">
             <li><a class="link_name" href="#" style="color:#584717">ELE</a></li>
             <router-link to="/show"><li><a href="#">ElementShow</a></li></router-link>
-            <router-link to="/other/interview"><li><a href="#">interview</a></li></router-link>
           </ul>
       </li>
 

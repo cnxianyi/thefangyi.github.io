@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '../views/home.vue'
 
 const html = ()=> import('../study/html/html.vue')
 const words = ()=> import('../study/english/words.vue')
@@ -21,7 +21,7 @@ const vueLifecycle = ()=> import('../study/vue/lifecycle.vue')
 const routerBasis = ()=> import('../study/vue/router/basis.vue')
 const vuexBasis = ()=> import('../study/vue/vuex/basis.vue')
 const vueSetup = ()=> import('../study/vue/setup.vue')
-const interview = ()=> import('../study/other/interview.vue')
+const ewshop = ()=> import('../project/ewshop/app.vue')
 
 const routes: Array<RouteRecordRaw> = [
   
@@ -209,13 +209,13 @@ const routes: Array<RouteRecordRaw> = [
     }
   },
 
-// other
+// ewshop
   {
-    path: '/other/interview',
-    name: 'interview',
-    component: interview,
+    path: '/project/ewshop',
+    name: 'ewshop',
+    component: ewshop,
     meta: {
-      title: 'interview'
+      title: 'ewshop'
     }
   },
 

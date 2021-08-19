@@ -179,12 +179,6 @@
       "meaning": "日落，同伙，集合",
       "pos": "n",
       "id": 30
-    },
-    {
-      "word": "answer",
-      "meaning": "答案，回答",
-      "pos": "n , v",
-      "id": 31
     }
   ],
   "posts": [
@@ -192,11 +186,6 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
-    },
-    {
-      "question": "问题是",
-      "content": "内容为 ",
-      "id": 2
     }
   ],
   "comments": [
@@ -208,62 +197,5 @@
   ],
   "profile": {
     "name": "typicode"
-  },
-  "light": [
-    {
-      "question": "夜间在照明条件良好的道路上行驶",
-      "answer": "近光灯",
-      "id": 1
-    },
-    {
-      "question": "夜间距离同方向跟车行驶",
-      "answer": "近光灯",
-      "id": 2
-    },
-    {
-      "question": "夜间与机动车会车",
-      "answer": "近光灯",
-      "id": 3
-    },
-    {
-      "question": "夜间在没有路灯照明不良条件下行驶",
-      "answer": "远光灯",
-      "id": 4
-    },
-    {
-      "question": "夜间发生故障，妨碍交通难以移动时",
-      "answer": "近光灯+大灯关一格+双闪",
-      "id": 5
-    },
-    {
-      "question": "路边临时停车",
-      "answer": "近光灯+大灯关一格+双闪",
-      "id": 6
-    },
-    {
-      "question": "夜间通过坡道，拱桥",
-      "answer": "远近交替",
-      "id": 7
-    },
-    {
-      "question": "夜间通过人行横道",
-      "answer": "远近交替",
-      "id": 8
-    },
-    {
-      "question": "夜间通过没有交通信号灯控制的路口",
-      "answer": "远近交替",
-      "id": 9
-    },
-    {
-      "question": "请超越前方车辆",
-      "answer": "远近交替",
-      "id": 10
-    },
-    {
-      "question": "夜间在路口直行",
-      "answer": "近光灯",
-      "id": 11
-    }
-  ]
+  }
 }

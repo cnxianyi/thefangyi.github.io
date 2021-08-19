@@ -1,29 +1,27 @@
-// // 
+// //
 
 // /**
 //  * @type {import('@vue/cli-service').ProjectOptions}
 //  */
- module.exports = {
-    // 选项...
-    
-    outputDir: 'docs', //输出文件夹 default: 'dist'
+module.exports = {
+  // 选项...
 
-    
-    // css: { //
-    //   extract: false
-    // }
+  outputDir: "docs", //输出文件夹 default: 'dist'
 
-    configureWebpack:{
-      resolve: {
-        // 别名配置
-        // HTML/CSS ... 等文件使用别名需要加上 ~ 
-        // src: '~_img/...'
-        alias: {
-          'assets': '@/assets',
-          '_img' : '@/assets/images/',
-          'common' : '@/components/common'
-        }
-      }
+  // css: { //
+  //   extract: false
+  // }
+
+  configureWebpack: {
+    resolve: {
+      // 别名配置
+      // HTML/CSS ... 等文件使用别名需要加上 ~
+      // src: '~_img/...'
+      alias: {
+        assets: "@/assets",
+        _img: "@/assets/images/",
+        common: "@/components/common",
+      },
     },
-    
-  }
+  },
+};
