@@ -88,7 +88,7 @@
 import navBar from "common/navBar.vue";
 import btn from "common/btn.vue";
 import axios from "axios";
-import { getRandom, getRandom2 } from "assets/js/utils.js"; // 随机数
+import { getRandom } from "assets/js/utils.js"; // 随机数
 
 export default {
   components: {
