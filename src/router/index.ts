@@ -21,7 +21,7 @@ const vueLifecycle = ()=> import('../study/vue/lifecycle.vue')
 const routerBasis = ()=> import('../study/vue/router/basis.vue')
 const vuexBasis = ()=> import('../study/vue/vuex/basis.vue')
 const vueSetup = ()=> import('../study/vue/setup.vue')
-const ewshop = ()=> import('../project/ewshop/app.vue')
+const interview = ()=> import('../study/other/interview.vue')
 
 const routes: Array<RouteRecordRaw> = [
   
@@ -209,13 +209,13 @@ const routes: Array<RouteRecordRaw> = [
     }
   },
 
-// ewshop
+// other
   {
-    path: '/project/ewshop',
-    name: 'ewshop',
-    component: ewshop,
+    path: '/other/interview',
+    name: 'interview',
+    component: interview,
     meta: {
-      title: 'ewshop'
+      title: 'interview'
     }
   },
 

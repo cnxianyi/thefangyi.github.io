@@ -14,30 +14,6 @@
 
 </body>
 <script>
-    let arr = []
-    function getRandom(array , total , target)  {
-				let carry = []
-        let output = []
-				for (let i=1; i <= total; i++) {
-					carry[i] = i	
-				}
-				for (let num, i = 0; i<target; i++) {
-          
-					do {
-						num = Math.floor(Math.random() * carry.length);
-					} while (carry[num] == null);
-          output.unshift(carry[num])
-           carry[num] = null
-          
-				}
-        for (let i = 0; i < target; i++) {
-          array[i] = output[i]
-        }
-        
-			}
-    
-      getRandom(arr , 10 , 5);
-      console.log(arr);
 
 
 </script>
