@@ -68,13 +68,13 @@
 
           <code>code js html</code>
           <hr>
-
+            
           <pre>
             pre
           </pre>
 
           <hr>
-
+  
           <table border="1">
   <thead>
     <tr>

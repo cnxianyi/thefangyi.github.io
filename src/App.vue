@@ -86,13 +86,13 @@
           <a href="#">
             
           <i class='bx bx-customize' style="color:#8fb2c9"></i>
-          <span class="link_name">Project</span>
+          <span class="link_name">Nodus</span>
           </a>
           <i class='bx bxs-chevron-down 5 arrow'  @click="getSon(5)"></i>
         </div>
         <ul class="sub-menu" :class="{truth5}">
             <li><a class="link_name" href="#" style="color:#8fb2c9">SET</a></li>
-            <router-link to="/project/ewshop"><li><a href="#">ewshop</a></li></router-link>
+            <router-link to="/nodus/axios"><li><a href="#">Nodus Axios</a></li></router-link>
             
           </ul>
       </li>
@@ -109,7 +109,7 @@
         </div>
         <ul class="sub-menu" :class="{truth6}">
             <li><a class="link_name" href="#" style="color:#DD4D26">HTML</a></li>
-            <router-link to="/english/words"><li><a href="#">Words</a></li></router-link>
+              
           </ul>
       </li>
 

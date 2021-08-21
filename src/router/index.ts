@@ -21,7 +21,7 @@ const vueLifecycle = ()=> import('../study/vue/lifecycle.vue')
 const routerBasis = ()=> import('../study/vue/router/basis.vue')
 const vuexBasis = ()=> import('../study/vue/vuex/basis.vue')
 const vueSetup = ()=> import('../study/vue/setup.vue')
-const ewshop = ()=> import('../project/ewshop/app.vue')
+const nodusAxios = ()=> import('../study/nodus/axios.vue')
 
 const routes: Array<RouteRecordRaw> = [
   
@@ -209,13 +209,13 @@ const routes: Array<RouteRecordRaw> = [
     }
   },
 
-// ewshop
+// Nodus
   {
-    path: '/project/ewshop',
-    name: 'ewshop',
-    component: ewshop,
+    path: '/nodus/axios',
+    name: 'nodusAxios',
+    component: nodusAxios,
     meta: {
-      title: 'ewshop'
+      title: 'nodusAxios'
     }
   },
 
