@@ -26,7 +26,7 @@ instance.interceptors. <strong>1</strong> response.use( (response) => {
         return Promise.reject(error);
     });    
 
-                }</pre>
+            }</pre>
         <ol>
             <li>response ：请求的响应结果，在拦截器中对结果进行操作。</li>
             <li>error.response.data.errors = 错误的请求返回的 响应结果 的数据中的错误信息 </li>
