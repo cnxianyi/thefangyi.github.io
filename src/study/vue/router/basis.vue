@@ -56,7 +56,7 @@ in parent
     </ul>
     <hr>
     <h4><a href="https://next.router.vuejs.org/zh/guide/essentials/named-views.html"></a> 命名 视图</h4>
-    <p>一个页面显示多个导航区域，仅需设置命名视图</p>
+    <p>一个页面显示多个导航区域，仅需设置命名视 图</p>
     <hr>
 
     <h2><a href="https://next.router.vuejs.org/zh/guide/essentials/redirect-and-alias.html"></a> 重定向和别名</h2>
