@@ -105,7 +105,14 @@ in parent
 
     <h2>setup()中</h2>
     <ul>
-        <li></li>
+        <pre>import { useRouter, useRoute } from 'vue-router'
+setup() {
+    const router = useRouter()
+    const route = useRoute()
+...
+    router.push(...)
+}
+        </pre>
     </ul>
     <hr>
 
