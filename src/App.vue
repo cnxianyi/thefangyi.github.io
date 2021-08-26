@@ -161,6 +161,7 @@
             <router-link to="/npm/basis"><li><a href="#">npmBasis</a></li></router-link>
             <router-link to="/webpack/basis"><li><a href="#">WebpackBasis</a></li></router-link>
             <router-link to="/axios/basis"><li><a href="#">axios</a></li></router-link>
+             <router-link to="/git/Basis"><li><a href="#">gitBasis</a></li></router-link>
           </ul>
       </li>
 

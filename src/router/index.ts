@@ -22,6 +22,7 @@ const routerBasis = ()=> import('../study/vue/router/basis.vue')
 const vuexBasis = ()=> import('../study/vue/vuex/basis.vue')
 const vueSetup = ()=> import('../study/vue/setup.vue')
 const nodusAxios = ()=> import('../study/nodus/axios.vue')
+const gitBasis = ()=> import('../study/git/basis.vue')
 
 const routes: Array<RouteRecordRaw> = [
   
@@ -216,6 +217,16 @@ const routes: Array<RouteRecordRaw> = [
     component: nodusAxios,
     meta: {
       title: 'nodusAxios'
+    }
+  },
+
+  // Git
+  {
+    path: '/git/Basis',
+    name: 'gitBasis',
+    component: gitBasis,
+    meta: {
+      title: 'gitBasis'
     }
   },
 
