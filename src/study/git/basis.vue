@@ -82,7 +82,7 @@
             <br>
             <ul>scope : 说明 commit 影响的范围(数据层，控制层，视图层...)</ul>
             <ul>subject: 简短描述 - 动词开头，第一人称现在时，第一个字母小写，结尾不加句号</ul>
-            <ul>body : 详细描述</ul>
+            <ul>body : 详细描述 </ul>
         </div>
     </div>
      
