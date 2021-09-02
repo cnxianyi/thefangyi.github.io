@@ -43,6 +43,15 @@
                     <li>简写按照顺序</li>
                 </ul>
 
+                <h4>深层选择器</h4>
+                <ul> 
+                    <li>【old】 /deep/ 单独影响一个样式，强制修改默认样式。可以在 scoped Style 标签中 <br>
+                    Sass中使用 ::v-deep</li>
+                    <li> >>> , 将选择器作用的更深 ， /deep/ , ::v-deep 都是 >>> 的别名 <br>
+                    词选择器生成的将是 hash 代码</li>
+                    <li>【new】 :deep</li>
+                </ul>
+
 
 
 

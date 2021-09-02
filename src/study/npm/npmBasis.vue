@@ -20,8 +20,11 @@
                 <li>安装完Node后默认安装npm</li>
                 <li>node_modules · 包目录</li>
                 <li>package-lock.json · </li>
-                <li>dependencies · 运行时依赖</li>
-                <li>devDependencies · 开发时依赖，上线后不需要的依赖</li>
+                <li>dependencies · 运行时依赖 <br>
+                npm i *** -S / --save</li>
+                <li>devDependencies · 开发时依赖，上线后不需要的依赖
+                    <br> npm i -D / --save-dev
+                </li>
             </ul>
             <hr>
             <h4>命令</h4>
