@@ -14,26 +14,23 @@
 			<div class="button">
 				<button class="btn" @click="addShow = !addShow">添加单词</button>
 				<button class="btn" @click="getNewWords(10)">10单词</button>
-				<button class="btn" @click="total = true">显示全部</button>
+				<button class="btn" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
+				<button class="btn" @click="wordsTest">检测</button>
 				<button class="btn" @click="Detect">检查重复</button>
 			</div>
 			<div class="addWords" v-if="addShow">
 				<div class="addModule">
 					<label for="words" >单词 ： </label>
-					<input type="text" id="words"  placeholder="word" required style="width:100px;" v-model='addWords'>
+					<input type="text" id="words" autocomplete="off"  placeholder="word" required style="width:100px;" v-model='addWords'>
 				</div>
 
 				<div class="addModule">
+					<form>
 					<label for="meaning" >词意 ： </label>
-					<input type="text" id="meaning"  placeholder="mean" required style="width:100px;" v-model='addMeaning'>
+					<input type="text" id="meaning" autocomplete="off"  placeholder="mean" required style="width:100px;" v-model='addMeaning'>
+					<input type="submit" value="添加" @click="fun()">
+					</form>
 				</div>
-
-				<div class="addModule">
-					<label for="pos">词性 ： </label>
-					<input type="text" id="pos"  placeholder="pos" required style="width:100px;" v-model='addPos'>
-				</div>
-
-				<button @click="fun()">添加</button>
 				
 			</div>	
         <div class="table-wrapper">
@@ -44,7 +41,6 @@
 							<th>序号</th>
 							<th>单词 </th>
 							<th>词意</th>
-							<th>词性</th>
 						</tr>
 					</thead>
 					<tbody v-show="total">
@@ -52,15 +48,29 @@
 							<td>{{item.id}}</td>
 							<td>{{item.word}}</td>
 							<td>{{item.meaning}}</td>
-							<td>{{item.pos}}</td>
 						</tr>
 					</tbody>
-					<tbody v-if="!total">
+					<tbody v-if="getTotal">
 						<tr v-for="item2 in NewWords" :key="item2.id">
 							<td>{{item2.id}}</td>
 							<td>{{item2.word}}</td>
 							<td>{{item2.meaning}}</td>
-							<td>{{item2.pos}}</td>
+						</tr>
+					</tbody>
+					<tbody v-if="testTotal">
+						<tr v-for="item3 in NewWords" :key="item3.id">
+							<td>{{item3.id}}</td>
+							<td>{{item3.meaning}}</td>
+							<input type="text" 
+							style="height:20px;margin-top:10px" 
+							autocomplete="off" 
+							placeholder="请输入正确的单词"
+							v-model="enterWords"
+							@keyup.enter="insWords"
+							id="insWord"
+							>
+							<!-- <button @click="enterWords = NewWords[0].word">答案</button> -->
+							
 						</tr>
 					</tbody>
 				</table>
@@ -89,13 +99,15 @@ export default {
 				words: {},
 				addShow: false,
 				total: true,
+				getTotal: false,
+				testTotal: false,
 				addWords: '',
-				addPos: '',
 				addMeaning: '',
 				random: [],
 				NewWordsMap: new Map,
 				NewWords: [],
 				detectMap: new Map,
+				enterWords: '',
 			}
 		},
 		mounted() {
@@ -113,6 +125,39 @@ export default {
 					this.NewWords[i] = this.NewWordsMap.get(i)
 				}
 				this.total = false
+				this.getTotal = true
+			},
+
+			insWords(){
+				
+				if (this.enterWords === this.NewWords[0].word) {
+					this.enterWords = '恭喜你答对了'
+					setTimeout(() => {
+						this.enterWords = ''
+						this.wordsTest()
+						setTimeout(() => {
+							document.getElementById('insWord').focus()
+						});
+					}, 1000);
+				}else{
+					this.enterWords = '错了'
+					setTimeout(() => {
+						this.enterWords = ''
+						document.getElementById('insWord').focus()
+					}, 1000);
+				}
+				
+			},
+
+			wordsTest(){
+				this.NewWords = []
+				this.getNewWords(1)
+				this.testTotal = true
+				this.total = false
+				this.getTotal = false
+				setTimeout(() => {
+					document.getElementById('insWord').focus()
+				});	
 			},
 				
 			
@@ -127,23 +172,27 @@ export default {
 					}
 				},
 			fun(){
-				if (this.addWords.length >= 1 & this.addPos.length >= 1 & this.addMeaning.length >= 1) {
-					alert('单词 ' + this.words.at(-1).word +'  ' + ' 添加成功')
+				if (this.addWords.length >= 1  & this.addMeaning.length >= 1) {
+					alert(this.addWords + this.addMeaning +'  ' + ' 添加成功')
+					if(this.addMeaning.slice(0,1).codePointAt(0) >=97 && this.addMeaning.slice(0,1).codePointAt(0) <=122){
+						
+					}else{
+						this.addMeaning = 'n·'+this.addMeaning
+						
+					}
 					axios({
 					method: 'post',
 					url: 'http://localhost:3000/words',
 					data: {
 						word: this.addWords,
 						meaning: this.addMeaning,
-						pos: this.addPos
 					}
 					});
 					
 				}
 				this.addWords = ''
-				this.addPos = ''
 				this.addMeaning = ''
-
+				
 				setTimeout(() => {
 					axios.get('http://localhost:3000/words').then((result) => {
 					console.log(result.data);
@@ -156,12 +205,16 @@ export default {
 						let len = this.words.length
 						if(getDelete){
 							axios.delete(`http://localhost:3000/words/${len}`)
+							alert('删除成功')
+							location.reload() 
 						}
 					}
+					document.getElementById('words').focus() // 控制聚焦input
 					}).catch((err) => {
 						
 					});
 				}, 50);
+				
 			}
 			
 		},
