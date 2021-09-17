@@ -14,7 +14,7 @@
 			<div class="button">
 				<button class="btn" @click="addShow = !addShow">添加单词</button>
 				<button class="btn" @click="getNewWords(10)">10</button>
-				<button class="btn" @click="getNewWords(1)">1</button>
+				<button class="btn" @click="getNewWords(3)">3</button>
 				<button class="btn" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
 				<button class="btn" @click="wordsTest">检测</button>
 				<button class="btn" @click="Detect">检查重复</button>
@@ -151,7 +151,7 @@ export default {
 			},
 
 			wordsTest(){
-				this.NewWords = []
+				//this.NewWords = []
 				this.getNewWords(1)
 				this.testTotal = true
 				this.total = false
