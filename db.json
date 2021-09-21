@@ -2777,6 +2777,582 @@
       "meaning": "a·无聊的，声音不明亮，不清晰；v·减缓，减轻",
       "important": false,
       "id": 502
+    },
+    {
+      "word": "each",
+      "meaning": "a&porn·每，每个",
+      "important": false,
+      "id": 503
+    },
+    {
+      "word": "ear",
+      "meaning": "n·耳朵",
+      "important": false,
+      "id": 504
+    },
+    {
+      "word": "early",
+      "meaning": "a·早的，早期的",
+      "important": false,
+      "id": 505
+    },
+    {
+      "word": "earn",
+      "meaning": "v·赚钱，挣得",
+      "important": false,
+      "id": 506
+    },
+    {
+      "word": "earth",
+      "meaning": "n·地球，陆地，土地",
+      "important": false,
+      "id": 507
+    },
+    {
+      "word": "earthquake",
+      "meaning": "n·地震",
+      "important": false,
+      "id": 508
+    },
+    {
+      "word": "east",
+      "meaning": "n&a·东部，东方的，在东方",
+      "important": false,
+      "id": 509
+    },
+    {
+      "word": "easy",
+      "meaning": "a·容易的",
+      "important": false,
+      "id": 510
+    },
+    {
+      "word": "eat",
+      "meaning": "v·吃",
+      "important": false,
+      "id": 511
+    },
+    {
+      "word": "economic",
+      "meaning": "a·节约的，经济学的",
+      "important": false,
+      "id": 512
+    },
+    {
+      "word": "economy",
+      "meaning": "n·经济，节省，经济舱；a·经济节约的",
+      "important": false,
+      "id": 513
+    },
+    {
+      "word": "edge",
+      "meaning": "n·边缘，锋，刃；v·缓慢的移动",
+      "important": false,
+      "id": 514
+    },
+    {
+      "word": "education",
+      "meaning": "n·教育，培养，训练",
+      "important": false,
+      "id": 515
+    },
+    {
+      "word": "effort",
+      "meaning": "n·努力，精力；成就",
+      "important": false,
+      "id": 516
+    },
+    {
+      "word": "egg",
+      "meaning": "n·蛋，卵",
+      "important": false,
+      "id": 517
+    },
+    {
+      "word": "eight",
+      "meaning": "num.八",
+      "important": false,
+      "id": 518
+    },
+    {
+      "word": "eighteen",
+      "meaning": "num.十八",
+      "important": false,
+      "id": 519
+    },
+    {
+      "word": "eighteenth",
+      "meaning": "a·第十八",
+      "important": false,
+      "id": 520
+    },
+    {
+      "word": "eighth",
+      "meaning": "a·第八",
+      "important": false,
+      "id": 521
+    },
+    {
+      "word": "eighty",
+      "meaning": "a·八十",
+      "important": false,
+      "id": 522
+    },
+    {
+      "word": "either",
+      "meaning": "a&conj·两者中的任意一个",
+      "important": false,
+      "id": 523
+    },
+    {
+      "word": "elbow",
+      "meaning": "n·肘部，弯处",
+      "important": false,
+      "id": 524
+    },
+    {
+      "word": "elder",
+      "meaning": "a&n·长者，年龄大的",
+      "important": false,
+      "id": 525
+    },
+    {
+      "word": "elect",
+      "meaning": "v·选举，挑选；adj·选中的，候选的",
+      "important": false,
+      "id": 526
+    },
+    {
+      "word": "electric",
+      "meaning": "n·电路系统；a·电的，令人激动的",
+      "important": false,
+      "id": 527
+    },
+    {
+      "word": "electricity",
+      "meaning": "n·电，电流；强烈感情",
+      "important": false,
+      "id": 528
+    },
+    {
+      "word": "electronic",
+      "meaning": "n·电子电路；a·电子的",
+      "important": false,
+      "id": 529
+    },
+    {
+      "word": "eleven",
+      "meaning": "num.十一",
+      "important": false,
+      "id": 530
+    },
+    {
+      "word": "eleventh",
+      "meaning": "a·第十一",
+      "important": false,
+      "id": 531
+    },
+    {
+      "word": "else",
+      "meaning": "a·别的，此外，其他的",
+      "important": false,
+      "id": 532
+    },
+    {
+      "word": "emergency",
+      "meaning": "n·紧急情况；急救病人",
+      "important": false,
+      "id": 533
+    },
+    {
+      "word": "employ",
+      "meaning": "v·雇佣，使用，利用",
+      "important": false,
+      "id": 534
+    },
+    {
+      "word": "employee",
+      "meaning": "n·雇员",
+      "important": false,
+      "id": 535
+    },
+    {
+      "word": "employer",
+      "meaning": "n·雇主",
+      "important": false,
+      "id": 536
+    },
+    {
+      "word": "employment",
+      "meaning": "n·雇佣，使用，利用",
+      "important": false,
+      "id": 537
+    },
+    {
+      "word": "empty",
+      "meaning": "a·空的，无意义的；",
+      "important": false,
+      "id": 538
+    },
+    {
+      "word": "enable",
+      "meaning": "v·使能够；激活，启动",
+      "important": false,
+      "id": 539
+    },
+    {
+      "word": "encourage",
+      "meaning": "v·鼓励，激励，怂恿",
+      "important": false,
+      "id": 540
+    },
+    {
+      "word": "end",
+      "meaning": "n&v·末尾，终点，结束",
+      "important": false,
+      "id": 541
+    },
+    {
+      "word": "energy",
+      "meaning": "n·能力，精力，能源",
+      "important": false,
+      "id": 542
+    },
+    {
+      "word": "engine",
+      "meaning": "n·引擎，发动机",
+      "important": false,
+      "id": 543
+    },
+    {
+      "word": "engineer",
+      "meaning": "n·工程师",
+      "important": false,
+      "id": 544
+    },
+    {
+      "word": "England",
+      "meaning": "n·英格兰",
+      "important": false,
+      "id": 545
+    },
+    {
+      "word": "English",
+      "meaning": "n·英国人的",
+      "important": false,
+      "id": 546
+    },
+    {
+      "word": "enjoy",
+      "meaning": "v·欣赏，享受，喜欢",
+      "important": false,
+      "id": 547
+    },
+    {
+      "word": "expense",
+      "meaning": "n·损失，代价；开支；v·向……收费，被花掉",
+      "important": false,
+      "id": 548
+    },
+    {
+      "word": "expensive",
+      "meaning": "a·昂贵的，花钱多的",
+      "important": false,
+      "id": 549
+    },
+    {
+      "word": "experience",
+      "meaning": "n&v·经验，经历",
+      "important": false,
+      "id": 550
+    },
+    {
+      "word": "experiment",
+      "meaning": "n·实验，尝试；v·做实验",
+      "important": false,
+      "id": 551
+    },
+    {
+      "word": "expert",
+      "meaning": "n·专家，行家；a·熟练的，内行的",
+      "important": false,
+      "id": 552
+    },
+    {
+      "word": "explain",
+      "meaning": "v·解释，说明，说明……原因",
+      "important": false,
+      "id": 553
+    },
+    {
+      "word": "export",
+      "meaning": "n·出口，输出；v·输出，传播(思想)",
+      "important": false,
+      "id": 554
+    },
+    {
+      "word": "express",
+      "meaning": "n·快递，快车；v·表达，表现；a·快速的",
+      "important": false,
+      "id": 555
+    },
+    {
+      "word": "expression",
+      "meaning": "n·表达，表现，表情",
+      "important": false,
+      "id": 556
+    },
+    {
+      "word": "extra",
+      "meaning": "n·临时演员；a·额外的，另外收费的",
+      "important": false,
+      "id": 557
+    },
+    {
+      "word": "eye",
+      "meaning": "n·眼睛；v·注视",
+      "important": false,
+      "id": 558
+    },
+    {
+      "word": "enough",
+      "meaning": "n·(数量)足够的，充分；a·足够的",
+      "important": false,
+      "id": 559
+    },
+    {
+      "word": "ensure",
+      "meaning": "v·确保，保护",
+      "important": false,
+      "id": 560
+    },
+    {
+      "word": "enter",
+      "meaning": "v·进入，参加",
+      "important": false,
+      "id": 561
+    },
+    {
+      "word": "entrance",
+      "meaning": "n·入口，进口；a·使入迷",
+      "important": false,
+      "id": 562
+    },
+    {
+      "word": "envelope",
+      "meaning": "n·信封",
+      "important": false,
+      "id": 563
+    },
+    {
+      "word": "environment",
+      "meaning": "n·环境",
+      "important": false,
+      "id": 564
+    },
+    {
+      "word": "envy",
+      "meaning": "v&n·羡慕，嫉妒，向往",
+      "important": false,
+      "id": 565
+    },
+    {
+      "word": "equal",
+      "meaning": "a·相等的，平等的；v·等于，比得上",
+      "important": false,
+      "id": 566
+    },
+    {
+      "word": "equipment",
+      "meaning": "n·设备",
+      "important": false,
+      "id": 567
+    },
+    {
+      "word": "eraser",
+      "meaning": "n·橡皮擦",
+      "important": false,
+      "id": 568
+    },
+    {
+      "word": "error",
+      "meaning": "n·错误",
+      "important": false,
+      "id": 569
+    },
+    {
+      "word": "escape",
+      "meaning": "n&v·逃跑，避开",
+      "important": false,
+      "id": 570
+    },
+    {
+      "word": "especially",
+      "meaning": "a·尤其，特别，特地",
+      "important": false,
+      "id": 571
+    },
+    {
+      "word": "establish",
+      "meaning": "v·建立，创立",
+      "important": false,
+      "id": 572
+    },
+    {
+      "word": "euro",
+      "meaning": "n·欧元",
+      "important": false,
+      "id": 573
+    },
+    {
+      "word": "Europe",
+      "meaning": "n·欧洲",
+      "important": false,
+      "id": 574
+    },
+    {
+      "word": "European",
+      "meaning": "n·欧洲的",
+      "important": false,
+      "id": 575
+    },
+    {
+      "word": "eve",
+      "meaning": "n·前夕，傍晚，夏娃",
+      "important": false,
+      "id": 576
+    },
+    {
+      "word": "even",
+      "meaning": "a·平坦的，水平的，正好的；甚至，即使，更加；v·使平均，相等",
+      "important": false,
+      "id": 577
+    },
+    {
+      "word": "evening",
+      "meaning": "n·傍晚，晚上；a·在晚上",
+      "important": false,
+      "id": 578
+    },
+    {
+      "word": "event",
+      "meaning": "n·事件，大事，赛事",
+      "important": false,
+      "id": 579
+    },
+    {
+      "word": "ever",
+      "meaning": "a·曾今，重来，一直，无论何时",
+      "important": false,
+      "id": 580
+    },
+    {
+      "word": "every",
+      "meaning": "det·每个，每一个",
+      "important": false,
+      "id": 581
+    },
+    {
+      "word": "everyone",
+      "meaning": "porn·每个人，人人",
+      "important": false,
+      "id": 582
+    },
+    {
+      "word": "everything",
+      "meaning": "porn·每件事",
+      "important": false,
+      "id": 583
+    },
+    {
+      "word": "everywhere",
+      "meaning": "n·每个地方；a·到处",
+      "important": false,
+      "id": 584
+    },
+    {
+      "word": "exact",
+      "meaning": "a·准确的，精确的；v·要求，强求",
+      "important": false,
+      "id": 585
+    },
+    {
+      "word": "examine",
+      "meaning": "v·调查，检查，考试",
+      "important": false,
+      "id": 586
+    },
+    {
+      "word": "example",
+      "meaning": "n·例子，榜样",
+      "important": false,
+      "id": 587
+    },
+    {
+      "word": "excellent",
+      "meaning": "a·极好的，卓越的",
+      "important": false,
+      "id": 588
+    },
+    {
+      "word": "except",
+      "meaning": "perp·除……之外，不包括；v·反对",
+      "important": false,
+      "id": 589
+    },
+    {
+      "word": "exchange",
+      "meaning": "v·交换，交流，交易",
+      "important": false,
+      "id": 590
+    },
+    {
+      "word": "excited",
+      "meaning": "a·兴奋的，激动的；v·使激动",
+      "important": false,
+      "id": 591
+    },
+    {
+      "word": "exciting",
+      "meaning": "a·令人兴奋的；v·使兴奋",
+      "important": false,
+      "id": 592
+    },
+    {
+      "word": "excuse",
+      "meaning": "n·借口，托词；v·原谅，辩解",
+      "important": false,
+      "id": 593
+    },
+    {
+      "word": "exercise",
+      "meaning": "n&·v·运动，练习",
+      "important": false,
+      "id": 594
+    },
+    {
+      "word": "exhibition",
+      "meaning": "n·展览，展览会",
+      "important": false,
+      "id": 595
+    },
+    {
+      "word": "exist",
+      "meaning": "v·存在，实际上有",
+      "important": false,
+      "id": 596
+    },
+    {
+      "word": "exit",
+      "meaning": "n·出口，通道；v·退出，离开",
+      "important": false,
+      "id": 597
+    },
+    {
+      "word": "expect",
+      "meaning": "v·期待，预计，指望",
+      "important": false,
+      "id": 598
     }
   ],
   "studyWords": [],
