@@ -10,8 +10,8 @@
         </nav-bar>
 	<div class="xy">
 		<div class="content">
-		
 			<div class="button">
+				<sidebarR></sidebarR>
 				<button class="btn" v-if="switchCard" @click="switchCard = !switchCard , refWords('studyWords')">ALL</button>
 				<button class="btn study" v-if="!switchCard" @click="switchCard = !switchCard , refWords('allWords')">STUDY</button>
 				<!--  -->
@@ -27,6 +27,7 @@
 				<button class="btn study" v-if="!switchCard" @click="Detect">检查重复</button>
 				
 			</div>
+			
 			<div class="addWords" v-if="addShowAll">
 				<div class="addModule">
 					<label for="words" >单词 ： </label>
@@ -112,6 +113,7 @@
 
 <script>
 import navBar from 'common/navBar.vue'
+import sidebarR from 'common/SidebarR.vue'
 import btn from 'common/btn.vue'
 import axios from 'axios'
 import { getRandom , getRandom2 } from 'assets/js/utils.js' // 随机数
@@ -119,7 +121,8 @@ import { getRandom , getRandom2 } from 'assets/js/utils.js' // 随机数
 export default {
 	components: {
         navBar,
-		btn
+		btn,
+		sidebarR
     },
     data() {
 			return {
