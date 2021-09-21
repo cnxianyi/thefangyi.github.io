@@ -5,21 +5,29 @@
                 English Words
             </template>
 			<template v-slot:time>
-				2021年8月15日20:12:10
+				2021年9月21日13:10:56
             </template>
         </nav-bar>
 	<div class="xy">
 		<div class="content">
 		
 			<div class="button">
-				<button class="btn" @click="addShow = !addShow">添加单词</button>
-				<button class="btn" @click="getNewWords(10)">10</button>
-				<button class="btn" @click="getNewWords(1)">3</button>
-				<button class="btn" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
-				<button class="btn" @click="wordsTest">检测</button>
-				<button class="btn" @click="Detect">检查重复</button>
+				<button class="btn" v-if="switchCard" @click="switchCard = !switchCard , refWords('studyWords')">ALL</button>
+				<button class="btn study" v-if="!switchCard" @click="switchCard = !switchCard , refWords('allWords')">STUDY</button>
+				<!--  -->
+				<button class="btn" v-if="switchCard" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
+				<button class="btn" v-if="switchCard" @click="addShowAll = !addShowAll">添加单词</button>
+				<button class="btn" v-if="switchCard" @click="getNewWords(10)">10</button>
+				<button class="btn" v-if="switchCard" @click="getNewWords(1)">1</button>
+				<button class="btn" v-if="switchCard" @click="Detect">检查重复</button>
+				<!--  -->
+				<button class="btn study" v-if="!switchCard" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
+				<button class="btn study" v-if="!switchCard" @click="addShowStudy = !addShowStudy">添加单词</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest">检测</button>
+				<button class="btn study" v-if="!switchCard" @click="Detect">检查重复</button>
+				
 			</div>
-			<div class="addWords" v-if="addShow">
+			<div class="addWords" v-if="addShowAll">
 				<div class="addModule">
 					<label for="words" >单词 ： </label>
 					<input type="text" id="words" autocomplete="off"  placeholder="word" required style="width:100px;" v-model='addWords'>
@@ -29,14 +37,29 @@
 					<form>
 					<label for="meaning" >词意 ： </label>
 					<input type="text" id="meaning" autocomplete="off"  placeholder="mean" required style="width:100px;" v-model='addMeaning'>
-					<input type="submit" value="添加" @click="fun()">
+					<input type="submit" value="添加" @click="fun('allWords')">
+					</form>
+				</div>
+				
+			</div>	
+			<div class="addWords" v-if="addShowStudy">
+				<div class="addModule">
+					<label for="words" >单词 ： </label>
+					<input type="text" id="words" autocomplete="off"  placeholder="word" required style="width:100px;" v-model='addWords'>
+				</div>
+
+				<div class="addModule">
+					<form>
+					<label for="meaning" >词意 ： </label>
+					<input type="text" id="meaning" autocomplete="off"  placeholder="mean" required style="width:100px;" v-model='addMeaning'>
+					<input type="submit" value="添加" @click="fun('studyWords')">
 					</form>
 				</div>
 				
 			</div>	
         <div class="table-wrapper">
 
-			<table>
+			<table v-if="switchWord">
 					<thead>
 						<tr>
 							<th>序号</th>
@@ -47,14 +70,17 @@
 					<tbody v-show="total">
 						<tr v-for="item in words" :key="item.id">
 							<td>{{item.id}}</td>
-							<td>{{item.word}}</td>
+							<td v-if="item.important" class="important">&#160;&#160;&#160;{{item.word}}</td>
+							<td v-if="!item.important"><button @click="addImport(item.id , item.important)" class="importBtn">&#160;&#160;❤&#160;&#160;</button>{{item.word}}</td>
 							<td>{{item.meaning}}</td>
+							
 						</tr>
 					</tbody>
 					<tbody v-if="getTotal">
 						<tr v-for="item2 in NewWords" :key="item2.id">
 							<td>{{item2.id}}</td>
-							<td>{{item2.word}}</td>
+							<td v-if="item.important" class="important">{{item.word}}</td>
+							<td v-if="!item.important"><button @click="addImport(item.id , item.important)" class="importBtn">&#160;&#160;❤&#160;&#160;</button>{{item.word}}</td>
 							<td>{{item2.meaning}}</td>
 						</tr>
 					</tbody>
@@ -97,8 +123,12 @@ export default {
     },
     data() {
 			return {
+				nowUrl: '',
+				switchCard: true, // 切换单词显示
+				switchWord:true, // 单词刷新
 				words: {},
-				addShow: false,
+				addShowAll: false,
+				addShowStudy: false,
 				total: true,
 				getTotal: false,
 				testTotal: false,
@@ -112,13 +142,38 @@ export default {
 			}
 		},
 		mounted() {
-			axios.get('http://localhost:3000/words').then((result) => {
+			this.nowUrl = 'allWords'
+			axios.get('http://localhost:3000/allWords').then((result) => {
 				this.words = result.data
 			}).catch((err) => {
 				
 			});
 		},
 		methods: {
+			addImport(id , boo){
+				let nowUrl = this.nowUrl
+				axios({
+					method: 'patch',
+					url: `http://localhost:3000/${nowUrl}/${id}`,
+					data: {
+						important: !boo
+					}
+					});
+			},
+
+			refWords(str){ // 切换单词 获取数据
+			this.nowUrl = `${str}`
+			this.switchWord = false
+			this.addShowStudy = false
+			this.addShowAll = false
+			this.words = {}
+			axios.get(`http://localhost:3000/${str}`).then((result) => {
+			this.words = result.data
+			this.switchWord = true
+			}).catch((err) => {
+				
+			});
+			},
 			getNewWords(len){
 				getRandom(this.random , this.words.length , len)
 				for (let i = 0; i < len; i++) {
@@ -172,7 +227,7 @@ export default {
 						alert('不重复')
 					}
 				},
-			fun(){
+			fun(str){
 				if (this.addWords.length >= 1  & this.addMeaning.length >= 1) {
 					alert(this.addWords + this.addMeaning +'  ' + ' 添加成功')
 					if(this.addMeaning.slice(0,1).codePointAt(0) >=97 && this.addMeaning.slice(0,1).codePointAt(0) <=122){
@@ -183,10 +238,11 @@ export default {
 					}
 					axios({
 					method: 'post',
-					url: 'http://localhost:3000/words',
+					url: `http://localhost:3000/${str}`,
 					data: {
 						word: this.addWords,
 						meaning: this.addMeaning,
+						important: false
 					}
 					});
 					
@@ -195,7 +251,7 @@ export default {
 				this.addMeaning = ''
 				
 				setTimeout(() => {
-					axios.get('http://localhost:3000/words').then((result) => {
+					axios.get(`http://localhost:3000/${str}`).then((result) => {
 					console.log(result.data);
 					this.words = result.data
 					for (let i = 0; i < this.words.length; i++) {
@@ -205,7 +261,7 @@ export default {
 						let getDelete = confirm('单词重复收录，是否删除')
 						let len = this.words.length
 						if(getDelete){
-							axios.delete(`http://localhost:3000/words/${len}`)
+							axios.delete(`http://localhost:3000/${str}/${len}`)
 							alert('删除成功')
 							location.reload() 
 						}
@@ -239,6 +295,10 @@ export default {
         text-align: center; // 文本水平居中
 		flex-grow: 1
 		}
+		.study {
+			background-color: #2486b9;
+			box-shadow: rgba(66, 57, 151, 0.363) 0px 15px 25px, rgba(57, 67, 156, 0.425) 0px 5px 10px;
+		}
 	}
 
 	.addWords {
@@ -250,6 +310,18 @@ export default {
 		.addModule {
 			margin: 8px;
 		}
+	}
+
+	.important {
+		color: #ee2c79;
+		font-weight: bold;
+	}
+	.importBtn {
+		border: 0;
+		font-size: 14px;
+		position: relative;
+		top: 1px;
+		background: none;
 	}
 		
 </style>
