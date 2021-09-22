@@ -3353,6 +3353,426 @@
       "meaning": "v·期待，预计，指望",
       "important": false,
       "id": 598
+    },
+    {
+      "word": "face",
+      "meaning": "n·脸，面部，尊严；v·面对，面向，正视",
+      "important": false,
+      "id": 599
+    },
+    {
+      "word": "fact",
+      "meaning": "n·事实，真相",
+      "important": false,
+      "id": 600
+    },
+    {
+      "word": "factory",
+      "meaning": "n·工厂，制造厂",
+      "important": false,
+      "id": 601
+    },
+    {
+      "word": "fail",
+      "meaning": "n·不及格；v·失败，未能做到，倒闭",
+      "important": false,
+      "id": 602
+    },
+    {
+      "word": "failure",
+      "meaning": "n·失败，失败的人",
+      "important": false,
+      "id": 603
+    },
+    {
+      "word": "fair",
+      "meaning": "n·展览会；集市，市场；美女；a·公平公正的，合理的；美丽的；晴朗的；v·转晴",
+      "important": false,
+      "id": 604
+    },
+    {
+      "word": "fall",
+      "meaning": "n·落下，跌倒；秋季；v·落下，跪下；(数量)减少",
+      "important": false,
+      "id": 605
+    },
+    {
+      "word": "false",
+      "meaning": "a·错误的，伪造的",
+      "important": false,
+      "id": 606
+    },
+    {
+      "word": "familiar",
+      "meaning": "n·常客，密友；a·熟悉的，常见的",
+      "important": false,
+      "id": 607
+    },
+    {
+      "word": "family",
+      "meaning": "n·家庭，家族；a·家族的",
+      "important": false,
+      "id": 608
+    },
+    {
+      "word": "famous",
+      "meaning": "a·著名的，极好的",
+      "important": false,
+      "id": 609
+    },
+    {
+      "word": "fan",
+      "meaning": "n·风扇，粉丝；v·扇，激起",
+      "important": false,
+      "id": 610
+    },
+    {
+      "word": "fantastic",
+      "meaning": "n·古怪的人；a·异想天开的，极好的；",
+      "important": false,
+      "id": 611
+    },
+    {
+      "word": "far",
+      "meaning": "a·遥远的，另一边的",
+      "important": false,
+      "id": 612
+    },
+    {
+      "word": "fare",
+      "meaning": "n·交通费用(票)，乘客，饭菜；v·进展，表现",
+      "important": false,
+      "id": 613
+    },
+    {
+      "word": "fault",
+      "meaning": "n·错误，责任，缺点； v·职责，挑剔",
+      "important": false,
+      "id": 614
+    },
+    {
+      "word": "favor",
+      "meaning": "n&v·帮助，提拔",
+      "important": false,
+      "id": 615
+    },
+    {
+      "word": "favorite",
+      "meaning": "n&a·最喜爱的；v·添加到收藏夹",
+      "important": false,
+      "id": 616
+    },
+    {
+      "word": "fax",
+      "meaning": "n&v·传真",
+      "important": false,
+      "id": 617
+    },
+    {
+      "word": "fear",
+      "meaning": "n&v·害怕，恐惧",
+      "important": false,
+      "id": 618
+    },
+    {
+      "word": "feature",
+      "meaning": "n·特点，特征；v·特色，由……主演",
+      "important": false,
+      "id": 619
+    },
+    {
+      "word": "February",
+      "meaning": "n·二月",
+      "important": false,
+      "id": 620
+    },
+    {
+      "word": "fee",
+      "meaning": "n·费用，酬金；v·付给",
+      "important": false,
+      "id": 621
+    },
+    {
+      "word": "feed/felt",
+      "meaning": "n&v·喂养，饲养",
+      "important": false,
+      "id": 622
+    },
+    {
+      "word": "feel",
+      "meaning": "n·感觉，触摸；v·感受到，觉得",
+      "important": false,
+      "id": 623
+    },
+    {
+      "word": "feeling",
+      "meaning": "n·感觉，感触，看法；a·多愁善感的，多情的；v·感受到，体会",
+      "important": false,
+      "id": 624
+    },
+    {
+      "word": "fellow",
+      "meaning": "n·小伙子，同伴，同事；a·同类的",
+      "important": false,
+      "id": 625
+    },
+    {
+      "word": "female",
+      "meaning": "n·女人，雌性；a·雌性的",
+      "important": false,
+      "id": 626
+    },
+    {
+      "word": "fence",
+      "meaning": "n·栅栏，篱笆；v·(栅栏)围住，击剑；巧妙回答",
+      "important": false,
+      "id": 627
+    },
+    {
+      "word": "festival",
+      "meaning": "n·节日，活动；a·节日的，喜庆的",
+      "important": false,
+      "id": 628
+    },
+    {
+      "word": "fever",
+      "meaning": "n&v·发烧，发热，激动",
+      "important": false,
+      "id": 629
+    },
+    {
+      "word": "few",
+      "meaning": "a&pron·少数的，几乎没有的",
+      "important": false,
+      "id": 630
+    },
+    {
+      "word": "fiber",
+      "meaning": "n·纤维",
+      "important": false,
+      "id": 631
+    },
+    {
+      "word": "field",
+      "meaning": "n·牧场，领域，战场；a·野生的，扫描场？v·上场，暴晒于场",
+      "important": false,
+      "id": 632
+    },
+    {
+      "word": "fifteen",
+      "meaning": "num·十五",
+      "important": false,
+      "id": 633
+    },
+    {
+      "word": "fifteenth",
+      "meaning": "a·第十五",
+      "important": false,
+      "id": 634
+    },
+    {
+      "word": "fight",
+      "meaning": "n&v·打架，斗争，争吵",
+      "important": false,
+      "id": 635
+    },
+    {
+      "word": "figure",
+      "meaning": "n·数字；人物；图形；v·认为；计算",
+      "important": false,
+      "id": 636
+    },
+    {
+      "word": "filmn",
+      "meaning": "n·电影",
+      "important": false,
+      "id": 637
+    },
+    {
+      "word": "final",
+      "meaning": "n·决赛；期末考试；a·终极的",
+      "important": false,
+      "id": 638
+    },
+    {
+      "word": "file",
+      "meaning": "n·文件，档案",
+      "important": false,
+      "id": 639
+    },
+    {
+      "word": "finance",
+      "meaning": "n·财政；金融；资金；v·提供资金，贷款",
+      "important": false,
+      "id": 640
+    },
+    {
+      "word": "financial",
+      "meaning": "a·财政的，金融的",
+      "important": false,
+      "id": 641
+    },
+    {
+      "word": "find",
+      "meaning": "v·找到，发现",
+      "important": false,
+      "id": 642
+    },
+    {
+      "word": "fine",
+      "meaning": "a·晴朗的，令人满意的，优质的；v·罚款",
+      "important": false,
+      "id": 643
+    },
+    {
+      "word": "finger",
+      "meaning": "n·手指",
+      "important": false,
+      "id": 644
+    },
+    {
+      "word": "finish",
+      "meaning": "n·结尾，结局，终点；v·完成;(使结束)",
+      "important": false,
+      "id": 645
+    },
+    {
+      "word": "fire",
+      "meaning": "n·火；v·射击",
+      "important": false,
+      "id": 646
+    },
+    {
+      "word": "firework",
+      "meaning": "n·烟火",
+      "important": false,
+      "id": 647
+    },
+    {
+      "word": "firm",
+      "meaning": "n·公司；a·结实的，牢固的；v·使强壮",
+      "important": false,
+      "id": 648
+    },
+    {
+      "word": "first",
+      "meaning": "n·第一，首先",
+      "important": false,
+      "id": 649
+    },
+    {
+      "word": "fish",
+      "meaning": "n&v·鱼肉，钓鱼",
+      "important": false,
+      "id": 650
+    },
+    {
+      "word": "fit",
+      "meaning": "n·适合，匹配；a·健康的，合适的；v·适合，适应；(衣)",
+      "important": false,
+      "id": 651
+    },
+    {
+      "word": "five",
+      "meaning": "num·五",
+      "important": false,
+      "id": 652
+    },
+    {
+      "word": "fix",
+      "meaning": "v·修理，安装",
+      "important": false,
+      "id": 653
+    },
+    {
+      "word": "flag",
+      "meaning": "n·旗帜，国旗；v·做标志",
+      "important": false,
+      "id": 654
+    },
+    {
+      "word": "flame",
+      "meaning": "n·火焰，强烈感情，激情；v·燃烧；感情爆发",
+      "important": false,
+      "id": 655
+    },
+    {
+      "word": "flash",
+      "meaning": "n·闪光；v·发出信号",
+      "important": false,
+      "id": 656
+    },
+    {
+      "word": "flashlight",
+      "meaning": "n·手电",
+      "important": false,
+      "id": 657
+    },
+    {
+      "word": "flat",
+      "meaning": "n&a·平的，公寓",
+      "important": false,
+      "id": 658
+    },
+    {
+      "word": "flight",
+      "meaning": "n·航班；飞行",
+      "important": false,
+      "id": 659
+    },
+    {
+      "word": "flood",
+      "meaning": "n&v·洪水，淹没",
+      "important": false,
+      "id": 660
+    },
+    {
+      "word": "floor",
+      "meaning": "n·地板，地面，楼层",
+      "important": false,
+      "id": 661
+    },
+    {
+      "word": "flour",
+      "meaning": "n·面粉",
+      "important": false,
+      "id": 662
+    },
+    {
+      "word": "flow",
+      "meaning": "v·流动",
+      "important": false,
+      "id": 663
+    },
+    {
+      "word": "flower",
+      "meaning": "n·花",
+      "important": false,
+      "id": 664
+    },
+    {
+      "word": "flu",
+      "meaning": "n·流行性感冒",
+      "important": false,
+      "id": 665
+    },
+    {
+      "word": "fly",
+      "meaning": "n·飞",
+      "important": false,
+      "id": 666
+    },
+    {
+      "word": "fog",
+      "meaning": "n·雾，v·起雾",
+      "important": false,
+      "id": 667
+    },
+    {
+      "word": "fold",
+      "meaning": "v·折叠；倒闭；停业",
+      "important": false,
+      "id": 668
     }
   ],
   "studyWords": [],
