@@ -15,1082 +15,1298 @@
     {
       "word": "able",
       "meaning": "adj·能够",
-      "id": 3
+      "id": 3,
+      "important": false
     },
     {
       "word": "aboard",
       "meaning": "adv·登上(车)",
-      "id": 4
+      "id": 4,
+      "important": false
     },
     {
       "word": "about",
       "meaning": "adj·在……上面",
-      "id": 5
+      "id": 5,
+      "important": false
     },
     {
       "word": "abroad",
       "meaning": "adv·在国外",
-      "id": 6
+      "id": 6,
+      "important": false
     },
     {
       "word": "absent",
       "meaning": "vt·接受",
-      "id": 7
+      "id": 7,
+      "important": false
     },
     {
       "word": "access",
       "meaning": "n·进入",
-      "id": 8
+      "id": 8,
+      "important": false
     },
     {
       "word": "accident",
       "meaning": "n·事故；意外的事",
-      "id": 9
+      "id": 9,
+      "important": false
     },
     {
       "word": "account",
       "meaning": "n·会计",
-      "id": 10
+      "id": 10,
+      "important": false
     },
     {
       "word": "ache",
       "meaning": "vi·疼痛",
-      "id": 11
+      "id": 11,
+      "important": false
     },
     {
       "word": "across",
       "meaning": "prep·穿过",
-      "id": 12
+      "id": 12,
+      "important": false
     },
     {
       "word": "act",
       "meaning": "n·法令·v·扮演",
-      "id": 13
+      "id": 13,
+      "important": false
     },
     {
       "word": "action",
       "meaning": "n·行动",
-      "id": 14
+      "id": 14,
+      "important": false
     },
     {
       "word": "active",
       "meaning": "adj·积极地；主动的",
-      "id": 15
+      "id": 15,
+      "important": false
     },
     {
       "word": "activity",
       "meaning": "n·活动",
-      "id": 16
+      "id": 16,
+      "important": false
     },
     {
       "word": "actor",
       "meaning": "n·男演员",
-      "id": 17
+      "id": 17,
+      "important": false
     },
     {
       "word": "actress",
       "meaning": "n·女演员",
-      "id": 18
+      "id": 18,
+      "important": false
     },
     {
       "word": "actually",
       "meaning": "adv·事实上",
-      "id": 19
+      "id": 19,
+      "important": false
     },
     {
       "word": "ad = advertisem ent",
       "meaning": "n·广告",
-      "id": 20
+      "id": 20,
+      "important": false
     },
     {
       "word": "add",
       "meaning": "vt·添加",
-      "id": 21
+      "id": 21,
+      "important": false
     },
     {
       "word": "address",
       "meaning": "n·地址",
-      "id": 22
+      "id": 22,
+      "important": false
     },
     {
       "word": "adjust",
       "meaning": "n·调整",
-      "id": 23
+      "id": 23,
+      "important": false
     },
     {
       "word": "administration",
       "meaning": "n·管理",
-      "id": 24
+      "id": 24,
+      "important": false
     },
     {
       "word": "admire",
       "meaning": "v·钦佩；羡慕",
-      "id": 25
+      "id": 25,
+      "important": false
     },
     {
       "word": "adult",
       "meaning": "n·成年人",
-      "id": 26
+      "id": 26,
+      "important": false
     },
     {
       "word": "advanced",
       "meaning": "adj·高级的；先进的",
-      "id": 27
+      "id": 27,
+      "important": false
     },
     {
       "word": "advice",
       "meaning": "n·劝告；建议",
-      "id": 28
+      "id": 28,
+      "important": false
     },
     {
       "word": "advise",
       "meaning": "vt·劝告；建议",
-      "id": 29
+      "id": 29,
+      "important": false
     },
     {
       "word": "afford",
       "meaning": "v·负担得起",
-      "id": 30
+      "id": 30,
+      "important": false
     },
     {
       "word": "afraid",
       "meaning": "adj·害怕的",
-      "id": 31
+      "id": 31,
+      "important": false
     },
     {
       "word": "Africa",
       "meaning": "n·非洲",
-      "id": 32
+      "id": 32,
+      "important": false
     },
     {
       "word": "African",
       "meaning": "n·非洲人",
-      "id": 33
+      "id": 33,
+      "important": false
     },
     {
       "word": "after",
       "meaning": "prep&conj·在……以后",
-      "id": 34
+      "id": 34,
+      "important": false
     },
     {
       "word": "afternoon",
       "meaning": "n·下午",
-      "id": 35
+      "id": 35,
+      "important": false
     },
     {
       "word": "again",
       "meaning": "adv·再一次",
-      "id": 36
+      "id": 36,
+      "important": false
     },
     {
       "word": "against",
       "meaning": "prep·对着……反对",
-      "id": 37
+      "id": 37,
+      "important": false
     },
     {
       "word": "age",
       "meaning": "n·年龄；时代",
-      "id": 38
+      "id": 38,
+      "important": false
     },
     {
       "word": "agency",
       "meaning": "n·代理",
-      "id": 39
+      "id": 39,
+      "important": false
     },
     {
       "word": "agent",
       "meaning": "n·代理人",
-      "id": 40
+      "id": 40,
+      "important": false
     },
     {
       "word": "ago",
       "meaning": "adv·以前",
-      "id": 41
+      "id": 41,
+      "important": false
     },
     {
       "word": "agreement",
       "meaning": "n·协议",
-      "id": 42
+      "id": 42,
+      "important": false
     },
     {
       "word": "ahead",
       "meaning": "adv·在前；向前",
-      "id": 43
+      "id": 43,
+      "important": false
     },
     {
       "word": "aid",
       "meaning": "n&v·援助",
-      "id": 44
+      "id": 44,
+      "important": false
     },
     {
       "word": "aim",
       "meaning": "n&v·目标",
-      "id": 45
+      "id": 45,
+      "important": false
     },
     {
       "word": "air",
       "meaning": "n·空气",
-      "id": 46
+      "id": 46,
+      "important": false
     },
     {
       "word": "airline",
       "meaning": "n·航空公司；航线",
-      "id": 47
+      "id": 47,
+      "important": false
     },
     {
       "word": "airport",
       "meaning": "n·飞机场",
-      "id": 48
+      "id": 48,
+      "important": false
     },
     {
       "word": "aisle",
       "meaning": "n·通道",
-      "id": 49
+      "id": 49,
+      "important": false
     },
     {
       "word": "album",
       "meaning": "n·唱片集；纪念册",
-      "id": 50
+      "id": 50,
+      "important": false
     },
     {
       "word": "alcohol",
       "meaning": "n·酒精",
-      "id": 51
+      "id": 51,
+      "important": false
     },
     {
       "word": "alert",
       "meaning": "a·警觉的",
-      "id": 52
+      "id": 52,
+      "important": false
     },
     {
       "word": "alike",
       "meaning": "a&ad·相似的",
-      "id": 53
+      "id": 53,
+      "important": false
     },
     {
       "word": "alive",
       "meaning": "a·活着的；存在的",
-      "id": 54
+      "id": 54,
+      "important": false
     },
     {
       "word": "all",
       "meaning": "a·全部",
-      "id": 55
+      "id": 55,
+      "important": false
     },
     {
       "word": "allow",
       "meaning": "v·允许",
-      "id": 56
+      "id": 56,
+      "important": false
     },
     {
       "word": "almost",
       "meaning": "ad·几乎",
-      "id": 57
+      "id": 57,
+      "important": false
     },
     {
       "word": "alone",
       "meaning": "a·单独的；孤独的",
-      "id": 58
+      "id": 58,
+      "important": false
     },
     {
       "word": "along",
       "meaning": "ad&prep·向前；沿着",
-      "id": 59
+      "id": 59,
+      "important": false
     },
     {
       "word": "aloud",
       "meaning": "ad·大声的",
-      "id": 60
+      "id": 60,
+      "important": false
     },
     {
       "word": "already",
       "meaning": "ad·已经",
-      "id": 61
+      "id": 61,
+      "important": false
     },
     {
       "word": "also",
       "meaning": "ad·也",
-      "id": 62
+      "id": 62,
+      "important": false
     },
     {
       "word": "although",
       "meaning": "conj·虽然",
-      "id": 63
+      "id": 63,
+      "important": false
     },
     {
       "word": "always",
       "meaning": "ad·总是",
-      "id": 64
+      "id": 64,
+      "important": false
     },
     {
       "word": "A·M",
       "meaning": "n·上午",
-      "id": 65
+      "id": 65,
+      "important": false
     },
     {
       "word": "amazing",
       "meaning": "a·令人惊异的",
-      "id": 66
+      "id": 66,
+      "important": false
     },
     {
       "word": "America",
       "meaning": "n·美国",
-      "id": 67
+      "id": 67,
+      "important": false
     },
     {
       "word": "American",
       "meaning": "n·美国人",
-      "id": 68
+      "id": 68,
+      "important": false
     },
     {
       "word": "among",
       "meaning": "prep·在……之间",
-      "id": 69
+      "id": 69,
+      "important": false
     },
     {
       "word": "ancient",
       "meaning": "a·古代的",
-      "id": 70
+      "id": 70,
+      "important": false
     },
     {
       "word": "and",
       "meaning": "conj·和",
-      "id": 71
+      "id": 71,
+      "important": false
     },
     {
       "word": "animal",
       "meaning": "n·动物",
-      "id": 72
+      "id": 72,
+      "important": false
     },
     {
       "word": "another",
       "meaning": "a·不同的 pron·另一个",
-      "id": 73
+      "id": 73,
+      "important": false
     },
     {
       "word": "answer",
       "meaning": "n&v·答案；回答",
-      "id": 74
+      "id": 74,
+      "important": false
     },
     {
       "word": "anybody(=anyone)",
       "meaning": "pron·任何人；不论谁",
-      "id": 75
+      "id": 75,
+      "important": false
     },
     {
       "word": "anyhow",
       "meaning": "ad·不管怎样",
-      "id": 76
+      "id": 76,
+      "important": false
     },
     {
       "word": "anymore",
       "meaning": "ad·不再(not……anymore)",
-      "id": 77
+      "id": 77,
+      "important": false
     },
     {
       "word": "anything",
       "meaning": "pron·任何事",
-      "id": 78
+      "id": 78,
+      "important": false
     },
     {
       "word": "anyway",
       "meaning": "ad·不管怎样；至少",
-      "id": 79
+      "id": 79,
+      "important": false
     },
     {
       "word": "anywhere",
       "meaning": "ad·任何地方",
-      "id": 80
+      "id": 80,
+      "important": false
     },
     {
       "word": "apartment",
       "meaning": "n·公寓",
-      "id": 81
+      "id": 81,
+      "important": false
     },
     {
       "word": "apologize",
       "meaning": "v·道歉",
-      "id": 82
+      "id": 82,
+      "important": false
     },
     {
       "word": "appear",
       "meaning": "v·出现",
-      "id": 83
+      "id": 83,
+      "important": false
     },
     {
       "word": "appetite",
       "meaning": "n·食欲",
-      "id": 84
+      "id": 84,
+      "important": false
     },
     {
       "word": "application",
       "meaning": "n·申请；应用",
-      "id": 85
+      "id": 85,
+      "important": false
     },
     {
       "word": "apply",
       "meaning": "v·申请；应用",
-      "id": 86
+      "id": 86,
+      "important": false
     },
     {
       "word": "appointment",
       "meaning": "n·约定",
-      "id": 87
+      "id": 87,
+      "important": false
     },
     {
       "word": "April",
       "meaning": "n·四月",
-      "id": 88
+      "id": 88,
+      "important": false
     },
     {
       "word": "area",
       "meaning": "n·面积；区域",
-      "id": 89
+      "id": 89,
+      "important": false
     },
     {
       "word": "arm",
       "meaning": "n·手臂",
-      "id": 90
+      "id": 90,
+      "important": false
     },
     {
       "word": "army",
       "meaning": "n·军队",
-      "id": 91
+      "id": 91,
+      "important": false
     },
     {
       "word": "around",
       "meaning": "ad&prep·在附近；在……周围",
-      "id": 92
+      "id": 92,
+      "important": false
     },
     {
       "word": "arrive",
       "meaning": "v·到达",
-      "id": 93
+      "id": 93,
+      "important": false
     },
     {
       "word": "art",
       "meaning": "n·艺术",
-      "id": 94
+      "id": 94,
+      "important": false
     },
     {
       "word": "artist",
       "meaning": "n·艺术家",
-      "id": 95
+      "id": 95,
+      "important": false
     },
     {
       "word": "as",
       "meaning": "ad`像……一样；因为",
-      "id": 96
+      "id": 96,
+      "important": false
     },
     {
       "word": "ashtray",
       "meaning": "n·烟灰缸",
-      "id": 97
+      "id": 97,
+      "important": false
     },
     {
       "word": "Asia",
       "meaning": "n·亚洲",
-      "id": 98
+      "id": 98,
+      "important": false
     },
     {
       "word": "Asian",
       "meaning": "n·亚洲人",
-      "id": 99
+      "id": 99,
+      "important": false
     },
     {
       "word": "aside",
       "meaning": "ad·在……旁边",
-      "id": 100
+      "id": 100,
+      "important": false
     },
     {
       "word": "ask",
       "meaning": "v·问；要求",
-      "id": 101
+      "id": 101,
+      "important": false
     },
     {
       "word": "asleep",
       "meaning": "a·睡着的",
-      "id": 102
+      "id": 102,
+      "important": false
     },
     {
       "word": "assistant",
       "meaning": "n·助手；助理",
-      "id": 103
+      "id": 103,
+      "important": false
     },
     {
       "word": "at",
       "meaning": "prep·在(几点)；在(某处)",
-      "id": 104
+      "id": 104,
+      "important": false
     },
     {
       "word": "ATM",
       "meaning": "n·自动提款机",
-      "id": 105
+      "id": 105,
+      "important": false
     },
     {
       "word": "attend",
       "meaning": "v·出席；照料",
-      "id": 106
+      "id": 106,
+      "important": false
     },
     {
       "word": "attract",
       "meaning": "v·吸引；引起",
-      "id": 107
+      "id": 107,
+      "important": false
     },
     {
       "word": "audience",
       "meaning": "n·观众",
-      "id": 108
+      "id": 108,
+      "important": false
     },
     {
       "word": "August",
       "meaning": "n·八月",
-      "id": 109
+      "id": 109,
+      "important": false
     },
     {
       "word": "aunt",
       "meaning": "n·伯母；舅母；婶姑姨",
-      "id": 110
+      "id": 110,
+      "important": false
     },
     {
       "word": "Australia",
       "meaning": "n·澳大利亚",
-      "id": 111
+      "id": 111,
+      "important": false
     },
     {
       "word": "Australian",
       "meaning": "a·澳大利亚人",
-      "id": 112
+      "id": 112,
+      "important": false
     },
     {
       "word": "automatic",
       "meaning": "a·自动的",
-      "id": 113
+      "id": 113,
+      "important": false
     },
     {
       "word": "automobile",
       "meaning": "n·汽车",
-      "id": 114
+      "id": 114,
+      "important": false
     },
     {
       "word": "autumn",
       "meaning": "n·秋天",
-      "id": 115
+      "id": 115,
+      "important": false
     },
     {
       "word": "available",
       "meaning": "a·有效的",
-      "id": 116
+      "id": 116,
+      "important": false
     },
     {
       "word": "avenue",
       "meaning": "n·林荫小道",
-      "id": 117
+      "id": 117,
+      "important": false
     },
     {
       "word": "avoid",
       "meaning": "v·避免",
-      "id": 118
+      "id": 118,
+      "important": false
     },
     {
       "word": "away",
       "meaning": "ad·离开；远离",
-      "id": 119
+      "id": 119,
+      "important": false
     },
     {
       "word": "awful",
       "meaning": "a·可怕的",
-      "id": 120
+      "id": 120,
+      "important": false
     },
     {
       "word": "baby",
       "meaning": "n·婴儿",
-      "id": 121
+      "id": 121,
+      "important": false
     },
     {
       "word": "back",
       "meaning": "ad&n·向后；后面",
-      "id": 122
+      "id": 122,
+      "important": false
     },
     {
       "word": "backache",
       "meaning": "n·背疼",
-      "id": 123
+      "id": 123,
+      "important": false
     },
     {
       "word": "background",
       "meaning": "n·背景",
-      "id": 124
+      "id": 124,
+      "important": false
     },
     {
       "word": "backward",
       "meaning": "ad·向后",
-      "id": 125
+      "id": 125,
+      "important": false
     },
     {
       "word": "bacon",
       "meaning": "n·培根",
-      "id": 126
+      "id": 126,
+      "important": false
     },
     {
       "word": "bad",
       "meaning": "a·坏的；严重的",
-      "id": 127
+      "id": 127,
+      "important": false
     },
     {
       "word": "badminton",
       "meaning": "n·羽毛球",
-      "id": 128
+      "id": 128,
+      "important": false
     },
     {
       "word": "bag",
       "meaning": "n·书包",
-      "id": 129
+      "id": 129,
+      "important": false
     },
     {
       "word": "baggage",
       "meaning": "n·行李",
-      "id": 130
+      "id": 130,
+      "important": false
     },
     {
       "word": "bake",
       "meaning": "v·烘焙",
-      "id": 131
+      "id": 131,
+      "important": false
     },
     {
       "word": "bakery",
       "meaning": "n·面包店",
-      "id": 132
+      "id": 132,
+      "important": false
     },
     {
       "word": "balance",
       "meaning": "n·平衡",
-      "id": 133
+      "id": 133,
+      "important": false
     },
     {
       "word": "ball",
       "meaning": "n·球；舞会",
-      "id": 134
+      "id": 134,
+      "important": false
     },
     {
       "word": "balloon",
       "meaning": "n·气球",
-      "id": 135
+      "id": 135,
+      "important": false
     },
     {
       "word": "band",
       "meaning": "n·乐队",
-      "id": 136
+      "id": 136,
+      "important": false
     },
     {
       "word": "bank",
       "meaning": "n·银行；堤岸",
-      "id": 137
+      "id": 137,
+      "important": false
     },
     {
       "word": "bar",
       "meaning": "n·酒吧",
-      "id": 138
+      "id": 138,
+      "important": false
     },
     {
       "word": "bark",
       "meaning": "v&n·吠叫",
-      "id": 139
+      "id": 139,
+      "important": false
     },
     {
       "word": "baseball",
       "meaning": "n·棒球",
-      "id": 140
+      "id": 140,
+      "important": false
     },
     {
       "word": "basic",
       "meaning": "a·基本的",
-      "id": 141
+      "id": 141,
+      "important": false
     },
     {
       "word": "basin",
       "meaning": "n·水盆",
-      "id": 142
+      "id": 142,
+      "important": false
     },
     {
       "word": "basket",
       "meaning": "n·篮子",
-      "id": 143
+      "id": 143,
+      "important": false
     },
     {
       "word": "basketball",
       "meaning": "n·篮球",
-      "id": 144
+      "id": 144,
+      "important": false
     },
     {
       "word": "bathroom",
       "meaning": "n·浴室",
-      "id": 145
+      "id": 145,
+      "important": false
     },
     {
       "word": "bathtub",
       "meaning": "n·浴缸",
-      "id": 146
+      "id": 146,
+      "important": false
     },
     {
       "word": "battery",
       "meaning": "n·电池",
-      "id": 147
+      "id": 147,
+      "important": false
     },
     {
       "word": "bay",
       "meaning": "n·海湾",
-      "id": 148
+      "id": 148,
+      "important": false
     },
     {
       "word": "be(am is are)",
       "meaning": "n·是",
-      "id": 149
+      "id": 149,
+      "important": false
     },
     {
       "word": "beach",
       "meaning": "n·海滨；海滩",
-      "id": 150
+      "id": 150,
+      "important": false
     },
     {
       "word": "bean",
       "meaning": "n·豆",
-      "id": 151
+      "id": 151,
+      "important": false
     },
     {
       "word": "beautiful",
       "meaning": "a·美丽的",
-      "id": 152
+      "id": 152,
+      "important": false
     },
     {
       "word": "become",
       "meaning": "v·变得；成为",
-      "id": 153
+      "id": 153,
+      "important": false
     },
     {
       "word": "bed",
       "meaning": "n·床",
-      "id": 154
+      "id": 154,
+      "important": false
     },
     {
       "word": "bedroom",
       "meaning": "n·寝室",
-      "id": 155
+      "id": 155,
+      "important": false
     },
     {
       "word": "beef",
       "meaning": "n·牛肉",
-      "id": 156
+      "id": 156,
+      "important": false
     },
     {
       "word": "beer",
       "meaning": "n·啤酒",
-      "id": 157
+      "id": 157,
+      "important": false
     },
     {
       "word": "before",
       "meaning": "prep/ad/corj·在……以前",
-      "id": 158
+      "id": 158,
+      "important": false
     },
     {
       "word": "beginning",
       "meaning": "n·开始",
-      "id": 159
+      "id": 159,
+      "important": false
     },
     {
       "word": "behavior",
       "meaning": "n·行为；举止",
-      "id": 160
+      "id": 160,
+      "important": false
     },
     {
       "word": "behind",
       "meaning": "prep&ad·在……后面",
-      "id": 161
+      "id": 161,
+      "important": false
     },
     {
       "word": "believe",
       "meaning": "v·相信；认为",
-      "id": 162
+      "id": 162,
+      "important": false
     },
     {
       "word": "bell",
       "meaning": "n·钟；铃",
-      "id": 163
+      "id": 163,
+      "important": false
     },
     {
       "word": "belong",
       "meaning": "v·属于",
-      "id": 164
+      "id": 164,
+      "important": false
     },
     {
       "word": "below",
       "meaning": "prep·在……下面",
-      "id": 165
+      "id": 165,
+      "important": false
     },
     {
       "word": "beside",
       "meaning": "prep·在……旁边；靠近",
-      "id": 166
+      "id": 166,
+      "important": false
     },
     {
       "word": "besides",
       "meaning": "prep&ad·此外",
-      "id": 167
+      "id": 167,
+      "important": false
     },
     {
       "word": "best",
       "meaning": "a&ad·最好的",
-      "id": 168
+      "id": 168,
+      "important": false
     },
     {
       "word": "bet",
       "meaning": "v·打赌",
-      "id": 169
+      "id": 169,
+      "important": false
     },
     {
       "word": "better",
       "meaning": "a&ad·更好的",
-      "id": 170
+      "id": 170,
+      "important": false
     },
     {
       "word": "between",
       "meaning": "prep·在两者之间",
-      "id": 171
+      "id": 171,
+      "important": false
     },
     {
       "word": "beyond",
       "meaning": "prep·在……的那边",
-      "id": 172
+      "id": 172,
+      "important": false
     },
     {
       "word": "big",
       "meaning": "a·大的",
-      "id": 173
+      "id": 173,
+      "important": false
     },
     {
       "word": "bike",
       "meaning": "n·自行车",
-      "id": 174
+      "id": 174,
+      "important": false
     },
     {
       "word": "bill",
       "meaning": "n·账单",
-      "id": 175
+      "id": 175,
+      "important": false
     },
     {
       "word": "birthday",
       "meaning": "n·生日",
-      "id": 176
+      "id": 176,
+      "important": false
     },
     {
       "word": "biscuit",
       "meaning": "n·饼干",
-      "id": 177
+      "id": 177,
+      "important": false
     },
     {
       "word": "bitter",
       "meaning": "a·苦的",
-      "id": 178
+      "id": 178,
+      "important": false
     },
     {
       "word": "blackboard",
       "meaning": "n·黑板",
-      "id": 179
+      "id": 179,
+      "important": false
     },
     {
       "word": "blank",
       "meaning": "n&a·空的",
-      "id": 180
+      "id": 180,
+      "important": false
     },
     {
       "word": "block",
       "meaning": "n·(木，石)块；街区",
-      "id": 181
+      "id": 181,
+      "important": false
     },
     {
       "word": "blog",
       "meaning": "n·博客",
-      "id": 182
+      "id": 182,
+      "important": false
     },
     {
       "word": "blood",
       "meaning": "n·血",
-      "id": 183
+      "id": 183,
+      "important": false
     },
     {
       "word": "blow",
       "meaning": "v·吹",
-      "id": 184
+      "id": 184,
+      "important": false
     },
     {
       "word": "blue",
       "meaning": "n·蓝色",
-      "id": 185
+      "id": 185,
+      "important": false
     },
     {
       "word": "boat",
       "meaning": "n·小船",
-      "id": 186
+      "id": 186,
+      "important": false
     },
     {
       "word": "boil",
       "meaning": "v·沸腾；煮",
-      "id": 187
+      "id": 187,
+      "important": false
     },
     {
       "word": "bone",
       "meaning": "n·骨头；骨质",
-      "id": 188
+      "id": 188,
+      "important": false
     },
     {
       "word": "bonus",
       "meaning": "n·津贴",
-      "id": 189
+      "id": 189,
+      "important": false
     },
     {
       "word": "book",
       "meaning": "n·书本；预定",
-      "id": 190
+      "id": 190,
+      "important": false
     },
     {
       "word": "bookcase",
       "meaning": "n·书架",
-      "id": 191
+      "id": 191,
+      "important": false
     },
     {
       "word": "boring",
       "meaning": "a·令人无聊的",
-      "id": 192
+      "id": 192,
+      "important": false
     },
     {
       "word": "born",
       "meaning": "a·出生",
-      "id": 193
+      "id": 193,
+      "important": false
     },
     {
       "word": "boss",
       "meaning": "n·老板",
-      "id": 194
+      "id": 194,
+      "important": false
     },
     {
       "word": "both",
       "meaning": "a·pron·两者都……",
-      "id": 195
+      "id": 195,
+      "important": false
     },
     {
       "word": "bottle",
       "meaning": "n·瓶子",
-      "id": 196
+      "id": 196,
+      "important": false
     },
     {
       "word": "bottom",
       "meaning": "n·底部",
-      "id": 197
+      "id": 197,
+      "important": false
     },
     {
       "word": "bow",
       "meaning": "v·鞠躬",
-      "id": 198
+      "id": 198,
+      "important": false
     },
     {
       "word": "bowl",
       "meaning": "n·碗",
-      "id": 199
+      "id": 199,
+      "important": false
     },
     {
       "word": "bowling",
       "meaning": "n·保龄球",
-      "id": 200
+      "id": 200,
+      "important": false
     },
     {
       "word": "box",
       "meaning": "n·盒子",
-      "id": 201
+      "id": 201,
+      "important": false
     },
     {
       "word": "boy",
       "meaning": "n·男孩",
-      "id": 202
+      "id": 202,
+      "important": false
     },
     {
       "word": "brain",
       "meaning": "n·脑子",
-      "id": 203
+      "id": 203,
+      "important": false
     },
     {
       "word": "brake",
       "meaning": "n·刹车",
-      "id": 204
+      "id": 204,
+      "important": false
     },
     {
       "word": "branch",
       "meaning": "n·树枝；分店；分支",
-      "id": 205
+      "id": 205,
+      "important": false
     },
     {
       "word": "brave",
       "meaning": "a·勇敢的",
-      "id": 206
+      "id": 206,
+      "important": false
     },
     {
       "word": "bread",
       "meaning": "n·面包",
-      "id": 207
+      "id": 207,
+      "important": false
     },
     {
       "word": "break",
       "meaning": "n·打破；休息",
-      "id": 208
+      "id": 208,
+      "important": false
     },
     {
       "word": "breakfast",
       "meaning": "n·早餐",
-      "id": 209
+      "id": 209,
+      "important": false
     },
     {
       "word": "breathe",
       "meaning": "n·呼吸",
-      "id": 210
+      "id": 210,
+      "important": false
     },
     {
       "word": "brick",
       "meaning": "n·砖块",
-      "id": 211
+      "id": 211,
+      "important": false
     },
     {
       "word": "bridge",
       "meaning": "n·桥",
-      "id": 212
+      "id": 212,
+      "important": false
     },
     {
       "word": "brief",
       "meaning": "a·简洁的",
-      "id": 213
+      "id": 213,
+      "important": false
     },
     {
       "word": "bright",
       "meaning": "a·明亮的；聪明的",
-      "id": 214
+      "id": 214,
+      "important": false
     },
     {
       "word": "bring",
       "meaning": "v·拿来；带来",
-      "id": 215
+      "id": 215,
+      "important": false
     },
     {
       "word": "Britain",
       "meaning": "n·英国",
-      "id": 216
+      "id": 216,
+      "important": false
     },
     {
       "word": "British",
       "meaning": "n·英国的",
-      "id": 217
+      "id": 217,
+      "important": false
     },
     {
       "word": "broad",
       "meaning": "a·宽的",
-      "id": 218
+      "id": 218,
+      "important": false
     },
     {
       "word": "broadcast",
@@ -1100,87 +1316,104 @@
     {
       "word": "brother",
       "meaning": "n·兄，弟",
-      "id": 220
+      "id": 220,
+      "important": false
     },
     {
       "word": "brown",
       "meaning": "n&a·棕色的",
-      "id": 221
+      "id": 221,
+      "important": false
     },
     {
       "word": "brush",
       "meaning": "n&v·刷子；刷",
-      "id": 222
+      "id": 222,
+      "important": false
     },
     {
       "word": "budget",
       "meaning": "n·预算",
-      "id": 223
+      "id": 223,
+      "important": false
     },
     {
       "word": "build",
       "meaning": "v·建造",
-      "id": 224
+      "id": 224,
+      "important": false
     },
     {
       "word": "building",
       "meaning": "n·建筑物",
-      "id": 225
+      "id": 225,
+      "important": false
     },
     {
       "word": "burn",
       "meaning": "v·燃烧",
-      "id": 226
+      "id": 226,
+      "important": false
     },
     {
       "word": "bus",
       "meaning": "n·巴士",
-      "id": 227
+      "id": 227,
+      "important": false
     },
     {
       "word": "business",
       "meaning": "n·生意；交易",
-      "id": 228
+      "id": 228,
+      "important": false
     },
     {
       "word": "businessman",
       "meaning": "n·商人",
-      "id": 229
+      "id": 229,
+      "important": false
     },
     {
       "word": "busy",
       "meaning": "a·忙碌的",
-      "id": 230
+      "id": 230,
+      "important": false
     },
     {
       "word": "but",
       "meaning": "conj&prep·但是",
-      "id": 231
+      "id": 231,
+      "important": false
     },
     {
       "word": "butcher",
       "meaning": "n·屠夫",
-      "id": 232
+      "id": 232,
+      "important": false
     },
     {
       "word": "butter",
       "meaning": "n·黄油",
-      "id": 233
+      "id": 233,
+      "important": false
     },
     {
       "word": "buy",
       "meaning": "v·买",
-      "id": 234
+      "id": 234,
+      "important": false
     },
     {
       "word": "by",
       "meaning": "prep·靠近；在……旁",
-      "id": 235
+      "id": 235,
+      "important": false
     },
     {
       "word": "bye",
       "meaning": "int·再见",
-      "id": 236
+      "id": 236,
+      "important": false
     },
     {
       "word": "cabbage",
@@ -3775,7 +4008,110 @@
       "id": 668
     }
   ],
-  "studyWords": [],
+  "studyWords": [
+    {
+      "word": "ability",
+      "meaning": "n·能力，能够",
+      "important": false,
+      "id": 1
+    },
+    {
+      "word": "establish",
+      "meaning": "v·创建，创立，证实",
+      "important": false,
+      "id": 2
+    },
+    {
+      "word": "background",
+      "meaning": "n·背景",
+      "important": false,
+      "id": 3
+    },
+    {
+      "word": "flash",
+      "meaning": "n·闪光；v·发出信号；使闪光",
+      "important": false,
+      "id": 4
+    },
+    {
+      "word": "asleep",
+      "meaning": "a·睡着的；麻木的",
+      "important": false,
+      "id": 5
+    },
+    {
+      "word": "cancel",
+      "meaning": "n&v·取消，撤销",
+      "important": false,
+      "id": 6
+    },
+    {
+      "word": "chance",
+      "meaning": "n·机会，运气；a·碰巧的，意外的",
+      "important": false,
+      "id": 7
+    },
+    {
+      "word": "brush",
+      "meaning": "n&v·刷，刷子",
+      "important": false,
+      "id": 8
+    },
+    {
+      "word": "fare",
+      "meaning": "n·交通票(车，船)；饭菜；v·进展，表现",
+      "important": false,
+      "id": 9
+    },
+    {
+      "word": "area",
+      "meaning": "n·面积，区域",
+      "important": false,
+      "id": 10
+    },
+    {
+      "word": "before",
+      "meaning": "prop·在……之前",
+      "important": false,
+      "id": 11
+    },
+    {
+      "word": "city",
+      "meaning": "n·城市",
+      "important": false,
+      "id": 12
+    },
+    {
+      "word": "feature",
+      "meaning": "n·特点，特征；v·以……为特色",
+      "important": false,
+      "id": 13
+    },
+    {
+      "word": "cooperate",
+      "meaning": "v·合作；协作",
+      "important": false,
+      "id": 14
+    },
+    {
+      "word": "failure",
+      "meaning": "n·失败；失败的人",
+      "important": false,
+      "id": 15
+    },
+    {
+      "word": "bottle",
+      "meaning": "n·瓶子；酒；奶瓶；v·装瓶",
+      "important": false,
+      "id": 16
+    },
+    {
+      "word": "aboard",
+      "meaning": "a·在(车，船，飞机)上",
+      "important": false,
+      "id": 17
+    }
+  ],
   "posts": [
     {
       "id": 1,

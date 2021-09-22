@@ -80,8 +80,8 @@
 					<tbody v-if="getTotal">
 						<tr v-for="item2 in NewWords" :key="item2.id">
 							<td>{{item2.id}}</td>
-							<td v-if="item.important" class="important">{{item.word}}</td>
-							<td v-if="!item.important"><button @click="addImport(item.id , item.important)" class="importBtn">&#160;&#160;❤&#160;&#160;</button>{{item.word}}</td>
+							<td v-if="item2.important" class="important">{{item2.word}}</td>
+							<td v-if="!item2.important"><button @click="addImport(item2.id , item2.important)" class="importBtn">&#160;&#160;❤&#160;&#160;</button>{{item2.word}}</td>
 							<td>{{item2.meaning}}</td>
 						</tr>
 					</tbody>
@@ -148,6 +148,7 @@ export default {
 			this.nowUrl = 'allWords'
 			axios.get('http://localhost:3000/allWords').then((result) => {
 				this.words = result.data
+				//console.log(this.words);
 			}).catch((err) => {
 				
 			});
