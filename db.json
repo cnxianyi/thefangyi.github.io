@@ -74,7 +74,7 @@
     },
     {
       "word": "act",
-      "meaning": "n·法令·v·扮演",
+      "meaning": "n·行为；行动；法令·v·行动；扮演",
       "id": 13,
       "important": false
     },
@@ -4090,7 +4090,7 @@
     {
       "word": "cooperate",
       "meaning": "v·合作；协作",
-      "important": false,
+      "important": true,
       "id": 14
     },
     {
@@ -4108,8 +4108,92 @@
     {
       "word": "aboard",
       "meaning": "a·在(车，船，飞机)上",
-      "important": false,
+      "important": true,
       "id": 17
+    },
+    {
+      "word": "comfortable",
+      "meaning": "a·令人舒适的；自信的；富裕的",
+      "important": false,
+      "id": 18
+    },
+    {
+      "word": "act",
+      "meaning": "n·行为；行动；法令·v·行动；扮演",
+      "important": false,
+      "id": 19
+    },
+    {
+      "word": "brake",
+      "meaning": "n&v·刹车",
+      "important": false,
+      "id": 20
+    },
+    {
+      "word": "cabin",
+      "meaning": "n·小木屋",
+      "important": false,
+      "id": 21
+    },
+    {
+      "word": "daily",
+      "meaning": "n·日报；a·每日的；日常的",
+      "important": false,
+      "id": 22
+    },
+    {
+      "word": "divide",
+      "meaning": "n·差异；分歧；v·使分开；分配",
+      "important": false,
+      "id": 23
+    },
+    {
+      "word": "classroom",
+      "meaning": "n·教室",
+      "important": false,
+      "id": 24
+    },
+    {
+      "word": "duty",
+      "meaning": "n·责任；义务",
+      "important": true,
+      "id": 25
+    },
+    {
+      "word": "again",
+      "meaning": "a·再一次",
+      "important": false,
+      "id": 26
+    },
+    {
+      "word": "finish",
+      "meaning": "n·结尾；终点；v·完成；使结束",
+      "important": false,
+      "id": 27
+    },
+    {
+      "word": "bonus",
+      "meaning": "n·奖金，津贴，红利",
+      "important": false,
+      "id": 28
+    },
+    {
+      "word": "deaf",
+      "meaning": "a·聋的；置若罔闻的",
+      "important": false,
+      "id": 29
+    },
+    {
+      "word": "below",
+      "meaning": "n·在……下面",
+      "important": false,
+      "id": 30
+    },
+    {
+      "word": "collaborate",
+      "meaning": "v·合作；协议",
+      "important": false,
+      "id": 31
     }
   ],
   "posts": [

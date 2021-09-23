@@ -87,7 +87,7 @@
 					</tbody>
 					<tbody v-if="testTotal">
 						<tr v-for="item3 in NewWords" :key="item3.id">
-							<td>{{item3.id}}</td>
+							<td>{{item3.id}}&#160;&#160;|&#160;&#160;{{wordTest}}</td>
 							<td>{{item3.meaning}}</td>
 							<input type="text" 
 							style="height:20px;margin-top:10px" 
@@ -127,6 +127,7 @@ export default {
     data() {
 			return {
 				nowUrl: '',
+				wordTest: 0, // 测试计数
 				switchCard: true, // 切换单词显示
 				switchWord:true, // 单词刷新
 				words: {},
@@ -197,6 +198,7 @@ export default {
 						this.wordsTest()
 						setTimeout(() => {
 							document.getElementById('insWord').focus()
+							this.wordTest++
 						});
 					}, 1000);
 				}else{
@@ -204,6 +206,7 @@ export default {
 					setTimeout(() => {
 						this.enterWords = ''
 						document.getElementById('insWord').focus()
+						
 					}, 1000);
 				}
 				
