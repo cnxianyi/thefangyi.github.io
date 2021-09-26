@@ -187,13 +187,13 @@
       "important": false
     },
     {
-      "word": "Africa",
+      "word": "africa",
       "meaning": "n·非洲",
       "id": 32,
       "important": false
     },
     {
-      "word": "African",
+      "word": "african",
       "meaning": "n·非洲人",
       "id": 33,
       "important": false
@@ -385,7 +385,7 @@
       "important": false
     },
     {
-      "word": "A·M",
+      "word": "a·M",
       "meaning": "n·上午",
       "id": 65,
       "important": false
@@ -397,13 +397,13 @@
       "important": false
     },
     {
-      "word": "America",
+      "word": "america",
       "meaning": "n·美国",
       "id": 67,
       "important": false
     },
     {
-      "word": "American",
+      "word": "american",
       "meaning": "n·美国人",
       "id": 68,
       "important": false
@@ -523,7 +523,7 @@
       "important": false
     },
     {
-      "word": "April",
+      "word": "april",
       "meaning": "n·四月",
       "id": 88,
       "important": false
@@ -583,13 +583,13 @@
       "important": false
     },
     {
-      "word": "Asia",
+      "word": "asia",
       "meaning": "n·亚洲",
       "id": 98,
       "important": false
     },
     {
-      "word": "Asian",
+      "word": "asian",
       "meaning": "n·亚洲人",
       "id": 99,
       "important": false
@@ -625,7 +625,7 @@
       "important": false
     },
     {
-      "word": "ATM",
+      "word": "aTM",
       "meaning": "n·自动提款机",
       "id": 105,
       "important": false
@@ -649,7 +649,7 @@
       "important": false
     },
     {
-      "word": "August",
+      "word": "august",
       "meaning": "n·八月",
       "id": 109,
       "important": false
@@ -661,13 +661,13 @@
       "important": false
     },
     {
-      "word": "Australia",
+      "word": "australia",
       "meaning": "n·澳大利亚",
       "id": 111,
       "important": false
     },
     {
-      "word": "Australian",
+      "word": "australian",
       "meaning": "a·澳大利亚人",
       "id": 112,
       "important": false
@@ -1291,13 +1291,13 @@
       "important": false
     },
     {
-      "word": "Britain",
+      "word": "britain",
       "meaning": "n·英国",
       "id": 216,
       "important": false
     },
     {
-      "word": "British",
+      "word": "british",
       "meaning": "n·英国的",
       "id": 217,
       "important": false
@@ -1476,13 +1476,13 @@
       "id": 246
     },
     {
-      "word": "Canada",
+      "word": "canada",
       "meaning": "n·加拿大",
       "important": false,
       "id": 247
     },
     {
-      "word": "Canadian",
+      "word": "canadian",
       "meaning": "n·加拿大人",
       "important": false,
       "id": 248
@@ -1764,13 +1764,13 @@
       "id": 294
     },
     {
-      "word": "China",
+      "word": "china",
       "meaning": "n·中国",
       "important": false,
       "id": 295
     },
     {
-      "word": "Chinese",
+      "word": "chinese",
       "meaning": "n·中国人",
       "important": false,
       "id": 296
@@ -1812,7 +1812,7 @@
       "id": 302
     },
     {
-      "word": "Christmas",
+      "word": "christmas",
       "meaning": "n·圣诞节",
       "important": false,
       "id": 303
@@ -2562,7 +2562,7 @@
       "id": 427
     },
     {
-      "word": "December",
+      "word": "december",
       "meaning": "n·十二月",
       "important": false,
       "id": 428
@@ -3264,13 +3264,13 @@
       "id": 544
     },
     {
-      "word": "England",
+      "word": "england",
       "meaning": "n·英格兰",
       "important": false,
       "id": 545
     },
     {
-      "word": "English",
+      "word": "english",
       "meaning": "n·英国人的",
       "important": false,
       "id": 546
@@ -3438,13 +3438,13 @@
       "id": 573
     },
     {
-      "word": "Europe",
+      "word": "europe",
       "meaning": "n·欧洲",
       "important": false,
       "id": 574
     },
     {
-      "word": "European",
+      "word": "european",
       "meaning": "n·欧洲的",
       "important": false,
       "id": 575
@@ -3714,7 +3714,7 @@
       "id": 619
     },
     {
-      "word": "February",
+      "word": "february",
       "meaning": "n·二月",
       "important": false,
       "id": 620
@@ -4006,6 +4006,570 @@
       "meaning": "v·折叠；倒闭；停业",
       "important": false,
       "id": 668
+    },
+    {
+      "word": "folder",
+      "meaning": "n·文件夹",
+      "important": false,
+      "id": 669
+    },
+    {
+      "word": "folk",
+      "meaning": "a·民族",
+      "important": false,
+      "id": 670
+    },
+    {
+      "word": "follow",
+      "meaning": "v·跟随；消防",
+      "important": false,
+      "id": 671
+    },
+    {
+      "word": "following",
+      "meaning": "n·追随者；拥护者；a·之后的",
+      "important": false,
+      "id": 672
+    },
+    {
+      "word": "fond",
+      "meaning": "a·喜爱的；爱好的",
+      "important": false,
+      "id": 673
+    },
+    {
+      "word": "food",
+      "meaning": "n·食物",
+      "important": false,
+      "id": 674
+    },
+    {
+      "word": "fool",
+      "meaning": "n·傻瓜；v·开玩笑",
+      "important": false,
+      "id": 675
+    },
+    {
+      "word": "foolish",
+      "meaning": "a·愚蠢的",
+      "important": false,
+      "id": 676
+    },
+    {
+      "word": "football",
+      "meaning": "n·足球",
+      "important": false,
+      "id": 677
+    },
+    {
+      "word": "for",
+      "meaning": "prep·为了",
+      "important": false,
+      "id": 678
+    },
+    {
+      "word": "force",
+      "meaning": "v·强迫",
+      "important": false,
+      "id": 679
+    },
+    {
+      "word": "forecast",
+      "meaning": "n&v·预告",
+      "important": false,
+      "id": 680
+    },
+    {
+      "word": "forehead",
+      "meaning": "n·前额",
+      "important": false,
+      "id": 681
+    },
+    {
+      "word": "foreign",
+      "meaning": "a·外国的；外交的",
+      "important": false,
+      "id": 682
+    },
+    {
+      "word": "foreigner",
+      "meaning": "n·外国人",
+      "important": false,
+      "id": 683
+    },
+    {
+      "word": "forest",
+      "meaning": "n·森林",
+      "important": false,
+      "id": 684
+    },
+    {
+      "word": "forever",
+      "meaning": "a·永远",
+      "important": false,
+      "id": 685
+    },
+    {
+      "word": "forget",
+      "meaning": "v·忘记；遗忘",
+      "important": false,
+      "id": 686
+    },
+    {
+      "word": "forgive",
+      "meaning": "v·原谅；宽恕",
+      "important": false,
+      "id": 687
+    },
+    {
+      "word": "fork",
+      "meaning": "n·叉子；岔路；v·岔开",
+      "important": false,
+      "id": 688
+    },
+    {
+      "word": "form",
+      "meaning": "n·表格；v·使出现；使形成",
+      "important": false,
+      "id": 689
+    },
+    {
+      "word": "formal",
+      "meaning": "a·正式的；庄重的",
+      "important": false,
+      "id": 690
+    },
+    {
+      "word": "former",
+      "meaning": "n·模型；a·以前的",
+      "important": false,
+      "id": 691
+    },
+    {
+      "word": "fragile",
+      "meaning": "a·脆的",
+      "important": false,
+      "id": 692
+    },
+    {
+      "word": "frame",
+      "meaning": "n·框架",
+      "important": false,
+      "id": 693
+    },
+    {
+      "word": "france",
+      "meaning": "n·法国",
+      "important": false,
+      "id": 694
+    },
+    {
+      "word": "free",
+      "meaning": "a·自由的；空闲的；免费的",
+      "important": false,
+      "id": 695
+    },
+    {
+      "word": "freeze",
+      "meaning": "v·结冰",
+      "important": false,
+      "id": 696
+    },
+    {
+      "word": "frequent",
+      "meaning": "a·经常的",
+      "important": false,
+      "id": 697
+    },
+    {
+      "word": "fresh",
+      "meaning": "a·新鲜的",
+      "important": false,
+      "id": 698
+    },
+    {
+      "word": "friday",
+      "meaning": "n·星期五",
+      "important": false,
+      "id": 699
+    },
+    {
+      "word": "fridge",
+      "meaning": "n·冰箱",
+      "important": false,
+      "id": 700
+    },
+    {
+      "word": "friend",
+      "meaning": "n·朋友",
+      "important": false,
+      "id": 701
+    },
+    {
+      "word": "friendly",
+      "meaning": "a·友好的",
+      "important": false,
+      "id": 702
+    },
+    {
+      "word": "friendship",
+      "meaning": "n·友谊",
+      "important": false,
+      "id": 703
+    },
+    {
+      "word": "frighten",
+      "meaning": "v·使恐吓，吓唬",
+      "important": false,
+      "id": 704
+    },
+    {
+      "word": "from",
+      "meaning": "prep·从……起；来自",
+      "important": false,
+      "id": 705
+    },
+    {
+      "word": "fry",
+      "meaning": "v·油炸",
+      "important": false,
+      "id": 706
+    },
+    {
+      "word": "fuel",
+      "meaning": "n·燃料",
+      "important": false,
+      "id": 707
+    },
+    {
+      "word": "full",
+      "meaning": "a·满的；完全的",
+      "important": false,
+      "id": 708
+    },
+    {
+      "word": "fun",
+      "meaning": "n&a·有趣的事",
+      "important": false,
+      "id": 709
+    },
+    {
+      "word": "function",
+      "meaning": "n·功能；函数",
+      "important": false,
+      "id": 710
+    },
+    {
+      "word": "fund",
+      "meaning": "n·基金",
+      "important": false,
+      "id": 711
+    },
+    {
+      "word": "funny",
+      "meaning": "a·有趣的",
+      "important": false,
+      "id": 712
+    },
+    {
+      "word": "fur",
+      "meaning": "n·毛皮",
+      "important": false,
+      "id": 713
+    },
+    {
+      "word": "future",
+      "meaning": "n·将来；未来",
+      "important": false,
+      "id": 714
+    },
+    {
+      "word": "gain",
+      "meaning": "v·获得",
+      "important": false,
+      "id": 715
+    },
+    {
+      "word": "gallon",
+      "meaning": "n·加仑",
+      "important": false,
+      "id": 716
+    },
+    {
+      "word": "game",
+      "meaning": "n·游戏；比赛",
+      "important": false,
+      "id": 717
+    },
+    {
+      "word": "gap",
+      "meaning": "n·间隙；缺口",
+      "important": false,
+      "id": 718
+    },
+    {
+      "word": "garage",
+      "meaning": "n·车库",
+      "important": false,
+      "id": 719
+    },
+    {
+      "word": "garden",
+      "meaning": "n·花园；果园",
+      "important": false,
+      "id": 720
+    },
+    {
+      "word": "gas",
+      "meaning": "n·煤气",
+      "important": false,
+      "id": 721
+    },
+    {
+      "word": "gate",
+      "meaning": "n·大门",
+      "important": false,
+      "id": 722
+    },
+    {
+      "word": "gather",
+      "meaning": "v·聚集",
+      "important": false,
+      "id": 723
+    },
+    {
+      "word": "gender",
+      "meaning": "n·性别",
+      "important": false,
+      "id": 724
+    },
+    {
+      "word": "general",
+      "meaning": "a·一般的",
+      "important": false,
+      "id": 725
+    },
+    {
+      "word": "generation",
+      "meaning": "n·一代",
+      "important": false,
+      "id": 726
+    },
+    {
+      "word": "generous",
+      "meaning": "a·慷慨的",
+      "important": false,
+      "id": 727
+    },
+    {
+      "word": "gentleman",
+      "meaning": "n·绅士",
+      "important": false,
+      "id": 728
+    },
+    {
+      "word": "germany",
+      "meaning": "n·德国",
+      "important": false,
+      "id": 729
+    },
+    {
+      "word": "gesture",
+      "meaning": "n·姿态",
+      "important": false,
+      "id": 730
+    },
+    {
+      "word": "get",
+      "meaning": "v·成为；得到；具有",
+      "important": false,
+      "id": 731
+    },
+    {
+      "word": "giant",
+      "meaning": "a·巨大的",
+      "important": false,
+      "id": 732
+    },
+    {
+      "word": "gift",
+      "meaning": "n·礼物；天赋",
+      "important": false,
+      "id": 733
+    },
+    {
+      "word": "girl",
+      "meaning": "n·女孩",
+      "important": false,
+      "id": 734
+    },
+    {
+      "word": "give",
+      "meaning": "n·给",
+      "important": false,
+      "id": 735
+    },
+    {
+      "word": "glad",
+      "meaning": "a·高兴的；乐意的",
+      "important": false,
+      "id": 736
+    },
+    {
+      "word": "glass",
+      "meaning": "n·玻璃杯；眼镜",
+      "important": false,
+      "id": 737
+    },
+    {
+      "word": "global",
+      "meaning": "a·全球的",
+      "important": false,
+      "id": 738
+    },
+    {
+      "word": "glue",
+      "meaning": "n·胶",
+      "important": false,
+      "id": 739
+    },
+    {
+      "word": "go",
+      "meaning": "v·去",
+      "important": false,
+      "id": 740
+    },
+    {
+      "word": "goal",
+      "meaning": "n·目标",
+      "important": false,
+      "id": 741
+    },
+    {
+      "word": "gold",
+      "meaning": "n&a·黄金；金的",
+      "important": false,
+      "id": 742
+    },
+    {
+      "word": "golf",
+      "meaning": "n·高尔夫",
+      "important": false,
+      "id": 743
+    },
+    {
+      "word": "goods",
+      "meaning": "n·商品",
+      "important": false,
+      "id": 744
+    },
+    {
+      "word": "government",
+      "meaning": "n·政府",
+      "important": false,
+      "id": 745
+    },
+    {
+      "word": "gradually",
+      "meaning": "ad·逐渐的",
+      "important": false,
+      "id": 746
+    },
+    {
+      "word": "grandparent",
+      "meaning": "n·祖父母",
+      "important": false,
+      "id": 747
+    },
+    {
+      "word": "grass",
+      "meaning": "n·草；草场",
+      "important": false,
+      "id": 748
+    },
+    {
+      "word": "grateful",
+      "meaning": "n·感谢的",
+      "important": false,
+      "id": 749
+    },
+    {
+      "word": "grey",
+      "meaning": "a·灰的",
+      "important": false,
+      "id": 750
+    },
+    {
+      "word": "great",
+      "meaning": "a·伟大的；好极了",
+      "important": false,
+      "id": 751
+    },
+    {
+      "word": "greenhouse",
+      "meaning": "n·温室",
+      "important": false,
+      "id": 752
+    },
+    {
+      "word": "greet",
+      "meaning": "v·欢迎",
+      "important": false,
+      "id": 753
+    },
+    {
+      "word": "grocery",
+      "meaning": "n·杂货店",
+      "important": false,
+      "id": 754
+    },
+    {
+      "word": "ground",
+      "meaning": "n·地面",
+      "important": false,
+      "id": 755
+    },
+    {
+      "word": "group",
+      "meaning": "n·组；群",
+      "important": false,
+      "id": 756
+    },
+    {
+      "word": "grow",
+      "meaning": "v·生长；发育",
+      "important": false,
+      "id": 757
+    },
+    {
+      "word": "guarantee",
+      "meaning": "v·保证",
+      "important": false,
+      "id": 758
+    },
+    {
+      "word": "guard",
+      "meaning": "n·防护装置；警戒",
+      "important": false,
+      "id": 759
+    },
+    {
+      "word": "guess",
+      "meaning": "n·猜",
+      "important": false,
+      "id": 760
+    },
+    {
+      "word": "guest",
+      "meaning": "n·客人",
+      "important": false,
+      "id": 761
+    },
+    {
+      "word": "guide",
+      "meaning": "n&v·向导；指导",
+      "important": false,
+      "id": 762
     }
   ],
   "studyWords": [
@@ -4144,7 +4708,7 @@
     {
       "word": "divide",
       "meaning": "n·差异；分歧；v·使分开；分配",
-      "important": false,
+      "important": true,
       "id": 23
     },
     {
@@ -4168,7 +4732,7 @@
     {
       "word": "finish",
       "meaning": "n·结尾；终点；v·完成；使结束",
-      "important": false,
+      "important": true,
       "id": 27
     },
     {
@@ -4194,6 +4758,102 @@
       "meaning": "v·合作；协议",
       "important": false,
       "id": 31
+    },
+    {
+      "word": "across",
+      "meaning": "adv· 穿过，横穿",
+      "important": false,
+      "id": 32
+    },
+    {
+      "word": "animal",
+      "meaning": "n·动物，动物的",
+      "important": false,
+      "id": 33
+    },
+    {
+      "word": "britain",
+      "meaning": "n·英国",
+      "important": false,
+      "id": 34
+    },
+    {
+      "word": "cart",
+      "meaning": "n·马车；小汽车；购物车；v·搬运",
+      "important": false,
+      "id": 35
+    },
+    {
+      "word": "believe",
+      "meaning": "v·相信；信任",
+      "important": false,
+      "id": 36
+    },
+    {
+      "word": "caution",
+      "meaning": "n·小心，谨慎；v·提醒",
+      "important": false,
+      "id": 37
+    },
+    {
+      "word": "careful",
+      "meaning": "a·仔细的；小心的",
+      "important": false,
+      "id": 38
+    },
+    {
+      "word": "delay",
+      "meaning": "n&v·推迟；延期；耽搁",
+      "important": false,
+      "id": 39
+    },
+    {
+      "word": "blow",
+      "meaning": "n·大风；v·吹",
+      "important": false,
+      "id": 40
+    },
+    {
+      "word": "aid",
+      "meaning": "n&v·帮助；援助",
+      "important": false,
+      "id": 41
+    },
+    {
+      "word": "butcher",
+      "meaning": "n·屠夫；v·屠杀",
+      "important": false,
+      "id": 42
+    },
+    {
+      "word": "effort",
+      "meaning": "n·努力；成就",
+      "important": false,
+      "id": 43
+    },
+    {
+      "word": "director",
+      "meaning": "n·导演；主任",
+      "important": false,
+      "id": 44
+    },
+    {
+      "word": "belong",
+      "meaning": "v·应在/于……地方/状况；属于",
+      "important": false,
+      "id": 45
+    },
+    {
+      "word": "broad",
+      "meaning": "n·(美)女人；ad·宽广的",
+      "important": false,
+      "id": 46
+    },
+    {
+      "word": "continue",
+      "meaning": "v·使继续，延续",
+      "important": false,
+      "id": 47
     }
   ],
   "posts": [

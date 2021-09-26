@@ -121,6 +121,9 @@ import navBar from 'common/navBar.vue'
 export default {
   components: {
     navBar
-  }
+  },
+  methods: {
+    
+  },
 }
 </script>
