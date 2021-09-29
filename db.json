@@ -4854,6 +4854,252 @@
       "meaning": "v·使继续，延续",
       "important": false,
       "id": 47
+    },
+    {
+      "word": "foolish",
+      "meaning": "a·愚蠢的；",
+      "important": false,
+      "id": 48
+    },
+    {
+      "word": "grow",
+      "meaning": "v·生长；发展",
+      "important": false,
+      "id": 49
+    },
+    {
+      "word": "close",
+      "meaning": "v·关闭；合上；a·接近的；在即的",
+      "important": false,
+      "id": 50
+    },
+    {
+      "word": "danger",
+      "meaning": "n·危险；风险",
+      "important": false,
+      "id": 51
+    },
+    {
+      "word": "chopsticks",
+      "meaning": "n·筷子",
+      "important": false,
+      "id": 52
+    },
+    {
+      "word": "egg",
+      "meaning": "n·蛋；卵",
+      "important": false,
+      "id": 53
+    },
+    {
+      "word": "best",
+      "meaning": "a·最好的",
+      "important": false,
+      "id": 54
+    },
+    {
+      "word": "fish",
+      "meaning": "n·鱼；鱼肉；v·钓鱼",
+      "important": false,
+      "id": 55
+    },
+    {
+      "word": "aloud",
+      "meaning": "a·大声的",
+      "important": false,
+      "id": 56
+    },
+    {
+      "word": "damage",
+      "meaning": "n&v·损坏；毁坏",
+      "important": false,
+      "id": 57
+    },
+    {
+      "word": "dozen",
+      "meaning": "n·一打；大量；许多",
+      "important": false,
+      "id": 58
+    },
+    {
+      "word": "fault",
+      "meaning": "n&v·错误；指责；责任",
+      "important": false,
+      "id": 59
+    },
+    {
+      "word": "department",
+      "meaning": "n·部门",
+      "important": false,
+      "id": 60
+    },
+    {
+      "word": "dictation",
+      "meaning": "n·听写；命令",
+      "important": false,
+      "id": 61
+    },
+    {
+      "word": "couple",
+      "meaning": "n·夫妻；一对；v·加上；结合",
+      "important": false,
+      "id": 62
+    },
+    {
+      "word": "dot",
+      "meaning": "n·圆点",
+      "important": false,
+      "id": 63
+    },
+    {
+      "word": "anywhere",
+      "meaning": "n&a·任何地方",
+      "important": false,
+      "id": 64
+    },
+    {
+      "word": "actually",
+      "meaning": "a·实际上；事实上",
+      "important": false,
+      "id": 65
+    },
+    {
+      "word": "bathtub",
+      "meaning": "n·浴缸",
+      "important": false,
+      "id": 66
+    },
+    {
+      "word": "collar",
+      "meaning": "n·衣领；项圈",
+      "important": false,
+      "id": 67
+    },
+    {
+      "word": "ear",
+      "meaning": "n·耳朵；灵敏的听力",
+      "important": false,
+      "id": 68
+    },
+    {
+      "word": "field",
+      "meaning": "n·场地；领域；牧场",
+      "important": false,
+      "id": 69
+    },
+    {
+      "word": "air",
+      "meaning": "n·空气",
+      "important": false,
+      "id": 70
+    },
+    {
+      "word": "airplane",
+      "meaning": "n·飞机",
+      "important": false,
+      "id": 71
+    },
+    {
+      "word": "airport",
+      "meaning": "n·飞机场",
+      "important": false,
+      "id": 72
+    },
+    {
+      "word": "decide",
+      "meaning": "v·决定；选定",
+      "important": false,
+      "id": 73
+    },
+    {
+      "word": "flour",
+      "meaning": "n·面粉",
+      "important": false,
+      "id": 74
+    },
+    {
+      "word": "flower",
+      "meaning": "n·花；v·开发",
+      "important": false,
+      "id": 75
+    },
+    {
+      "word": "gap",
+      "meaning": "n·缝隙；间隙；v·裂开",
+      "important": false,
+      "id": 76
+    },
+    {
+      "word": "condition",
+      "meaning": "n·条件；状态；v·训练",
+      "important": false,
+      "id": 77
+    },
+    {
+      "word": "branch",
+      "meaning": "n·树枝；分支；v·岔开",
+      "important": false,
+      "id": 78
+    },
+    {
+      "word": "budget",
+      "meaning": "n·预算；v·指定预算",
+      "important": false,
+      "id": 79
+    },
+    {
+      "word": "far",
+      "meaning": "a·遥远的",
+      "important": false,
+      "id": 80
+    },
+    {
+      "word": "desk",
+      "meaning": "n·书桌；",
+      "important": false,
+      "id": 81
+    },
+    {
+      "word": "delete",
+      "meaning": "v·删除",
+      "important": false,
+      "id": 82
+    },
+    {
+      "word": "daughter",
+      "meaning": "n·女儿",
+      "important": false,
+      "id": 83
+    },
+    {
+      "word": "disappear",
+      "meaning": "v·消失；失踪",
+      "important": false,
+      "id": 84
+    },
+    {
+      "word": "bye",
+      "meaning": "int·再见；n·轮空",
+      "important": false,
+      "id": 85
+    },
+    {
+      "word": "eraser",
+      "meaning": "n·橡皮擦",
+      "important": false,
+      "id": 86
+    },
+    {
+      "word": "behavior",
+      "meaning": "n·行为；举止",
+      "important": false,
+      "id": 87
+    },
+    {
+      "word": "cousin",
+      "meaning": "n·表亲；表哥",
+      "important": false,
+      "id": 88
     }
   ],
   "posts": [
