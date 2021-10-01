@@ -5097,33 +5097,61 @@
     },
     {
       "word": "cousin",
-      "meaning": "n·表亲；表哥",
-      "important": false,
-      "id": 88
-    },
-    {
-      "word": "cousin",
       "meaning": "n·表亲(兄弟姐妹)",
       "important": false,
-      "id": 89
+      "id": 88
     },
     {
       "word": "bring",
       "meaning": "v·带来；提供；拿来",
       "important": false,
-      "id": 90
+      "id": 89
     },
     {
       "word": "computer",
       "meaning": "n·电脑",
       "important": false,
-      "id": 91
+      "id": 90
     },
     {
       "word": "ache",
       "meaning": "n&v·疼痛",
       "important": false,
+      "id": 91
+    },
+    {
+      "word": "freeze",
+      "meaning": "n&v·冻结；冰冻",
+      "important": false,
       "id": 92
+    },
+    {
+      "word": "complete",
+      "meaning": "a·完整的",
+      "important": false,
+      "id": 93
+    },
+    {
+      "word": "claim",
+      "meaning": "n&v·声称；宣称",
+      "important": false,
+      "id": 94
+    }
+  ],
+  "dailyData": [
+    {
+      "dateYear": 2021,
+      "dateMonth": 9,
+      "dateDay": 30,
+      "number": 1001,
+      "id": 1
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 1,
+      "number": 6,
+      "id": 2
     }
   ],
   "posts": [
