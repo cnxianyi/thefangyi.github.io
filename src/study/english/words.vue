@@ -491,7 +491,7 @@ export default {
 			}
 		
 	}
-	.grass {
+	.grass { // 毛玻璃
 		-webkit-filter: blur(6px); /* Chrome, Opera */
        -moz-filter: blur(6px);
         -ms-filter: blur(6px);    
