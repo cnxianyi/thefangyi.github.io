@@ -7,9 +7,11 @@
 			<div class="rank_content">
 				<div class="line"><p>当日检测次数 : </p><strong>{{rankArray[rankArray.length - 1]}}</strong></div><br>
 				<div class="line"><p>总检测天数 : </p><strong>{{rankArray.length}}</strong></div><br>
+				<div class="line"><p>总检测次数 : </p><strong>{{rankTotal}}</strong></div><br>
+				<div class="line"><p>每日平均检测次数 : </p><strong>{{rankAverage}}</strong></div><br>
 				<div class="line"><p>历史最高检测次数 : </p><strong>{{rankMax}}</strong></div><br>
 				<div class="line"><p>历史最低检测次数 : </p><strong>{{rankMin}}</strong></div><br>
-				<div class="line"><p>每日平均检测次数 : </p><strong>{{rankAverage}}</strong></div><br>
+				
 				
 			</div>
 			<a class="rank_a" @click="getGrass"><p>CLOSE</p></a>
@@ -179,6 +181,10 @@ export default {
 			rankAverage(){
 				let sum = function(x,y){ return x+y;};
 				return Math.round(this.rankArray.reduce(sum)/this.rankArray.length) 
+			},
+			rankTotal(){
+				let sum = function(x,y){ return x+y;};
+				return Math.round(this.rankArray.reduce(sum)) 
 			}
 		},
 		mounted() {
