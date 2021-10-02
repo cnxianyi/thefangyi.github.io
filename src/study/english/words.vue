@@ -169,7 +169,9 @@ export default {
 		},
 		computed: {
 			rankMax(){
-				return Math.max(...this.rankArray)
+				let num = Math.max(...this.rankArray)
+				return num
+
 			},
 			rankMin(){
 				return Math.min(...this.rankArray)
@@ -208,21 +210,28 @@ export default {
 				}else{
 					this.wordTest = result.data[result.data.length - 1].number
 				}
-				//console.log(result.data[result.data.length - 1]);
+				//console.log(result.data);
 			})
 		},
-		updated() { 
+		// updated() { 
+			
+		// },
+		watch: {
+			wordTest : function(now){
 			let id = this.dailyDateId
 			//console.log(id);
 			axios({ // 添加日期 数据更新时更新 number
 					method: 'patch',
 					url: `http://localhost:3000/dailyData/${id}`,
 					data: {
-						number: this.wordTest
+						number: now
 					}
 					});
+				//console.log(now+''+this.dailyDateId);
+			}
 		},
 		methods: {
+			
 			getGrass(){
 				if(this.ranking){ // 排行榜数据
 					this.ranking = !this.ranking
