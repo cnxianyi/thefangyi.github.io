@@ -7978,6 +7978,468 @@
       "meaning": "v·污染",
       "important": false,
       "id": 1330
+    },
+    {
+      "word": "pollution",
+      "meaning": "n·污染",
+      "important": false,
+      "id": 1331
+    },
+    {
+      "word": "pond",
+      "meaning": "n·池塘",
+      "important": false,
+      "id": 1332
+    },
+    {
+      "word": "pool",
+      "meaning": "n·游泳池；池塘；水坑",
+      "important": false,
+      "id": 1333
+    },
+    {
+      "word": "poor",
+      "meaning": "a·贫穷的；可怜的",
+      "important": false,
+      "id": 1334
+    },
+    {
+      "word": "pop",
+      "meaning": "n·流行音乐；a·流行的；热门的",
+      "important": false,
+      "id": 1335
+    },
+    {
+      "word": "population",
+      "meaning": "n·人口",
+      "important": false,
+      "id": 1336
+    },
+    {
+      "word": "pork",
+      "meaning": "n·猪肉；",
+      "important": false,
+      "id": 1337
+    },
+    {
+      "word": "port",
+      "meaning": "n·港口；口岸；端口",
+      "important": false,
+      "id": 1338
+    },
+    {
+      "word": "position",
+      "meaning": "n·位置；处境；姿态",
+      "important": false,
+      "id": 1339
+    },
+    {
+      "word": "possible",
+      "meaning": "a·可能的；合理的",
+      "important": false,
+      "id": 1340
+    },
+    {
+      "word": "post",
+      "meaning": "n&v·邮件；邮递",
+      "important": false,
+      "id": 1341
+    },
+    {
+      "word": "postcard",
+      "meaning": "n·明信片",
+      "important": false,
+      "id": 1342
+    },
+    {
+      "word": "poster",
+      "meaning": "n·海报",
+      "important": false,
+      "id": 1343
+    },
+    {
+      "word": "pot",
+      "meaning": "n·壶；罐；锅",
+      "important": false,
+      "id": 1344
+    },
+    {
+      "word": "potato",
+      "meaning": "n·土豆",
+      "important": false,
+      "id": 1345
+    },
+    {
+      "word": "pound",
+      "meaning": "n·英镑",
+      "important": false,
+      "id": 1346
+    },
+    {
+      "word": "pour",
+      "meaning": "v·倒；倾；倾泻",
+      "important": false,
+      "id": 1347
+    },
+    {
+      "word": "powder",
+      "meaning": "n·粉末；尘土",
+      "important": false,
+      "id": 1348
+    },
+    {
+      "word": "powerful",
+      "meaning": "a·强大的；",
+      "important": false,
+      "id": 1349
+    },
+    {
+      "word": "practice",
+      "meaning": "n&v·实践；练习",
+      "important": false,
+      "id": 1350
+    },
+    {
+      "word": "praise",
+      "meaning": "n&v·赞美；赞扬",
+      "important": false,
+      "id": 1351
+    },
+    {
+      "word": "pray",
+      "meaning": "v·祈祷；祷告",
+      "important": false,
+      "id": 1352
+    },
+    {
+      "word": "precious",
+      "meaning": "n·宝贝~；a·宝贵的；珍贵的",
+      "important": false,
+      "id": 1353
+    },
+    {
+      "word": "prefer",
+      "meaning": "v·更喜爱；宁可；宁愿",
+      "important": false,
+      "id": 1354
+    },
+    {
+      "word": "prepare",
+      "meaning": "v·准备；预备",
+      "important": false,
+      "id": 1355
+    },
+    {
+      "word": "present",
+      "meaning": "n·礼物；现在，目前；a·现在的；",
+      "important": false,
+      "id": 1356
+    },
+    {
+      "word": "presentation",
+      "meaning": "n·呈现；展示；",
+      "important": false,
+      "id": 1357
+    },
+    {
+      "word": "president",
+      "meaning": "n·总统；主席；董事长；校长",
+      "important": false,
+      "id": 1358
+    },
+    {
+      "word": "pressure",
+      "meaning": "n·压力；压迫；v·迫使；密封’",
+      "important": false,
+      "id": 1359
+    },
+    {
+      "word": "pretend",
+      "meaning": "a&v·伪装；假装",
+      "important": false,
+      "id": 1360
+    },
+    {
+      "word": "pretty",
+      "meaning": "n·漂亮的；可爱的；v·美化",
+      "important": false,
+      "id": 1361
+    },
+    {
+      "word": "price",
+      "meaning": "n·价格；价钱",
+      "important": false,
+      "id": 1362
+    },
+    {
+      "word": "pride",
+      "meaning": "n·自豪；骄傲",
+      "important": false,
+      "id": 1363
+    },
+    {
+      "word": "primary",
+      "meaning": "a·基本的；主要的",
+      "important": false,
+      "id": 1364
+    },
+    {
+      "word": "print",
+      "meaning": "n&v·打印；印刷",
+      "important": false,
+      "id": 1365
+    },
+    {
+      "word": "printer",
+      "meaning": "n·打印机；印刷工",
+      "important": false,
+      "id": 1366
+    },
+    {
+      "word": "private",
+      "meaning": "a·私人的；私有的",
+      "important": false,
+      "id": 1367
+    },
+    {
+      "word": "prize",
+      "meaning": "n·奖赏；奖品",
+      "important": false,
+      "id": 1368
+    },
+    {
+      "word": "probably",
+      "meaning": "a·大概；或许；很可能",
+      "important": false,
+      "id": 1369
+    },
+    {
+      "word": "problem",
+      "meaning": "n·问题；难题",
+      "important": false,
+      "id": 1370
+    },
+    {
+      "word": "process",
+      "meaning": "n·过程；流程；v·加工；审核",
+      "important": false,
+      "id": 1371
+    },
+    {
+      "word": "produce",
+      "meaning": "v·生产；制造",
+      "important": false,
+      "id": 1372
+    },
+    {
+      "word": "product",
+      "meaning": "n·产品；制品",
+      "important": false,
+      "id": 1373
+    },
+    {
+      "word": "production",
+      "meaning": "n·生产；制造",
+      "important": false,
+      "id": 1374
+    },
+    {
+      "word": "professional",
+      "meaning": "n&a·专业的；职业的",
+      "important": false,
+      "id": 1375
+    },
+    {
+      "word": "professor",
+      "meaning": "n·教授",
+      "important": false,
+      "id": 1376
+    },
+    {
+      "word": "program",
+      "meaning": "n·节目；项目",
+      "important": false,
+      "id": 1377
+    },
+    {
+      "word": "progress",
+      "meaning": "n&v·进步；发展",
+      "important": false,
+      "id": 1378
+    },
+    {
+      "word": "project",
+      "meaning": "n·工程；方案；v·计划",
+      "important": false,
+      "id": 1379
+    },
+    {
+      "word": "proper",
+      "meaning": "a·适当的；合适的",
+      "important": false,
+      "id": 1380
+    },
+    {
+      "word": "property",
+      "meaning": "n·性质；财产",
+      "important": false,
+      "id": 1381
+    },
+    {
+      "word": "protect",
+      "meaning": "v·保护",
+      "important": false,
+      "id": 1382
+    },
+    {
+      "word": "proud",
+      "meaning": "a·自豪的；得意的",
+      "important": false,
+      "id": 1383
+    },
+    {
+      "word": "prove",
+      "meaning": "v·证明；检验",
+      "important": false,
+      "id": 1384
+    },
+    {
+      "word": "provide",
+      "meaning": "v·提供",
+      "important": false,
+      "id": 1385
+    },
+    {
+      "word": "province",
+      "meaning": "n·省；领域",
+      "important": false,
+      "id": 1386
+    },
+    {
+      "word": "public",
+      "meaning": "n·公众；社会；a·公共的",
+      "important": false,
+      "id": 1387
+    },
+    {
+      "word": "publish",
+      "meaning": "v·出版；发行；发表",
+      "important": false,
+      "id": 1388
+    },
+    {
+      "word": "pudding",
+      "meaning": "n·布丁",
+      "important": false,
+      "id": 1389
+    },
+    {
+      "word": "pull",
+      "meaning": "n&v·拉；拖",
+      "important": false,
+      "id": 1390
+    },
+    {
+      "word": "pumpkin",
+      "meaning": "n·南瓜",
+      "important": false,
+      "id": 1391
+    },
+    {
+      "word": "pupil",
+      "meaning": "n·(小)学生；瞳孔；",
+      "important": false,
+      "id": 1392
+    },
+    {
+      "word": "pure",
+      "meaning": "a·纯粹的；纯洁的",
+      "important": false,
+      "id": 1393
+    },
+    {
+      "word": "purple",
+      "meaning": "n&a·紫色；",
+      "important": false,
+      "id": 1394
+    },
+    {
+      "word": "purpose",
+      "meaning": "n·目的；意图；v·打算",
+      "important": false,
+      "id": 1395
+    },
+    {
+      "word": "purse",
+      "meaning": "n·钱包",
+      "important": false,
+      "id": 1396
+    },
+    {
+      "word": "push",
+      "meaning": "n&v·堆",
+      "important": false,
+      "id": 1397
+    },
+    {
+      "word": "put",
+      "meaning": "v·放；摆",
+      "important": false,
+      "id": 1398
+    },
+    {
+      "word": "quantity",
+      "meaning": "n·量；数目",
+      "important": false,
+      "id": 1399
+    },
+    {
+      "word": "quarter",
+      "meaning": "n·四分之一；季度；一刻钟",
+      "important": false,
+      "id": 1400
+    },
+    {
+      "word": "question",
+      "meaning": "n&v·问题；疑问",
+      "important": false,
+      "id": 1401
+    },
+    {
+      "word": "queen",
+      "meaning": "n&v·皇后；女王",
+      "important": false,
+      "id": 1402
+    },
+    {
+      "word": "quick",
+      "meaning": "a·快的；迅速的",
+      "important": false,
+      "id": 1403
+    },
+    {
+      "word": "quiet",
+      "meaning": "a·安静的",
+      "important": false,
+      "id": 1404
+    },
+    {
+      "word": "quit",
+      "meaning": "v·退出；放弃；离开",
+      "important": false,
+      "id": 1405
+    },
+    {
+      "word": "quite",
+      "meaning": "a·很；相当；完全",
+      "important": false,
+      "id": 1406
+    },
+    {
+      "word": "quiz",
+      "meaning": "n·小测试；考察",
+      "important": false,
+      "id": 1407
     }
   ],
   "studyWords": [
@@ -8558,15 +9020,22 @@
       "dateYear": 2021,
       "dateMonth": 10,
       "dateDay": 1,
-      "number": 0,
+      "number": 200,
       "id": 2
     },
     {
       "dateYear": 2021,
       "dateMonth": 10,
       "dateDay": 2,
-      "number": 12,
+      "number": 120,
       "id": 3
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 3,
+      "number": 500,
+      "id": 4
     }
   ],
   "posts": [
