@@ -29,20 +29,21 @@ export const getRandom = (array , total , target) => {
           array[i] = output[i]
         }
 }
-
-export const getRandom2 = (array , total , target) => {
+// 随机数 输出数组
+        //  使用文件内的数组  ,   随机数最大值  ,  随机数数量
+export const getRandom2 = (array , max , min , target) => {
   let carry = []
         let output = []
-				for (let i=1; i < total; i++) {
-					carry[i] = i	
-				}
-				for (let num, i = 0; i<target; i++) {
-					do {
-						num = Math.floor(Math.random() * carry.length);
-					} while (carry[num] == null);
+        for (let i=1; min < i < max; i++) {
+          carry[i] = i	
+        }
+        for (let num, i = 0; i<target; i++) {
+          do {
+            num = Math.floor(Math.random() * carry.length);
+          } while (carry[num] == null);
           output.unshift(carry[num])
-           carry[num] = null
-				}
+            carry[num] = null
+        }
         for (let i = 0; i < target; i++) {
           array[i] = output[i]
         }

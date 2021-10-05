@@ -1291,7 +1291,7 @@
       "important": false
     },
     {
-      "word": "britain",
+      "word": "Britain",
       "meaning": "n·英国",
       "id": 216,
       "important": false
@@ -8642,7 +8642,7 @@
       "id": 33
     },
     {
-      "word": "britain",
+      "word": "Britain",
       "meaning": "n·英国",
       "important": false,
       "id": 34
@@ -9006,6 +9006,138 @@
       "meaning": "n&v·声称；宣称",
       "important": false,
       "id": 94
+    },
+    {
+      "word": "other",
+      "meaning": "a·其他的；另外的",
+      "important": false,
+      "id": 95
+    },
+    {
+      "word": "between",
+      "meaning": "prep·在两者之间；介于……之间",
+      "important": false,
+      "id": 96
+    },
+    {
+      "word": "fall",
+      "meaning": "n&v·落下；跌倒",
+      "important": false,
+      "id": 97
+    },
+    {
+      "word": "full",
+      "meaning": "a·满的；充分的；完全的",
+      "important": false,
+      "id": 98
+    },
+    {
+      "word": "former",
+      "meaning": "n·模型；a·以前的；旧时的",
+      "important": false,
+      "id": 99
+    },
+    {
+      "word": "know",
+      "meaning": "v·知道；了解",
+      "important": false,
+      "id": 100
+    },
+    {
+      "word": "business",
+      "meaning": "n·商业；交易；生意",
+      "important": false,
+      "id": 101
+    },
+    {
+      "word": "businessman",
+      "meaning": "n·商人",
+      "important": false,
+      "id": 102
+    },
+    {
+      "word": "pain",
+      "meaning": "n&v·疼痛；剧痛；无法忍受的痛",
+      "important": false,
+      "id": 103
+    },
+    {
+      "word": "comment",
+      "meaning": "n&v·评论；意见",
+      "important": false,
+      "id": 104
+    },
+    {
+      "word": "pleased",
+      "meaning": "a&v·高兴的；满意的",
+      "important": false,
+      "id": 105
+    },
+    {
+      "word": "drill",
+      "meaning": "n·钻头；训练；v·钻孔；训练",
+      "important": false,
+      "id": 106
+    },
+    {
+      "word": "month",
+      "meaning": "n·月份",
+      "important": false,
+      "id": 107
+    },
+    {
+      "word": "minus",
+      "meaning": "n·减号；负号；v·减",
+      "important": false,
+      "id": 108
+    },
+    {
+      "word": "contact",
+      "meaning": "n&v·接触；联系",
+      "important": false,
+      "id": 109
+    },
+    {
+      "word": "kind",
+      "meaning": "n·种类；性质；a·亲切的；善良的；",
+      "important": false,
+      "id": 110
+    },
+    {
+      "word": "quantity",
+      "meaning": "n·数量；数目",
+      "important": false,
+      "id": 111
+    },
+    {
+      "word": "interview",
+      "meaning": "n&v·采访；面试",
+      "important": false,
+      "id": 112
+    },
+    {
+      "word": "hat",
+      "meaning": "n·帽子；v·给……戴帽子",
+      "important": false,
+      "id": 113
+    },
+    {
+      "word": "escape",
+      "meaning": "n&v·逃跑；逃避",
+      "important": false,
+      "id": 114
+    },
+    {
+      "word": "March",
+      "meaning": "n·三月",
+      "important": false,
+      "id": 115
+    },
+    {
+      "word": "march",
+      "meaning": "n&v·前进；游行",
+      "important": false,
+      "id": 116
     }
   ],
   "dailyData": [
@@ -9019,22 +9151,22 @@
     {
       "dateYear": 2021,
       "dateMonth": 10,
-      "dateDay": 1,
-      "number": 200,
+      "dateDay": 3,
+      "number": 202,
       "id": 2
     },
     {
       "dateYear": 2021,
       "dateMonth": 10,
-      "dateDay": 2,
-      "number": 120,
+      "dateDay": 4,
+      "number": 493,
       "id": 3
     },
     {
       "dateYear": 2021,
       "dateMonth": 10,
-      "dateDay": 3,
-      "number": 500,
+      "dateDay": 5,
+      "number": 706,
       "id": 4
     }
   ],

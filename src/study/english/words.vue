@@ -7,6 +7,7 @@
 			<div class="rank_content">
 				<div class="line"><p>当日检测次数 : </p><strong>{{rankArray[rankArray.length - 1]}}</strong></div><br>
 				<div class="line"><p>总检测天数 : </p><strong>{{rankArray.length}}</strong></div><br>
+				<div class="line"><p>总检测次数 : </p><strong>{{rankAll}}</strong></div><br>
 				<div class="line"><p>历史最高检测次数 : </p><strong>{{rankMax}}</strong></div><br>
 				<div class="line"><p>历史最低检测次数 : </p><strong>{{rankMin}}</strong></div><br>
 				<div class="line"><p>每日平均检测次数 : </p><strong>{{rankAverage}}</strong></div><br>
@@ -40,7 +41,9 @@
 				<!--  -->
 				<button class="btn study" v-if="!switchCard" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
 				<button class="btn study" v-if="!switchCard" @click="addShowStudy = !addShowStudy">添加单词</button>
-				<button class="btn study" v-if="!switchCard" @click="wordsTest">检测</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest">检测ALL</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest(50)">检测50</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest(20)">检测20</button>
 				<button class="btn study" v-if="!switchCard" @click="Detect">检查重复</button>
 				<button class="btn study" v-if="!switchCard" @click="getGrass">排行榜</button>
 			</div>
@@ -149,6 +152,7 @@ export default {
 				switchCard: true, // 切换单词显示
 				switchWord:true, // 单词刷新
 				ranking:false,// 排行榜
+				randomNum: 0, // 随机检测的值
 				rankArray: [],
 				dailyDateId:0,
 				words: {},
@@ -179,7 +183,12 @@ export default {
 			rankAverage(){
 				let sum = function(x,y){ return x+y;};
 				return Math.round(this.rankArray.reduce(sum)/this.rankArray.length) 
+				// return this.rankArray.reduce((a, b) => a + b) / this.rankArray.length;
+			},
+			rankAll(){
+				return this.rankArray.reduce((a, b) => a + b);
 			}
+
 		},
 		mounted() {
 			this.nowUrl = 'allWords'
@@ -294,7 +303,7 @@ export default {
 					this.enterWords = '恭喜你答对了'
 					setTimeout(() => {
 						this.enterWords = ''
-						this.wordsTest()
+						this.wordsTest(this.randomNum)
 						setTimeout(() => {
 							document.getElementById('insWord').focus()
 							this.wordTest++
@@ -311,15 +320,33 @@ export default {
 				
 			},
 
-			wordsTest(){
+			wordsTest(num){ // 设置当输出的 id 不满足条件就重新 radom
+				num = num || 0
+				this.randomNum = num
 				//this.NewWords = []
 				this.getNewWords(1)
-				this.testTotal = true
-				this.total = false
-				this.getTotal = false
-				setTimeout(() => {
-					document.getElementById('insWord').focus()
-				});	
+				// console.log(this.NewWords[0].id);
+				// console.log(this.words);
+				// console.log(this.words.length - this.NewWords[0].id);
+				if ((this.words.length - this.NewWords[0].id) >= num) {
+					
+					this.NewWords = []
+					this.testTotal = true
+					this.total = false
+					this.getTotal = false
+					this.wordsTest(num)
+				
+				}else{
+					this.testTotal = true
+					this.total = false
+					this.getTotal = false
+					setTimeout(() => {
+						document.getElementById('insWord').focus()
+					});	
+				}
+				
+				
+
 			},
 				
 			
