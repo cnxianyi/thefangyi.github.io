@@ -9138,6 +9138,114 @@
       "meaning": "n&v·前进；游行",
       "important": false,
       "id": 116
+    },
+    {
+      "word": "family",
+      "meaning": "n&a·家庭、家族",
+      "important": false,
+      "id": 117
+    },
+    {
+      "word": "familiar",
+      "meaning": "a·熟悉的；常见的",
+      "important": false,
+      "id": 118
+    },
+    {
+      "word": "enable",
+      "meaning": "v·使能够；启动；激活",
+      "important": false,
+      "id": 119
+    },
+    {
+      "word": "lady",
+      "meaning": "n·女士",
+      "important": false,
+      "id": 120
+    },
+    {
+      "word": "percent",
+      "meaning": "n&a·百分之",
+      "important": false,
+      "id": 121
+    },
+    {
+      "word": "exist",
+      "meaning": "v·存在；实际上有",
+      "important": false,
+      "id": 122
+    },
+    {
+      "word": "bedroom",
+      "meaning": "n·寝室",
+      "important": false,
+      "id": 123
+    },
+    {
+      "word": "clock",
+      "meaning": "n·钟；v·计时",
+      "important": false,
+      "id": 124
+    },
+    {
+      "word": "moreover",
+      "meaning": "a·而且；此外",
+      "important": false,
+      "id": 125
+    },
+    {
+      "word": "printer",
+      "meaning": "n·打印机",
+      "important": false,
+      "id": 126
+    },
+    {
+      "word": "government",
+      "meaning": "n·政府",
+      "important": false,
+      "id": 127
+    },
+    {
+      "word": "keen",
+      "meaning": "a·渴望的；喜爱的；着迷的",
+      "important": false,
+      "id": 128
+    },
+    {
+      "word": "beautiful",
+      "meaning": "a·美丽的；出色的",
+      "important": false,
+      "id": 129
+    },
+    {
+      "word": "mop",
+      "meaning": "n·拖把；清扫；v·拖；抹",
+      "important": false,
+      "id": 130
+    },
+    {
+      "word": "early",
+      "meaning": "a·早的；提前的",
+      "important": false,
+      "id": 131
+    },
+    {
+      "word": "hide",
+      "meaning": "n&v·隐藏",
+      "important": false,
+      "id": 132
+    },
+    {
+      "word": "normal",
+      "meaning": "n&a·正常的；标准的",
+      "important": false,
+      "id": 133
+    },
+    {
+      "word": "half",
+      "meaning": "pron&n·一半",
+      "important": false,
+      "id": 134
     }
   ],
   "dailyData": [
@@ -9166,8 +9274,22 @@
       "dateYear": 2021,
       "dateMonth": 10,
       "dateDay": 5,
-      "number": 706,
+      "number": 151,
       "id": 4
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 6,
+      "number": 367,
+      "id": 5
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 7,
+      "number": 0,
+      "id": 6
     }
   ],
   "posts": [
