@@ -9246,6 +9246,78 @@
       "meaning": "pron&n·一半",
       "important": false,
       "id": 134
+    },
+    {
+      "word": "headline",
+      "meaning": "n·标题；头条；v·加标题",
+      "important": false,
+      "id": 135
+    },
+    {
+      "word": "menu",
+      "meaning": "n·菜单",
+      "important": false,
+      "id": 136
+    },
+    {
+      "word": "headmaster",
+      "meaning": "n·校长",
+      "important": false,
+      "id": 137
+    },
+    {
+      "word": "frequent",
+      "meaning": "a·频繁的；经常的；v·常去",
+      "important": false,
+      "id": 138
+    },
+    {
+      "word": "Ms",
+      "meaning": "n·未婚女士",
+      "important": false,
+      "id": 139
+    },
+    {
+      "word": "handle",
+      "meaning": "n·把手；柄",
+      "important": false,
+      "id": 140
+    },
+    {
+      "word": "fridge",
+      "meaning": "n·冰箱",
+      "important": false,
+      "id": 141
+    },
+    {
+      "word": "especially",
+      "meaning": "a·特别；尤其；",
+      "important": false,
+      "id": 142
+    },
+    {
+      "word": "paint",
+      "meaning": "n·油漆；颜料；v·粉刷",
+      "important": false,
+      "id": 143
+    },
+    {
+      "word": "need",
+      "meaning": "n&v·必须；需要",
+      "important": false,
+      "id": 144
+    },
+    {
+      "word": "all",
+      "meaning": "n&a·全部；所有",
+      "important": false,
+      "id": 145
+    },
+    {
+      "word": "interrupt",
+      "meaning": "v·打断；打扰",
+      "important": false,
+      "id": 146
     }
   ],
   "dailyData": [
@@ -9288,7 +9360,7 @@
       "dateYear": 2021,
       "dateMonth": 10,
       "dateDay": 7,
-      "number": 0,
+      "number": 1024,
       "id": 6
     }
   ],
