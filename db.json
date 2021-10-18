@@ -8440,6 +8440,450 @@
       "meaning": "n·小测试；考察",
       "important": false,
       "id": 1407
+    },
+    {
+      "word": "race",
+      "meaning": "n·种族",
+      "important": false,
+      "id": 1408
+    },
+    {
+      "word": "radio",
+      "meaning": "n·收音机",
+      "important": false,
+      "id": 1409
+    },
+    {
+      "word": "railway",
+      "meaning": "n·铁路",
+      "important": false,
+      "id": 1410
+    },
+    {
+      "word": "rain",
+      "meaning": "n&v·下雨",
+      "important": false,
+      "id": 1411
+    },
+    {
+      "word": "raise",
+      "meaning": "v·增加；提高；饲养",
+      "important": false,
+      "id": 1412
+    },
+    {
+      "word": "range",
+      "meaning": "n·范围；幅度；值域；",
+      "important": false,
+      "id": 1413
+    },
+    {
+      "word": "rapid",
+      "meaning": "a·快的；迅速的",
+      "important": false,
+      "id": 1414
+    },
+    {
+      "word": "rate",
+      "meaning": "n&v·比率",
+      "important": false,
+      "id": 1415
+    },
+    {
+      "word": "rather",
+      "meaning": "a·宁可；宁愿",
+      "important": false,
+      "id": 1416
+    },
+    {
+      "word": "raw",
+      "meaning": "a·未加工的；生的",
+      "important": false,
+      "id": 1417
+    },
+    {
+      "word": "reach",
+      "meaning": "v·到达；达到；伸手",
+      "important": false,
+      "id": 1418
+    },
+    {
+      "word": "read",
+      "meaning": "v·读",
+      "important": false,
+      "id": 1419
+    },
+    {
+      "word": "ready",
+      "meaning": "a·准备好的；迅速的",
+      "important": false,
+      "id": 1420
+    },
+    {
+      "word": "real",
+      "meaning": "a·真实的；实际的",
+      "important": false,
+      "id": 1421
+    },
+    {
+      "word": "realize",
+      "meaning": "v·实现；认识到",
+      "important": false,
+      "id": 1422
+    },
+    {
+      "word": "really",
+      "meaning": "a·真正的；事实上",
+      "important": false,
+      "id": 1423
+    },
+    {
+      "word": "reason",
+      "meaning": "n·理由；原因",
+      "important": false,
+      "id": 1424
+    },
+    {
+      "word": "receipt",
+      "meaning": "n·发票；收据",
+      "important": false,
+      "id": 1425
+    },
+    {
+      "word": "receive",
+      "meaning": "v·收到；接收",
+      "important": false,
+      "id": 1426
+    },
+    {
+      "word": "recent",
+      "meaning": "a·最近的；最新的",
+      "important": false,
+      "id": 1427
+    },
+    {
+      "word": "reception",
+      "meaning": "n·接待；接收",
+      "important": false,
+      "id": 1428
+    },
+    {
+      "word": "recognize",
+      "meaning": "v·认出；识别；承认",
+      "important": false,
+      "id": 1429
+    },
+    {
+      "word": "record",
+      "meaning": "n&v·记录；记载",
+      "important": false,
+      "id": 1430
+    },
+    {
+      "word": "recover",
+      "meaning": "v·痊愈；恢复",
+      "important": false,
+      "id": 1431
+    },
+    {
+      "word": "red",
+      "meaning": "n·红色",
+      "important": false,
+      "id": 1432
+    },
+    {
+      "word": "reduce",
+      "meaning": "v·减少；缩减",
+      "important": false,
+      "id": 1433
+    },
+    {
+      "word": "refuse",
+      "meaning": "n·垃圾；废弃物；v·回绝；拒绝",
+      "important": false,
+      "id": 1434
+    },
+    {
+      "word": "region",
+      "meaning": "n·地区；区域",
+      "important": false,
+      "id": 1435
+    },
+    {
+      "word": "register",
+      "meaning": "n&v·登记；注册",
+      "important": false,
+      "id": 1436
+    },
+    {
+      "word": "regret",
+      "meaning": "n&v·后悔；遗憾",
+      "important": false,
+      "id": 1437
+    },
+    {
+      "word": "regular",
+      "meaning": "a·规则的；有规律的；定时的",
+      "important": false,
+      "id": 1438
+    },
+    {
+      "word": "reject",
+      "meaning": "v·拒绝；排斥；抵制",
+      "important": false,
+      "id": 1439
+    },
+    {
+      "word": "relation",
+      "meaning": "n·关系；叙述；亲属",
+      "important": false,
+      "id": 1440
+    },
+    {
+      "word": "relax",
+      "meaning": "v·放松；休息",
+      "important": false,
+      "id": 1441
+    },
+    {
+      "word": "relay",
+      "meaning": "n&v·接替；接力",
+      "important": false,
+      "id": 1442
+    },
+    {
+      "word": "remain",
+      "meaning": "n·残余；残骸；v·余下；保持",
+      "important": false,
+      "id": 1443
+    },
+    {
+      "word": "remember",
+      "meaning": "v·记得；回想起",
+      "important": false,
+      "id": 1444
+    },
+    {
+      "word": "remind",
+      "meaning": "v·提醒；使某人想起",
+      "important": false,
+      "id": 1445
+    },
+    {
+      "word": "rent",
+      "meaning": "n&v·租借",
+      "important": false,
+      "id": 1446
+    },
+    {
+      "word": "repair",
+      "meaning": "n&v·修理；修复",
+      "important": false,
+      "id": 1447
+    },
+    {
+      "word": "repeat",
+      "meaning": "v·重做；重复一遍",
+      "important": false,
+      "id": 1448
+    },
+    {
+      "word": "reply",
+      "meaning": "n&v·回答；答复",
+      "important": false,
+      "id": 1449
+    },
+    {
+      "word": "report",
+      "meaning": "n&v·报导；报告",
+      "important": false,
+      "id": 1450
+    },
+    {
+      "word": "reporter",
+      "meaning": "n·记着",
+      "important": false,
+      "id": 1451
+    },
+    {
+      "word": "represent",
+      "meaning": "v·代表；描绘",
+      "important": false,
+      "id": 1452
+    },
+    {
+      "word": "require",
+      "meaning": "v·需要；需求",
+      "important": false,
+      "id": 1453
+    },
+    {
+      "word": "research",
+      "meaning": "n&v·研究；调查",
+      "important": false,
+      "id": 1454
+    },
+    {
+      "word": "reservation",
+      "meaning": "n·保留；预约",
+      "important": false,
+      "id": 1455
+    },
+    {
+      "word": "respect",
+      "meaning": "n&v·尊敬",
+      "important": false,
+      "id": 1456
+    },
+    {
+      "word": "responsible",
+      "meaning": "a·负责的；有责任的",
+      "important": false,
+      "id": 1457
+    },
+    {
+      "word": "rest",
+      "meaning": "n&v·休息；睡眠；搁置",
+      "important": false,
+      "id": 1458
+    },
+    {
+      "word": "restaurant",
+      "meaning": "n·餐馆；饭店",
+      "important": false,
+      "id": 1459
+    },
+    {
+      "word": "result",
+      "meaning": "n·结果；成绩",
+      "important": false,
+      "id": 1460
+    },
+    {
+      "word": "resume",
+      "meaning": "n·简历；履历；v·恢复；重新开始",
+      "important": false,
+      "id": 1461
+    },
+    {
+      "word": "retell",
+      "meaning": "v·复述",
+      "important": false,
+      "id": 1462
+    },
+    {
+      "word": "return",
+      "meaning": "n&v·返回；归还",
+      "important": false,
+      "id": 1463
+    },
+    {
+      "word": "review",
+      "meaning": "n&v·回顾；复习",
+      "important": false,
+      "id": 1464
+    },
+    {
+      "word": "reward",
+      "meaning": "n&v·奖励；薪酬；回报",
+      "important": false,
+      "id": 1465
+    },
+    {
+      "word": "rice",
+      "meaning": "n·稻子；稻米",
+      "important": false,
+      "id": 1466
+    },
+    {
+      "word": "rich",
+      "meaning": "a·富有的；富裕的",
+      "important": false,
+      "id": 1467
+    },
+    {
+      "word": "ride",
+      "meaning": "n·旅行；行程；v·骑；乘",
+      "important": false,
+      "id": 1468
+    },
+    {
+      "word": "right",
+      "meaning": "n&v·正确的；右边的",
+      "important": false,
+      "id": 1469
+    },
+    {
+      "word": "ring",
+      "meaning": "n·戒指；环状物；v·响；打电话",
+      "important": false,
+      "id": 1470
+    },
+    {
+      "word": "ripe",
+      "meaning": "a·熟的；时机成熟的",
+      "important": false,
+      "id": 1471
+    },
+    {
+      "word": "rise",
+      "meaning": "v·上升；上涨",
+      "important": false,
+      "id": 1472
+    },
+    {
+      "word": "risk",
+      "meaning": "n&v·风险",
+      "important": false,
+      "id": 1473
+    },
+    {
+      "word": "river",
+      "meaning": "n·江；河",
+      "important": false,
+      "id": 1474
+    },
+    {
+      "word": "road",
+      "meaning": "n·马路；道路",
+      "important": false,
+      "id": 1475
+    },
+    {
+      "word": "roast",
+      "meaning": "n·烤肉；v·烘；烤",
+      "important": false,
+      "id": 1476
+    },
+    {
+      "word": "rob",
+      "meaning": "v·抢劫；掠夺",
+      "important": false,
+      "id": 1477
+    },
+    {
+      "word": "robber",
+      "meaning": "n·强盗",
+      "important": false,
+      "id": 1478
+    },
+    {
+      "word": "robot",
+      "meaning": "n·机器人",
+      "important": false,
+      "id": 1479
+    },
+    {
+      "word": "rock",
+      "meaning": "n·岩石",
+      "important": false,
+      "id": 1480
+    },
+    {
+      "word": "role",
+      "meaning": "n·角色",
+      "important": false,
+      "id": 1481
     }
   ],
   "studyWords": [
@@ -9318,6 +9762,366 @@
       "meaning": "v·打断；打扰",
       "important": false,
       "id": 146
+    },
+    {
+      "word": "district",
+      "meaning": "n·地区；区域；辖区",
+      "important": false,
+      "id": 147
+    },
+    {
+      "word": "grocery",
+      "meaning": "n·食品杂货店",
+      "important": false,
+      "id": 148
+    },
+    {
+      "word": "breathe",
+      "meaning": "v·呼吸",
+      "important": false,
+      "id": 149
+    },
+    {
+      "word": "February",
+      "meaning": "n·二月",
+      "important": false,
+      "id": 150
+    },
+    {
+      "word": "pie",
+      "meaning": "n·馅饼",
+      "important": false,
+      "id": 151
+    },
+    {
+      "word": "already",
+      "meaning": "a·已经；早已",
+      "important": false,
+      "id": 152
+    },
+    {
+      "word": "earn",
+      "meaning": "v·赚钱；挣得",
+      "important": false,
+      "id": 153
+    },
+    {
+      "word": "pair",
+      "meaning": "n·一双；一对",
+      "important": false,
+      "id": 154
+    },
+    {
+      "word": "nowadays",
+      "meaning": "n&a·当今；现在",
+      "important": false,
+      "id": 155
+    },
+    {
+      "word": "game",
+      "meaning": "n·游戏；比赛",
+      "important": false,
+      "id": 156
+    },
+    {
+      "word": "basketball",
+      "meaning": "n·篮球",
+      "important": false,
+      "id": 157
+    },
+    {
+      "word": "line",
+      "meaning": "n·线；绳索",
+      "important": false,
+      "id": 158
+    },
+    {
+      "word": "musician",
+      "meaning": "n·音乐家",
+      "important": false,
+      "id": 159
+    },
+    {
+      "word": "onion",
+      "meaning": "n·洋葱；洋葱头",
+      "important": false,
+      "id": 160
+    },
+    {
+      "word": "coast",
+      "meaning": "n·海岸；海滨",
+      "important": false,
+      "id": 161
+    },
+    {
+      "word": "industry",
+      "meaning": "n·工业；产业",
+      "important": false,
+      "id": 162
+    },
+    {
+      "word": "funny",
+      "meaning": "a·有趣的",
+      "important": false,
+      "id": 163
+    },
+    {
+      "word": "false",
+      "meaning": "a·错误的；伪造的",
+      "important": false,
+      "id": 164
+    },
+    {
+      "word": "leaf",
+      "meaning": "n·叶子；书页；v·翻页",
+      "important": false,
+      "id": 165
+    },
+    {
+      "word": "device",
+      "meaning": "n·装置；设备；策略",
+      "important": false,
+      "id": 166
+    },
+    {
+      "word": "lamp",
+      "meaning": "n·灯；v·照明；照亮",
+      "important": false,
+      "id": 167
+    },
+    {
+      "word": "blue",
+      "meaning": "adj·蓝色的；忧郁；悲观的",
+      "important": false,
+      "id": 168
+    },
+    {
+      "word": "flag",
+      "meaning": "n·旗帜；国旗；v·做标记",
+      "important": false,
+      "id": 169
+    },
+    {
+      "word": "crowded",
+      "meaning": "adj·拥挤的；v·聚集",
+      "important": false,
+      "id": 170
+    },
+    {
+      "word": "coat",
+      "meaning": "n·外套；大衣；v·给……涂上",
+      "important": false,
+      "id": 171
+    },
+    {
+      "word": "north",
+      "meaning": "n&a·北方",
+      "important": false,
+      "id": 172
+    },
+    {
+      "word": "mix",
+      "meaning": "n&v·混合",
+      "important": false,
+      "id": 173
+    },
+    {
+      "word": "expense",
+      "meaning": "n&v·花费；消费；损失",
+      "important": false,
+      "id": 174
+    },
+    {
+      "word": "fond",
+      "meaning": "adj·喜爱的；喜欢的",
+      "important": false,
+      "id": 175
+    },
+    {
+      "word": "melt",
+      "meaning": "n&v·融化；熔化",
+      "important": false,
+      "id": 176
+    },
+    {
+      "word": "point",
+      "meaning": "n·观点；要点；",
+      "important": false,
+      "id": 177
+    },
+    {
+      "word": "clever",
+      "meaning": "adj·聪明的；机灵的",
+      "important": false,
+      "id": 178
+    },
+    {
+      "word": "firework",
+      "meaning": "n·焰火；烟火",
+      "important": false,
+      "id": 179
+    },
+    {
+      "word": "cloud",
+      "meaning": "n·云；阴云",
+      "important": false,
+      "id": 180
+    },
+    {
+      "word": "beer",
+      "meaning": "n·啤酒；v·喝啤酒",
+      "important": false,
+      "id": 181
+    },
+    {
+      "word": "polite",
+      "meaning": "adj·有礼貌的；",
+      "important": false,
+      "id": 182
+    },
+    {
+      "word": "advanced",
+      "meaning": "adj·先进的；高级的；v·发展；行进",
+      "important": false,
+      "id": 183
+    },
+    {
+      "word": "mean",
+      "meaning": "n·含义；意思",
+      "important": false,
+      "id": 184
+    },
+    {
+      "word": "mail",
+      "meaning": "n&v·邮寄；邮政",
+      "important": false,
+      "id": 185
+    },
+    {
+      "word": "neighbor",
+      "meaning": "n·邻居；a·临近的",
+      "important": false,
+      "id": 186
+    },
+    {
+      "word": "disappointed",
+      "meaning": "adj·失望的；沮丧的",
+      "important": false,
+      "id": 187
+    },
+    {
+      "word": "engine",
+      "meaning": "n·引擎；发动机",
+      "important": false,
+      "id": 188
+    },
+    {
+      "word": "during",
+      "meaning": "prep·在……期间；过程",
+      "important": false,
+      "id": 189
+    },
+    {
+      "word": "last",
+      "meaning": "a·最后的；v·持续；持久",
+      "important": false,
+      "id": 190
+    },
+    {
+      "word": "pause",
+      "meaning": "n&v·暂停；停顿",
+      "important": false,
+      "id": 191
+    },
+    {
+      "word": "leave",
+      "meaning": "n·许可；同意；v·离开",
+      "important": false,
+      "id": 192
+    },
+    {
+      "word": "forget",
+      "meaning": "n&v·遗忘；忘记",
+      "important": false,
+      "id": 193
+    },
+    {
+      "word": "company",
+      "meaning": "n·公司；企业",
+      "important": false,
+      "id": 194
+    },
+    {
+      "word": "model",
+      "meaning": "n·模型；原型",
+      "important": false,
+      "id": 195
+    },
+    {
+      "word": "museum",
+      "meaning": "n·博物馆",
+      "important": false,
+      "id": 196
+    },
+    {
+      "word": "automatic",
+      "meaning": "a·自动的",
+      "important": false,
+      "id": 197
+    },
+    {
+      "word": "host",
+      "meaning": "n·主人；东道主；v·主持",
+      "important": false,
+      "id": 198
+    },
+    {
+      "word": "imagine",
+      "meaning": "v·想象；猜想",
+      "important": false,
+      "id": 199
+    },
+    {
+      "word": "means",
+      "meaning": "n·手段；方法",
+      "important": false,
+      "id": 200
+    },
+    {
+      "word": "clothes",
+      "meaning": "n·衣服",
+      "important": false,
+      "id": 201
+    },
+    {
+      "word": "pipe",
+      "meaning": "n·管子；水管",
+      "important": false,
+      "id": 202
+    },
+    {
+      "word": "first",
+      "meaning": "det·第一",
+      "important": false,
+      "id": 203
+    },
+    {
+      "word": "nature",
+      "meaning": "n·大自然；性质",
+      "important": false,
+      "id": 204
+    },
+    {
+      "word": "lean",
+      "meaning": "v·倾斜；屈；a·廋的",
+      "important": false,
+      "id": 205
+    },
+    {
+      "word": "piece",
+      "meaning": "n·一片；一块",
+      "important": false,
+      "id": 206
     }
   ],
   "dailyData": [
@@ -9360,8 +10164,57 @@
       "dateYear": 2021,
       "dateMonth": 10,
       "dateDay": 7,
-      "number": 1024,
+      "number": 513,
       "id": 6
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 8,
+      "number": 485,
+      "id": 7
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 11,
+      "number": 501,
+      "id": 8
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 12,
+      "number": 501,
+      "id": 9
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 13,
+      "number": 501,
+      "id": 10
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 15,
+      "number": 500,
+      "id": 11
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 16,
+      "number": 401,
+      "id": 12
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 18,
+      "number": 101,
+      "id": 13
     }
   ],
   "posts": [
