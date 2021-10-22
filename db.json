@@ -10122,6 +10122,138 @@
       "meaning": "n·一片；一块",
       "important": false,
       "id": 206
+    },
+    {
+      "word": "build",
+      "meaning": "n·造型；构造；v·建造",
+      "important": false,
+      "id": 207
+    },
+    {
+      "word": "design",
+      "meaning": "n&v·设计；布局；样式",
+      "important": false,
+      "id": 208
+    },
+    {
+      "word": "custom",
+      "meaning": "n·风俗；习惯；a·定制的(衣服)",
+      "important": false,
+      "id": 209
+    },
+    {
+      "word": "customer",
+      "meaning": "n·顾客",
+      "important": false,
+      "id": 210
+    },
+    {
+      "word": "modern",
+      "meaning": "n·现代人；a·现代的；时髦的",
+      "important": false,
+      "id": 211
+    },
+    {
+      "word": "huge",
+      "meaning": "a·巨大的；庞大的；极大的",
+      "important": false,
+      "id": 212
+    },
+    {
+      "word": "lonely",
+      "meaning": "a·孤单的；寂寞的",
+      "important": false,
+      "id": 213
+    },
+    {
+      "word": "passenger",
+      "meaning": "n·旅客；乘客",
+      "important": false,
+      "id": 214
+    },
+    {
+      "word": "examine",
+      "meaning": "v·调查；检查；考试",
+      "important": false,
+      "id": 215
+    },
+    {
+      "word": "large",
+      "meaning": "adj·大的(尺寸)；大号的；",
+      "important": false,
+      "id": 216
+    },
+    {
+      "word": "buy",
+      "meaning": "v·买",
+      "important": false,
+      "id": 217
+    },
+    {
+      "word": "beside",
+      "meaning": "a·在附近；在旁边；靠近",
+      "important": false,
+      "id": 218
+    },
+    {
+      "word": "pop",
+      "meaning": "a·流行的；热门的",
+      "important": false,
+      "id": 219
+    },
+    {
+      "word": "hairdresser",
+      "meaning": "n·理发师",
+      "important": false,
+      "id": 220
+    },
+    {
+      "word": "head",
+      "meaning": "n·头；上端",
+      "important": false,
+      "id": 221
+    },
+    {
+      "word": "hair",
+      "meaning": "n·头发",
+      "important": false,
+      "id": 222
+    },
+    {
+      "word": "possible",
+      "meaning": "a·可能的；合理的",
+      "important": false,
+      "id": 223
+    },
+    {
+      "word": "massage",
+      "meaning": "n·推拿；按摩",
+      "important": false,
+      "id": 224
+    },
+    {
+      "word": "message",
+      "meaning": "n·信息；v·(电子)传送信息",
+      "important": false,
+      "id": 225
+    },
+    {
+      "word": "opportunity",
+      "meaning": "n·机会；时机",
+      "important": false,
+      "id": 226
+    },
+    {
+      "word": "as",
+      "meaning": "n·像……一样；作为",
+      "important": false,
+      "id": 227
+    },
+    {
+      "word": "frighten",
+      "meaning": "v·使恐吓",
+      "important": false,
+      "id": 228
     }
   ],
   "dailyData": [
@@ -10213,8 +10345,22 @@
       "dateYear": 2021,
       "dateMonth": 10,
       "dateDay": 18,
-      "number": 101,
+      "number": 385,
       "id": 13
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 21,
+      "number": 101,
+      "id": 14
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 22,
+      "number": 601,
+      "id": 15
     }
   ],
   "posts": [
