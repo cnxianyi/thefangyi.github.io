@@ -228,7 +228,8 @@ export default {
 		watch: {
 			wordTest : function(now){
 			let id = this.dailyDateId
-			//console.log(id);
+			if (now != 0) {
+				//console.log(id);
 			axios({ // 添加日期 数据更新时更新 number
 					method: 'patch',
 					url: `http://localhost:3000/dailyData/${id}`,
@@ -238,6 +239,8 @@ export default {
 					});
 				//console.log(now+''+this.dailyDateId);
 			}
+			}
+			
 		},
 		methods: {
 			
