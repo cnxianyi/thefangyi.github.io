@@ -7849,7 +7849,7 @@
     },
     {
       "word": "plain",
-      "meaning": "n&a·家常的；普通的",
+      "meaning": "n&a·简单的；朴素的；普通的",
       "important": false,
       "id": 1309
     },
@@ -10254,6 +10254,300 @@
       "meaning": "v·使恐吓",
       "important": false,
       "id": 228
+    },
+    {
+      "word": "plain",
+      "meaning": "a·简单的；朴素的；",
+      "important": false,
+      "id": 229
+    },
+    {
+      "word": "pray",
+      "meaning": "v·祈祷；祷告",
+      "important": false,
+      "id": 230
+    },
+    {
+      "word": "novel",
+      "meaning": "n·长篇小说；a·新颖的；",
+      "important": false,
+      "id": 231
+    },
+    {
+      "word": "habit",
+      "meaning": "n·习惯；习性",
+      "important": false,
+      "id": 232
+    },
+    {
+      "word": "retell",
+      "meaning": "v·复述",
+      "important": false,
+      "id": 233
+    },
+    {
+      "word": "hit",
+      "meaning": "v·打击；撞击",
+      "important": false,
+      "id": 234
+    },
+    {
+      "word": "instruction",
+      "meaning": "n·说明；指示；吩咐",
+      "important": false,
+      "id": 235
+    },
+    {
+      "word": "empty",
+      "meaning": "a·空的；无意义的",
+      "important": false,
+      "id": 236
+    },
+    {
+      "word": "post",
+      "meaning": "n·邮政；职位；v·张贴；公布；邮递",
+      "important": false,
+      "id": 237
+    },
+    {
+      "word": "port",
+      "meaning": "n·港口；口岸；端口",
+      "important": false,
+      "id": 238
+    },
+    {
+      "word": "future",
+      "meaning": "n&v·未来；将来",
+      "important": false,
+      "id": 239
+    },
+    {
+      "word": "doctor",
+      "meaning": "n·医生；博士",
+      "important": false,
+      "id": 240
+    },
+    {
+      "word": "lost",
+      "meaning": "a·迷路，迷失的；丢失的；v·遗失；丢失",
+      "important": false,
+      "id": 241
+    },
+    {
+      "word": "minimum",
+      "meaning": "n&a·最小值；最低限度的",
+      "important": false,
+      "id": 242
+    },
+    {
+      "word": "mark",
+      "meaning": "n&v·标志；记号",
+      "important": false,
+      "id": 243
+    },
+    {
+      "word": "ordinary",
+      "meaning": "a·普通的；平常的",
+      "important": false,
+      "id": 244
+    },
+    {
+      "word": "raw",
+      "meaning": "a·生的；未加工的",
+      "important": false,
+      "id": 245
+    },
+    {
+      "word": "row",
+      "meaning": "n·行；排；街道；",
+      "important": false,
+      "id": 246
+    },
+    {
+      "word": "club",
+      "meaning": "n·俱乐部；社团",
+      "important": false,
+      "id": 247
+    },
+    {
+      "word": "generous",
+      "meaning": "a·慷慨的；大方的",
+      "important": false,
+      "id": 248
+    },
+    {
+      "word": "purse",
+      "meaning": "n·手提袋；钱包",
+      "important": false,
+      "id": 249
+    },
+    {
+      "word": "wallet",
+      "meaning": "n·钱包；皮夹",
+      "important": false,
+      "id": 250
+    },
+    {
+      "word": "haircut",
+      "meaning": "n·理发；发型",
+      "important": false,
+      "id": 251
+    },
+    {
+      "word": "location",
+      "meaning": "n·位置；地点",
+      "important": false,
+      "id": 252
+    },
+    {
+      "word": "joy",
+      "meaning": "n&v·欢乐；高兴",
+      "important": false,
+      "id": 253
+    },
+    {
+      "word": "independent",
+      "meaning": "a·独立的；自治的；",
+      "important": false,
+      "id": 254
+    },
+    {
+      "word": "flow",
+      "meaning": "n&v·流动",
+      "important": false,
+      "id": 255
+    },
+    {
+      "word": "follow",
+      "meaning": "n&v·跟着；尾随",
+      "important": false,
+      "id": 256
+    },
+    {
+      "word": "interest",
+      "meaning": "n·兴趣；爱好",
+      "important": false,
+      "id": 257
+    },
+    {
+      "word": "get",
+      "meaning": "v·获得；成为；得到",
+      "important": false,
+      "id": 258
+    },
+    {
+      "word": "own",
+      "meaning": "a·自己的；拥有",
+      "important": false,
+      "id": 259
+    },
+    {
+      "word": "key",
+      "meaning": "n·钥匙；关键；a·关键的",
+      "important": false,
+      "id": 260
+    },
+    {
+      "word": "receive",
+      "meaning": "v·收到；接受；接收",
+      "important": false,
+      "id": 261
+    },
+    {
+      "word": "none",
+      "meaning": "a&prop·没有",
+      "important": false,
+      "id": 262
+    },
+    {
+      "word": "lunch",
+      "meaning": "n·午餐",
+      "important": false,
+      "id": 263
+    },
+    {
+      "word": "manage",
+      "meaning": "v·管理；经营",
+      "important": false,
+      "id": 264
+    },
+    {
+      "word": "manager",
+      "meaning": "n·经理；管理员",
+      "important": false,
+      "id": 265
+    },
+    {
+      "word": "kindergarten",
+      "meaning": "n·幼儿园",
+      "important": false,
+      "id": 266
+    },
+    {
+      "word": "relation",
+      "meaning": "n·关系；叙述；亲属关系",
+      "important": false,
+      "id": 267
+    },
+    {
+      "word": "plus",
+      "meaning": "n·优势；加上",
+      "important": false,
+      "id": 268
+    },
+    {
+      "word": "import",
+      "meaning": "n&v·进口；输入；导入",
+      "important": false,
+      "id": 269
+    },
+    {
+      "word": "fog",
+      "meaning": "n&v ·雾；困惑",
+      "important": false,
+      "id": 270
+    },
+    {
+      "word": "period",
+      "meaning": "n·时期；周期",
+      "important": false,
+      "id": 271
+    },
+    {
+      "word": "railway",
+      "meaning": "n·铁路；铁道",
+      "important": false,
+      "id": 272
+    },
+    {
+      "word": "purpose",
+      "meaning": "n·目的；计划；决心",
+      "important": false,
+      "id": 273
+    },
+    {
+      "word": "forest",
+      "meaning": "n·森林",
+      "important": false,
+      "id": 274
+    },
+    {
+      "word": "leak",
+      "meaning": "n&v·漏；",
+      "important": false,
+      "id": 275
+    },
+    {
+      "word": "kettle",
+      "meaning": "n·水壶",
+      "important": false,
+      "id": 276
+    },
+    {
+      "word": "excellent",
+      "meaning": "a·极好的；卓越的",
+      "important": false,
+      "id": 277
     }
   ],
   "dailyData": [
@@ -10366,8 +10660,50 @@
       "dateYear": 2021,
       "dateMonth": 10,
       "dateDay": 23,
-      "number": 101,
+      "number": 1024,
       "id": 16
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 24,
+      "number": 1024,
+      "id": 17
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 25,
+      "number": 443,
+      "id": 18
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 27,
+      "number": 201,
+      "id": 19
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 28,
+      "number": 300,
+      "id": 20
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 10,
+      "dateDay": 29,
+      "number": 601,
+      "id": 21
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 11,
+      "dateDay": 3,
+      "number": 601,
+      "id": 22
     }
   ],
   "posts": [

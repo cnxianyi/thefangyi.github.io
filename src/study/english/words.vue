@@ -42,8 +42,8 @@
 				<button class="btn study" v-if="!switchCard" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
 				<button class="btn study" v-if="!switchCard" @click="addShowStudy = !addShowStudy">添加单词</button>
 				<button class="btn study" v-if="!switchCard" @click="wordsTest">检测ALL</button>
-				<button class="btn study" v-if="!switchCard" @click="wordsTest(50)">检测50</button>
-				<button class="btn study" v-if="!switchCard" @click="wordsTest(20)">检测20</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest(60)">检测60</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest(30)">检测30</button>
 				<button class="btn study" v-if="!switchCard" @click="Detect">检查重复</button>
 				<button class="btn study" v-if="!switchCard" @click="getGrass">排行榜</button>
 			</div>
