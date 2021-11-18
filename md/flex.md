@@ -20,8 +20,6 @@ flex-direction:
   * column-reverse - 主轴垂直,下方开始
 ```
 
-
-
 ### flex-wrap (换行)
 
 ```css

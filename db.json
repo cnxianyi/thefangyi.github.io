@@ -4,7 +4,8 @@
       "word": "a",
       "meaning": "art·一个",
       "id": 1,
-      "important": false
+      "important": false,
+      "includedSW": false
     },
     {
       "word": "ability",
@@ -10704,6 +10705,41 @@
       "dateDay": 3,
       "number": 601,
       "id": 22
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 11,
+      "dateDay": 14,
+      "number": 201,
+      "id": 23
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 11,
+      "dateDay": 15,
+      "number": 5,
+      "id": 24
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 11,
+      "dateDay": 16,
+      "number": 301,
+      "id": 25
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 11,
+      "dateDay": 17,
+      "number": 0,
+      "id": 26
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 11,
+      "dateDay": 18,
+      "number": 0,
+      "id": 27
     }
   ],
   "posts": [

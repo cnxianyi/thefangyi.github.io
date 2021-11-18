@@ -68,9 +68,9 @@
             <hr>
 
             <h2>组件之间的通信</h2>
-            <h4>数据 父传子 @</h4>
+            <h4>数据 父传子 props v-bind:</h4>
             <pre>in parent
-    &#60;son&#62; :str='s' :a='a'>&#60;/son&#62;
+    &#60;son :str='s' :a='a'>&#60;/son&#62;
     data() {
         return {
             s : 'str'
