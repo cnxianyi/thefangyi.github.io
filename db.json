@@ -8885,6 +8885,126 @@
       "meaning": "n·角色",
       "important": false,
       "id": 1481
+    },
+    {
+      "word": "roll",
+      "meaning": "n·卷，籍，幅，名单；v·滚，卷，轧",
+      "important": false,
+      "id": 1482
+    },
+    {
+      "word": "romantic",
+      "meaning": "n·浪漫主义作家,浪漫的人；a·浪漫的",
+      "important": false,
+      "id": 1483
+    },
+    {
+      "word": "roof",
+      "meaning": "n·屋顶，车顶，顶部；v·覆盖；遮蔽",
+      "important": false,
+      "id": 1484
+    },
+    {
+      "word": "room",
+      "meaning": "n·房间；地方",
+      "important": false,
+      "id": 1485
+    },
+    {
+      "word": "root",
+      "meaning": "n·根；根茎；词根；v·生根",
+      "important": false,
+      "id": 1486
+    },
+    {
+      "word": "rope",
+      "meaning": "n·绳索；v·捆",
+      "important": false,
+      "id": 1487
+    },
+    {
+      "word": "rose",
+      "meaning": "n·玫瑰，蔷薇；a·玫瑰色的",
+      "important": false,
+      "id": 1488
+    },
+    {
+      "word": "round",
+      "meaning": "n·轮次；回合；ad·prep·围着；转过来；圆的",
+      "important": false,
+      "id": 1489
+    },
+    {
+      "word": "route",
+      "meaning": "n·路线；航线",
+      "important": false,
+      "id": 1490
+    },
+    {
+      "word": "row",
+      "meaning": "n·行；排；v·划船",
+      "important": false,
+      "id": 1491
+    },
+    {
+      "word": "rub",
+      "meaning": "n&v·擦；揉",
+      "important": false,
+      "id": 1492
+    },
+    {
+      "word": "rubber",
+      "meaning": "n·橡胶；橡胶制品",
+      "important": false,
+      "id": 1493
+    },
+    {
+      "word": "rubbish",
+      "meaning": "n·垃圾；废物",
+      "important": false,
+      "id": 1494
+    },
+    {
+      "word": "rude",
+      "meaning": "a·粗鲁的；无理的",
+      "important": false,
+      "id": 1495
+    },
+    {
+      "word": "rule",
+      "meaning": "n·规则；条例；v·统治",
+      "important": false,
+      "id": 1496
+    },
+    {
+      "word": "ruler",
+      "meaning": "n·统治者；直尺",
+      "important": false,
+      "id": 1497
+    },
+    {
+      "word": "run",
+      "meaning": "v·跑",
+      "important": false,
+      "id": 1498
+    },
+    {
+      "word": "rush",
+      "meaning": "v·冲；奔；闯",
+      "important": false,
+      "id": 1499
+    },
+    {
+      "word": "Russia",
+      "meaning": "n·俄罗斯",
+      "important": false,
+      "id": 1500
+    },
+    {
+      "word": "Russian",
+      "meaning": "n·俄国人",
+      "important": false,
+      "id": 1501
     }
   ],
   "studyWords": [
@@ -10549,6 +10669,264 @@
       "meaning": "a·极好的；卓越的",
       "important": false,
       "id": 277
+    },
+    {
+      "word": "display",
+      "meaning": "n&v·展示；陈列；表现",
+      "important": false,
+      "id": 278
+    },
+    {
+      "word": "horse",
+      "meaning": "n&v·马；骑马",
+      "important": false,
+      "id": 279
+    },
+    {
+      "word": "cycle",
+      "meaning": "n·循环，周期；v·骑车",
+      "important": false,
+      "id": 280
+    },
+    {
+      "word": "alike",
+      "meaning": "a·相似的",
+      "important": false,
+      "id": 281
+    },
+    {
+      "word": "confuse",
+      "meaning": "v·迷惑；混淆；搅乱",
+      "important": false,
+      "id": 282
+    },
+    {
+      "word": "favor",
+      "meaning": "n·青睐，偏爱；v·促成；偏向",
+      "important": false,
+      "id": 283
+    },
+    {
+      "word": "pound",
+      "meaning": "n·英镑",
+      "important": false,
+      "id": 284
+    },
+    {
+      "word": "hook",
+      "meaning": "n&v·钩",
+      "important": false,
+      "id": 285
+    },
+    {
+      "word": "bake",
+      "meaning": "v·烤；烘焙",
+      "important": false,
+      "id": 286
+    },
+    {
+      "word": "ladder",
+      "meaning": "n·梯子；阶梯",
+      "important": false,
+      "id": 287
+    },
+    {
+      "word": "fact",
+      "meaning": "n·事实；真相",
+      "important": false,
+      "id": 288
+    },
+    {
+      "word": "contain",
+      "meaning": "v·包含；容纳",
+      "important": false,
+      "id": 289
+    },
+    {
+      "word": "latter",
+      "meaning": "a·后者的；后期的",
+      "important": false,
+      "id": 290
+    },
+    {
+      "word": "important",
+      "meaning": "a·重要的；重大的",
+      "important": false,
+      "id": 291
+    },
+    {
+      "word": "drink",
+      "meaning": "n·饮料；v·喝；喝酒",
+      "important": false,
+      "id": 292
+    },
+    {
+      "word": "beginning",
+      "meaning": "n·开始；开端；v·开始",
+      "important": false,
+      "id": 293
+    },
+    {
+      "word": "celebrate",
+      "meaning": "v·庆祝；祝贺",
+      "important": false,
+      "id": 294
+    },
+    {
+      "word": "park",
+      "meaning": "n·公园；停车场；v·停车",
+      "important": false,
+      "id": 295
+    },
+    {
+      "word": "honey",
+      "meaning": "n·蜂蜜；亲爱的；v·甜言蜜语",
+      "important": false,
+      "id": 296
+    },
+    {
+      "word": "glad",
+      "meaning": "a·高兴的；乐意的",
+      "important": false,
+      "id": 297
+    },
+    {
+      "word": "exact",
+      "meaning": "a·精确的；确切的；v·索取",
+      "important": false,
+      "id": 298
+    },
+    {
+      "word": "ahead",
+      "meaning": "a·先；向前；头里",
+      "important": false,
+      "id": 299
+    },
+    {
+      "word": "link",
+      "meaning": "n·联系；链接；v·链接",
+      "important": false,
+      "id": 300
+    },
+    {
+      "word": "capital",
+      "meaning": "n&a·首都；资本；",
+      "important": false,
+      "id": 301
+    },
+    {
+      "word": "general",
+      "meaning": "a·一般的；普通的",
+      "important": false,
+      "id": 302
+    },
+    {
+      "word": "chemical",
+      "meaning": "n&a·化学的",
+      "important": false,
+      "id": 303
+    },
+    {
+      "word": "opera",
+      "meaning": "n·歌剧；歌剧院",
+      "important": false,
+      "id": 304
+    },
+    {
+      "word": "cat",
+      "meaning": "n·猫",
+      "important": false,
+      "id": 305
+    },
+    {
+      "word": "plumber",
+      "meaning": "n·水电工",
+      "important": false,
+      "id": 306
+    },
+    {
+      "word": "project",
+      "meaning": "n·项目；工程；计划；v·投影；预计；预算",
+      "important": false,
+      "id": 307
+    },
+    {
+      "word": "recent",
+      "meaning": "a·最近的",
+      "important": false,
+      "id": 308
+    },
+    {
+      "word": "platform",
+      "meaning": "n·平台；讲台",
+      "important": false,
+      "id": 309
+    },
+    {
+      "word": "afraid",
+      "meaning": "a·害怕的；担心的",
+      "important": false,
+      "id": 310
+    },
+    {
+      "word": "and",
+      "meaning": "conj·和",
+      "important": false,
+      "id": 311
+    },
+    {
+      "word": "inn",
+      "meaning": "n·旅馆；酒店",
+      "important": false,
+      "id": 312
+    },
+    {
+      "word": "except",
+      "meaning": "conj·除了；除……之外",
+      "important": false,
+      "id": 313
+    },
+    {
+      "word": "even",
+      "meaning": "n·偶；a·偶数的；adv·甚至；连",
+      "important": false,
+      "id": 314
+    },
+    {
+      "word": "lung",
+      "meaning": "n·肺",
+      "important": false,
+      "id": 315
+    },
+    {
+      "word": "realize",
+      "meaning": "v·意识到；了解；实现",
+      "important": false,
+      "id": 316
+    },
+    {
+      "word": "court",
+      "meaning": "n·法院；法庭",
+      "important": false,
+      "id": 317
+    },
+    {
+      "word": "chain",
+      "meaning": "n·链；连锁",
+      "important": false,
+      "id": 318
+    },
+    {
+      "word": "downstairs",
+      "meaning": "a·在楼下",
+      "important": false,
+      "id": 319
+    },
+    {
+      "word": "stair",
+      "meaning": "n·楼梯",
+      "important": false,
+      "id": 320
     }
   ],
   "dailyData": [
@@ -10717,7 +11095,7 @@
       "dateYear": 2021,
       "dateMonth": 11,
       "dateDay": 15,
-      "number": 5,
+      "number": 205,
       "id": 24
     },
     {
@@ -10731,15 +11109,43 @@
       "dateYear": 2021,
       "dateMonth": 11,
       "dateDay": 17,
-      "number": 0,
+      "number": 200,
       "id": 26
     },
     {
       "dateYear": 2021,
       "dateMonth": 11,
       "dateDay": 18,
-      "number": 0,
+      "number": 200,
       "id": 27
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 11,
+      "dateDay": 21,
+      "number": 45,
+      "id": 28
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 11,
+      "dateDay": 30,
+      "number": 200,
+      "id": 29
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 1,
+      "number": 1,
+      "id": 30
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 2,
+      "number": 600,
+      "id": 31
     }
   ],
   "posts": [

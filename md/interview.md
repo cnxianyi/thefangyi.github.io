@@ -129,6 +129,20 @@
     * (obj.hasOwnProperty("prop"))//boolean 仅仅在自身对象中查找
     * (o["prop"])//属性名或undefined
 
+14. 判断数据类型
+    * typeof
+        * console.log(typeof fun);//function
+        * 对于null及数组、对象，typeof均检测出为object
+    * instanceof
+        * console.log(fun instanceof Function);// true
+        * instanceof不能区别undefined和null
+    * constructor
+        * console.log(fun.constructor === Function);// true
+        * undefined和null没有constructor属性
+        * constructor的指向是可以改变的
+    * Object.prototype.toString.call
+        * console.log(Object.prototype.toString.call(fun));//[object Function]
+
 ## Vue
 
 1. MVVM
