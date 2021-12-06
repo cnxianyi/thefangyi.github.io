@@ -1,17 +1,18 @@
 <template>
     <div>
+		
 		<div class="rank" v-if="ranking">
 			<div class="rank_top">
 				排行榜
 			</div>
 			<div class="rank_content">
+				
 				<div class="line"><p>当日检测次数 : </p><strong>{{rankArray[rankArray.length - 1]}}</strong></div><br>
 				<div class="line"><p>总检测天数 : </p><strong>{{rankArray.length}}</strong></div><br>
 				<div class="line"><p>总检测次数 : </p><strong>{{rankAll}}</strong></div><br>
 				<div class="line"><p>历史最高检测次数 : </p><strong>{{rankMax}}</strong></div><br>
 				<div class="line"><p>历史最低检测次数 : </p><strong>{{rankMin}}</strong></div><br>
-				<div class="line"><p>每日平均检测次数 : </p><strong>{{rankAverage}}</strong></div><br>
-				
+				<div class="line"><p>每日平均检测次数 : </p><strong>{{rankAverage}}</strong></div><br>	
 			</div>
 			<a class="rank_a" @click="getGrass"><p>CLOSE</p></a>
 		</div>
@@ -38,6 +39,7 @@
 				<button class="btn" v-if="switchCard" @click="getNewWords(10)">10</button>
 				<button class="btn" v-if="switchCard" @click="getNewWords(1)">1</button>
 				<button class="btn" v-if="switchCard" @click="Detect">检查重复</button>
+				<!-- <button class="btn" v-if="switchCard" @click="isIncluded">是否收录</button> -->
 				<!--  -->
 				<button class="btn study" v-if="!switchCard" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
 				<button class="btn study" v-if="!switchCard" @click="addShowStudy = !addShowStudy">添加单词</button>
@@ -58,7 +60,7 @@
 					<form>
 					<label for="meaning" >词意 ： </label>
 					<input type="text" id="meaning" autocomplete="off"  placeholder="mean" required style="width:100px;" v-model='addMeaning'>
-					<input type="submit" value="添加" @click="fun('allWords')">
+					<input type="submit" value="添加" @click="included('allWords')">
 					</form>
 				</div>
 				
@@ -73,7 +75,7 @@
 					<form>
 					<label for="meaning" >词意 ： </label>
 					<input type="text" id="meaning" autocomplete="off"  placeholder="mean" required style="width:100px;" v-model='addMeaning'>
-					<input type="submit" value="添加" @click="fun('studyWords')">
+					<input type="submit" value="添加" @click="included('studyWords')">
 					</form>
 				</div>
 				
@@ -90,16 +92,17 @@
 					</thead>
 					<tbody v-show="total">
 						<tr v-for="item in words" :key="item.id">
-							<td>{{item.id}}</td>
+							<td v-if="item.addStudyWords" class="included">{{item.id}}</td>
+							<td v-if="!item.addStudyWords" >{{item.id}}</td>
 							<td v-if="item.important" class="important">&#160;&#160;&#160;{{item.word}}</td>
 							<td v-if="!item.important"><button @click="addImport(item.id , item.important)" class="importBtn">&#160;&#160;❤&#160;&#160;</button>{{item.word}}</td>
 							<td>{{item.meaning}}</td>
-							
 						</tr>
 					</tbody>
 					<tbody v-if="getTotal">
 						<tr v-for="item2 in NewWords" :key="item2.id">
-							<td>{{item2.id}}</td>
+							<td v-if="item2.addStudyWords" class="included">{{item2.id}}</td>
+							<td v-if="!item2.addStudyWords" >{{item2.id}}</td>
 							<td v-if="item2.important" class="important">{{item2.word}}</td>
 							<td v-if="!item2.important"><button @click="addImport(item2.id , item2.important)" class="importBtn">&#160;&#160;❤&#160;&#160;</button>{{item2.word}}</td>
 							<td>{{item2.meaning}}</td>
@@ -107,16 +110,19 @@
 					</tbody>
 					<tbody v-if="testTotal">
 						<tr v-for="item3 in NewWords" :key="item3.id">
+							<audio v-if="audioPlay" autoplay="" name="media"><source :src=wordAudioSrc+item3.word+wordAudioSrcA type="audio/mpeg"></audio>
 							<td>{{item3.id}}&#160;&#160;|&#160;&#160;{{wordTest}}</td>
 							<td>{{item3.meaning}}</td>
 							<input type="text" 
-							style="height:20px;margin-top:10px" 
+							style="height:20px;margin-top:12px" 
 							autocomplete="off" 
 							placeholder="请输入正确的单词"
 							v-model="enterWords"
 							@keyup.enter="insWords"
 							id="insWord"
 							>
+							<i v-if="!audioPlay" class='bx bx-play playControl' @click="audioPlayControl"></i>
+							<i v-if="audioPlay" class='bx bx-pause playControl' @click="audioPlayControl"></i>
 							<!-- <button @click="enterWords = NewWords[0].word">答案</button> -->
 							
 						</tr>
@@ -139,6 +145,18 @@ import btn from 'common/btn.vue'
 import axios from 'axios'
 import { getRandom , getRandom2 } from 'assets/js/utils.js' // 随机数
 
+// function sleep(n){ //for循环的延迟执行
+// 			var start=new Date().getTime();//定义起始时间的毫秒数
+// 			while(true){
+// 			var time=new Date().getTime();//每次执行循环取得一次当前时间的毫秒数
+// 			if(time-start>n){//如果当前时间的毫秒数减去起始时间的毫秒数大于给定的毫秒数，即结束循环
+// 			break;
+// 			}
+// 			}
+// 			}
+
+			
+
 export default {
 	components: {
         navBar,
@@ -147,6 +165,11 @@ export default {
     },
     data() {
 			return {
+				wordAudioSrc:'https://ssl.gstatic.com/dictionary/static/sounds/oxford/',
+				wordAudioSrcA:'--_us_1.mp3', // gb 单词发音链接
+				audioPlay:false, // 单词发音控件显示
+				allWordsData:{}, // 更正是否收录方法
+				studyWordsData:{}, // 更正是否收录
 				nowUrl: '',
 				wordTest: 0, // 测试计数
 				switchCard: true, // 切换单词显示
@@ -220,7 +243,17 @@ export default {
 					this.wordTest = result.data[result.data.length - 1].number
 				}
 				//console.log(result.data);
-			})
+			}),
+			axios.get(`http://localhost:3000/allWords`).then((result) => {
+						//console.log(result.data.length);
+						this.allWordsData = result.data
+						
+					})
+			axios.get(`http://localhost:3000/studyWords`).then((result) => {
+					this.studyWordsData = result.data
+					
+				})
+
 		},
 		// updated() { 
 			
@@ -243,7 +276,34 @@ export default {
 			
 		},
 		methods: {
+
+			audioPlayControl(){
+				this.audioPlay = !this.audioPlay
+			},
 			
+			isIncluded(){ // 是否收录，进行添加
+				console.log(this.allWordsData[1].word);
+				console.log(this.studyWordsData.length);
+				let i = 0;
+				setInterval(() => {
+					for (let j = 0; j < this.studyWordsData.length; j++) {
+						if (this.allWordsData[i].word === 
+						this.studyWordsData[j].word  ) {
+							console.log(this.allWordsData[i].word);
+							axios({
+								method: 'patch',
+								url: `http://localhost:3000/allWords/${i+1}`,
+								data: {
+									addStudyWords:1
+								}
+								});
+						}
+					}
+					i++
+					console.log('--'+i);
+				}, 1000);
+			},
+		
 			getGrass(){
 				if(this.ranking){ // 排行榜数据
 					this.ranking = !this.ranking
@@ -298,6 +358,7 @@ export default {
 				}
 				this.total = false
 				this.getTotal = true
+				console.log(this.NewWords);
 			},
 
 			insWords(){
@@ -363,7 +424,7 @@ export default {
 						alert('不重复')
 					}
 				},
-			fun(str){
+			included(str){
 				if (this.addWords.length >= 1  & this.addMeaning.length >= 1) {
 					alert(this.addWords + this.addMeaning +'  ' + ' 添加成功')
 					if(this.addMeaning.slice(0,1).codePointAt(0) >=97 && this.addMeaning.slice(0,1).codePointAt(0) <=122){
@@ -449,7 +510,9 @@ export default {
 			margin: 8px;
 		}
 	}
-
+	.included {
+		color: #ffa60f;
+	}
 	.important {
 		color: #ee2c79;
 		font-weight: bold;
@@ -535,6 +598,12 @@ export default {
        -moz-filter: blur(6px);
         -ms-filter: blur(6px);    
             filter: blur(6px);
+	}
+	.playControl { // 单词读音控件
+		font-size: 32px;
+		display: line-block;
+		float: right;
+		margin-top: 6px;
 	}
 		
 </style>
