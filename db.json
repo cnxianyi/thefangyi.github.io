@@ -4,7 +4,8 @@
       "word": "a",
       "meaning": "art·一个",
       "id": 1,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "ability",
@@ -17,7 +18,8 @@
       "word": "able",
       "meaning": "adj·能够",
       "id": 3,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "aboard",
@@ -30,7 +32,8 @@
       "word": "about",
       "meaning": "adj·在……上面",
       "id": 5,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "abroad",
@@ -130,7 +133,8 @@
       "word": "add",
       "meaning": "vt·添加",
       "id": 21,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "address",
@@ -148,7 +152,8 @@
       "word": "administration",
       "meaning": "n·管理",
       "id": 24,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "admire",
@@ -305,7 +310,8 @@
       "word": "aisle",
       "meaning": "n·通道",
       "id": 49,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "album",
@@ -479,7 +485,8 @@
       "word": "anymore",
       "meaning": "ad·不再(not……anymore)",
       "id": 77,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "anything",
@@ -534,7 +541,8 @@
       "word": "apply",
       "meaning": "v·申请；应用",
       "id": 86,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "appointment",
@@ -577,7 +585,8 @@
       "word": "arrive",
       "meaning": "v·到达",
       "id": 93,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "art",
@@ -773,7 +782,8 @@
       "word": "backward",
       "meaning": "ad·向后",
       "id": 125,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "bacon",
@@ -846,7 +856,8 @@
       "word": "bank",
       "meaning": "n·银行；堤岸",
       "id": 137,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "bar",
@@ -1100,7 +1111,8 @@
       "word": "biscuit",
       "meaning": "n·饼干",
       "id": 177,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "bitter",
@@ -1112,7 +1124,8 @@
       "word": "blackboard",
       "meaning": "n·黑板",
       "id": 179,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "blank",
@@ -1130,13 +1143,15 @@
       "word": "blog",
       "meaning": "n·博客",
       "id": 182,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "blood",
       "meaning": "n·血",
       "id": 183,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "blow",
@@ -1298,7 +1313,8 @@
       "word": "breakfast",
       "meaning": "n·早餐",
       "id": 209,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "breathe",
@@ -1311,13 +1327,15 @@
       "word": "brick",
       "meaning": "n·砖块",
       "id": 211,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "bridge",
       "meaning": "n·桥",
       "id": 212,
-      "important": false
+      "important": false,
+      "addStudyWords": 1
     },
     {
       "word": "brief",
@@ -1508,7 +1526,8 @@
       "word": "calendar",
       "meaning": "n·日历，日程表；v·添加到日程表",
       "important": false,
-      "id": 242
+      "id": 242,
+      "addStudyWords": 1
     },
     {
       "word": "call",
@@ -1563,7 +1582,8 @@
       "word": "candle",
       "meaning": "n·蜡烛；v·对着光检查",
       "important": false,
-      "id": 251
+      "id": 251,
+      "addStudyWords": 1
     },
     {
       "word": "candy",
@@ -1695,7 +1715,8 @@
       "word": "center",
       "meaning": "n·中心；v·居中；adj·中间的",
       "important": false,
-      "id": 272
+      "id": 272,
+      "addStudyWords": 1
     },
     {
       "word": "century",
@@ -1818,7 +1839,8 @@
       "word": "chief",
       "meaning": "n·首长；a·首要的，主要的",
       "important": false,
-      "id": 292
+      "id": 292,
+      "addStudyWords": 1
     },
     {
       "word": "child",
@@ -1854,7 +1876,8 @@
       "word": "chocolate",
       "meaning": "n·巧克力",
       "important": false,
-      "id": 298
+      "id": 298,
+      "addStudyWords": 1
     },
     {
       "word": "choice",
@@ -1897,7 +1920,8 @@
       "word": "cigarette",
       "meaning": "n·香烟",
       "important": false,
-      "id": 305
+      "id": 305,
+      "addStudyWords": 1
     },
     {
       "word": "cinema",
@@ -2003,7 +2027,8 @@
       "word": "clinic",
       "meaning": "n·临床，诊所",
       "important": false,
-      "id": 322
+      "id": 322,
+      "addStudyWords": 1
     },
     {
       "word": "clock",
@@ -2145,7 +2170,8 @@
       "word": "committee",
       "meaning": "n·委员会，监护人",
       "important": false,
-      "id": 344
+      "id": 344,
+      "addStudyWords": 1
     },
     {
       "word": "common",
@@ -2257,7 +2283,8 @@
       "word": "country",
       "meaning": "n·国家",
       "important": false,
-      "id": 362
+      "id": 362,
+      "addStudyWords": 1
     },
     {
       "word": "countryside",
@@ -2288,13 +2315,15 @@
       "word": "courage",
       "meaning": "n·勇气",
       "important": false,
-      "id": 367
+      "id": 367,
+      "addStudyWords": 1
     },
     {
       "word": "course",
       "meaning": "n·科目，过程",
       "important": false,
-      "id": 368
+      "id": 368,
+      "addStudyWords": 1
     },
     {
       "word": "court",
@@ -2356,7 +2385,8 @@
       "word": "credit",
       "meaning": "n·信用，赊购，声望",
       "important": false,
-      "id": 378
+      "id": 378,
+      "addStudyWords": 1
     },
     {
       "word": "crew",
@@ -2386,7 +2416,8 @@
       "word": "confirm",
       "meaning": "v·确定，确认，证实",
       "important": false,
-      "id": 383
+      "id": 383,
+      "addStudyWords": 1
     },
     {
       "word": "confuse",
@@ -2399,7 +2430,8 @@
       "word": "congratulation",
       "meaning": "n·恭喜，祝贺",
       "important": false,
-      "id": 385
+      "id": 385,
+      "addStudyWords": 1
     },
     {
       "word": "consider",
@@ -2518,7 +2550,8 @@
       "word": "culture",
       "meaning": "n·文化，文明",
       "important": false,
-      "id": 404
+      "id": 404,
+      "addStudyWords": 1
     },
     {
       "word": "cup",
@@ -2574,7 +2607,8 @@
       "word": "dad",
       "meaning": "n·爸爸",
       "important": false,
-      "id": 413
+      "id": 413,
+      "addStudyWords": 1
     },
     {
       "word": "daily",
@@ -2613,7 +2647,8 @@
       "word": "dark",
       "meaning": "n·黑暗，黄昏；a·黑暗的，深色的",
       "important": false,
-      "id": 419
+      "id": 419,
+      "addStudyWords": 1
     },
     {
       "word": "data",
@@ -2732,7 +2767,8 @@
       "word": "demand",
       "meaning": "v·要求，需求",
       "important": false,
-      "id": 438
+      "id": 438,
+      "addStudyWords": 1
     },
     {
       "word": "department",
@@ -2745,7 +2781,8 @@
       "word": "departure",
       "meaning": "n·离开，启程",
       "important": false,
-      "id": 440
+      "id": 440,
+      "addStudyWords": 1
     },
     {
       "word": "deposit",
@@ -2795,7 +2832,8 @@
       "word": "develop",
       "meaning": "v·发展，形成，研制",
       "important": false,
-      "id": 448
+      "id": 448,
+      "addStudyWords": 1
     },
     {
       "word": "device",
@@ -2901,7 +2939,8 @@
       "word": "direct",
       "meaning": "a·直接的，笔直的，直接的",
       "important": false,
-      "id": 465
+      "id": 465,
+      "addStudyWords": 1
     },
     {
       "word": "director",
@@ -2977,7 +3016,8 @@
       "word": "distance",
       "meaning": "n·距离，远处；v·疏远",
       "important": false,
-      "id": 477
+      "id": 477,
+      "addStudyWords": 1
     },
     {
       "word": "district",
@@ -3048,7 +3088,8 @@
       "word": "downtown",
       "meaning": "a·在市中心，市中心的",
       "important": false,
-      "id": 488
+      "id": 488,
+      "addStudyWords": 1
     },
     {
       "word": "dozen",
@@ -3067,7 +3108,8 @@
       "word": "drag",
       "meaning": "n·累赘，无聊的事；v·拖拽",
       "important": false,
-      "id": 491
+      "id": 491,
+      "addStudyWords": 1
     },
     {
       "word": "draw/drew/drawn",
@@ -3134,7 +3176,8 @@
       "word": "dull",
       "meaning": "a·无聊的，声音不明亮，不清晰；v·减缓，减轻",
       "important": false,
-      "id": 502
+      "id": 502,
+      "addStudyWords": 1
     },
     {
       "word": "each",
@@ -3197,7 +3240,8 @@
       "word": "economic",
       "meaning": "a·节约的，经济学的",
       "important": false,
-      "id": 512
+      "id": 512,
+      "addStudyWords": 1
     },
     {
       "word": "economy",
@@ -3209,7 +3253,8 @@
       "word": "edge",
       "meaning": "n·边缘，锋，刃；v·缓慢的移动",
       "important": false,
-      "id": 514
+      "id": 514,
+      "addStudyWords": 1
     },
     {
       "word": "education",
@@ -3271,7 +3316,8 @@
       "word": "elbow",
       "meaning": "n·肘部，弯处",
       "important": false,
-      "id": 524
+      "id": 524,
+      "addStudyWords": 1
     },
     {
       "word": "elder",
@@ -3331,7 +3377,8 @@
       "word": "employ",
       "meaning": "v·雇佣，使用，利用",
       "important": false,
-      "id": 534
+      "id": 534,
+      "addStudyWords": 1
     },
     {
       "word": "employee",
@@ -3573,7 +3620,8 @@
       "word": "euro",
       "meaning": "n·欧元",
       "important": false,
-      "id": 573
+      "id": 573,
+      "addStudyWords": 1
     },
     {
       "word": "europe",
@@ -3610,19 +3658,22 @@
       "word": "event",
       "meaning": "n·事件，大事，赛事",
       "important": false,
-      "id": 579
+      "id": 579,
+      "addStudyWords": 1
     },
     {
       "word": "ever",
       "meaning": "a·曾今，重来，一直，无论何时",
       "important": false,
-      "id": 580
+      "id": 580,
+      "addStudyWords": 1
     },
     {
       "word": "every",
       "meaning": "det·每个，每一个",
       "important": false,
-      "id": 581
+      "id": 581,
+      "addStudyWords": 1
     },
     {
       "word": "everyone",
@@ -3660,7 +3711,8 @@
       "word": "example",
       "meaning": "n·例子，榜样",
       "important": false,
-      "id": 587
+      "id": 587,
+      "addStudyWords": 1
     },
     {
       "word": "excellent",
@@ -3680,7 +3732,8 @@
       "word": "exchange",
       "meaning": "v·交换，交流，交易",
       "important": false,
-      "id": 590
+      "id": 590,
+      "addStudyWords": 1
     },
     {
       "word": "excited",
@@ -3692,7 +3745,8 @@
       "word": "exciting",
       "meaning": "a·令人兴奋的；v·使兴奋",
       "important": false,
-      "id": 592
+      "id": 592,
+      "addStudyWords": 1
     },
     {
       "word": "excuse",
@@ -3710,7 +3764,8 @@
       "word": "exhibition",
       "meaning": "n·展览，展览会",
       "important": false,
-      "id": 595
+      "id": 595,
+      "addStudyWords": 1
     },
     {
       "word": "exist",
@@ -3807,7 +3862,8 @@
       "word": "fan",
       "meaning": "n·风扇，粉丝；v·扇，激起",
       "important": false,
-      "id": 610
+      "id": 610,
+      "addStudyWords": 1
     },
     {
       "word": "fantastic",
@@ -3878,7 +3934,8 @@
       "word": "fee",
       "meaning": "n·费用，酬金；v·付给",
       "important": false,
-      "id": 621
+      "id": 621,
+      "addStudyWords": 1
     },
     {
       "word": "feed/felt",
@@ -3890,7 +3947,8 @@
       "word": "feel",
       "meaning": "n·感觉，触摸；v·感受到，觉得",
       "important": false,
-      "id": 623
+      "id": 623,
+      "addStudyWords": 1
     },
     {
       "word": "feeling",
@@ -3993,7 +4051,8 @@
       "word": "finance",
       "meaning": "n·财政；金融；资金；v·提供资金，贷款",
       "important": false,
-      "id": 640
+      "id": 640,
+      "addStudyWords": 1
     },
     {
       "word": "financial",
@@ -4043,7 +4102,8 @@
       "word": "firm",
       "meaning": "n·公司；a·结实的，牢固的；v·使强壮",
       "important": false,
-      "id": 648
+      "id": 648,
+      "addStudyWords": 1
     },
     {
       "word": "first",
@@ -4063,7 +4123,8 @@
       "word": "fit",
       "meaning": "n·适合，匹配；a·健康的，合适的；v·适合，适应；(衣)",
       "important": false,
-      "id": 651
+      "id": 651,
+      "addStudyWords": 1
     },
     {
       "word": "five",
@@ -4101,13 +4162,15 @@
       "word": "flashlight",
       "meaning": "n·手电",
       "important": false,
-      "id": 657
+      "id": 657,
+      "addStudyWords": 1
     },
     {
       "word": "flat",
       "meaning": "n&a·平的，公寓",
       "important": false,
-      "id": 658
+      "id": 658,
+      "addStudyWords": 1
     },
     {
       "word": "flight",
@@ -4196,7 +4259,8 @@
       "word": "following",
       "meaning": "n·追随者；拥护者；a·之后的",
       "important": false,
-      "id": 672
+      "id": 672,
+      "addStudyWords": 1
     },
     {
       "word": "fond",
@@ -4302,7 +4366,8 @@
       "word": "form",
       "meaning": "n·表格；v·使出现；使形成",
       "important": false,
-      "id": 689
+      "id": 689,
+      "addStudyWords": 1
     },
     {
       "word": "formal",
@@ -4359,7 +4424,8 @@
       "word": "fresh",
       "meaning": "a·新鲜的",
       "important": false,
-      "id": 698
+      "id": 698,
+      "addStudyWords": 1
     },
     {
       "word": "friday",
@@ -4428,7 +4494,8 @@
       "word": "fun",
       "meaning": "n&a·有趣的事",
       "important": false,
-      "id": 709
+      "id": 709,
+      "addStudyWords": 1
     },
     {
       "word": "function",
@@ -4535,7 +4602,8 @@
       "word": "generation",
       "meaning": "n·一代",
       "important": false,
-      "id": 726
+      "id": 726,
+      "addStudyWords": 1
     },
     {
       "word": "generous",
@@ -4622,7 +4690,8 @@
       "word": "go",
       "meaning": "v·去",
       "important": false,
-      "id": 740
+      "id": 740,
+      "addStudyWords": 1
     },
     {
       "word": "goal",
@@ -4677,7 +4746,8 @@
       "word": "grateful",
       "meaning": "n·感谢的",
       "important": false,
-      "id": 749
+      "id": 749,
+      "addStudyWords": 1
     },
     {
       "word": "grey",
@@ -4720,7 +4790,8 @@
       "word": "group",
       "meaning": "n·组；群",
       "important": false,
-      "id": 756
+      "id": 756,
+      "addStudyWords": 1
     },
     {
       "word": "grow",
@@ -4815,7 +4886,8 @@
       "word": "hamburger",
       "meaning": "n·汉堡",
       "important": false,
-      "id": 771
+      "id": 771,
+      "addStudyWords": 1
     },
     {
       "word": "hammer",
@@ -4858,7 +4930,8 @@
       "word": "hang",
       "meaning": "n·悬挂；暂停；v·悬着",
       "important": false,
-      "id": 778
+      "id": 778,
+      "addStudyWords": 1
     },
     {
       "word": "happen",
@@ -4933,7 +5006,8 @@
       "word": "health",
       "meaning": "n·身体状况；医疗；卫生",
       "important": false,
-      "id": 790
+      "id": 790,
+      "addStudyWords": 1
     },
     {
       "word": "hear",
@@ -4945,7 +5019,8 @@
       "word": "heart",
       "meaning": "n·心；心脏",
       "important": false,
-      "id": 792
+      "id": 792,
+      "addStudyWords": 1
     },
     {
       "word": "heat",
@@ -4963,7 +5038,8 @@
       "word": "height",
       "meaning": "n·高度",
       "important": false,
-      "id": 795
+      "id": 795,
+      "addStudyWords": 1
     },
     {
       "word": "helicopter",
@@ -4999,7 +5075,8 @@
       "word": "herself",
       "meaning": "prop·她自己",
       "important": false,
-      "id": 801
+      "id": 801,
+      "addStudyWords": 1
     },
     {
       "word": "hide",
@@ -5049,19 +5126,22 @@
       "word": "hobby",
       "meaning": "n·兴趣爱好",
       "important": false,
-      "id": 809
+      "id": 809,
+      "addStudyWords": 1
     },
     {
       "word": "hold",
       "meaning": "n·控制；保留；v·持有；抓住",
       "important": false,
-      "id": 810
+      "id": 810,
+      "addStudyWords": 1
     },
     {
       "word": "hole",
       "meaning": "n·洞；坑；v·钻洞",
       "important": false,
-      "id": 811
+      "id": 811,
+      "addStudyWords": 1
     },
     {
       "word": "holiday",
@@ -5079,7 +5159,8 @@
       "word": "homeland",
       "meaning": "n·祖国",
       "important": false,
-      "id": 814
+      "id": 814,
+      "addStudyWords": 1
     },
     {
       "word": "hometown",
@@ -5117,7 +5198,8 @@
       "word": "hope",
       "meaning": "n&v·希望",
       "important": false,
-      "id": 820
+      "id": 820,
+      "addStudyWords": 1
     },
     {
       "word": "horse",
@@ -5143,7 +5225,8 @@
       "word": "hostess",
       "meaning": "n·女主人；女主持",
       "important": false,
-      "id": 824
+      "id": 824,
+      "addStudyWords": 1
     },
     {
       "word": "hot",
@@ -5161,7 +5244,8 @@
       "word": "hotel",
       "meaning": "n·旅馆；酒吧；餐馆",
       "important": false,
-      "id": 827
+      "id": 827,
+      "addStudyWords": 1
     },
     {
       "word": "hour",
@@ -5185,7 +5269,8 @@
       "word": "housework",
       "meaning": "n·家务劳动",
       "important": false,
-      "id": 831
+      "id": 831,
+      "addStudyWords": 1
     },
     {
       "word": "housing",
@@ -5276,13 +5361,15 @@
       "word": "ignore",
       "meaning": "v·忽略；不理睬",
       "important": false,
-      "id": 846
+      "id": 846,
+      "addStudyWords": 1
     },
     {
       "word": "ill",
       "meaning": "n·问题；困难；a·有病的；坏的",
       "important": false,
-      "id": 847
+      "id": 847,
+      "addStudyWords": 1
     },
     {
       "word": "illness",
@@ -5339,13 +5426,15 @@
       "word": "inch",
       "meaning": "n·英寸",
       "important": false,
-      "id": 856
+      "id": 856,
+      "addStudyWords": 1
     },
     {
       "word": "include",
       "meaning": "v·包含；把……列为一部分",
       "important": false,
-      "id": 857
+      "id": 857,
+      "addStudyWords": 1
     },
     {
       "word": "income",
@@ -5388,7 +5477,8 @@
       "word": "indoor",
       "meaning": "a·室内的",
       "important": false,
-      "id": 864
+      "id": 864,
+      "addStudyWords": 1
     },
     {
       "word": "industry",
@@ -5432,7 +5522,8 @@
       "word": "input",
       "meaning": "n&v·输入",
       "important": false,
-      "id": 871
+      "id": 871,
+      "addStudyWords": 1
     },
     {
       "word": "insect",
@@ -5562,7 +5653,8 @@
       "word": "invite",
       "meaning": "v·邀请；邀约",
       "important": false,
-      "id": 892
+      "id": 892,
+      "addStudyWords": 1
     },
     {
       "word": "invoice",
@@ -5707,16 +5799,18 @@
       "word": "judge",
       "meaning": "n·法官；裁判；v·判断；认为",
       "important": false,
-      "id": 916
+      "id": 916,
+      "addStudyWords": 1
     },
     {
       "word": "juice",
       "meaning": "n·汁、液",
       "important": false,
-      "id": 917
+      "id": 917,
+      "addStudyWords": 1
     },
     {
-      "word": "july",
+      "word": "July",
       "meaning": "n·七月",
       "important": false,
       "id": 918
@@ -5832,19 +5926,22 @@
       "word": "kite",
       "meaning": "n·风筝",
       "important": false,
-      "id": 936
+      "id": 936,
+      "addStudyWords": 1
     },
     {
       "word": "knee",
       "meaning": "n·膝盖；v·拿膝盖顶",
       "important": false,
-      "id": 937
+      "id": 937,
+      "addStudyWords": 1
     },
     {
       "word": "knife",
       "meaning": "n·小刀",
       "important": false,
-      "id": 938
+      "id": 938,
+      "addStudyWords": 1
     },
     {
       "word": "knock",
@@ -5881,7 +5978,8 @@
       "word": "lack",
       "meaning": "n&v·缺乏；不足",
       "important": false,
-      "id": 944
+      "id": 944,
+      "addStudyWords": 1
     },
     {
       "word": "ladder",
@@ -5907,7 +6005,8 @@
       "word": "lamb",
       "meaning": "n·羔羊；小羊",
       "important": false,
-      "id": 948
+      "id": 948,
+      "addStudyWords": 1
     },
     {
       "word": "lamp",
@@ -6037,7 +6136,8 @@
       "word": "leader",
       "meaning": "n·领袖",
       "important": false,
-      "id": 969
+      "id": 969,
+      "addStudyWords": 1
     },
     {
       "word": "leaf",
@@ -6125,7 +6225,8 @@
       "word": "lend",
       "meaning": "v·借给；借出",
       "important": false,
-      "id": 983
+      "id": 983,
+      "addStudyWords": 1
     },
     {
       "word": "length",
@@ -6173,7 +6274,8 @@
       "word": "license",
       "meaning": "n·执照；许可",
       "important": false,
-      "id": 991
+      "id": 991,
+      "addStudyWords": 1
     },
     {
       "word": "lid",
@@ -6191,7 +6293,8 @@
       "word": "life",
       "meaning": "n·生活；生命",
       "important": false,
-      "id": 994
+      "id": 994,
+      "addStudyWords": 1
     },
     {
       "word": "lift",
@@ -6271,13 +6374,15 @@
       "word": "little",
       "meaning": "a·小的",
       "important": false,
-      "id": 1007
+      "id": 1007,
+      "addStudyWords": 1
     },
     {
       "word": "live",
       "meaning": "v·居住；生存；生活；a·活的",
       "important": false,
-      "id": 1008
+      "id": 1008,
+      "addStudyWords": 1
     },
     {
       "word": "lively",
@@ -6332,7 +6437,8 @@
       "word": "lock",
       "meaning": "n·锁；v·锁上",
       "important": false,
-      "id": 1017
+      "id": 1017,
+      "addStudyWords": 1
     },
     {
       "word": "lonely",
@@ -6363,7 +6469,8 @@
       "word": "lose",
       "meaning": "v·丢失；遗失",
       "important": false,
-      "id": 1022
+      "id": 1022,
+      "addStudyWords": 1
     },
     {
       "word": "loss",
@@ -6388,7 +6495,8 @@
       "word": "loud",
       "meaning": "a·大声的",
       "important": false,
-      "id": 1026
+      "id": 1026,
+      "addStudyWords": 1
     },
     {
       "word": "love",
@@ -6444,7 +6552,8 @@
       "word": "luxury",
       "meaning": "n·奢侈；a·奢侈的",
       "important": false,
-      "id": 1035
+      "id": 1035,
+      "addStudyWords": 1
     },
     {
       "word": "machine",
@@ -6549,7 +6658,8 @@
       "word": "many",
       "meaning": "pron&a·许多",
       "important": false,
-      "id": 1052
+      "id": 1052,
+      "addStudyWords": 1
     },
     {
       "word": "map",
@@ -6649,7 +6759,8 @@
       "word": "may",
       "meaning": "aux·可以；能够；也许；可能",
       "important": false,
-      "id": 1068
+      "id": 1068,
+      "addStudyWords": 1
     },
     {
       "word": "maybe",
@@ -6735,7 +6846,8 @@
       "word": "meet",
       "meaning": "v·遇见；满足；集会",
       "important": false,
-      "id": 1082
+      "id": 1082,
+      "addStudyWords": 1
     },
     {
       "word": "meeting",
@@ -6804,13 +6916,15 @@
       "word": "meter",
       "meaning": "n·米；公尺；v·用仪表测量",
       "important": false,
-      "id": 1093
+      "id": 1093,
+      "addStudyWords": 1
     },
     {
       "word": "microwave",
       "meaning": "n·微波",
       "important": false,
-      "id": 1094
+      "id": 1094,
+      "addStudyWords": 1
     },
     {
       "word": "middle",
@@ -6878,7 +6992,8 @@
       "word": "minute",
       "meaning": "n·分钟",
       "important": false,
-      "id": 1105
+      "id": 1105,
+      "addStudyWords": 1
     },
     {
       "word": "mirror",
@@ -6953,7 +7068,8 @@
       "word": "monitor",
       "meaning": "n·监视器；监听器",
       "important": false,
-      "id": 1117
+      "id": 1117,
+      "addStudyWords": 1
     },
     {
       "word": "month",
@@ -7028,7 +7144,8 @@
       "word": "mouth",
       "meaning": "n·嘴",
       "important": false,
-      "id": 1129
+      "id": 1129,
+      "addStudyWords": 1
     },
     {
       "word": "move",
@@ -7040,7 +7157,8 @@
       "word": "movement",
       "meaning": "n·移动；运动；(飞机)起飞",
       "important": false,
-      "id": 1131
+      "id": 1131,
+      "addStudyWords": 1
     },
     {
       "word": "movie",
@@ -7096,7 +7214,8 @@
       "word": "music",
       "meaning": "n·音乐",
       "important": false,
-      "id": 1140
+      "id": 1140,
+      "addStudyWords": 1
     },
     {
       "word": "musician",
@@ -7244,7 +7363,8 @@
       "word": "nervous",
       "meaning": "a·紧张的；不安的",
       "important": false,
-      "id": 1164
+      "id": 1164,
+      "addStudyWords": 1
     },
     {
       "word": "network",
@@ -7274,7 +7394,8 @@
       "word": "newspaper",
       "meaning": "n·报纸",
       "important": false,
-      "id": 1169
+      "id": 1169,
+      "addStudyWords": 1
     },
     {
       "word": "next",
@@ -7304,7 +7425,8 @@
       "word": "nine",
       "meaning": "num·九",
       "important": false,
-      "id": 1174
+      "id": 1174,
+      "addStudyWords": 1
     },
     {
       "word": "nobody",
@@ -7316,7 +7438,8 @@
       "word": "nod",
       "meaning": "v·点头",
       "important": false,
-      "id": 1176
+      "id": 1176,
+      "addStudyWords": 1
     },
     {
       "word": "noise",
@@ -7543,7 +7666,8 @@
       "word": "old",
       "meaning": "a·老的；旧的",
       "important": false,
-      "id": 1213
+      "id": 1213,
+      "addStudyWords": 1
     },
     {
       "word": "Olympic",
@@ -7630,7 +7754,8 @@
       "word": "oral",
       "meaning": "a·口头的；口述的；",
       "important": false,
-      "id": 1227
+      "id": 1227,
+      "addStudyWords": 1
     },
     {
       "word": "orange",
@@ -7680,7 +7805,8 @@
       "word": "our",
       "meaning": "pron·我们的",
       "important": false,
-      "id": 1235
+      "id": 1235,
+      "addStudyWords": 1
     },
     {
       "word": "ourselves",
@@ -7692,7 +7818,8 @@
       "word": "out",
       "meaning": "a·向外；出外；出现",
       "important": false,
-      "id": 1237
+      "id": 1237,
+      "addStudyWords": 1
     },
     {
       "word": "outdoor",
@@ -7741,7 +7868,8 @@
       "word": "pack",
       "meaning": "n&v·包；打包",
       "important": false,
-      "id": 1245
+      "id": 1245,
+      "addStudyWords": 1
     },
     {
       "word": "package",
@@ -7798,7 +7926,8 @@
       "word": "pan",
       "meaning": "n·平底锅",
       "important": false,
-      "id": 1254
+      "id": 1254,
+      "addStudyWords": 1
     },
     {
       "word": "paper",
@@ -7890,7 +8019,8 @@
       "word": "path",
       "meaning": "n·小道；小径；路径",
       "important": false,
-      "id": 1269
+      "id": 1269,
+      "addStudyWords": 1
     },
     {
       "word": "patient",
@@ -7945,7 +8075,8 @@
       "word": "people",
       "meaning": "n·人们；人民",
       "important": false,
-      "id": 1278
+      "id": 1278,
+      "addStudyWords": 1
     },
     {
       "word": "percent",
@@ -7964,7 +8095,8 @@
       "word": "perform",
       "meaning": "v·表演;演出",
       "important": false,
-      "id": 1281
+      "id": 1281,
+      "addStudyWords": 1
     },
     {
       "word": "performance",
@@ -7995,13 +8127,15 @@
       "word": "person",
       "meaning": "n·人；身体；外貌",
       "important": false,
-      "id": 1286
+      "id": 1286,
+      "addStudyWords": 1
     },
     {
       "word": "personal",
       "meaning": "a·个人的",
       "important": false,
-      "id": 1287
+      "id": 1287,
+      "addStudyWords": 1
     },
     {
       "word": "persuade",
@@ -8124,7 +8258,8 @@
       "word": "pizza",
       "meaning": "n·披萨",
       "important": false,
-      "id": 1307
+      "id": 1307,
+      "addStudyWords": 1
     },
     {
       "word": "place",
@@ -8149,13 +8284,15 @@
       "word": "plane",
       "meaning": "n·飞机",
       "important": false,
-      "id": 1311
+      "id": 1311,
+      "addStudyWords": 1
     },
     {
       "word": "plant",
       "meaning": "n&v·种植；植物；工厂",
       "important": false,
-      "id": 1312
+      "id": 1312,
+      "addStudyWords": 1
     },
     {
       "word": "plastic",
@@ -8231,7 +8368,8 @@
       "word": "pocket",
       "meaning": "n·口袋",
       "important": false,
-      "id": 1324
+      "id": 1324,
+      "addStudyWords": 1
     },
     {
       "word": "point",
@@ -8275,7 +8413,8 @@
       "word": "pollution",
       "meaning": "n·污染",
       "important": false,
-      "id": 1331
+      "id": 1331,
+      "addStudyWords": 1
     },
     {
       "word": "pond",
@@ -8287,7 +8426,8 @@
       "word": "pool",
       "meaning": "n·游泳池；池塘；水坑",
       "important": false,
-      "id": 1333
+      "id": 1333,
+      "addStudyWords": 1
     },
     {
       "word": "poor",
@@ -8345,7 +8485,8 @@
       "word": "postcard",
       "meaning": "n·明信片",
       "important": false,
-      "id": 1342
+      "id": 1342,
+      "addStudyWords": 1
     },
     {
       "word": "poster",
@@ -8357,13 +8498,15 @@
       "word": "pot",
       "meaning": "n·壶；罐；锅",
       "important": false,
-      "id": 1344
+      "id": 1344,
+      "addStudyWords": 1
     },
     {
       "word": "potato",
       "meaning": "n·土豆",
       "important": false,
-      "id": 1345
+      "id": 1345,
+      "addStudyWords": 1
     },
     {
       "word": "pound",
@@ -8431,7 +8574,8 @@
       "word": "present",
       "meaning": "n·礼物；现在，目前；a·现在的；",
       "important": false,
-      "id": 1356
+      "id": 1356,
+      "addStudyWords": 1
     },
     {
       "word": "presentation",
@@ -8522,7 +8666,8 @@
       "word": "process",
       "meaning": "n·过程；流程；v·加工；审核",
       "important": false,
-      "id": 1371
+      "id": 1371,
+      "addStudyWords": 1
     },
     {
       "word": "produce",
@@ -8577,13 +8722,15 @@
       "word": "proper",
       "meaning": "a·适当的；合适的",
       "important": false,
-      "id": 1380
+      "id": 1380,
+      "addStudyWords": 1
     },
     {
       "word": "property",
       "meaning": "n·性质；财产",
       "important": false,
-      "id": 1381
+      "id": 1381,
+      "addStudyWords": 1
     },
     {
       "word": "protect",
@@ -8595,7 +8742,8 @@
       "word": "proud",
       "meaning": "a·自豪的；得意的",
       "important": false,
-      "id": 1383
+      "id": 1383,
+      "addStudyWords": 1
     },
     {
       "word": "prove",
@@ -8718,7 +8866,8 @@
       "word": "quick",
       "meaning": "a·快的；迅速的",
       "important": false,
-      "id": 1403
+      "id": 1403,
+      "addStudyWords": 1
     },
     {
       "word": "quiet",
@@ -8736,7 +8885,8 @@
       "word": "quite",
       "meaning": "a·很；相当；完全",
       "important": false,
-      "id": 1406
+      "id": 1406,
+      "addStudyWords": 1
     },
     {
       "word": "quiz",
@@ -8754,7 +8904,8 @@
       "word": "radio",
       "meaning": "n·收音机",
       "important": false,
-      "id": 1409
+      "id": 1409,
+      "addStudyWords": 1
     },
     {
       "word": "railway",
@@ -8791,7 +8942,8 @@
       "word": "rate",
       "meaning": "n&v·比率",
       "important": false,
-      "id": 1415
+      "id": 1415,
+      "addStudyWords": 1
     },
     {
       "word": "rather",
@@ -8816,7 +8968,8 @@
       "word": "read",
       "meaning": "v·读",
       "important": false,
-      "id": 1419
+      "id": 1419,
+      "addStudyWords": 1
     },
     {
       "word": "ready",
@@ -8902,7 +9055,7 @@
     {
       "word": "reduce",
       "meaning": "v·减少；缩减",
-      "important": false,
+      "important": true,
       "id": 1433
     },
     {
@@ -8933,7 +9086,8 @@
       "word": "regular",
       "meaning": "a·规则的；有规律的；定时的",
       "important": false,
-      "id": 1438
+      "id": 1438,
+      "addStudyWords": 1
     },
     {
       "word": "reject",
@@ -8958,7 +9112,8 @@
       "word": "relay",
       "meaning": "n&v·接替；接力",
       "important": false,
-      "id": 1442
+      "id": 1442,
+      "addStudyWords": 1
     },
     {
       "word": "remain",
@@ -9072,7 +9227,8 @@
       "word": "resume",
       "meaning": "n·简历；履历；v·恢复；重新开始",
       "important": false,
-      "id": 1461
+      "id": 1461,
+      "addStudyWords": 1
     },
     {
       "word": "retell",
@@ -9163,7 +9319,8 @@
       "word": "roast",
       "meaning": "n·烤肉；v·烘；烤",
       "important": false,
-      "id": 1476
+      "id": 1476,
+      "addStudyWords": 1
     },
     {
       "word": "rob",
@@ -9205,7 +9362,8 @@
       "word": "romantic",
       "meaning": "n·浪漫主义作家,浪漫的人；a·浪漫的",
       "important": false,
-      "id": 1483
+      "id": 1483,
+      "addStudyWords": 1
     },
     {
       "word": "roof",
@@ -9235,7 +9393,8 @@
       "word": "rose",
       "meaning": "n·玫瑰，蔷薇；a·玫瑰色的",
       "important": false,
-      "id": 1488
+      "id": 1488,
+      "addStudyWords": 1
     },
     {
       "word": "round",
@@ -9278,7 +9437,8 @@
       "word": "rude",
       "meaning": "a·粗鲁的；无理的",
       "important": false,
-      "id": 1495
+      "id": 1495,
+      "addStudyWords": 1
     },
     {
       "word": "rule",
@@ -9356,7 +9516,8 @@
       "word": "salary",
       "meaning": "n·薪水",
       "important": false,
-      "id": 1508
+      "id": 1508,
+      "addStudyWords": 1
     },
     {
       "word": "sale",
@@ -9374,13 +9535,15 @@
       "word": "salty",
       "meaning": "a·咸的",
       "important": false,
-      "id": 1511
+      "id": 1511,
+      "addStudyWords": 1
     },
     {
       "word": "same",
       "meaning": "n&a·同样的事；同样的",
       "important": false,
-      "id": 1512
+      "id": 1512,
+      "addStudyWords": 1
     },
     {
       "word": "sample",
@@ -9440,7 +9603,8 @@
       "word": "say",
       "meaning": "v·说",
       "important": false,
-      "id": 1522
+      "id": 1522,
+      "addStudyWords": 1
     },
     {
       "word": "scene",
@@ -9470,7 +9634,8 @@
       "word": "science",
       "meaning": "n·科学",
       "important": false,
-      "id": 1527
+      "id": 1527,
+      "addStudyWords": 1
     },
     {
       "word": "scientific",
@@ -9494,7 +9659,8 @@
       "word": "score",
       "meaning": "n&v·得分；分数",
       "important": false,
-      "id": 1531
+      "id": 1531,
+      "addStudyWords": 1
     },
     {
       "word": "screen",
@@ -9524,7 +9690,8 @@
       "word": "season",
       "meaning": "n·季节",
       "important": false,
-      "id": 1536
+      "id": 1536,
+      "addStudyWords": 1
     },
     {
       "word": "seat",
@@ -9578,7 +9745,8 @@
       "word": "seem",
       "meaning": "v·似乎",
       "important": false,
-      "id": 1545
+      "id": 1545,
+      "addStudyWords": 1
     },
     {
       "word": "seize",
@@ -9608,7 +9776,8 @@
       "word": "send",
       "meaning": "v·打发；派遣；送；邮寄",
       "important": false,
-      "id": 1550
+      "id": 1550,
+      "addStudyWords": 1
     },
     {
       "word": "senior",
@@ -9620,7 +9789,8 @@
       "word": "sense",
       "meaning": "n·感觉；意识",
       "important": false,
-      "id": 1552
+      "id": 1552,
+      "addStudyWords": 1
     },
     {
       "word": "sentence",
@@ -9656,7 +9826,8 @@
       "word": "service",
       "meaning": "n·服务",
       "important": false,
-      "id": 1558
+      "id": 1558,
+      "addStudyWords": 1
     },
     {
       "word": "set",
@@ -9680,7 +9851,8 @@
       "word": "shade",
       "meaning": "n·阴凉处",
       "important": false,
-      "id": 1562
+      "id": 1562,
+      "addStudyWords": 1
     },
     {
       "word": "shadow",
@@ -9728,13 +9900,15 @@
       "word": "she",
       "meaning": "pron·她",
       "important": false,
-      "id": 1570
+      "id": 1570,
+      "addStudyWords": 1
     },
     {
       "word": "sheet",
       "meaning": "n·薄片；薄板",
       "important": false,
-      "id": 1571
+      "id": 1571,
+      "addStudyWords": 1
     },
     {
       "word": "shelf",
@@ -9819,6 +9993,2165 @@
       "meaning": "n&v·展示",
       "important": false,
       "id": 1585
+    },
+    {
+      "word": "shower",
+      "meaning": "n·阵雨；淋浴",
+      "important": false,
+      "id": 1586
+    },
+    {
+      "word": "shut",
+      "meaning": "v·关上",
+      "important": false,
+      "id": 1587
+    },
+    {
+      "word": "shy",
+      "meaning": "a·害羞的",
+      "important": false,
+      "id": 1588
+    },
+    {
+      "word": "sick",
+      "meaning": "a·有病的；（想）呕吐",
+      "important": false,
+      "id": 1589
+    },
+    {
+      "word": "side",
+      "meaning": "n·边；面",
+      "important": false,
+      "id": 1590
+    },
+    {
+      "word": "sidewalk",
+      "meaning": "n·人行道",
+      "important": false,
+      "id": 1591,
+      "addStudyWords": 1
+    },
+    {
+      "word": "sight",
+      "meaning": "n·情景；风景；视力",
+      "important": false,
+      "id": 1592
+    },
+    {
+      "word": "sightseeing",
+      "meaning": "n·游览；观光",
+      "important": false,
+      "id": 1593
+    },
+    {
+      "word": "sigh",
+      "meaning": "n·叹息",
+      "important": false,
+      "id": 1594
+    },
+    {
+      "word": "signal",
+      "meaning": "n·信号",
+      "important": false,
+      "id": 1595
+    },
+    {
+      "word": "signature",
+      "meaning": "n·签名",
+      "important": false,
+      "id": 1596
+    },
+    {
+      "word": "silence",
+      "meaning": "n·安静；沉默",
+      "important": false,
+      "id": 1597
+    },
+    {
+      "word": "silent",
+      "meaning": "a·无声的",
+      "important": false,
+      "id": 1598
+    },
+    {
+      "word": "silk",
+      "meaning": "n·蚕丝",
+      "important": false,
+      "id": 1599
+    },
+    {
+      "word": "silly",
+      "meaning": "a·傻的",
+      "important": false,
+      "id": 1600
+    },
+    {
+      "word": "silver",
+      "meaning": "n·银",
+      "important": false,
+      "id": 1601
+    },
+    {
+      "word": "similar",
+      "meaning": "a·相似的",
+      "important": false,
+      "id": 1602
+    },
+    {
+      "word": "simple",
+      "meaning": "a·简单的",
+      "important": false,
+      "id": 1603
+    },
+    {
+      "word": "since",
+      "meaning": "ad·conj·自从",
+      "important": false,
+      "id": 1604
+    },
+    {
+      "word": "sing",
+      "meaning": "v·唱歌",
+      "important": false,
+      "id": 1605
+    },
+    {
+      "word": "single",
+      "meaning": "a·单一的",
+      "important": false,
+      "id": 1606
+    },
+    {
+      "word": "sink",
+      "meaning": "n&v·下沉；污水槽",
+      "important": false,
+      "id": 1607,
+      "addStudyWords": 1
+    },
+    {
+      "word": "sir",
+      "meaning": "n·先生",
+      "important": false,
+      "id": 1608
+    },
+    {
+      "word": "sister",
+      "meaning": "n·姐妹",
+      "important": false,
+      "id": 1609
+    },
+    {
+      "word": "sit",
+      "meaning": "v·坐",
+      "important": false,
+      "id": 1610
+    },
+    {
+      "word": "situation",
+      "meaning": "n·形势；情况",
+      "important": false,
+      "id": 1611
+    },
+    {
+      "word": "six",
+      "meaning": "n·六",
+      "important": false,
+      "id": 1612
+    },
+    {
+      "word": "size",
+      "meaning": "n·尺寸；大小",
+      "important": false,
+      "id": 1613
+    },
+    {
+      "word": "skate",
+      "meaning": "v·溜冰",
+      "important": false,
+      "id": 1614
+    },
+    {
+      "word": "ski",
+      "meaning": "v·滑雪",
+      "important": false,
+      "id": 1615
+    },
+    {
+      "word": "skill",
+      "meaning": "n·技能；技巧",
+      "important": false,
+      "id": 1616
+    },
+    {
+      "word": "skirt",
+      "meaning": "n·女裙",
+      "important": false,
+      "id": 1617
+    },
+    {
+      "word": "sky",
+      "meaning": "n·天空",
+      "important": false,
+      "id": 1618
+    },
+    {
+      "word": "sleep",
+      "meaning": "n·睡觉",
+      "important": false,
+      "id": 1619
+    },
+    {
+      "word": "sleeve",
+      "meaning": "n·袖子",
+      "important": false,
+      "id": 1620
+    },
+    {
+      "word": "slide",
+      "meaning": "n&v·滑动",
+      "important": false,
+      "id": 1621,
+      "addStudyWords": 1
+    },
+    {
+      "word": "slight",
+      "meaning": "a·轻微的；细小的",
+      "important": false,
+      "id": 1622
+    },
+    {
+      "word": "slim",
+      "meaning": "a·苗条的；微小的",
+      "important": false,
+      "id": 1623
+    },
+    {
+      "word": "slip",
+      "meaning": "n&v·滑动",
+      "important": false,
+      "id": 1624
+    },
+    {
+      "word": "slow",
+      "meaning": "a·慢慢的",
+      "important": false,
+      "id": 1625
+    },
+    {
+      "word": "small",
+      "meaning": "a·小的  ",
+      "important": false,
+      "id": 1626
+    },
+    {
+      "word": "smart",
+      "meaning": "a·灵巧的；聪明的",
+      "important": false,
+      "id": 1627
+    },
+    {
+      "word": "smell",
+      "meaning": "n&v·气味；嗅",
+      "important": false,
+      "id": 1628
+    },
+    {
+      "word": "smile",
+      "meaning": "n&v·微笑",
+      "important": false,
+      "id": 1629
+    },
+    {
+      "word": "smoke",
+      "meaning": "n&v·烟；冒烟",
+      "important": false,
+      "id": 1630
+    },
+    {
+      "word": "smooth",
+      "meaning": "a·光滑的",
+      "important": false,
+      "id": 1631
+    },
+    {
+      "word": "sneaker",
+      "meaning": "n·运动鞋",
+      "important": false,
+      "id": 1632
+    },
+    {
+      "word": "snow",
+      "meaning": "n&v·雪；下雪",
+      "important": false,
+      "id": 1633
+    },
+    {
+      "word": "so",
+      "meaning": "ad·conj·如此；因此",
+      "important": false,
+      "id": 1634
+    },
+    {
+      "word": "soap",
+      "meaning": "n·肥皂",
+      "important": false,
+      "id": 1635
+    },
+    {
+      "word": "soccer",
+      "meaning": "n·英式足球",
+      "important": false,
+      "id": 1636
+    },
+    {
+      "word": "social",
+      "meaning": "a·社会的；社交的",
+      "important": false,
+      "id": 1637
+    },
+    {
+      "word": "society",
+      "meaning": "n·社会",
+      "important": false,
+      "id": 1638
+    },
+    {
+      "word": "sock",
+      "meaning": "n·短袜",
+      "important": false,
+      "id": 1639
+    },
+    {
+      "word": "sofa",
+      "meaning": "n·沙发",
+      "important": false,
+      "id": 1640
+    },
+    {
+      "word": "soft",
+      "meaning": "a·软的",
+      "important": false,
+      "id": 1641,
+      "addStudyWords": 1
+    },
+    {
+      "word": "soil",
+      "meaning": "n·土壤",
+      "important": false,
+      "id": 1642
+    },
+    {
+      "word": "soldier",
+      "meaning": "n·士兵",
+      "important": false,
+      "id": 1643
+    },
+    {
+      "word": "solid",
+      "meaning": "n&a·结实的；固体的",
+      "important": false,
+      "id": 1644
+    },
+    {
+      "word": "solution",
+      "meaning": "n·解决；溶液",
+      "important": false,
+      "id": 1645
+    },
+    {
+      "word": "solve",
+      "meaning": "v·解决",
+      "important": false,
+      "id": 1646,
+      "addStudyWords": 1
+    },
+    {
+      "word": "some",
+      "meaning": "a·一些",
+      "important": false,
+      "id": 1647
+    },
+    {
+      "word": "somebody",
+      "meaning": "pron·某人",
+      "important": false,
+      "id": 1648
+    },
+    {
+      "word": "someone",
+      "meaning": "prop·某一个人",
+      "important": false,
+      "id": 1649
+    },
+    {
+      "word": "something",
+      "meaning": "prop·某事；某物",
+      "important": false,
+      "id": 1650
+    },
+    {
+      "word": "sometimes",
+      "meaning": "ad·有时",
+      "important": false,
+      "id": 1651
+    },
+    {
+      "word": "somewhere",
+      "meaning": "ad·在某处",
+      "important": false,
+      "id": 1652
+    },
+    {
+      "word": "son",
+      "meaning": "n·儿子",
+      "important": false,
+      "id": 1653
+    },
+    {
+      "word": "song",
+      "meaning": "n·歌唱",
+      "important": false,
+      "id": 1654
+    },
+    {
+      "word": "soon",
+      "meaning": "ad·不久",
+      "important": false,
+      "id": 1655
+    },
+    {
+      "word": "sorry",
+      "meaning": "a·对不起",
+      "important": false,
+      "id": 1656
+    },
+    {
+      "word": "sort",
+      "meaning": "n·种类",
+      "important": false,
+      "id": 1657
+    },
+    {
+      "word": "sound",
+      "meaning": "n&v·听起来；声音",
+      "important": false,
+      "id": 1658
+    },
+    {
+      "word": "soup",
+      "meaning": "n·汤",
+      "important": false,
+      "id": 1659
+    },
+    {
+      "word": "sour",
+      "meaning": "a·酸的",
+      "important": false,
+      "id": 1660
+    },
+    {
+      "word": "south",
+      "meaning": "a·南方的",
+      "important": false,
+      "id": 1661
+    },
+    {
+      "word": "southern",
+      "meaning": "a·南部的",
+      "important": false,
+      "id": 1662
+    },
+    {
+      "word": "souvenir",
+      "meaning": "n·纪念品",
+      "important": false,
+      "id": 1663
+    },
+    {
+      "word": "space",
+      "meaning": "n·空间",
+      "important": false,
+      "id": 1664
+    },
+    {
+      "word": "spaceship",
+      "meaning": "n·宇宙飞船",
+      "important": false,
+      "id": 1665
+    },
+    {
+      "word": "Spain",
+      "meaning": "n·西班牙",
+      "important": false,
+      "id": 1666,
+      "addStudyWords": 1
+    },
+    {
+      "word": "Spanish",
+      "meaning": "n&v·西班牙人",
+      "important": false,
+      "id": 1667
+    },
+    {
+      "word": "spare",
+      "meaning": "a·空闲的；多余的",
+      "important": false,
+      "id": 1668,
+      "addStudyWords": 1
+    },
+    {
+      "word": "speak",
+      "meaning": "v·说",
+      "important": false,
+      "id": 1669
+    },
+    {
+      "word": "speaker",
+      "meaning": "n·说话者",
+      "important": false,
+      "id": 1670,
+      "addStudyWords": 1
+    },
+    {
+      "word": "special",
+      "meaning": "a·特别的；专门的",
+      "important": false,
+      "id": 1671
+    },
+    {
+      "word": "speech",
+      "meaning": "n·演讲",
+      "important": false,
+      "id": 1672
+    },
+    {
+      "word": "speed",
+      "meaning": "n&v·速度；使加速",
+      "important": false,
+      "id": 1673,
+      "addStudyWords": 1
+    },
+    {
+      "word": "spell",
+      "meaning": "v·拼写",
+      "important": false,
+      "id": 1674
+    },
+    {
+      "word": "spend",
+      "meaning": "v·度过；花",
+      "important": false,
+      "id": 1675
+    },
+    {
+      "word": "spirit",
+      "meaning": "n·精神",
+      "important": false,
+      "id": 1676
+    },
+    {
+      "word": "spit",
+      "meaning": "v·吐唾沫",
+      "important": false,
+      "id": 1677
+    },
+    {
+      "word": "spoil",
+      "meaning": "v·溺爱",
+      "important": false,
+      "id": 1678
+    },
+    {
+      "word": "spoon",
+      "meaning": "n·匙",
+      "important": false,
+      "id": 1679
+    },
+    {
+      "word": "sport",
+      "meaning": "n·体育运动",
+      "important": false,
+      "id": 1680
+    },
+    {
+      "word": "sportswear",
+      "meaning": "n·运动服",
+      "important": false,
+      "id": 1681
+    },
+    {
+      "word": "spray",
+      "meaning": "n&v·喷；喷雾",
+      "important": false,
+      "id": 1682
+    },
+    {
+      "word": "spread",
+      "meaning": "v·传播",
+      "important": false,
+      "id": 1683
+    },
+    {
+      "word": "spring",
+      "meaning": "n·春天",
+      "important": false,
+      "id": 1684
+    },
+    {
+      "word": "square",
+      "meaning": "n&a·广场；平方的",
+      "important": false,
+      "id": 1685,
+      "addStudyWords": 1
+    },
+    {
+      "word": "stadium",
+      "meaning": "n·露天体育场",
+      "important": false,
+      "id": 1686
+    },
+    {
+      "word": "staff",
+      "meaning": "n·职员",
+      "important": false,
+      "id": 1687
+    },
+    {
+      "word": "stage",
+      "meaning": "n·舞台；阶段",
+      "important": false,
+      "id": 1688
+    },
+    {
+      "word": "stair",
+      "meaning": "n·楼梯",
+      "important": false,
+      "id": 1689
+    },
+    {
+      "word": "stamp",
+      "meaning": "n·邮票",
+      "important": false,
+      "id": 1690
+    },
+    {
+      "word": "stand",
+      "meaning": "n&v·站；立",
+      "important": false,
+      "id": 1691
+    },
+    {
+      "word": "standard",
+      "meaning": "n&a·标准的",
+      "important": false,
+      "id": 1692
+    },
+    {
+      "word": "star",
+      "meaning": "n·星星",
+      "important": false,
+      "id": 1693
+    },
+    {
+      "word": "start",
+      "meaning": "v·开始",
+      "important": false,
+      "id": 1694
+    },
+    {
+      "word": "state",
+      "meaning": "n·状态；",
+      "important": false,
+      "id": 1695,
+      "addStudyWords": 1
+    },
+    {
+      "word": "statement",
+      "meaning": "n·陈述",
+      "important": false,
+      "id": 1696
+    },
+    {
+      "word": "station",
+      "meaning": "n·站",
+      "important": false,
+      "id": 1697
+    },
+    {
+      "word": "stationery",
+      "meaning": "n·文具",
+      "important": false,
+      "id": 1698
+    },
+    {
+      "word": "stay",
+      "meaning": "n&v·停留；呆",
+      "important": false,
+      "id": 1699
+    },
+    {
+      "word": "steady",
+      "meaning": "a·稳定的",
+      "important": false,
+      "id": 1700
+    },
+    {
+      "word": "steak",
+      "meaning": "n·牛排",
+      "important": false,
+      "id": 1701
+    },
+    {
+      "word": "steal",
+      "meaning": "v·偷",
+      "important": false,
+      "id": 1702,
+      "addStudyWords": 1
+    },
+    {
+      "word": "steam",
+      "meaning": "n·水蒸气",
+      "important": false,
+      "id": 1703
+    },
+    {
+      "word": "steel",
+      "meaning": "n·钢",
+      "important": false,
+      "id": 1704
+    },
+    {
+      "word": "steward",
+      "meaning": "n·乘务员",
+      "important": false,
+      "id": 1705
+    },
+    {
+      "word": "stick",
+      "meaning": "n&v·粘住；木棒",
+      "important": false,
+      "id": 1706
+    },
+    {
+      "word": "still",
+      "meaning": "a&ad·仍然",
+      "important": false,
+      "id": 1707
+    },
+    {
+      "word": "stock",
+      "meaning": "n&v·股票；囤货",
+      "important": false,
+      "id": 1708
+    },
+    {
+      "word": "stomach",
+      "meaning": "n·胃",
+      "important": false,
+      "id": 1709,
+      "addStudyWords": 1
+    },
+    {
+      "word": "stone",
+      "meaning": "n·石头",
+      "important": false,
+      "id": 1710
+    },
+    {
+      "word": "stop",
+      "meaning": "n&v·停；",
+      "important": false,
+      "id": 1711
+    },
+    {
+      "word": "storage",
+      "meaning": "n·存储",
+      "important": false,
+      "id": 1712
+    },
+    {
+      "word": "store",
+      "meaning": "n&v·商店；储藏",
+      "important": false,
+      "id": 1713
+    },
+    {
+      "word": "storey",
+      "meaning": "n·楼层",
+      "important": false,
+      "id": 1714
+    },
+    {
+      "word": "storm",
+      "meaning": "n·风暴",
+      "important": false,
+      "id": 1715,
+      "addStudyWords": 1
+    },
+    {
+      "word": "story",
+      "meaning": "n·故事；小说",
+      "important": false,
+      "id": 1716
+    },
+    {
+      "word": "stove",
+      "meaning": "n·火炉",
+      "important": false,
+      "id": 1717
+    },
+    {
+      "word": "straight",
+      "meaning": "a&ad·一直的；",
+      "important": false,
+      "id": 1718
+    },
+    {
+      "word": "strange",
+      "meaning": "a·奇怪的；陌生的",
+      "important": false,
+      "id": 1719
+    },
+    {
+      "word": "strawberry",
+      "meaning": "n·草莓",
+      "important": false,
+      "id": 1720
+    },
+    {
+      "word": "stream",
+      "meaning": "n·溪流",
+      "important": false,
+      "id": 1721
+    },
+    {
+      "word": "street",
+      "meaning": "n·街道",
+      "important": false,
+      "id": 1722
+    },
+    {
+      "word": "strength",
+      "meaning": "n·力量",
+      "important": false,
+      "id": 1723
+    },
+    {
+      "word": "stress",
+      "meaning": "n&v·压力；压；强调",
+      "important": false,
+      "id": 1724
+    },
+    {
+      "word": "stretch",
+      "meaning": "n&v·伸展",
+      "important": false,
+      "id": 1725
+    },
+    {
+      "word": "strict",
+      "meaning": "a·严格的；",
+      "important": false,
+      "id": 1726
+    },
+    {
+      "word": "strike",
+      "meaning": "n&v·鸣钟；敲；罢工",
+      "important": false,
+      "id": 1727
+    },
+    {
+      "word": "string",
+      "meaning": "n·细绳",
+      "important": false,
+      "id": 1728
+    },
+    {
+      "word": "strong",
+      "meaning": "a·强壮的；坚固的",
+      "important": false,
+      "id": 1729
+    },
+    {
+      "word": "student",
+      "meaning": "n·学生",
+      "important": false,
+      "id": 1730
+    },
+    {
+      "word": "studio",
+      "meaning": "n·工作室",
+      "important": false,
+      "id": 1731
+    },
+    {
+      "word": "study",
+      "meaning": "n&v·学习；研究",
+      "important": false,
+      "id": 1732
+    },
+    {
+      "word": "stupid",
+      "meaning": "a·笨的",
+      "important": false,
+      "id": 1733
+    },
+    {
+      "word": "style",
+      "meaning": "n·风格",
+      "important": false,
+      "id": 1734
+    },
+    {
+      "word": "subject",
+      "meaning": "n·主题；学科",
+      "important": false,
+      "id": 1735
+    },
+    {
+      "word": "suburb",
+      "meaning": "n·郊区",
+      "important": false,
+      "id": 1736
+    },
+    {
+      "word": "subway",
+      "meaning": "n·地铁",
+      "important": false,
+      "id": 1737
+    },
+    {
+      "word": "succeed",
+      "meaning": "v·成功",
+      "important": false,
+      "id": 1738
+    },
+    {
+      "word": "success",
+      "meaning": "n·成功",
+      "important": false,
+      "id": 1739,
+      "addStudyWords": 1
+    },
+    {
+      "word": "successful",
+      "meaning": "a·成功的",
+      "important": false,
+      "id": 1740
+    },
+    {
+      "word": "such",
+      "meaning": "ad·pron·人；事物；这样的",
+      "important": false,
+      "id": 1741
+    },
+    {
+      "word": "suck",
+      "meaning": "v·吮吸",
+      "important": false,
+      "id": 1742
+    },
+    {
+      "word": "suddenly",
+      "meaning": "ad·突然",
+      "important": false,
+      "id": 1743
+    },
+    {
+      "word": "suffer",
+      "meaning": "v·受苦；遭受",
+      "important": false,
+      "id": 1744
+    },
+    {
+      "word": "sugar",
+      "meaning": "n·糖",
+      "important": false,
+      "id": 1745
+    },
+    {
+      "word": "suggest",
+      "meaning": "v·建议",
+      "important": false,
+      "id": 1746
+    },
+    {
+      "word": "suggestion",
+      "meaning": "n·建议",
+      "important": false,
+      "id": 1747
+    },
+    {
+      "word": "suit",
+      "meaning": "n&v·适合",
+      "important": false,
+      "id": 1748
+    },
+    {
+      "word": "suitable",
+      "meaning": "a·合适的",
+      "important": false,
+      "id": 1749
+    },
+    {
+      "word": "suitcase",
+      "meaning": "n·小提箱",
+      "important": false,
+      "id": 1750,
+      "addStudyWords": 1
+    },
+    {
+      "word": "suite",
+      "meaning": "n·套间；组曲",
+      "important": false,
+      "id": 1751
+    },
+    {
+      "word": "sum",
+      "meaning": "v·总结",
+      "important": false,
+      "id": 1752
+    },
+    {
+      "word": "summary",
+      "meaning": "n·摘要；概要",
+      "important": false,
+      "id": 1753
+    },
+    {
+      "word": "summer",
+      "meaning": "n·夏天",
+      "important": false,
+      "id": 1754
+    },
+    {
+      "word": "sun",
+      "meaning": "n·太阳；阳光",
+      "important": false,
+      "id": 1755
+    },
+    {
+      "word": "Sunday",
+      "meaning": "n·星期天",
+      "important": false,
+      "id": 1756
+    },
+    {
+      "word": "sunny",
+      "meaning": "a·晴朗的",
+      "important": false,
+      "id": 1757
+    },
+    {
+      "word": "sunshine",
+      "meaning": "n·阳光",
+      "important": false,
+      "id": 1758
+    },
+    {
+      "word": "super",
+      "meaning": "a·超级的",
+      "important": false,
+      "id": 1759
+    },
+    {
+      "word": "supermarket",
+      "meaning": "n·超级市场",
+      "important": false,
+      "id": 1760
+    },
+    {
+      "word": "supper",
+      "meaning": "n·晚餐；晚饭",
+      "important": false,
+      "id": 1761
+    },
+    {
+      "word": "supply",
+      "meaning": "n&v·供给；供应",
+      "important": false,
+      "id": 1762
+    },
+    {
+      "word": "support",
+      "meaning": "n&v·支持；赞助",
+      "important": false,
+      "id": 1763
+    },
+    {
+      "word": "sure",
+      "meaning": "a·ad·确信",
+      "important": false,
+      "id": 1764
+    },
+    {
+      "word": "surf",
+      "meaning": "n&v·冲浪",
+      "important": false,
+      "id": 1765
+    },
+    {
+      "word": "surface",
+      "meaning": "n·表面",
+      "important": false,
+      "id": 1766,
+      "addStudyWords": 1
+    },
+    {
+      "word": "surprise",
+      "meaning": "v·使惊奇",
+      "important": false,
+      "id": 1767
+    },
+    {
+      "word": "surprised",
+      "meaning": "a·惊奇的",
+      "important": false,
+      "id": 1768
+    },
+    {
+      "word": "surround",
+      "meaning": "v·围绕",
+      "important": false,
+      "id": 1769
+    },
+    {
+      "word": "survey",
+      "meaning": "v&n·调查",
+      "important": false,
+      "id": 1770
+    },
+    {
+      "word": "suspect",
+      "meaning": "n·犯罪嫌疑人",
+      "important": false,
+      "id": 1771
+    },
+    {
+      "word": "swallow",
+      "meaning": "v·吞下",
+      "important": false,
+      "id": 1772
+    },
+    {
+      "word": "swear",
+      "meaning": "v·发誓",
+      "important": false,
+      "id": 1773
+    },
+    {
+      "word": "sweat",
+      "meaning": "n&v·汗水",
+      "important": false,
+      "id": 1774,
+      "addStudyWords": 1
+    },
+    {
+      "word": "sweater",
+      "meaning": "n·厚运动衫",
+      "important": false,
+      "id": 1775
+    },
+    {
+      "word": "sweep",
+      "meaning": "v·扫除",
+      "important": false,
+      "id": 1776
+    },
+    {
+      "word": "sweet",
+      "meaning": "n&v·甜食；甜的",
+      "important": false,
+      "id": 1777
+    },
+    {
+      "word": "swim",
+      "meaning": "v·游泳",
+      "important": false,
+      "id": 1778
+    },
+    {
+      "word": "swing",
+      "meaning": "n&v·摇摆",
+      "important": false,
+      "id": 1779,
+      "addStudyWords": 1
+    },
+    {
+      "word": "switch",
+      "meaning": "n&v·开关；转换",
+      "important": false,
+      "id": 1780
+    },
+    {
+      "word": "symbol",
+      "meaning": "n·象征；符号",
+      "important": false,
+      "id": 1781
+    },
+    {
+      "word": "sympathy",
+      "meaning": "n·同情；慰问；赞同",
+      "important": false,
+      "id": 1782
+    },
+    {
+      "word": "system",
+      "meaning": "n·体系；系统",
+      "important": false,
+      "id": 1783
+    },
+    {
+      "word": "table",
+      "meaning": "n·桌子；表格",
+      "important": false,
+      "id": 1784
+    },
+    {
+      "word": "tablet",
+      "meaning": "n·片",
+      "important": false,
+      "id": 1785
+    },
+    {
+      "word": "tag",
+      "meaning": "n·标签",
+      "important": false,
+      "id": 1786
+    },
+    {
+      "word": "tail",
+      "meaning": "n·尾巴",
+      "important": false,
+      "id": 1787
+    },
+    {
+      "word": "tailor",
+      "meaning": "n·裁缝",
+      "important": false,
+      "id": 1788
+    },
+    {
+      "word": "take",
+      "meaning": "v·拿走",
+      "important": false,
+      "id": 1789
+    },
+    {
+      "word": "tale",
+      "meaning": "n·传说",
+      "important": false,
+      "id": 1790
+    },
+    {
+      "word": "talent",
+      "meaning": "n·才能",
+      "important": false,
+      "id": 1791
+    },
+    {
+      "word": "talk",
+      "meaning": "n&v·谈话",
+      "important": false,
+      "id": 1792
+    },
+    {
+      "word": "tall",
+      "meaning": "a·高的",
+      "important": false,
+      "id": 1793
+    },
+    {
+      "word": "tank",
+      "meaning": "n·坦克；水槽",
+      "important": false,
+      "id": 1794
+    },
+    {
+      "word": "tap",
+      "meaning": "n·(水，煤气)龙头",
+      "important": false,
+      "id": 1795
+    },
+    {
+      "word": "tape",
+      "meaning": "n·磁带",
+      "important": false,
+      "id": 1796
+    },
+    {
+      "word": "target",
+      "meaning": "n&v·目标；靶子",
+      "important": false,
+      "id": 1797
+    },
+    {
+      "word": "task",
+      "meaning": "n·任务；工作",
+      "important": false,
+      "id": 1798
+    },
+    {
+      "word": "taste",
+      "meaning": "n&v·品尝；味道",
+      "important": false,
+      "id": 1799
+    },
+    {
+      "word": "tasty",
+      "meaning": "a·味道好的",
+      "important": false,
+      "id": 1800
+    },
+    {
+      "word": "tax",
+      "meaning": "n·租金",
+      "important": false,
+      "id": 1801
+    },
+    {
+      "word": "taxi",
+      "meaning": "n·出租车",
+      "important": false,
+      "id": 1802
+    },
+    {
+      "word": "tea",
+      "meaning": "n·茶；茶叶",
+      "important": false,
+      "id": 1803
+    },
+    {
+      "word": "teach",
+      "meaning": "v·教书",
+      "important": false,
+      "id": 1804
+    },
+    {
+      "word": "teacher",
+      "meaning": "n·教师",
+      "important": false,
+      "id": 1805
+    },
+    {
+      "word": "team",
+      "meaning": "n·队；组",
+      "important": false,
+      "id": 1806
+    },
+    {
+      "word": "tear",
+      "meaning": "n&v·眼泪；撕开",
+      "important": false,
+      "id": 1807
+    },
+    {
+      "word": "technical",
+      "meaning": "a·工艺的；技术的",
+      "important": false,
+      "id": 1808
+    },
+    {
+      "word": "technician",
+      "meaning": "n·技师",
+      "important": false,
+      "id": 1809
+    },
+    {
+      "word": "technique",
+      "meaning": "n·技术",
+      "important": false,
+      "id": 1810
+    },
+    {
+      "word": "technology",
+      "meaning": "n·技术",
+      "important": false,
+      "id": 1811
+    },
+    {
+      "word": "teenager",
+      "meaning": "n·青少年",
+      "important": false,
+      "id": 1812
+    },
+    {
+      "word": "telephone",
+      "meaning": "n&v·打电话",
+      "important": false,
+      "id": 1813
+    },
+    {
+      "word": "tell",
+      "meaning": "v·告诉",
+      "important": false,
+      "id": 1814
+    },
+    {
+      "word": "temperature",
+      "meaning": "n·温度",
+      "important": false,
+      "id": 1815
+    },
+    {
+      "word": "temple",
+      "meaning": "n·寺庙",
+      "important": false,
+      "id": 1816
+    },
+    {
+      "word": "ten",
+      "meaning": "n&a·十",
+      "important": false,
+      "id": 1817
+    },
+    {
+      "word": "tender",
+      "meaning": "a·温柔的",
+      "important": false,
+      "id": 1818
+    },
+    {
+      "word": "tennis",
+      "meaning": "n·网球",
+      "important": false,
+      "id": 1819
+    },
+    {
+      "word": "tense",
+      "meaning": "a·紧张的",
+      "important": false,
+      "id": 1820
+    },
+    {
+      "word": "tent",
+      "meaning": "n·帐篷",
+      "important": false,
+      "id": 1821
+    },
+    {
+      "word": "term",
+      "meaning": "n·学期；术语；条款",
+      "important": false,
+      "id": 1822
+    },
+    {
+      "word": "terminal",
+      "meaning": "n·终点",
+      "important": false,
+      "id": 1823
+    },
+    {
+      "word": "terrible",
+      "meaning": "a·可怕的",
+      "important": false,
+      "id": 1824
+    },
+    {
+      "word": "test",
+      "meaning": "n&v·测试",
+      "important": false,
+      "id": 1825
+    },
+    {
+      "word": "text",
+      "meaning": "n·文本",
+      "important": false,
+      "id": 1826
+    },
+    {
+      "word": "textbook",
+      "meaning": "n·课本",
+      "important": false,
+      "id": 1827
+    },
+    {
+      "word": "textile",
+      "meaning": "n·纺织品",
+      "important": false,
+      "id": 1828
+    },
+    {
+      "word": "than",
+      "meaning": "conj·比",
+      "important": false,
+      "id": 1829
+    },
+    {
+      "word": "thank",
+      "meaning": "n&v·感谢",
+      "important": false,
+      "id": 1830
+    },
+    {
+      "word": "that",
+      "meaning": "pron·她",
+      "important": false,
+      "id": 1831
+    },
+    {
+      "word": "the",
+      "meaning": "art·这",
+      "important": false,
+      "id": 1832
+    },
+    {
+      "word": "theme",
+      "meaning": "n·主题",
+      "important": false,
+      "id": 1833
+    },
+    {
+      "word": "therefore",
+      "meaning": "ad·因此",
+      "important": false,
+      "id": 1834
+    },
+    {
+      "word": "thick",
+      "meaning": "a·厚的",
+      "important": false,
+      "id": 1835
+    },
+    {
+      "word": "thief",
+      "meaning": "n·窃贼",
+      "important": false,
+      "id": 1836
+    },
+    {
+      "word": "thin",
+      "meaning": "a·薄的",
+      "important": false,
+      "id": 1837
+    },
+    {
+      "word": "thing",
+      "meaning": "n·东西",
+      "important": false,
+      "id": 1838
+    },
+    {
+      "word": "think",
+      "meaning": "v·想；认为",
+      "important": false,
+      "id": 1839
+    },
+    {
+      "word": "third",
+      "meaning": "n&ad·第三",
+      "important": false,
+      "id": 1840
+    },
+    {
+      "word": "thirsty",
+      "meaning": "a·口渴的",
+      "important": false,
+      "id": 1841
+    },
+    {
+      "word": "thirteen",
+      "meaning": "n&a·十三",
+      "important": false,
+      "id": 1842
+    },
+    {
+      "word": "thirty",
+      "meaning": "n&a·三十",
+      "important": false,
+      "id": 1843
+    },
+    {
+      "word": "thorough",
+      "meaning": "a·彻底的",
+      "important": false,
+      "id": 1844,
+      "addStudyWords": 1
+    },
+    {
+      "word": "those",
+      "meaning": "pron·那些",
+      "important": false,
+      "id": 1845
+    },
+    {
+      "word": "though",
+      "meaning": "conj·虽然",
+      "important": false,
+      "id": 1846
+    },
+    {
+      "word": "thousand",
+      "meaning": "n&a·千",
+      "important": false,
+      "id": 1847
+    },
+    {
+      "word": "thread",
+      "meaning": "n·线",
+      "important": false,
+      "id": 1848
+    },
+    {
+      "word": "three",
+      "meaning": "n&a·三",
+      "important": false,
+      "id": 1849
+    },
+    {
+      "word": "throat",
+      "meaning": "n·喉咙",
+      "important": false,
+      "id": 1850
+    },
+    {
+      "word": "through",
+      "meaning": "prep·穿；通",
+      "important": false,
+      "id": 1851
+    },
+    {
+      "word": "throughout",
+      "meaning": "prep·贯穿",
+      "important": false,
+      "id": 1852
+    },
+    {
+      "word": "throw",
+      "meaning": "v·投；掷；扔",
+      "important": false,
+      "id": 1853
+    },
+    {
+      "word": "thumb",
+      "meaning": "n·拇指",
+      "important": false,
+      "id": 1854
+    },
+    {
+      "word": "thunder",
+      "meaning": "n&v·雷声",
+      "important": false,
+      "id": 1855
+    },
+    {
+      "word": "Thursday",
+      "meaning": "n·星期四",
+      "important": false,
+      "id": 1856
+    },
+    {
+      "word": "thus",
+      "meaning": "ad·这样；因此",
+      "important": false,
+      "id": 1857
+    },
+    {
+      "word": "tick",
+      "meaning": "v·做记号",
+      "important": false,
+      "id": 1858
+    },
+    {
+      "word": "ticket",
+      "meaning": "n·票",
+      "important": false,
+      "id": 1859
+    },
+    {
+      "word": "tide",
+      "meaning": "n·潮汐；趋势",
+      "important": false,
+      "id": 1860
+    },
+    {
+      "word": "tidy",
+      "meaning": "n&v·整洁的",
+      "important": false,
+      "id": 1861
+    },
+    {
+      "word": "tie",
+      "meaning": "n&v·系；领带",
+      "important": false,
+      "id": 1862
+    },
+    {
+      "word": "tight",
+      "meaning": "a·紧的",
+      "important": false,
+      "id": 1863
+    },
+    {
+      "word": "till",
+      "meaning": "conj·直到",
+      "important": false,
+      "id": 1864
+    },
+    {
+      "word": "time",
+      "meaning": "n&v·时间；次；回",
+      "important": false,
+      "id": 1865
+    },
+    {
+      "word": "timetable",
+      "meaning": "n·课程表；时间表",
+      "important": false,
+      "id": 1866
+    },
+    {
+      "word": "timid",
+      "meaning": "a·胆小的；温顺的",
+      "important": false,
+      "id": 1867
+    },
+    {
+      "word": "tin",
+      "meaning": "n·罐头",
+      "important": false,
+      "id": 1868
+    },
+    {
+      "word": "tiny",
+      "meaning": "a·极小的",
+      "important": false,
+      "id": 1869,
+      "addStudyWords": 1
+    },
+    {
+      "word": "tip",
+      "meaning": "n&v·小费；轻拍",
+      "important": false,
+      "id": 1870
+    },
+    {
+      "word": "tired",
+      "meaning": "a·疲劳的",
+      "important": false,
+      "id": 1871
+    },
+    {
+      "word": "tissue",
+      "meaning": "n·纸巾",
+      "important": false,
+      "id": 1872
+    },
+    {
+      "word": "title",
+      "meaning": "n·标题",
+      "important": false,
+      "id": 1873
+    },
+    {
+      "word": "to",
+      "meaning": "prep·给；到",
+      "important": false,
+      "id": 1874
+    },
+    {
+      "word": "toast",
+      "meaning": "n&v·为……干杯",
+      "important": false,
+      "id": 1875
+    },
+    {
+      "word": "today",
+      "meaning": "ad·今天",
+      "important": false,
+      "id": 1876
+    },
+    {
+      "word": "toe",
+      "meaning": "n·脚趾",
+      "important": false,
+      "id": 1877
+    },
+    {
+      "word": "tofu",
+      "meaning": "n·豆腐",
+      "important": false,
+      "id": 1878
+    },
+    {
+      "word": "together",
+      "meaning": "ad·一起",
+      "important": false,
+      "id": 1879
+    },
+    {
+      "word": "toilet",
+      "meaning": "n·厕所",
+      "important": false,
+      "id": 1880
+    },
+    {
+      "word": "tomorrow",
+      "meaning": "n&ad·明天",
+      "important": false,
+      "id": 1881
+    },
+    {
+      "word": "ton",
+      "meaning": "n·(重量单位)吨",
+      "important": false,
+      "id": 1882
+    },
+    {
+      "word": "tone",
+      "meaning": "n·语调",
+      "important": false,
+      "id": 1883
+    },
+    {
+      "word": "tonight",
+      "meaning": "n&ad·今晚",
+      "important": false,
+      "id": 1884
+    },
+    {
+      "word": "too",
+      "meaning": "ad·也；很",
+      "important": false,
+      "id": 1885
+    },
+    {
+      "word": "tool",
+      "meaning": "n·工具",
+      "important": false,
+      "id": 1886
+    },
+    {
+      "word": "tooth",
+      "meaning": "n·牙齿",
+      "important": false,
+      "id": 1887
+    },
+    {
+      "word": "toothbrush",
+      "meaning": "n·牙刷",
+      "important": false,
+      "id": 1888
+    },
+    {
+      "word": "toothpaste",
+      "meaning": "n·牙膏",
+      "important": false,
+      "id": 1889
+    },
+    {
+      "word": "top",
+      "meaning": "n&ad·顶部",
+      "important": false,
+      "id": 1890
+    },
+    {
+      "word": "topic",
+      "meaning": "n·题目；话题",
+      "important": false,
+      "id": 1891,
+      "addStudyWords": 1
+    },
+    {
+      "word": "torch",
+      "meaning": "n·火炬",
+      "important": false,
+      "id": 1892
+    },
+    {
+      "word": "total",
+      "meaning": "n&ad·总数的；合计",
+      "important": false,
+      "id": 1893
+    },
+    {
+      "word": "touch",
+      "meaning": "v·触摸",
+      "important": false,
+      "id": 1894
+    },
+    {
+      "word": "tour",
+      "meaning": "n·参观",
+      "important": false,
+      "id": 1895
+    },
+    {
+      "word": "tourist",
+      "meaning": "n·旅行者",
+      "important": false,
+      "id": 1896
+    },
+    {
+      "word": "toward",
+      "meaning": "prep·向；朝；",
+      "important": false,
+      "id": 1897
+    },
+    {
+      "word": "towel",
+      "meaning": "n·毛巾",
+      "important": false,
+      "id": 1898
+    },
+    {
+      "word": "tower",
+      "meaning": "n·塔",
+      "important": false,
+      "id": 1899
+    },
+    {
+      "word": "town",
+      "meaning": "n·城镇",
+      "important": false,
+      "id": 1900
+    },
+    {
+      "word": "toy",
+      "meaning": "n·玩具",
+      "important": false,
+      "id": 1901
+    },
+    {
+      "word": "tradition",
+      "meaning": "n·传统",
+      "important": false,
+      "id": 1902,
+      "addStudyWords": 1
+    },
+    {
+      "word": "traditional",
+      "meaning": "a·传统的",
+      "important": false,
+      "id": 1903
+    },
+    {
+      "word": "traffic",
+      "meaning": "n·交通",
+      "important": false,
+      "id": 1904
+    },
+    {
+      "word": "train",
+      "meaning": "n&v·火车；培训",
+      "important": false,
+      "id": 1905
+    },
+    {
+      "word": "tram",
+      "meaning": "n·电车轨道",
+      "important": false,
+      "id": 1906
+    },
+    {
+      "word": "transfer",
+      "meaning": "v·转移",
+      "important": false,
+      "id": 1907
+    },
+    {
+      "word": "translate",
+      "meaning": "v·翻译",
+      "important": false,
+      "id": 1908
+    },
+    {
+      "word": "transport",
+      "meaning": "n&v·运输",
+      "important": false,
+      "id": 1909
+    },
+    {
+      "word": "travel",
+      "meaning": "n&v·旅行",
+      "important": false,
+      "id": 1910
+    },
+    {
+      "word": "tray",
+      "meaning": "n·托盘",
+      "important": false,
+      "id": 1911
+    },
+    {
+      "word": "treasure",
+      "meaning": "n·财富",
+      "important": false,
+      "id": 1912
+    },
+    {
+      "word": "treat",
+      "meaning": "v·治疗；看待",
+      "important": false,
+      "id": 1913
+    },
+    {
+      "word": "treatment",
+      "meaning": "n·治疗",
+      "important": false,
+      "id": 1914
+    },
+    {
+      "word": "tree",
+      "meaning": "n·树",
+      "important": false,
+      "id": 1915
+    },
+    {
+      "word": "trend",
+      "meaning": "n·趋势",
+      "important": false,
+      "id": 1916
+    },
+    {
+      "word": "trick",
+      "meaning": "n·诡计",
+      "important": false,
+      "id": 1917
+    },
+    {
+      "word": "trip",
+      "meaning": "n·旅行",
+      "important": false,
+      "id": 1918
+    },
+    {
+      "word": "trouble",
+      "meaning": "n&v·使苦恼；麻烦",
+      "important": false,
+      "id": 1919
+    },
+    {
+      "word": "trousers",
+      "meaning": "n·裤子",
+      "important": false,
+      "id": 1920
+    },
+    {
+      "word": "truck",
+      "meaning": "n&v·卡车",
+      "important": false,
+      "id": 1921
+    },
+    {
+      "word": "true",
+      "meaning": "a·真的",
+      "important": false,
+      "id": 1922
+    },
+    {
+      "word": "trunk",
+      "meaning": "n·树干",
+      "important": false,
+      "id": 1923
+    },
+    {
+      "word": "trust",
+      "meaning": "n&v·信任",
+      "important": false,
+      "id": 1924
+    },
+    {
+      "word": "truth",
+      "meaning": "n·真理；真相",
+      "important": false,
+      "id": 1925
+    },
+    {
+      "word": "try",
+      "meaning": "v·试",
+      "important": false,
+      "id": 1926
+    },
+    {
+      "word": "tube",
+      "meaning": "n·管",
+      "important": false,
+      "id": 1927
+    },
+    {
+      "word": "Tuesday",
+      "meaning": "n·星期二",
+      "important": false,
+      "id": 1928
+    },
+    {
+      "word": "tunnel",
+      "meaning": "n·隧道",
+      "important": false,
+      "id": 1929
+    },
+    {
+      "word": "turn",
+      "meaning": "n&v·旋转；翻转；转变",
+      "important": false,
+      "id": 1930
+    },
+    {
+      "word": "tutor",
+      "meaning": "n&v·家庭教师",
+      "important": false,
+      "id": 1931
+    },
+    {
+      "word": "twelfth",
+      "meaning": "n&ad·第十二",
+      "important": false,
+      "id": 1932
+    },
+    {
+      "word": "twelve",
+      "meaning": "n&v·十二",
+      "important": false,
+      "id": 1933
+    },
+    {
+      "word": "twice",
+      "meaning": "ad·两倍；两次",
+      "important": false,
+      "id": 1934
+    },
+    {
+      "word": "twin",
+      "meaning": "n·双胞胎之一",
+      "important": false,
+      "id": 1935
+    },
+    {
+      "word": "two",
+      "meaning": "n&a·二",
+      "important": false,
+      "id": 1936
+    },
+    {
+      "word": "type",
+      "meaning": "n&v·打字",
+      "important": false,
+      "id": 1937
+    },
+    {
+      "word": "typhoon",
+      "meaning": "n·台风",
+      "important": false,
+      "id": 1938
+    },
+    {
+      "word": "typical",
+      "meaning": "a·典型的",
+      "important": false,
+      "id": 1939
+    },
+    {
+      "word": "typist",
+      "meaning": "n·打字员",
+      "important": false,
+      "id": 1940
+    },
+    {
+      "word": "tyre",
+      "meaning": "n·轮胎",
+      "important": false,
+      "id": 1941
     }
   ],
   "studyWords": [
@@ -11582,7 +13915,7 @@
     },
     {
       "word": "celebrate",
-      "meaning": "v·庆祝；祝贺",
+      "meaning": "v·庆祝；",
       "important": false,
       "id": 294
     },
@@ -11741,6 +14074,1224 @@
       "meaning": "n·楼梯",
       "important": false,
       "id": 320
+    },
+    {
+      "word": "lamb",
+      "meaning": "n·羊肉；羊羔；小羊；v·产羊",
+      "important": false,
+      "id": 321
+    },
+    {
+      "word": "pin",
+      "meaning": "n·别针；大头针；v·钉住",
+      "important": false,
+      "id": 322
+    },
+    {
+      "word": "credit",
+      "meaning": "n&v·信用",
+      "important": false,
+      "id": 323
+    },
+    {
+      "word": "interviewer",
+      "meaning": "n·面试官",
+      "important": false,
+      "id": 324
+    },
+    {
+      "word": "rose",
+      "meaning": "n·玫瑰；蔷薇；adj·玫瑰色",
+      "important": false,
+      "id": 325
+    },
+    {
+      "word": "life",
+      "meaning": "n·生活；生命；寿命",
+      "important": false,
+      "id": 326
+    },
+    {
+      "word": "same",
+      "meaning": "a·相同的；同样的",
+      "important": false,
+      "id": 327
+    },
+    {
+      "word": "plant",
+      "meaning": "n·植物；工厂；v·种植",
+      "important": false,
+      "id": 328
+    },
+    {
+      "word": "hotel",
+      "meaning": "n·旅馆；酒店",
+      "important": false,
+      "id": 329
+    },
+    {
+      "word": "may",
+      "meaning": "v·可能；可以；能够",
+      "important": false,
+      "id": 330
+    },
+    {
+      "word": "include",
+      "meaning": "v·包含；收录",
+      "important": false,
+      "id": 331
+    },
+    {
+      "word": "add",
+      "meaning": "v·添加",
+      "important": false,
+      "id": 332
+    },
+    {
+      "word": "example",
+      "meaning": "n·例子；榜样",
+      "important": false,
+      "id": 333
+    },
+    {
+      "word": "quite",
+      "meaning": "adj·相当；很；非常",
+      "important": false,
+      "id": 334
+    },
+    {
+      "word": "country",
+      "meaning": "n·国家",
+      "important": false,
+      "id": 335
+    },
+    {
+      "word": "regular",
+      "meaning": "adj·常规的；恒定的；定期的",
+      "important": false,
+      "id": 336
+    },
+    {
+      "word": "primary",
+      "meaning": "adj·基本的；首要的；主要的",
+      "important": false,
+      "id": 337
+    },
+    {
+      "word": "candle",
+      "meaning": "n·蜡烛",
+      "important": false,
+      "id": 338
+    },
+    {
+      "word": "present",
+      "meaning": "adj·现在；当前；v·介绍",
+      "important": false,
+      "id": 339
+    },
+    {
+      "word": "dad",
+      "meaning": "n·爸爸",
+      "important": false,
+      "id": 340
+    },
+    {
+      "word": "sheet",
+      "meaning": "n·床单；片；薄片",
+      "important": false,
+      "id": 341
+    },
+    {
+      "word": "parcel",
+      "meaning": "n·包裹；v·包起来",
+      "important": false,
+      "id": 342
+    },
+    {
+      "word": "newspaper",
+      "meaning": "n·报纸",
+      "important": false,
+      "id": 343
+    },
+    {
+      "word": "proper",
+      "meaning": "adj·恰当的；正确的；合适的",
+      "important": false,
+      "id": 344
+    },
+    {
+      "word": "knee",
+      "meaning": "n·膝盖",
+      "important": false,
+      "id": 345
+    },
+    {
+      "word": "bank",
+      "meaning": "n·银行；堤岸",
+      "important": false,
+      "id": 346
+    },
+    {
+      "word": "personal",
+      "meaning": "adj·个人的；私人的",
+      "important": false,
+      "id": 347
+    },
+    {
+      "word": "demand",
+      "meaning": "n&v·需求；要求",
+      "important": false,
+      "id": 348
+    },
+    {
+      "word": "blood",
+      "meaning": "n·血",
+      "important": false,
+      "id": 349
+    },
+    {
+      "word": "property",
+      "meaning": "n·属性，特性；财产；",
+      "important": false,
+      "id": 350
+    },
+    {
+      "word": "lock",
+      "meaning": "n·锁",
+      "important": false,
+      "id": 351
+    },
+    {
+      "word": "people",
+      "meaning": "n·人；人们，人民",
+      "important": false,
+      "id": 352
+    },
+    {
+      "word": "fresh",
+      "meaning": "adj·新鲜的；新的；鲜的",
+      "important": false,
+      "id": 353
+    },
+    {
+      "word": "lose",
+      "meaning": "v·失去；丢失；失败",
+      "important": false,
+      "id": 354
+    },
+    {
+      "word": "herself",
+      "meaning": "pron·她自己",
+      "important": false,
+      "id": 355
+    },
+    {
+      "word": "score",
+      "meaning": "n·比分；分数；v·得分",
+      "important": false,
+      "id": 356
+    },
+    {
+      "word": "homeland",
+      "meaning": "n·祖国；家乡",
+      "important": false,
+      "id": 357
+    },
+    {
+      "word": "fan",
+      "meaning": "n·风扇；粉丝",
+      "important": false,
+      "id": 358
+    },
+    {
+      "word": "grateful",
+      "meaning": "adj·感谢的；感激的",
+      "important": false,
+      "id": 359
+    },
+    {
+      "word": "arrive",
+      "meaning": "v·到达；抵达",
+      "important": false,
+      "id": 360
+    },
+    {
+      "word": "nervous",
+      "meaning": "adj·紧张的；慌张的",
+      "important": false,
+      "id": 361
+    },
+    {
+      "word": "exchange",
+      "meaning": "n·交流；外汇；v·交换",
+      "important": false,
+      "id": 362
+    },
+    {
+      "word": "elbow",
+      "meaning": "n·肘部",
+      "important": false,
+      "id": 363
+    },
+    {
+      "word": "edge",
+      "meaning": "n·边缘；边；刃",
+      "important": false,
+      "id": 364
+    },
+    {
+      "word": "movement",
+      "meaning": "n·移动；动作；转移",
+      "important": false,
+      "id": 365
+    },
+    {
+      "word": "about",
+      "meaning": "prep·关于；adv·大约；大概",
+      "important": false,
+      "id": 366
+    },
+    {
+      "word": "ignore",
+      "meaning": "v·忽略；不理睬",
+      "important": false,
+      "id": 367
+    },
+    {
+      "word": "pan",
+      "meaning": "n·平底锅；锅",
+      "important": false,
+      "id": 368
+    },
+    {
+      "word": "apply",
+      "meaning": "v·申请；应用",
+      "important": false,
+      "id": 369
+    },
+    {
+      "word": "juice",
+      "meaning": "n·果汁；汁液",
+      "important": false,
+      "id": 370
+    },
+    {
+      "word": "courage",
+      "meaning": "n·勇气；胆量",
+      "important": false,
+      "id": 371
+    },
+    {
+      "word": "fit",
+      "meaning": "v·适合；适应；合身；adj·合适的；适宜的",
+      "important": false,
+      "id": 372
+    },
+    {
+      "word": "every",
+      "meaning": "det·每",
+      "important": false,
+      "id": 373
+    },
+    {
+      "word": "out",
+      "meaning": "v·出去；赶出；adj·外面的；边上的；prep·在……外",
+      "important": false,
+      "id": 374
+    },
+    {
+      "word": "cigarette",
+      "meaning": "n·香烟",
+      "important": false,
+      "id": 375
+    },
+    {
+      "word": "clinic",
+      "meaning": "n·诊所；门诊部",
+      "important": false,
+      "id": 376
+    },
+    {
+      "word": "hope",
+      "meaning": "n&v·希望",
+      "important": false,
+      "id": 377
+    },
+    {
+      "word": "music",
+      "meaning": "n·音乐",
+      "important": false,
+      "id": 378
+    },
+    {
+      "word": "pot",
+      "meaning": "n·锅；壶；罐；v·灌",
+      "important": false,
+      "id": 379
+    },
+    {
+      "word": "knife",
+      "meaning": "n·刀；餐刀",
+      "important": false,
+      "id": 380
+    },
+    {
+      "word": "heart",
+      "meaning": "n·心；心脏；内心；心灵",
+      "important": false,
+      "id": 381
+    },
+    {
+      "word": "live",
+      "meaning": "v·居住；生活",
+      "important": false,
+      "id": 382
+    },
+    {
+      "word": "judge",
+      "meaning": "n·法官；裁判；v·判断；判定",
+      "important": false,
+      "id": 383
+    },
+    {
+      "word": "leader",
+      "meaning": "n·领导者；领袖",
+      "important": false,
+      "id": 384
+    },
+    {
+      "word": "perform",
+      "meaning": "v·履行；演出；表演",
+      "important": false,
+      "id": 385
+    },
+    {
+      "word": "hostess",
+      "meaning": "n·女主人；主妇",
+      "important": false,
+      "id": 386
+    },
+    {
+      "word": "relay",
+      "meaning": "v·中继；接力；接替",
+      "important": false,
+      "id": 387
+    },
+    {
+      "word": "bridge",
+      "meaning": "n·桥",
+      "important": false,
+      "id": 388
+    },
+    {
+      "word": "shade",
+      "meaning": "n·阴凉处；荫",
+      "important": false,
+      "id": 389
+    },
+    {
+      "word": "microwave",
+      "meaning": "n·微波炉",
+      "important": false,
+      "id": 390
+    },
+    {
+      "word": "flashlight",
+      "meaning": "n·手电筒",
+      "important": false,
+      "id": 391
+    },
+    {
+      "word": "exhibition",
+      "meaning": "n·展览；展览会",
+      "important": false,
+      "id": 392
+    },
+    {
+      "word": "invite",
+      "meaning": "v·邀请；邀约",
+      "important": false,
+      "id": 393
+    },
+    {
+      "word": "Chinese",
+      "meaning": "n·中国人",
+      "important": false,
+      "id": 394
+    },
+    {
+      "word": "center",
+      "meaning": "n·中央；中心；v·居中；集中",
+      "important": false,
+      "id": 395
+    },
+    {
+      "word": "lend",
+      "meaning": "v·借；提供",
+      "important": false,
+      "id": 396
+    },
+    {
+      "word": "event",
+      "meaning": "n·事件；大事",
+      "important": false,
+      "id": 397
+    },
+    {
+      "word": "economic",
+      "meaning": "adj·经济的；实用的；节约的",
+      "important": false,
+      "id": 398
+    },
+    {
+      "word": "meter",
+      "meaning": "n·仪表；表；计；米；公尺",
+      "important": false,
+      "id": 399
+    },
+    {
+      "word": "flat",
+      "meaning": "n·平面；adj·平的；平坦的",
+      "important": false,
+      "id": 400
+    },
+    {
+      "word": "license",
+      "meaning": "n·执照；许可证；牌照",
+      "important": false,
+      "id": 401
+    },
+    {
+      "word": "go",
+      "meaning": "v·去；走",
+      "important": false,
+      "id": 402
+    },
+    {
+      "word": "resume",
+      "meaning": "n·简历；v·恢复",
+      "important": false,
+      "id": 403
+    },
+    {
+      "word": "euro",
+      "meaning": "n·欧元",
+      "important": false,
+      "id": 404
+    },
+    {
+      "word": "biscuit",
+      "meaning": "n·饼干；",
+      "important": false,
+      "id": 405
+    },
+    {
+      "word": "calendar",
+      "meaning": "n·日历；v·记录",
+      "important": false,
+      "id": 406
+    },
+    {
+      "word": "nine",
+      "meaning": "n·九",
+      "important": false,
+      "id": 407
+    },
+    {
+      "word": "inch",
+      "meaning": "n·英寸",
+      "important": false,
+      "id": 408
+    },
+    {
+      "word": "meet",
+      "meaning": "v·遇到；见到；满足",
+      "important": false,
+      "id": 409
+    },
+    {
+      "word": "monitor",
+      "meaning": "n·显示器；v·监测；监控",
+      "important": false,
+      "id": 410
+    },
+    {
+      "word": "blog",
+      "meaning": "n·博客",
+      "important": false,
+      "id": 411
+    },
+    {
+      "word": "ill",
+      "meaning": "n·坏；adj·患病的；生病的",
+      "important": false,
+      "id": 412
+    },
+    {
+      "word": "dark",
+      "meaning": "n·黑暗；黄昏；adj·暗的；深色的",
+      "important": false,
+      "id": 413
+    },
+    {
+      "word": "drag",
+      "meaning": "n·拖累；累赘；v·拖；拖累；",
+      "important": false,
+      "id": 414
+    },
+    {
+      "word": "July",
+      "meaning": "n·七月",
+      "important": false,
+      "id": 415
+    },
+    {
+      "word": "pizza",
+      "meaning": "n·披萨",
+      "important": false,
+      "id": 416
+    },
+    {
+      "word": "develop",
+      "meaning": "v·发展；开发；研制；形成",
+      "important": false,
+      "id": 417
+    },
+    {
+      "word": "rate",
+      "meaning": "n·速度；速率；比率；率",
+      "important": false,
+      "id": 418
+    },
+    {
+      "word": "speaker",
+      "meaning": "n·扬声器；喇叭；议长",
+      "important": false,
+      "id": 419
+    },
+    {
+      "word": "committee",
+      "meaning": "n·委员会",
+      "important": false,
+      "id": 420
+    },
+    {
+      "word": "Spain",
+      "meaning": "n·西班牙",
+      "important": false,
+      "id": 421
+    },
+    {
+      "word": "many",
+      "meaning": "adj·许多；好多",
+      "important": false,
+      "id": 422
+    },
+    {
+      "word": "form",
+      "meaning": "n·表格；形式；格式；v·形成；构成",
+      "important": false,
+      "id": 423
+    },
+    {
+      "word": "chocolate",
+      "meaning": "n·巧克力",
+      "important": false,
+      "id": 424
+    },
+    {
+      "word": "fee",
+      "meaning": "n·费用；费；收费",
+      "important": false,
+      "id": 425
+    },
+    {
+      "word": "distance",
+      "meaning": "n&v·距离；",
+      "important": false,
+      "id": 426
+    },
+    {
+      "word": "romantic",
+      "meaning": "n·浪漫主义者；adj·浪漫的",
+      "important": false,
+      "id": 427
+    },
+    {
+      "word": "roast",
+      "meaning": "n·烤肉；v·烤",
+      "important": false,
+      "id": 428
+    },
+    {
+      "word": "proud",
+      "meaning": "adj·自豪的；骄傲的",
+      "important": false,
+      "id": 429
+    },
+    {
+      "word": "departure",
+      "meaning": "n·离开；出发",
+      "important": false,
+      "id": 430
+    },
+    {
+      "word": "loud",
+      "meaning": "adj·大声的；响的",
+      "important": false,
+      "id": 431
+    },
+    {
+      "word": "spare",
+      "meaning": "adj·空闲的；备用的；",
+      "important": false,
+      "id": 432
+    },
+    {
+      "word": "culture",
+      "meaning": "n·文化；文明；培养",
+      "important": false,
+      "id": 433
+    },
+    {
+      "word": "season",
+      "meaning": "n·季节；季",
+      "important": false,
+      "id": 434
+    },
+    {
+      "word": "hobby",
+      "meaning": "n·爱好；嗜好",
+      "important": false,
+      "id": 435
+    },
+    {
+      "word": "finance",
+      "meaning": "n·金融；财政",
+      "important": false,
+      "id": 436
+    },
+    {
+      "word": "backward",
+      "meaning": "adj·往后；向后",
+      "important": false,
+      "id": 437
+    },
+    {
+      "word": "fun",
+      "meaning": "n·乐趣；v·开玩笑",
+      "important": false,
+      "id": 438
+    },
+    {
+      "word": "slide",
+      "meaning": "n&v·滑动；滑",
+      "important": false,
+      "id": 439
+    },
+    {
+      "word": "height",
+      "meaning": "n·高度",
+      "important": false,
+      "id": 440
+    },
+    {
+      "word": "hole",
+      "meaning": "n·洞；孔；坑",
+      "important": false,
+      "id": 441
+    },
+    {
+      "word": "chief",
+      "meaning": "n·首席；长官；adj·首席；主要的",
+      "important": false,
+      "id": 442
+    },
+    {
+      "word": "send",
+      "meaning": "v·发送；寄；送；派遣；",
+      "important": false,
+      "id": 443
+    },
+    {
+      "word": "American",
+      "meaning": "n·美国人；adj·美国的",
+      "important": false,
+      "id": 444
+    },
+    {
+      "word": "soft",
+      "meaning": "a·软的；柔，软的；",
+      "important": false,
+      "id": 445
+    },
+    {
+      "word": "storm",
+      "meaning": "n·风暴；暴风雨；v·强攻",
+      "important": false,
+      "id": 446
+    },
+    {
+      "word": "housework",
+      "meaning": "n·家务；家事",
+      "important": false,
+      "id": 447
+    },
+    {
+      "word": "breakfast",
+      "meaning": "n·早餐；早饭",
+      "important": false,
+      "id": 448
+    },
+    {
+      "word": "pocket",
+      "meaning": "n·口袋；衣袋；兜",
+      "important": false,
+      "id": 449
+    },
+    {
+      "word": "firm",
+      "meaning": "n·公司；企业；厂商；adj·坚定；牢固",
+      "important": false,
+      "id": 450
+    },
+    {
+      "word": "ever",
+      "meaning": "adv·曾经；一直",
+      "important": false,
+      "id": 451
+    },
+    {
+      "word": "suitcase",
+      "meaning": "n·手提箱；",
+      "important": false,
+      "id": 452
+    },
+    {
+      "word": "science",
+      "meaning": "n·科学；理科",
+      "important": false,
+      "id": 453
+    },
+    {
+      "word": "pollution",
+      "meaning": "n·污染；玷污",
+      "important": false,
+      "id": 454
+    },
+    {
+      "word": "course",
+      "meaning": "n·科目；过程；历程",
+      "important": false,
+      "id": 455
+    },
+    {
+      "word": "sense",
+      "meaning": "n&v·感；感觉；感应；",
+      "important": false,
+      "id": 456
+    },
+    {
+      "word": "African",
+      "meaning": "n·非洲人；adj·非洲的",
+      "important": false,
+      "id": 457
+    },
+    {
+      "word": "confirm",
+      "meaning": "v·确认；证实",
+      "important": false,
+      "id": 458
+    },
+    {
+      "word": "sink",
+      "meaning": "n·水槽；水池；v·沉；下沉",
+      "important": false,
+      "id": 459
+    },
+    {
+      "word": "she",
+      "meaning": "pron·她",
+      "important": false,
+      "id": 460
+    },
+    {
+      "word": "exciting",
+      "meaning": "adj·令人兴奋的；扣人心弦的",
+      "important": false,
+      "id": 461
+    },
+    {
+      "word": "salty",
+      "meaning": "adj·咸的",
+      "important": false,
+      "id": 462
+    },
+    {
+      "word": "input",
+      "meaning": "v·输入；键入",
+      "important": false,
+      "id": 463
+    },
+    {
+      "word": "square",
+      "meaning": "n·广场；平方；正方形；adj·方",
+      "important": false,
+      "id": 464
+    },
+    {
+      "word": "speed",
+      "meaning": "n·速度",
+      "important": false,
+      "id": 465
+    },
+    {
+      "word": "congratulation",
+      "meaning": "n·祝贺；恭喜",
+      "important": false,
+      "id": 466
+    },
+    {
+      "word": "oral",
+      "meaning": "adj·口头的；口述的；口头协议",
+      "important": false,
+      "id": 467
+    },
+    {
+      "word": "person",
+      "meaning": "n·人；身体",
+      "important": false,
+      "id": 468
+    },
+    {
+      "word": "process",
+      "meaning": "n·过程；进程；加工；v·处理",
+      "important": false,
+      "id": 469
+    },
+    {
+      "word": "success",
+      "meaning": "n·成功；成就",
+      "important": false,
+      "id": 470
+    },
+    {
+      "word": "path",
+      "meaning": "n·小路；路径",
+      "important": false,
+      "id": 471
+    },
+    {
+      "word": "Italy",
+      "meaning": "n·意大利",
+      "important": false,
+      "id": 472
+    },
+    {
+      "word": "feel",
+      "meaning": "n·感觉；v·感觉；觉得；感到",
+      "important": false,
+      "id": 473
+    },
+    {
+      "word": "hang",
+      "meaning": "n·挂；吊；悬挂",
+      "important": false,
+      "id": 474
+    },
+    {
+      "word": "sidewalk",
+      "meaning": "n·人行道",
+      "important": false,
+      "id": 475
+    },
+    {
+      "word": "administration",
+      "meaning": "n·行政；管理",
+      "important": false,
+      "id": 476
+    },
+    {
+      "word": "downtown",
+      "meaning": "n&a·市中心",
+      "important": false,
+      "id": 477
+    },
+    {
+      "word": "hamburger",
+      "meaning": "n·汉堡",
+      "important": false,
+      "id": 478
+    },
+    {
+      "word": "little",
+      "meaning": "adj·小的",
+      "important": false,
+      "id": 479
+    },
+    {
+      "word": "swing",
+      "meaning": "n·荡；v·摇摆；摆动",
+      "important": false,
+      "id": 480
+    },
+    {
+      "word": "pack",
+      "meaning": "n&v·包；包装",
+      "important": false,
+      "id": 481
+    },
+    {
+      "word": "mouth",
+      "meaning": "n·嘴",
+      "important": false,
+      "id": 482
+    },
+    {
+      "word": "following",
+      "meaning": "n·跟随；adj·以下；下列",
+      "important": false,
+      "id": 483
+    },
+    {
+      "word": "luxury",
+      "meaning": "n·奢华；奢侈",
+      "important": false,
+      "id": 484
+    },
+    {
+      "word": "rude",
+      "meaning": "adj·粗鲁的；无礼的",
+      "important": false,
+      "id": 485
+    },
+    {
+      "word": "indoor",
+      "meaning": "adj·室内的",
+      "important": false,
+      "id": 486
+    },
+    {
+      "word": "say",
+      "meaning": "n·发言权；v·说；表示",
+      "important": false,
+      "id": 487
+    },
+    {
+      "word": "plane",
+      "meaning": "n·飞机",
+      "important": false,
+      "id": 488
+    },
+    {
+      "word": "our",
+      "meaning": "pron·我们的",
+      "important": false,
+      "id": 489
+    },
+    {
+      "word": "stomach",
+      "meaning": "n·胃",
+      "important": false,
+      "id": 490
+    },
+    {
+      "word": "health",
+      "meaning": "n·健康；卫生",
+      "important": false,
+      "id": 491
+    },
+    {
+      "word": "kite",
+      "meaning": "n·风筝；鸢",
+      "important": false,
+      "id": 492
+    },
+    {
+      "word": "nod",
+      "meaning": "n&v·点头；打瞌睡",
+      "important": false,
+      "id": 493
+    },
+    {
+      "word": "lack",
+      "meaning": "n&a·缺少；缺乏",
+      "important": false,
+      "id": 494
+    },
+    {
+      "word": "potato",
+      "meaning": "n·土豆",
+      "important": false,
+      "id": 495
+    },
+    {
+      "word": "sweat",
+      "meaning": "n·汗；v·流汗",
+      "important": false,
+      "id": 496
+    },
+    {
+      "word": "brick",
+      "meaning": "n·砖；砖块",
+      "important": false,
+      "id": 497
+    },
+    {
+      "word": "service",
+      "meaning": "n&v·服务",
+      "important": false,
+      "id": 498
+    },
+    {
+      "word": "hold",
+      "meaning": "v·抓住；保持；保留；握住；举行",
+      "important": false,
+      "id": 499
+    },
+    {
+      "word": "read",
+      "meaning": "n&v·阅读",
+      "important": false,
+      "id": 500
+    },
+    {
+      "word": "old",
+      "meaning": "adj·老的；旧的；久远的",
+      "important": false,
+      "id": 501
+    },
+    {
+      "word": "postcard",
+      "meaning": "n·明信片",
+      "important": false,
+      "id": 502
+    },
+    {
+      "word": "exercise",
+      "meaning": "n&v·锻炼；练习；行使",
+      "important": false,
+      "id": 503
+    },
+    {
+      "word": "pool",
+      "meaning": "n·水池；池塘",
+      "important": false,
+      "id": 504
+    },
+    {
+      "word": "grandparent",
+      "meaning": "n·祖父母",
+      "important": false,
+      "id": 505
+    },
+    {
+      "word": "state",
+      "meaning": "n·状态；州；v·声明；陈述",
+      "important": false,
+      "id": 506
+    },
+    {
+      "word": "dull",
+      "meaning": "adj·乏味的；平淡的；枯燥的",
+      "important": false,
+      "id": 507
+    },
+    {
+      "word": "aisle",
+      "meaning": "n·过道；通道",
+      "important": false,
+      "id": 508
+    },
+    {
+      "word": "minute",
+      "meaning": "n·分钟",
+      "important": false,
+      "id": 509
+    },
+    {
+      "word": "group",
+      "meaning": "n·团体；组；群",
+      "important": false,
+      "id": 510
+    },
+    {
+      "word": "solve",
+      "meaning": "v·解决",
+      "important": false,
+      "id": 511
+    },
+    {
+      "word": "anymore",
+      "meaning": "adv·不再",
+      "important": false,
+      "id": 512
+    },
+    {
+      "word": "employ",
+      "meaning": "n·雇用；v·采用；使用；雇用",
+      "important": false,
+      "id": 513
+    },
+    {
+      "word": "seem",
+      "meaning": "adj·似乎；仿佛；显得",
+      "important": false,
+      "id": 514
+    },
+    {
+      "word": "radio",
+      "meaning": "n·收音机",
+      "important": false,
+      "id": 515
+    },
+    {
+      "word": "quick",
+      "meaning": "adj·快的；",
+      "important": false,
+      "id": 516
+    },
+    {
+      "word": "steal",
+      "meaning": "v·偷；窃取",
+      "important": false,
+      "id": 517
+    },
+    {
+      "word": "blackboard",
+      "meaning": "n·黑板",
+      "important": false,
+      "id": 518
+    },
+    {
+      "word": "direct",
+      "meaning": "adj·直接的；v·指导",
+      "important": false,
+      "id": 519
+    },
+    {
+      "word": "salary",
+      "meaning": "n·薪水；薪资",
+      "important": false,
+      "id": 520
+    },
+    {
+      "word": "surface",
+      "meaning": "n·表面；面；adj·表面的",
+      "important": false,
+      "id": 521
+    },
+    {
+      "word": "generation",
+      "meaning": "n·代；一代；辈",
+      "important": false,
+      "id": 522
+    },
+    {
+      "word": "tiny",
+      "meaning": "adj·极小的；微小的；细小的",
+      "important": false,
+      "id": 523
     }
   ],
   "dailyData": [
@@ -11951,7 +15502,7 @@
       "dateYear": 2021,
       "dateMonth": 12,
       "dateDay": 1,
-      "number": 1,
+      "number": 200,
       "id": 30
     },
     {
@@ -11972,7 +15523,7 @@
       "dateYear": 2021,
       "dateMonth": 12,
       "dateDay": 5,
-      "number": 1,
+      "number": 200,
       "id": 33
     },
     {
@@ -11981,6 +15532,111 @@
       "dateDay": 6,
       "number": 304,
       "id": 34
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 9,
+      "number": 250,
+      "id": 35
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 11,
+      "number": 200,
+      "id": 36
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 13,
+      "number": 200,
+      "id": 37
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 14,
+      "number": 600,
+      "id": 38
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 15,
+      "number": 300,
+      "id": 39
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 16,
+      "number": 101,
+      "id": 40
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 20,
+      "number": 1,
+      "id": 41
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 21,
+      "number": 200,
+      "id": 42
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 22,
+      "number": 300,
+      "id": 43
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 23,
+      "number": 300,
+      "id": 44
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 24,
+      "number": 40,
+      "id": 45
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 27,
+      "number": 400,
+      "id": 46
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 28,
+      "number": 100,
+      "id": 47
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 29,
+      "number": 500,
+      "id": 48
+    },
+    {
+      "dateYear": 2021,
+      "dateMonth": 12,
+      "dateDay": 30,
+      "number": 1,
+      "id": 49
     }
   ],
   "posts": [

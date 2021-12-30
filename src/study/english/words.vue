@@ -179,6 +179,7 @@ export default {
 				rankArray: [],
 				dailyDateId:0,
 				words: {},
+				allWordsWords:{}, // all单词
 				addShowAll: false,
 				addShowStudy: false,
 				total: true,
@@ -217,6 +218,8 @@ export default {
 			this.nowUrl = 'allWords'
 			axios.get('http://localhost:3000/allWords').then((result) => {
 				this.words = result.data
+				this.allWordsWords = result.data
+				this.allWordsData = result.data
 				//console.log(this.words);
 			}).catch((err) => {
 				
@@ -239,16 +242,12 @@ export default {
 						number: 0
 					}
 					});
+					location. reload()
 				}else{
 					this.wordTest = result.data[result.data.length - 1].number
 				}
 				//console.log(result.data);
 			}),
-			axios.get(`http://localhost:3000/allWords`).then((result) => {
-						//console.log(result.data.length);
-						this.allWordsData = result.data
-						
-					})
 			axios.get(`http://localhost:3000/studyWords`).then((result) => {
 					this.studyWordsData = result.data
 					
@@ -276,6 +275,8 @@ export default {
 			
 		},
 		methods: {
+
+			
 
 			audioPlayControl(){
 				this.audioPlay = !this.audioPlay
@@ -439,22 +440,41 @@ export default {
 					data: {
 						word: this.addWords,
 						meaning: this.addMeaning,
-						important: false
+						important: false,
 					}
 					});
-					
+					// console.log(this.allWordsWords);
+					// 	console.log(this.addWords);
+						for (let i = 0; i < this.allWordsWords.length; i++) {
+							if (this.allWordsWords[i].word === this.addWords) {
+								console.log(this.allWordsWords[i].id);
+								setTimeout(() => {
+									axios({
+									method: 'patch',
+									url: `http://localhost:3000/allWords/${this.allWordsWords[i].id}`,
+									data: {
+										addStudyWords:1
+									}
+									});
+								}, 500);
+							}
+							
+						}
 				}
 				this.addWords = '' // 将输入框清空
 				this.addMeaning = ''
 				//this.words = {}
-
+				setTimeout(() => {
+					document.getElementById('words').focus() // 控制聚焦input
+				});
+				
 				setTimeout(() => { // 微任务判断是否重复
 					axios.get(`http://localhost:3000/${str}`).then((result) => {
 					console.log(result.data);
 					this.words = result.data
 					for (let i = 0; i < this.words.length; i++) {
 						this.detectMap.set( this.words[i].word , i)
-						console.log(this.words[i].word);
+						//console.log(this.words[i].word);
 					}
 					if (this.detectMap.size < this.words.length) {
 						let getDelete = confirm('单词重复收录，是否删除')
@@ -465,11 +485,11 @@ export default {
 							location.reload()  
 						}
 					}
-					document.getElementById('words').focus() // 控制聚焦input
+						
 					}).catch((err) => {
 						
 					});
-				}, 50);
+				}, 1000);
 				
 			}
 			
