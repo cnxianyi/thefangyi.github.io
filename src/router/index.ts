@@ -23,6 +23,7 @@ const vuexBasis = ()=> import('../study/vue/vuex/basis.vue')
 const vueSetup = ()=> import('../study/vue/setup.vue')
 const nodusAxios = ()=> import('../study/nodus/axios.vue')
 const gitBasis = ()=> import('../study/git/basis.vue')
+const regExp = ()=> import('../study/other/regexp.vue')
 
 const routes: Array<RouteRecordRaw> = [
   
@@ -191,6 +192,17 @@ const routes: Array<RouteRecordRaw> = [
       title: 'npmBasis'
     }
   },
+
+  // other
+  {
+    path: '/other/regexp',
+    name: 'regexp',
+    component: regExp,
+    meta: {
+      title: 'regexp'
+    }
+  },
+
 
 // Webpack
   {

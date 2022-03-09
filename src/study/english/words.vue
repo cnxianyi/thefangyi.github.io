@@ -44,10 +44,11 @@
 				<button class="btn study" v-if="!switchCard" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
 				<button class="btn study" v-if="!switchCard" @click="addShowStudy = !addShowStudy">添加单词</button>
 				<button class="btn study" v-if="!switchCard" @click="wordsTest">检测ALL</button>
-				<button class="btn study" v-if="!switchCard" @click="wordsTest(60)">检测60</button>
-				<button class="btn study" v-if="!switchCard" @click="wordsTest(30)">检测30</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest(70)">检测70</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest(35)">检测35</button>
 				<button class="btn study" v-if="!switchCard" @click="Detect">检查重复</button>
 				<button class="btn study" v-if="!switchCard" @click="getGrass">排行榜</button>
+				<button class="btn study" v-if="!switchCard" @click="testFunction">test</button>
 			</div>
 			
 			<div class="addWords" v-if="addShowAll">
@@ -165,8 +166,11 @@ export default {
     },
     data() {
 			return {
-				wordAudioSrc:'https://ssl.gstatic.com/dictionary/static/sounds/oxford/',
-				wordAudioSrcA:'--_us_1.mp3', // gb 单词发音链接
+				//https://dict.youdao.com/dictvoice?audio=Christmas&type=2
+				// wordAudioSrc:'https://ssl.gstatic.com/dictionary/static/sounds/oxford/',
+				// wordAudioSrcA:'--_us_1.mp3', // gb?us 单词发音链接
+				wordAudioSrc:'https://dict.youdao.com/dictvoice?audio=',
+				wordAudioSrcA:'&type=2', // gb?us 单词发音链接
 				audioPlay:false, // 单词发音控件显示
 				allWordsData:{}, // 更正是否收录方法
 				studyWordsData:{}, // 更正是否收录
@@ -302,7 +306,7 @@ export default {
 					}
 					i++
 					console.log('--'+i);
-				}, 1000);
+				}, 200);
 			},
 		
 			getGrass(){
@@ -359,7 +363,7 @@ export default {
 				}
 				this.total = false
 				this.getTotal = true
-				console.log(this.NewWords);
+				//console.log(this.NewWords);
 			},
 
 			insWords(){
@@ -420,6 +424,9 @@ export default {
 						this.detectMap.set( this.words[i].word , i)
 					}
 					if (this.detectMap.size < this.words.length) {
+						console.log(this.words.length);
+						console.log(this.detectMap.size);
+						console.log(this.words.length);
 						alert('重复')
 					}else{
 						alert('不重复')
@@ -474,10 +481,10 @@ export default {
 					this.words = result.data
 					for (let i = 0; i < this.words.length; i++) {
 						this.detectMap.set( this.words[i].word , i)
-						//console.log(this.words[i].word);
+						console.log(this.words[i].word);
 					}
 					if (this.detectMap.size < this.words.length) {
-						let getDelete = confirm('单词重复收录，是否删除')
+						 let getDelete = confirm('单词重复收录，是否删除')
 						let len = this.words.length
 						if(getDelete){
 							axios.delete(`http://localhost:3000/${str}/${len}`)

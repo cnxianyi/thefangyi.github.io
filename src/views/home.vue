@@ -9,10 +9,12 @@
         </template>
     </nav-bar>
     <div class="xy">
-
+      
     
     <div class="content">
-
+      1
+      <br>
+      {{inputRegExp('Is is the cost of of gasoline going up up',/\b([a-z]+) \1\b/ig)}}
     </div>
     </div>
 
@@ -26,7 +28,13 @@ import navBar from 'common/navBar.vue'
 export default {
   components: {
     navBar
-  }
+  },
+    methods: {
+          inputRegExp(n,i){
+            let str = n
+            return str.match(i)
+          }
+        },
 }
 </script>
 

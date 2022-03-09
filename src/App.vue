@@ -142,6 +142,7 @@
         <ul class="sub-menu" :class="{truth8}">
             <li><a class="link_name" href="#" style="color:#584717">ELE</a></li>
             <router-link to="/show"><li><a href="#">ElementShow</a></li></router-link>
+            <router-link to="/other/regexp"><li><a href="#">regExp</a></li></router-link>
           </ul>
       </li>
 
