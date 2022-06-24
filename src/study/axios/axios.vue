@@ -13,6 +13,8 @@
         <div class="content">
         
         <h2>axios</h2>
+
+        <button @click="cx">1</button>
         <sidebarR></sidebarR>
             <ul> 
                 <li>axios是ajax的封装</li>
@@ -214,9 +216,10 @@ export default {
         sidebarR
     },
     methods: {
-        ax(){
-            
-        }
-    }
+        
+    },
+    created() {
+    
+}
 }
 </script>

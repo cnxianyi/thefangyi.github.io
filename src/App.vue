@@ -1,5 +1,5 @@
 <template>
-<div>
+    <div>
   <div class="sidebar close nd" id="SidebarMenu">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <div class="logo-details" @click="getMenu()">
@@ -165,12 +165,6 @@
              <router-link to="/git/Basis"><li><a href="#">gitBasis</a></li></router-link>
           </ul>
       </li>
-
-      <hr class="style-one">
-
-      
-      
-
     </ul>
 
     </div>
@@ -188,10 +182,12 @@
 <script>
 // import 'boxicons' // icon 组件导入
 // import 'normalize.css/normalize.css' // 初始化css 文件(normalize插件)
+import axios from 'axios'
 import 'assets/css/App.scss'
 import { computed } from '@vue/runtime-core'
 import {created , mounted , watch} from 'vue'
 import { Throttle } from 'assets/js/utils.js' // 节流函数
+import axiosVue from './study/axios/axios.vue'
 export default {
   // setup(props) {
   //   const watchChangeSize = ()=> {
@@ -254,16 +250,27 @@ watch:{ //````
       truth8: true,
       truth9: true,
       width: document.documentElement.clientWidth,
-      screenWidth: document.body.clientWidth
+      screenWidth: document.body.clientWidth,
       // offsetWid : document.documentElement.clientWidth,
       // offsetHei : document.documentElement.clientHeight,
       // onresize: window.onresize
+      cpu:0,
+      memory:0,
+      download:0,
+      traffic:0,
+      runningTime:0,
+      running:true,
     }
   },
   computed: {
     
   },
   methods: {
+
+    // 获取服务器数据
+    getServiceData(){
+      
+    },
 
        
 // 笨方法 获取id 来进行 class 的切换
@@ -427,7 +434,12 @@ watch:{ //````
             that.screenWidth = window.screenWidth
             
         })()
-    }
+    },
+
+    this.$nextTick(function () {
+    // 仅在整个视图都被渲染之后才会运行的代码
+    this.getServiceData()
+    })
     
   },
   destroyed () {

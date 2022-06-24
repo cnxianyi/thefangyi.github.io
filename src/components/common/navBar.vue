@@ -105,17 +105,19 @@
 </style>
 
 <script>
-import {useRouter} from 'vue-router'
+
 export default {
-    setup(props) {
-        const router = useRouter()
-            
-        const goBack = () => { // 返回上个界面
-            history.go(-1)
-        }
-        return {
-            goBack
+    
+    methods: {
+        goBack(){ // 判断是否有历史记录,没有则返回首页
+        if (window.history.length <= 1) {
+            this.$router.push({path:'/'})
+            return false
+        } else {
+            this.$router.go(-1)
         }
     }
+    },
+    
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
     <div>
-		
+	 <!-- style="background-color:#C7EDCC" -->
 		<div class="rank" v-if="ranking">
 			<div class="rank_top">
 				排行榜
@@ -22,7 +22,7 @@
                 English Words
             </template>
 			<template v-slot:time>
-				2021年9月21日13:10:56
+				2021年9月21日13:10:56 -- ap:{{audioPlay}} -- sc:{{srcControl}}
             </template>
         </nav-bar>
 
@@ -30,7 +30,6 @@
 		<div class="content">
 			<div class="button">
 				<sidebarR></sidebarR>
-				
 				<button class="btn" v-if="switchCard" @click="switchCard = !switchCard , refWords('studyWords')">ALL</button>
 				<button class="btn study" v-if="!switchCard" @click="switchCard = !switchCard , refWords('allWords')">STUDY</button>
 				<!--  -->
@@ -41,13 +40,15 @@
 				<button class="btn" v-if="switchCard" @click="Detect">检查重复</button>
 				<!-- <button class="btn" v-if="switchCard" @click="isIncluded">是否收录</button> -->
 				<!--  -->
+				<button class="btn study" v-if="!switchCard" @click="wordsTest(10)">检测10</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest(100)">检测100</button>
+				<button class="btn study" v-if="!switchCard" @click="getTestValue">检测{{testLeftValue}}~{{testRightValue}}</button>
+				<button class="btn study" v-if="!switchCard" @click="wordsTest">检测ALL</button>
+				<button class="btn study" v-if="!switchCard" @click="getGrass">排行榜</button>
 				<button class="btn study" v-if="!switchCard" @click="total = true , getTotal = false , testTotal = false">显示全部</button>
 				<button class="btn study" v-if="!switchCard" @click="addShowStudy = !addShowStudy">添加单词</button>
-				<button class="btn study" v-if="!switchCard" @click="wordsTest">检测ALL</button>
-				<button class="btn study" v-if="!switchCard" @click="wordsTest(70)">检测70</button>
-				<button class="btn study" v-if="!switchCard" @click="wordsTest(35)">检测35</button>
 				<button class="btn study" v-if="!switchCard" @click="Detect">检查重复</button>
-				<button class="btn study" v-if="!switchCard" @click="getGrass">排行榜</button>
+				
 				<button class="btn study" v-if="!switchCard" @click="testFunction">test</button>
 			</div>
 			
@@ -86,9 +87,9 @@
 			<table v-if="switchWord">
 					<thead>
 						<tr>
-							<th>序号</th>
-							<th>单词 </th>
-							<th>词意</th>
+							<th @click="shadeF=!shadeF">序号</th>
+							<th @click="getNewWords(1); shade = true;shadeF=!shadeF;">单词</th>
+							<th	@click="revise=!revise">词意</th>
 						</tr>
 					</thead>
 					<tbody v-show="total">
@@ -97,7 +98,15 @@
 							<td v-if="!item.addStudyWords" >{{item.id}}</td>
 							<td v-if="item.important" class="important">&#160;&#160;&#160;{{item.word}}</td>
 							<td v-if="!item.important"><button @click="addImport(item.id , item.important)" class="importBtn">&#160;&#160;❤&#160;&#160;</button>{{item.word}}</td>
-							<td>{{item.meaning}}</td>
+							<td>
+								<span style="color:black" v-if="revise" v-show="shade">{{item.meaning}}</span>
+								<form id="" v-if="!revise">
+									<input style="
+	width:650px;outline-style: none ;border: 0px;background:none;" 
+	type="text" :value="item.meaning" :v-model="item.meaning" @keyup.enter="reviseMean(item.id,item.word,$event)" autocomplete="off">
+									<input type="text" v-show="false">
+								</form>
+							</td>
 						</tr>
 					</tbody>
 					<tbody v-if="getTotal">
@@ -106,15 +115,16 @@
 							<td v-if="!item2.addStudyWords" >{{item2.id}}</td>
 							<td v-if="item2.important" class="important">{{item2.word}}</td>
 							<td v-if="!item2.important"><button @click="addImport(item2.id , item2.important)" class="importBtn">&#160;&#160;❤&#160;&#160;</button>{{item2.word}}</td>
-							<td>{{item2.meaning}}</td>
+							<td v-show="shade">{{item2.meaning}}</td>
+							<td v-show="!shade"></td>
 						</tr>
 					</tbody>
 					<tbody v-if="testTotal">
 						<tr v-for="item3 in NewWords" :key="item3.id">
-							<audio v-if="audioPlay" autoplay="" name="media"><source :src=wordAudioSrc+item3.word+wordAudioSrcA type="audio/mpeg"></audio>
+							<audio v-if="audioPlay" controls name="media"><source v-if="srcControl" :src=wordAudioSrc+item3.word+wordAudioSrcA type="audio/mpeg"></audio>
 							<td>{{item3.id}}&#160;&#160;|&#160;&#160;{{wordTest}}</td>
 							<td>{{item3.meaning}}</td>
-							<input type="text" 
+							<input type="text"
 							style="height:20px;margin-top:12px" 
 							autocomplete="off" 
 							placeholder="请输入正确的单词"
@@ -129,8 +139,15 @@
 						</tr>
 					</tbody>
 				</table>
+				<div v-show="shadeF">
+					<div id="getId" class="centerPhoto" v-if="shadeSon" @touchstart="shadeSon=!shadeSon;shade=false;getNewWords(1);">
+					
+					</div>
+					<div id="getId" class="centerPhotoT" v-if="!shadeSon" @touchend="shadeSon=!shadeSon;shade=true;">
 
-				
+					</div>
+				</div>
+				<!-- ?? -->
 
 			</div>
 		</div>
@@ -172,6 +189,8 @@ export default {
 				wordAudioSrc:'https://dict.youdao.com/dictvoice?audio=',
 				wordAudioSrcA:'&type=2', // gb?us 单词发音链接
 				audioPlay:false, // 单词发音控件显示
+				srcControl:true,
+				revise:true, // 词义修改
 				allWordsData:{}, // 更正是否收录方法
 				studyWordsData:{}, // 更正是否收录
 				nowUrl: '',
@@ -196,7 +215,14 @@ export default {
 				NewWords: [],
 				detectMap: new Map,
 				enterWords: '',
-				
+				globalMin:0, // wordsTest全局min
+				globalMax:0, // 全局max
+				shade:true,
+				shadeF:false,
+				shadeSon:true,
+				testLeftValue:1,
+				testRightValue:100,
+				ttt:0,
 			}
 		},
 		computed: {
@@ -220,7 +246,7 @@ export default {
 		},
 		mounted() {
 			this.nowUrl = 'allWords'
-			axios.get('http://localhost:3000/allWords').then((result) => {
+			axios.get('http://192.168.11.239:3000/allWords').then((result) => {
 				this.words = result.data
 				this.allWordsWords = result.data
 				this.allWordsData = result.data
@@ -232,13 +258,13 @@ export default {
 		created() {
 			let date = new Date()
 			//console.log(this.todayYear+'/'+this.todayMonth+'/'+this.todayDay);
-			axios.get(`http://localhost:3000/dailyData`).then((result) => {
+			axios.get(`http://192.168.11.239:3000/dailyData`).then((result) => {
 				this.dailyDateId = result.data[result.data.length - 1].id // 获取今天的ID
 				let b = result.data[result.data.length - 1].dateDay !== date.getDate()
 				if ( b ) { // 获取时间，当有今天的数据时，更新number,没有则添加数据
 					axios({ // 添加日期
 					method: 'post',
-					url: `http://localhost:3000/dailyData`,
+					url: `http://192.168.11.239:3000/dailyData`,
 					data: {
 						dateYear: date.getFullYear(),
 						dateMonth: date.getMonth()+1,
@@ -252,10 +278,11 @@ export default {
 				}
 				//console.log(result.data);
 			}),
-			axios.get(`http://localhost:3000/studyWords`).then((result) => {
+			axios.get(`http://192.168.11.239:3000/studyWords`).then((result) => {
 					this.studyWordsData = result.data
 					
 				})
+			
 
 		},
 		// updated() { 
@@ -268,7 +295,7 @@ export default {
 				//console.log(id);
 			axios({ // 添加日期 数据更新时更新 number
 					method: 'patch',
-					url: `http://localhost:3000/dailyData/${id}`,
+					url: `http://192.168.11.239:3000/dailyData/${id}`,
 					data: {
 						number: now
 					}
@@ -279,8 +306,39 @@ export default {
 			
 		},
 		methods: {
+			// 跨域问题
+			// getVps(){ 
+			// 	axios({
+			// 		method: 'get',
+			// 		url: `https://vps.xianyi.lol/api/v1/server/details?id=1&tag=1`,
+			// 		headers: { 
+			// 			'Authorization': 'f505ff08c521a2ae34e9bae69a3acc42'
+			// 		}
+			// 		}).then((result) => {
+			// 			console.log(result);
+			// 		}).catch((err) => {
+						
+			// 		});
+			// },
 
-			
+			getTestValue(){
+				this.testLeftValue = prompt("输入左值",this.testLeftValue)
+				this.testRightValue = prompt("输入右值",this.testRightValue)
+				setTimeout(() => {
+					this.wordsTest(1,this.testLeftValue,this.testRightValue)
+				});
+			},
+
+			reviseMean(mainId,mainWord){
+				let nowUrl = this.nowUrl
+				axios({
+					method: 'patch',
+					url: `http://192.168.11.239:3000/${nowUrl}/${mainId}`,
+					data: {
+						meaning:event.currentTarget.value
+					}
+					}).then(alert("成功修改"+mainWord+"词义为\n"+event.currentTarget.value));
+			},
 
 			audioPlayControl(){
 				this.audioPlay = !this.audioPlay
@@ -297,7 +355,7 @@ export default {
 							console.log(this.allWordsData[i].word);
 							axios({
 								method: 'patch',
-								url: `http://localhost:3000/allWords/${i+1}`,
+								url: `http://192.168.11.239:3000/allWords/${i+1}`,
 								data: {
 									addStudyWords:1
 								}
@@ -316,8 +374,8 @@ export default {
 					
 				}else{
 					this.rankArray = []
-					//axios.get(`http://localhost:3000/dailyData/${this.dailyDateId}`).then((result) => {
-					axios.get(`http://localhost:3000/dailyData`).then((result) => {
+					//axios.get(`http://192.168.11.239:3000/dailyData/${this.dailyDateId}`).then((result) => {
+					axios.get(`http://192.168.11.239:3000/dailyData`).then((result) => {
 						console.log(result.data.length);
 						for( let i = 0; i<result.data.length; i++){
 							this.rankArray.push(result.data[i].number)
@@ -335,7 +393,7 @@ export default {
 				let nowUrl = this.nowUrl
 				axios({
 					method: 'patch',
-					url: `http://localhost:3000/${nowUrl}/${id}`,
+					url: `http://192.168.11.239:3000/${nowUrl}/${id}`,
 					data: {
 						important: !boo
 					}
@@ -348,12 +406,13 @@ export default {
 			this.addShowStudy = false
 			this.addShowAll = false
 			this.words = {}
-			axios.get(`http://localhost:3000/${str}`).then((result) => {
+			axios.get(`http://192.168.11.239:3000/${str}`).then((result) => {
 			this.words = result.data
-			this.switchWord = true
+			this.switchWord = true	
 			}).catch((err) => {
 				
 			});
+				
 			},
 			getNewWords(len){
 				getRandom(this.random , this.words.length , len)
@@ -363,41 +422,94 @@ export default {
 				}
 				this.total = false
 				this.getTotal = true
-				//console.log(this.NewWords);
+				console.log(this.NewWords);
 			},
 
 			insWords(){
 				
 				if (this.enterWords === this.NewWords[0].word) {
+					if(this.audioPlay)
+					{
+						document.getElementsByTagName('audio')[0].volume=1;
+						document.getElementsByTagName('audio')[0].play()
+					}
+					
+					// this.srcControl=true
 					this.enterWords = '恭喜你答对了'
 					setTimeout(() => {
 						this.enterWords = ''
-						this.wordsTest(this.randomNum)
+						this.wordsTest(this.randomNum,this.globalMin,this.globalMax)
+						// 添加上全局的默认为0的max和Min
 						setTimeout(() => {
+							if(this.audioPlay)
+					{
+						document.getElementsByTagName('audio')[0].play()
+					}
 							document.getElementById('insWord').focus()
 							this.wordTest++
 						});
-					}, 1000);
+						
+					}, this.audioPlay ? Math.floor((document.getElementsByTagName('audio')[0].duration)*1000)-400 : 500);
 				}else{
 					this.enterWords = '错了'
+					if(this.audioPlay)
+					{
+						document.getElementsByTagName('audio')[0].volume=1;
+						document.getElementsByTagName('audio')[0].play()
+					}
+					//this.srcControl=true
 					setTimeout(() => {
 						this.enterWords = ''
 						document.getElementById('insWord').focus()
 						
-					}, 1000);
+						// setTimeout(() => {
+						// 	this.srcControl=false
+						// }, 500);
+					}, 500);
+					
 				}
 				
 			},
 
-			wordsTest(num){ // 设置当输出的 id 不满足条件就重新 radom
-				num = num || 0
-				this.randomNum = num
+			wordsTest(num,min,max){ // 设置当输出的 id 不满足条件就重新 radom
+			
+				this.srcControl=true;
+				setTimeout(() => {
+				if(this.audioPlay)
+				{
+					document.getElementsByTagName('audio')[0].pause();
+				}
+				},100);
+				
+				// setTimeout(() => {
+				// 	this.srcControl=true
+				// }, 5000);
+				num = num || 0;
+				this.globalMin = min || 0;
+				this.globalMax = max || 0;
+				this.randomNum = num;
 				//this.NewWords = []
 				this.getNewWords(1)
-				// console.log(this.NewWords[0].id);
-				// console.log(this.words);
-				// console.log(this.words.length - this.NewWords[0].id);
-				if ((this.words.length - this.NewWords[0].id) >= num) {
+				if(this.globalMin && this.globalMax)
+				{ // 两个if判断不一样
+					if(this.NewWords[0].id >= this.globalMin && this.NewWords[0].id <= this.globalMax)
+					{
+						this.testTotal = true
+						this.total = false
+						this.getTotal = false
+						setTimeout(() => {
+							document.getElementById('insWord').focus()
+						});
+					}else{
+						this.NewWords = []
+						this.testTotal = true
+						this.total = false
+						this.getTotal = false
+						this.wordsTest(num,this.globalMin,this.globalMax);
+					}
+				}
+				else{
+					if ((this.words.length - this.NewWords[0].id) >= num) {
 					
 					this.NewWords = []
 					this.testTotal = true
@@ -412,6 +524,7 @@ export default {
 					setTimeout(() => {
 						document.getElementById('insWord').focus()
 					});	
+				}
 				}
 				
 				
@@ -443,7 +556,7 @@ export default {
 					}
 					axios({ // 添加单词
 					method: 'post',
-					url: `http://localhost:3000/${str}`,
+					url: `http://192.168.11.239:3000/${str}`,
 					data: {
 						word: this.addWords,
 						meaning: this.addMeaning,
@@ -458,7 +571,7 @@ export default {
 								setTimeout(() => {
 									axios({
 									method: 'patch',
-									url: `http://localhost:3000/allWords/${this.allWordsWords[i].id}`,
+									url: `http://192.168.11.239:3000/allWords/${this.allWordsWords[i].id}`,
 									data: {
 										addStudyWords:1
 									}
@@ -476,7 +589,7 @@ export default {
 				});
 				
 				setTimeout(() => { // 微任务判断是否重复
-					axios.get(`http://localhost:3000/${str}`).then((result) => {
+					axios.get(`http://192.168.11.239:3000/${str}`).then((result) => {
 					console.log(result.data);
 					this.words = result.data
 					for (let i = 0; i < this.words.length; i++) {
@@ -487,7 +600,7 @@ export default {
 						 let getDelete = confirm('单词重复收录，是否删除')
 						let len = this.words.length
 						if(getDelete){
-							axios.delete(`http://localhost:3000/${str}/${len}`)
+							axios.delete(`http://192.168.11.239:3000/${str}/${len}`)
 							alert('删除成功')
 							location.reload()  
 						}
@@ -632,5 +745,45 @@ export default {
 		float: right;
 		margin-top: 6px;
 	}
+
+	div.centerPhoto{
+    	
+		background:url(../../../lib/photo/newshade.jpg);
+		background-color: white;
+		background-repeat: repeat;
+		background-position: center;
+		background-size: 100%;
+		width: 100%;
+		height: 200px;
+		border-radius: 0px 0px 10px 10px;
+
+		@media screen and (max-width: 767px) {
+			height: 240px;
+		}
+		@media screen and (min-width: 768px) {
+			height: 430px;
+		}
+		
+	}
+	div.centerPhotoT{
+    	
+		background:url(../../../lib/photo/show.jpg);
+		background-color: white;
+		background-repeat: repeat;
+		background-position: center;
+		background-size: 100%;
+		width: 100%;
+		height: 200px;
+		border-radius: 0px 0px 10px 10px;
+
+		@media screen and (max-width: 767px) {
+			height: 280px;
+		}
+		@media screen and (min-width: 768px) {
+			height: 450px;
+		}
+		
+	}
+	//??
 		
 </style>

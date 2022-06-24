@@ -2,9 +2,9 @@ import axios from 'axios'
 
 // 创建 axios 实例 
 const instance = axios.create({
-    baseURL: '基础URL',
+    baseURL: 'http://192.168.1.8:3000',
     timeout: 1000 , // 设置 请求超时上限，超时将中断请求
-    headers: {'':''} // 自定义请求头
+    //headers: {'':''} // 自定义请求头
 })
 
 // 封装方法 

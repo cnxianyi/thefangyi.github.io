@@ -1,10 +1,11 @@
 {
-  "name": "thefangyi.github.io",
+  "name": "XY",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "json": "json-server --watch --host 192.168.11.239 db.json"
   },
   "dependencies": {
     "axios": "^0.21.1",
