@@ -38,6 +38,7 @@
 				<button class="btn" v-if="switchCard" @click="getNewWords(10)">10</button>
 				<button class="btn" v-if="switchCard" @click="getNewWords(1)">1</button>
 				<button class="btn" v-if="switchCard" @click="Detect">检查重复</button>
+				<button class="btn" v-if="switchCard" @click="deleteAll()">删除全部</button>
 				<!-- <button class="btn" v-if="switchCard" @click="isIncluded">是否收录</button> -->
 				<!--  -->
 				<button class="btn study" v-if="!switchCard" @click="wordsTest(10)">检测10</button>
@@ -121,7 +122,7 @@
 					</tbody>
 					<tbody v-if="testTotal">
 						<tr v-for="item3 in NewWords" :key="item3.id">
-							<audio v-if="audioPlay" controls name="media"><source v-if="srcControl" :src=wordAudioSrc+item3.word+wordAudioSrcA type="audio/mpeg"></audio>
+							<audio v-if="audioPlay" name="media"><source v-if="srcControl" :src=wordAudioSrc+item3.word+wordAudioSrcA type="audio/mpeg"></audio>
 							<td>{{item3.id}}&#160;&#160;|&#160;&#160;{{wordTest}}</td>
 							<td>{{item3.meaning}}</td>
 							<input type="text"
@@ -141,18 +142,21 @@
 				</table>
 				<div v-show="shadeF">
 					<div id="getId" class="centerPhoto" v-if="shadeSon" @touchstart="shadeSon=!shadeSon;shade=false;getNewWords(1);">
-					
+						
 					</div>
-					<div id="getId" class="centerPhotoT" v-if="!shadeSon" @touchend="shadeSon=!shadeSon;shade=true;">
-
+					<div id="getId" class="centerPhotoT" v-if="!shadeSon" @touchend="shadeSon=!shadeSon;shade=true;cardAudioPlay = true;">
+						<audio v-if="cardAudioPlay" autoplay="autoplay" name="media"><source v-if="cardSrcControl" :src=wordAudioSrc+NewWords[0].word+wordAudioSrcA type="audio/mpeg"></audio>
 					</div>
 				</div>
 				<!-- ?? -->
 
 			</div>
 		</div>
+		<!-- <button @click="cardAudioPlay = true">测试</button> -->
 		</div>
+		
 		</div>
+		
     </div>
 </template>
 
@@ -162,6 +166,7 @@ import sidebarR from 'common/SidebarR.vue'
 import btn from 'common/btn.vue'
 import axios from 'axios'
 import { getRandom , getRandom2 } from 'assets/js/utils.js' // 随机数
+
 
 // function sleep(n){ //for循环的延迟执行
 // 			var start=new Date().getTime();//定义起始时间的毫秒数
@@ -190,6 +195,8 @@ export default {
 				wordAudioSrcA:'&type=2', // gb?us 单词发音链接
 				audioPlay:false, // 单词发音控件显示
 				srcControl:true,
+				cardAudioPlay:false, // 视图界面 发音控件显示
+				cardSrcControl:true,
 				revise:true, // 词义修改
 				allWordsData:{}, // 更正是否收录方法
 				studyWordsData:{}, // 更正是否收录
@@ -246,7 +253,7 @@ export default {
 		},
 		mounted() {
 			this.nowUrl = 'allWords'
-			axios.get('http://192.168.11.239:3000/allWords').then((result) => {
+			axios.get('http://en.xianyi.lol:3000/allWords').then((result) => {
 				this.words = result.data
 				this.allWordsWords = result.data
 				this.allWordsData = result.data
@@ -258,13 +265,13 @@ export default {
 		created() {
 			let date = new Date()
 			//console.log(this.todayYear+'/'+this.todayMonth+'/'+this.todayDay);
-			axios.get(`http://192.168.11.239:3000/dailyData`).then((result) => {
+			axios.get(`http://en.xianyi.lol:3000/dailyData`).then((result) => {
 				this.dailyDateId = result.data[result.data.length - 1].id // 获取今天的ID
 				let b = result.data[result.data.length - 1].dateDay !== date.getDate()
 				if ( b ) { // 获取时间，当有今天的数据时，更新number,没有则添加数据
 					axios({ // 添加日期
 					method: 'post',
-					url: `http://192.168.11.239:3000/dailyData`,
+					url: `http://en.xianyi.lol:3000/dailyData`,
 					data: {
 						dateYear: date.getFullYear(),
 						dateMonth: date.getMonth()+1,
@@ -278,7 +285,7 @@ export default {
 				}
 				//console.log(result.data);
 			}),
-			axios.get(`http://192.168.11.239:3000/studyWords`).then((result) => {
+			axios.get(`http://en.xianyi.lol:3000/studyWords`).then((result) => {
 					this.studyWordsData = result.data
 					
 				})
@@ -295,7 +302,7 @@ export default {
 				//console.log(id);
 			axios({ // 添加日期 数据更新时更新 number
 					method: 'patch',
-					url: `http://192.168.11.239:3000/dailyData/${id}`,
+					url: `http://en.xianyi.lol:3000/dailyData/${id}`,
 					data: {
 						number: now
 					}
@@ -306,6 +313,28 @@ export default {
 			
 		},
 		methods: {
+
+			alert(message) {
+                alert(message)
+            },
+			log(message){
+				console.log(message);
+			},
+			deleteAll(){
+				alert("删除中...")
+				for (let i = this.words.length; i>=0; i--) {
+					(() => {
+						setTimeout(() =>
+						axios.delete(`http://en.xianyi.lol:3000/allWords/${this.words.length-i}`)
+						, i * 500)
+					})()
+				};
+				setTimeout(() => {
+					alert("删除成功")
+					location.reload()
+				}, this.words.length*500 + 100);
+				
+			},
 			// 跨域问题
 			// getVps(){ 
 			// 	axios({
@@ -333,7 +362,7 @@ export default {
 				let nowUrl = this.nowUrl
 				axios({
 					method: 'patch',
-					url: `http://192.168.11.239:3000/${nowUrl}/${mainId}`,
+					url: `http://en.xianyi.lol:3000/${nowUrl}/${mainId}`,
 					data: {
 						meaning:event.currentTarget.value
 					}
@@ -355,7 +384,7 @@ export default {
 							console.log(this.allWordsData[i].word);
 							axios({
 								method: 'patch',
-								url: `http://192.168.11.239:3000/allWords/${i+1}`,
+								url: `http://en.xianyi.lol:3000/allWords/${i+1}`,
 								data: {
 									addStudyWords:1
 								}
@@ -374,8 +403,8 @@ export default {
 					
 				}else{
 					this.rankArray = []
-					//axios.get(`http://192.168.11.239:3000/dailyData/${this.dailyDateId}`).then((result) => {
-					axios.get(`http://192.168.11.239:3000/dailyData`).then((result) => {
+					//axios.get(`http://en.xianyi.lol:3000/dailyData/${this.dailyDateId}`).then((result) => {
+					axios.get(`http://en.xianyi.lol:3000/dailyData`).then((result) => {
 						console.log(result.data.length);
 						for( let i = 0; i<result.data.length; i++){
 							this.rankArray.push(result.data[i].number)
@@ -393,7 +422,7 @@ export default {
 				let nowUrl = this.nowUrl
 				axios({
 					method: 'patch',
-					url: `http://192.168.11.239:3000/${nowUrl}/${id}`,
+					url: `http://en.xianyi.lol:3000/${nowUrl}/${id}`,
 					data: {
 						important: !boo
 					}
@@ -406,7 +435,7 @@ export default {
 			this.addShowStudy = false
 			this.addShowAll = false
 			this.words = {}
-			axios.get(`http://192.168.11.239:3000/${str}`).then((result) => {
+			axios.get(`http://en.xianyi.lol:3000/${str}`).then((result) => {
 			this.words = result.data
 			this.switchWord = true	
 			}).catch((err) => {
@@ -556,7 +585,7 @@ export default {
 					}
 					axios({ // 添加单词
 					method: 'post',
-					url: `http://192.168.11.239:3000/${str}`,
+					url: `http://en.xianyi.lol:3000/${str}`,
 					data: {
 						word: this.addWords,
 						meaning: this.addMeaning,
@@ -571,7 +600,7 @@ export default {
 								setTimeout(() => {
 									axios({
 									method: 'patch',
-									url: `http://192.168.11.239:3000/allWords/${this.allWordsWords[i].id}`,
+									url: `http://en.xianyi.lol:3000/allWords/${this.allWordsWords[i].id}`,
 									data: {
 										addStudyWords:1
 									}
@@ -589,7 +618,7 @@ export default {
 				});
 				
 				setTimeout(() => { // 微任务判断是否重复
-					axios.get(`http://192.168.11.239:3000/${str}`).then((result) => {
+					axios.get(`http://en.xianyi.lol:3000/${str}`).then((result) => {
 					console.log(result.data);
 					this.words = result.data
 					for (let i = 0; i < this.words.length; i++) {
@@ -600,7 +629,7 @@ export default {
 						 let getDelete = confirm('单词重复收录，是否删除')
 						let len = this.words.length
 						if(getDelete){
-							axios.delete(`http://192.168.11.239:3000/${str}/${len}`)
+							axios.delete(`http://en.xianyi.lol:3000/${str}/${len}`)
 							alert('删除成功')
 							location.reload()  
 						}

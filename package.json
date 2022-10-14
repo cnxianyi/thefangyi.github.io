@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "json": "json-server --watch --host 192.168.11.239 db.json"
+    "json": "json-server --watch db.json"
   },
   "dependencies": {
     "axios": "^0.21.1",
