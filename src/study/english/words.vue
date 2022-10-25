@@ -136,15 +136,14 @@
 							<i v-if="!audioPlay" class='bx bx-play playControl' @click="audioPlayControl"></i>
 							<i v-if="audioPlay" class='bx bx-pause playControl' @click="audioPlayControl"></i>
 							<!-- <button @click="enterWords = NewWords[0].word">答案</button> -->
-							
+							<i id="showResultIcon" class="bx bx-show playControl" @click="showResult()"></i>
 						</tr>
 					</tbody>
 				</table>
 				<div v-show="shadeF">
-					<div id="getId" class="centerPhoto" v-if="shadeSon" @touchstart="shadeSon=!shadeSon;shade=false;getNewWords(1);">
-						
+					<div id="showPhotoA" class="centerPhoto" v-if="shadeSon" @touchstart="shadeSon=!shadeSon;shade=false;getNewWords(1);" tabindex="-1" @keyup.space = "shadeSon=!shadeSon;shade=false;getNewWords(1);getFocus('showPhotoB')">
 					</div>
-					<div id="getId" class="centerPhotoT" v-if="!shadeSon" @touchend="shadeSon=!shadeSon;shade=true;cardAudioPlay = true;">
+					<div id="showPhotoB" class="centerPhotoT" v-if="!shadeSon" @touchend="shadeSon=!shadeSon;shade=true;cardAudioPlay = true;" tabindex="-1" @keyup.space="shadeSon=!shadeSon;shade=true;cardAudioPlay = true;getFocus('showPhotoA')">
 						<audio v-if="cardAudioPlay" autoplay="autoplay" name="media"><source v-if="cardSrcControl" :src=wordAudioSrc+NewWords[0].word+wordAudioSrcA type="audio/mpeg"></audio>
 					</div>
 				</div>
@@ -321,7 +320,7 @@ export default {
 				console.log(message);
 			},
 			deleteAll(){
-				alert("删除中...")
+				alert("确认删除?")
 				for (let i = this.words.length; i>=0; i--) {
 					(() => {
 						setTimeout(() =>
@@ -334,6 +333,23 @@ export default {
 					location.reload()
 				}, this.words.length*500 + 100);
 				
+			},
+			showResult(){ // 显示答案
+				document.getElementById("showResultIcon").className="bx bx-show bx-flashing bx-flip-horizontal playControl"
+				
+				this.enterWords = this.NewWords[0].word
+				//setTimeout((function(){t.enterWords="",document.getElementById("showShowIcon").className="bx bx-show playControl",document.getElementById("insWord").focus()})
+				setTimeout(() => {
+					this.enterWords = ''
+					document.getElementById("showResultIcon").className="bx bx-show playControl"
+					document.getElementById("insWord").focus()
+				}, 1500);
+				
+			},
+			getFocus(id){ // 结束线程对焦DIV
+				setTimeout(() => {
+					document.getElementById(id).focus()
+				});
 			},
 			// 跨域问题
 			// getVps(){ 
@@ -454,9 +470,11 @@ export default {
 				console.log(this.NewWords);
 			},
 
-			insWords(){
-				
-				if (this.enterWords === this.NewWords[0].word) {
+			insWords(){ // input验证单词是否正确
+				let resultWords = this.enterWords.trim() // 清除空格
+				resultWords = resultWords[0].toLowerCase() + resultWords.substr(1)
+				// 首字母大写
+				if (resultWords === this.NewWords[0].word) {
 					if(this.audioPlay)
 					{
 						document.getElementsByTagName('audio')[0].volume=1;
@@ -792,7 +810,12 @@ export default {
 		@media screen and (min-width: 768px) {
 			height: 430px;
 		}
+
 		
+		
+	}
+	div.centerPhoto:focus {
+			outline: none;
 	}
 	div.centerPhotoT{
     	
@@ -812,6 +835,9 @@ export default {
 			height: 450px;
 		}
 		
+	}
+	div.centerPhotoT:focus {
+			outline: none;
 	}
 	//??
 		
